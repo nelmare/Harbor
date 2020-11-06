@@ -1,0 +1,59 @@
+.filter-index {
+  padding-top: 38px;
+  padding-bottom: 43px;
+  border-top: 1px solid $border-color;
+}
+
+.filter-index__list {
+  @include margin-reset;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.filter-index__title {
+  @include margin-reset;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  margin-bottom: 10px;
+  color: $text-color2;
+}
+
+.filter-index__item {
+  margin-right: 15px;
+}
+
+.filter-index__button {
+  border: 1px solid $border-color;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: transparent;
+}
+
+.filter-index__button--size,
+.filter-index__button--color {
+  width: 45px;
+  height: 45px;
+}
+
+.filter-index__button--color {
+  position: relative;
+}
+
+.filter-index__button--color::before {
+  content: "";
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 15%;
+  bottom: 15%;
+  background-color: $image-back1;
+}
+
+.filter-index__button--cost {
+  padding: 0 19px;
+  text-transform: inherit;
+  height: 45px;
+}

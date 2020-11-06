@@ -1,0 +1,30 @@
+.actual-block {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.actual-block__image-wrapper {
+  display: block;
+  width: 375px;
+  min-height: 200px;
+  background-color: $image-back1;
+  margin: 0 auto;
+}
+
+.actual-block__image-wrapper--padding {
+  @include margin-reset;
+  background-color: $image-back2;
+  width: 214px;
+  min-height: 275px;
+  margin: 0 auto;
+}
+
+.actual-block__title {
+  font-family: "Boita", "Times New Roman", serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 16px 31px;
+}

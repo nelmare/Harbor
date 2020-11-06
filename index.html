@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Harbor</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/picturefill.js"></script>
+    <script src="js/svg4everybody.js"></script>
+</head>
+<body>
+<header class="page-header">
+    <div class="page-header__container">
+        <nav class="main-nav">
+            <button class="main-nav__toggle main-nav__toggle--nojs" type="button">
+                <span class="visually-hidden">Открыть меню</span>
+            </button>
+            <ul class="main-nav__list main-nav__list--nojs site-list">
+                <li class="site-list__item site-list__item--active">
+                    <a class="site-list__link" href="#">Главная</a>
+                </li>
+                <li class="site-list__item site-list__item--active">
+                    <a class="site-list__link" href="#">Новинки</a>
+                </li>
+                <li class="site-list__item site-list__item--active">
+                    <a class="site-list__link" href="#">Обувь для женщин</a>
+                </li>
+                <li class="site-list__item site-list__item--active">
+                    <a class="site-list__link" href="#">Обувь для мужчин</a>
+                </li>
+                <li class="site-list__item site-list__item--active">
+                    <a class="site-list__link" href="#">Скидки</a>
+                </li>
+                <li class="site-list__item site-list__item--active">
+                    <a class="site-list__link" href="#">Личный кабинет</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="page-header__logo-wrapper">
+            <a class="page-header__logo" href="#">
+                <picture>
+<!--                    <source media="(min-width: 1300px)" srcset="img/logo-desktop.svg">-->
+<!--                    <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">-->
+                    <img class="page-header__logo-image" src="img/logo-big.svg" width="126" height="26" alt="Логотип Harbor">
+                </picture>
+            </a>
+        </div>
+        <div class="page-header__wrapper">
+            <div class="page-header__favorites">
+                <a class="page-header__favorites-link" href="#" aria-label="Избранное"></a>
+            </div>
+            <div class="page-header__cart">
+                <a class="page-header__cart-link page-header__cart-link--full page-header__cart-link--empty" href="#"
+                   aria-label="Корзина покупок">2</a>
+            </div>
+            </div>
+    </div>
+    <section class="page-header__promo-wrapper">
+        <p class="page-header__promo">
+            <b class="page-header__promo-bold">Скидки 50%</b> на всю <u>женскую коллекцию.</u> <b>Акция заканчивается через 03:39:03</b>
+        </p>
+    </section>
+    <nav class="nav-mobile">
+        <ul class="nav-mobile__list">
+            <li class="nav-mobile__item">
+                <a class="nav-mobile__link" href="#">для мужчин</a>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Кроссовки</a>
+                        <ul class="submenu__list">
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Категории</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Цвета</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Размеры</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Коллекции</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Туфли</a>
+                        <ul class="submenu__list">
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Категории</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Цвета</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Размеры</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Коллекции</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Обувь для дома</a>
+                        <ul class="submenu__list">
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Категории</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Цвета</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Размеры</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Коллекции</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Скидки %</a>
+                    </li>
+                    <li class="menu__item menu__item--user">
+                        <a class="menu__user-link" href="">Личный кабинет</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-mobile__item">
+                <a class="nav-mobile__link" href="#">для женщин</a>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Кроссовки</a>
+                        <ul class="submenu__list">
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Категории</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Цвета</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Размеры</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Коллекции</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Туфли</a>
+                        <ul class="submenu__list">
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Категории</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Цвета</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Размеры</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Коллекции</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Обувь для дома</a>
+                        <ul class="submenu__list">
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Категории</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Цвета</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Размеры</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Коллекции</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" class="" href="">Скидки %</a>
+                    </li>
+                    <li class="menu__item menu__item--user">
+                        <a class="menu__user-link" href="">Личный кабинет</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1 class="visually-hidden">Интернет-магазин обуви Harbor</h1>
+    <section class="actual-block">
+        <h2 class="actual-block__title">5 лучших образов этой осени</h2>
+        <div class="actual-block__image-wrapper">
+            <picture>
+                <img class="actual-block__image" src="" width="" height="" alt="">
+            </picture>
+        </div>
+    </section>
+    <section class="container">
+        <div class="catalog-index">
+            <h2 class="catalog-index__title">Новые поступления</h2>
+            <div class="catalog-index__wrapper">
+                <section class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <a href="#">
+                            <div class="catalog-item__image-wrapper">
+                                <picture>
+                                    <img class="catalog-item__image" src="img/image23.png" width="118" height="53" alt="Фото обуви Harbor">
+                                </picture>
+                                <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                            </div>
+                        </a>
+                        <a class="catalog-item__link" href="#">
+                            <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                        </a>
+                        <p class="catalog-item__cost"><strike>10000 ₽</strike> <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span></p>
+                    </div>
+                </section>
+                <section class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <a href="#">
+                            <div class="catalog-item__image-wrapper">
+                                <picture>
+                                    <img class="catalog-item__image" src="img/image23.png" width="118" height="53" alt="Фото обуви Harbor">
+                                </picture>
+                                <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                            </div>
+                        </a>
+                        <a class="catalog-item__link" href="#">
+                            <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                        </a>
+                        <p class="catalog-item__cost"><strike>10000 ₽</strike> <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span></p>
+                    </div>
+                </section>
+                <section class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <a href="#">
+                            <div class="catalog-item__image-wrapper">
+                                <picture>
+                                    <img class="catalog-item__image" src="img/image23.png" width="118" height="53" alt="Фото обуви Harbor">
+                                </picture>
+                                <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                            </div>
+                        </a>
+                        <a class="catalog-item__link" href="#">
+                            <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                        </a>
+                        <p class="catalog-item__cost"><strike>10000 ₽</strike> <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span></p>
+                    </div>
+                </section>
+                <section class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <a href="#">
+                            <div class="catalog-item__image-wrapper">
+                                <picture>
+                                    <img class="catalog-item__image" src="img/image23.png" width="118" height="53" alt="Фото обуви Harbor">
+                                </picture>
+                                <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                            </div>
+                        </a>
+                        <a class="catalog-item__link" href="#">
+                            <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                        </a>
+                        <p class="catalog-item__cost"><strike>10000 ₽</strike> <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span></p>
+                    </div>
+                </section>
+            </div>
+            <div class="catalog-index__button-wrapper">
+                <a class="catalog-index__button" href="#">Показать все</a>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <h2 class="visually-hidden">Поиск по параметрам</h2>
+        <div class="filter-index">
+            <h3 class="filter-index__title">Быстрый поиск по размеру</h3>
+            <ul class="filter-index__list">
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--size" type="button">36</button>
+                </li>
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--size" type="button">37</button>
+                </li>
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--size" type="button">38</button>
+                </li>
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--size" type="button">39</button>
+                </li>
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--size" type="button">40</button>
+                </li>
+            </ul>
+        </div>
+        <div class="filter-index">
+            <h3 class="filter-index__title">Поиск по цветам</h3>
+            <ul class="filter-index__list">
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--color" type="button"></button>
+                </li>
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--color" type="button"></button>
+                </li>
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--color" type="button"></button>
+                </li>
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--color" type="button"></button>
+                </li>
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--color" type="button"></button>
+                </li>
+            </ul>
+        </div>
+        <div class="filter-index">
+            <h3 class="filter-index__title">Поиск по цене</h3>
+            <ul class="filter-index__list">
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--cost" type="button">до 3000
+                        <span class="filter-index__button--long">рублей
+                    </span></button>
+                </li>
+                <li class="filter-index__item">
+                    <button class="filter-index__button filter-index__button--cost" type="button">до 5000 <span class="filter-index__button--long">рублей
+                    </span></button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="actual-block actual-block--padding">
+        <h2 class="actual-block__title">5 лучших образов этой осени</h2>
+        <div class="actual-block__image-wrapper actual-block__image-wrapper--padding">
+            <picture>
+                <img class="actual-block__image" src="#" width="214" height="275" alt="">
+            </picture>
+        </div>
+    </section>
+    <section class="container">
+        <div class="catalog-index">
+            <h2 class="catalog-index__title">Название любой подборки</h2>
+            <div class="catalog-index__wrapper">
+                <section class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <a href="#">
+                            <div class="catalog-item__image-wrapper">
+                                <picture>
+                                    <img class="catalog-item__image" src="img/image23.png" width="118" height="53" alt="Фото обуви Harbor">
+                                </picture>
+                                <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                            </div>
+                        </a>
+                        <p class="catalog-item__label catalog-item__label--hit">Хит</p>
+                        <a class="catalog-item__link" href="#">
+                            <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                        </a>
+                        <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                    </div>
+                </section>
+                <section class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <a href="#">
+                        <div class="catalog-item__image-wrapper">
+                            <picture>
+                                <img class="catalog-item__image" src="img/image23.png" width="118" height="53" alt="Фото обуви Harbor">
+                            </picture>
+                            <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                        </div>
+                        </a>
+                        <p class="catalog-item__label catalog-item__label--discount">Скидка</p>
+                        <a class="catalog-item__link" href="#">
+                            <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                        </a>
+                        <p class="catalog-item__cost"><strike>10000 ₽</strike> <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span></p>
+                    </div>
+                </section>
+                <section class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <a href="#">
+                        <div class="catalog-item__image-wrapper">
+                            <picture>
+                                <img class="catalog-item__image" src="img/image23.png" width="118" height="53" alt="Фото обуви Harbor">
+                            </picture>
+                            <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                        </div>
+                        </a>
+                        <p class="catalog-item__label catalog-item__label--novelty">Новинка</p>
+                        <a class="catalog-item__link" href="#">
+                            <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                        </a>
+                        <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                    </div>
+                </section>
+                <section class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <a href="#">
+                        <div class="catalog-item__image-wrapper">
+                            <picture>
+                                <img class="catalog-item__image" src="img/image23.png" width="118" height="53" alt="Фото обуви Harbor">
+                            </picture>
+                            <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                        </div>
+                        </a>
+                        <a class="catalog-item__link" href="#">
+                            <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                        </a>
+                        <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                    </div>
+                </section>
+                <section class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <a href="#">
+                        <div class="catalog-item__image-wrapper">
+                            <picture>
+                                <img class="catalog-item__image" src="img/image23.png" width="118" height="53" alt="Фото обуви Harbor">
+                            </picture>
+                            <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                        </div>
+                        </a>
+                        <a class="catalog-item__link" href="#">
+                            <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                        </a>
+                        <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                    </div>
+                </section>
+                <section class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <a href="#">
+                            <div class="catalog-item__image-wrapper">
+                                <picture>
+                                    <img class="catalog-item__image" src="img/image23.png" width="118" height="53" alt="Фото обуви Harbor">
+                                </picture>
+                                <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                            </div>
+                        </a>
+                        <a class="catalog-item__link" href="#">
+                            <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                        </a>
+                        <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                    </div>
+                </section>
+            </div>
+            <div class="catalog-index__button-wrapper">
+                <a class="catalog-index__button" href="#">Показать все</a>
+            </div>
+        </div>
+    </section>
+    <section class="subscription">
+        <h2 class="subscription__title">Эксклюзивные акции и предложения</h2>
+        <p class="subscription__text">Подпишитесь и узнавайте первыми о скидках и специальных предложениях<sup>*</sup></p>
+        <form class="form" action="#" method="post">
+            <div class="form__group">
+                <label class="visually-hidden" for="email-index">Ваш email</label>
+                <input class="form__line form__placeholder form__line--email" type="email" name="email-index" id="email-index" placeholder="Ваш email">
+            </div>
+            <div class="form__block form__block--checkbox">
+                <ul class="form__list form__list--category">
+                    <li class="form__item form__item--checkbox">
+                        <label class="form__checkbox-name form__label" for="women">
+                            <input class="form__checkbox visually-hidden" type="checkbox" name="women" id="women" checked>
+                            <span class="form__check"></span>
+                            для женщин
+                        </label>
+                    </li>
+                    <li class="form__item form__item--checkbox">
+                        <label class="form__checkbox-name form__label" for="men">
+                            <input class="form__checkbox visually-hidden" type="checkbox" name="men" id="men" checked>
+                            <span class="form__check"></span>
+                            для мужчин
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <button class="form__button" type="button">Подписаться</button>
+        </form>
+        <p class="subscription__note">Нажимая на кнопку подписаться вы соглашаетесь с <a href="#">политикой обработки
+            персональных данных и политикой конфиденциальности</a></p>
+        <p class="subscription__note"><sup>*</sup> Вы сможете отписаться в любое время</p>
+    </section>
+</main>
+<footer class="page-footer">
+    <ul class="page-footer__list">
+        <li class="page-footer__item">
+            <a class="page-footer__link page-footer__link--company" href="#">Контакты</a>
+        </li>
+        <li class="page-footer__item">
+            <a class="page-footer__link page-footer__link--company" href="#">О бренде</a>
+        </li>
+        <li class="page-footer__item">
+            <ul class="social__list">
+                <li class="social__item">
+                    <a class="social__link social__link--vkontakte" href="#">
+                        <span class="visually-hidden">Harbor в Вконтакте</span>
+                        <svg class="social__icon social__icon--vk" width="30" height="30" viewBox="0 0 31 30">
+                            <use xlink:href="img/sprite.svg#sp-icon-vk"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link social__link--facebook" href="#">
+                        <span class="visually-hidden">Harbor в Фейсбук</span>
+                        <svg class="social__icon social__icon--fb" width="30" height="30" viewBox="0 0 31 30">
+                            <use xlink:href="img/sprite.svg#sp-icon-fb"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link social__link--instagram" href="#">
+                        <span class="visually-hidden">Harbor в Инстаграмм</span>
+                        <svg class="social__icon social__icon--insta" width="30" height="30" viewBox="0 0 31 30">
+                            <use xlink:href="img/sprite.svg#sp-icon-insta"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="page-footer__item">
+            <a class="page-footer__link page-footer__link--menu" href="#">Политика конфиденциальности</a>
+        </li>
+        <li class="page-footer__item">
+            <a class="page-footer__link page-footer__link--menu" href="#">Политика обработки персональных данных</a>
+        </li>
+        <li class="page-footer__item">
+            <a class="page-footer__link page-footer__link--menu" href="#">Оплата </a>
+        </li>
+        <li class="page-footer__item">
+            <a class="page-footer__link page-footer__link--menu" href="#">Доставка и возврат</a>
+        </li>
+    </ul>
+    <p class="page-footer__copyright">© Copyright 2020 Harbor. Все права защищены.</p>
+</footer>
+
+
+
+    <script src="js/burger.js"></script>
+<script>svg4everybody();</script>
+</body>
+</html>

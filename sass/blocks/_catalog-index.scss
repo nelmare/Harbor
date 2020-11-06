@@ -1,0 +1,39 @@
+.catalog-index {
+  border-top: 1px solid $border-color;
+  padding-top: 37px;
+  padding-bottom: 50px;
+}
+
+.catalog-index__title {
+  @include margin-reset;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.catalog-index__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: -6px;
+  margin-left: -6px;
+}
+
+.catalog-index__button-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.catalog-index__button {
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  border: 1px solid $maintext-color;
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1jm2EmUUrzrBczlMjuYDY8HsxTF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sass" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sass" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="" />
+      <created>1604394837369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604394837369</updated>
+      <workItem from="1604394838497" duration="6588000" />
+      <workItem from="1604465584673" duration="224000" />
+      <workItem from="1604466049260" duration="1268000" />
+      <workItem from="1604478853053" duration="3822000" />
+      <workItem from="1604498007176" duration="43789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="593" y="347" width="486" height="228" key="#File_Watchers" timestamp="1604508510678">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="593" y="347" width="486" height="228" key="#File_Watchers/0.23.1440.877@0.23.1440.877" timestamp="1604508510678" />
+    <state x="507" y="272" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604509524773">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="507" y="272" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.877@0.23.1440.877" timestamp="1604509524773" />
+    <state x="372" y="247" width="695" height="627" key="EditFileWatcherDialog" timestamp="1604509833537">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="372" y="247" width="695" height="627" key="EditFileWatcherDialog/0.23.1440.877@0.23.1440.877" timestamp="1604509833537" />
+    <state x="221" y="100" key="SettingsEditor" timestamp="1604510228850">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1604510228850" />
+  </component>
+</project>

@@ -1,0 +1,100 @@
+.catalog-item {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.catalog-item__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-item__image-wrapper {
+  background-color: $catalog-image-back;
+  width: 150px;
+  height: 133px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  padding-bottom: 21px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  position: relative;
+}
+
+.catalog-item__favorite {
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  top: 68%;
+  right: 10%;
+  z-index: 2;
+  border: none;
+  background: transparent;
+}
+
+.catalog-item__favorite::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  top: 0;
+  right: 0;
+  background-image: url("../img/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.catalog-item__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.catalog-item__title {
+  @include margin-reset;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: left;
+  margin-bottom: 5px;
+  width: 150px;
+}
+
+.catalog-item__cost {
+  @include margin-reset;
+  font-weight: 400;
+  text-align: left;
+  line-height: 18px;
+  color: $text-color3;
+}
+
+.catalog-item__cost--bold {
+  font-weight: 700;
+  color: $maintext-color;
+}
+
+.catalog-item__label {
+  @include margin-reset;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  //display: inline-block;
+  margin-right: auto;
+}
+
+.catalog-item__label--hit {
+  color: $mainback-color;
+  background-color: $image-back2;
+}
+
+.catalog-item__label--discount {
+  color: $mainback-color;
+  background-color: $maintext-color;
+}
+
+.catalog-item__label--novelty {
+  background-color: $image-back1;
+}

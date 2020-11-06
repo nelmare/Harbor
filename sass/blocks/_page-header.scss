@@ -1,0 +1,84 @@
+.page-header__container {
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid $border-color;
+}
+
+.page-header__logo-wrapper {
+  margin-left: 86px;
+  margin-right: 41px;
+}
+
+.page-header__logo-image {
+  width: 126px;
+  height: 26px;
+}
+
+.page-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header__favorites {
+  position: relative;
+  margin-right: 13px;
+  width: 18px;
+  height: 17px;
+}
+
+.page-header__favorites-link::before {
+  content: "";
+      position: absolute;
+      width: 18px;
+      height: 17px;
+      top: 0;
+      right: 0;
+      background-image: url("../img/heart.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+}
+
+.page-header__cart-link {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 11px;
+  text-align: center;
+  text-decoration: none;
+  color: $mainback-color;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+}
+
+.page-header__cart-link--empty {
+  background-color: $empty-cart;
+}
+
+.page-header__cart-link--full {
+  background-color: $full-cart;
+}
+
+.page-header__promo-wrapper {
+  padding: 30px 23px;
+}
+
+.page-header__promo {
+  @include margin-reset;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: none;
+}
+
+.page-header__promo-bold {
+  font-weight: 700;
+}

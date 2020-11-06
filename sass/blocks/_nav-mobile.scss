@@ -1,0 +1,26 @@
+.nav-mobile__list {
+  @include margin-reset;
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+
+.nav-mobile__item {
+  display: inline-block;
+  width: 50%;
+}
+.nav-mobile__item:first-child {
+  border-right: 1px solid $mainback-color;
+}
+
+.nav-mobile__link {
+  padding: 17px 10px;
+  text-align: center;
+  background-color: $menu-button-back;
+  color: $mainback-color;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  display: block;
+}
