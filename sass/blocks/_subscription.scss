@@ -1,0 +1,46 @@
+.subscription {
+  background-color: $image-back1;
+  padding-top: 40px;
+}
+
+.subscription__title {
+  @include margin-reset;
+  font-family: "Boita", "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 11px;
+}
+
+.subscription__text {
+  @include margin-reset;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 30px;
+  color: $text-color2;
+}
+
+.subscription__sup {
+  color: $image-back2;
+}
+
+.subscription__note {
+  @include margin-reset;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 400;
+  text-transform: none;
+  padding-right: 42px;
+  margin-top: 20px;
+}
+
+.subscription__link {
+  color: inherit;
+}
+
+.subscription__wrapper {
+  border-bottom: 1px solid $maintext-color;
+  padding-bottom: 47px;
+}

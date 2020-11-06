@@ -12,10 +12,6 @@
   padding: 68px 36px 40px 36px;
 }
 
-.menu__list-hide {
-  display: none;
-}
-
 .menu__item {
   border-bottom: 1px solid $menu-line;
   padding: 15px 0 12px;
@@ -69,4 +65,46 @@
   background-image: url("../img/icon-user.svg");
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.menu__submenu-list {
+  padding-top: 33px;
+}
+
+.menu__submenu-item--button {
+ border: none;
+}
+
+.menu__submenu-button {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-align: left;
+  padding-left: 17px;
+  border: none;
+  background-color: $mainback-color;
+  position: relative;
+}
+
+.menu__submenu-button::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -7px;
+  background-image: url("../img/icon-right.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.menu__submenu-list .menu__item::after {
+  display: none;
+}
+
+
+//Временные стили для демонстрации
+.menu__list-hide {
+  display: none;
 }

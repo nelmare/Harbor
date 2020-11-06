@@ -1,0 +1,41 @@
+.page-footer {
+  padding-top: 44px;
+  padding-bottom: 47px;
+}
+
+.page-footer__list {
+  @include margin-reset;
+  list-style: none;
+}
+
+.page-footer__item {
+  margin-bottom: 10px;
+}
+
+.page-footer__link {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: 0.1em;
+}
+
+.page-footer__item--menu {
+  margin-bottom: 15px;
+}
+
+.page-footer__link--menu {
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.page-footer__copyright {
+  @include margin-reset;
+  margin-top: 18px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-transform: none;
+}
