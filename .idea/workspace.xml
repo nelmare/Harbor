@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="" />
+    <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +14,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jm2EmUUrzrBczlMjuYDY8HsxTF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +61,7 @@
       <workItem from="1604465584673" duration="224000" />
       <workItem from="1604466049260" duration="1268000" />
       <workItem from="1604478853053" duration="3822000" />
-      <workItem from="1604498007176" duration="43789000" />
+      <workItem from="1604498007176" duration="44200000" />
     </task>
     <servers />
   </component>
@@ -56,6 +73,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="593" y="347" width="486" height="228" key="#File_Watchers/0.23.1440.877@0.23.1440.877" timestamp="1604508510678" />
+    <state x="444" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604647967313">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="444" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1604647967313" />
     <state x="507" y="272" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604509524773">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -64,6 +85,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="372" y="247" width="695" height="627" key="EditFileWatcherDialog/0.23.1440.877@0.23.1440.877" timestamp="1604509833537" />
+    <state x="593" y="365" key="Github.ShareDialog" timestamp="1604647719808">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="593" y="365" key="Github.ShareDialog/0.23.1440.877@0.23.1440.877" timestamp="1604647719808" />
+    <state x="501" y="173" key="Github.UntrackedFilesDialog" timestamp="1604647731420">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="501" y="173" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1604647731420" />
     <state x="221" y="100" key="SettingsEditor" timestamp="1604510228850">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
