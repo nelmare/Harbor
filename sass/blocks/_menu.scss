@@ -1,3 +1,72 @@
+.menu__wrapper {
+  background-color: $menu-mobile-back;
+  backdrop-filter: blur(15px);
+}
+
 .menu__list {
+  list-style: none;
+  background-color: $mainback-color;
+  width: 313px;
+  min-height: 582px;
+  border-top: 1px solid $border-color;
+  padding: 68px 36px 40px 36px;
+}
+
+.menu__list-hide {
   display: none;
+}
+
+.menu__item {
+  border-bottom: 1px solid $menu-line;
+  padding: 15px 0 12px;
+  position: relative;
+}
+
+.menu__item::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-image: url("../img/icon-left.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.menu__link {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu__item--user {
+  margin-top: 207px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.menu__user-link {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 18px;
+  text-decoration: none;
+  color: $text-color2;
+}
+
+.menu__item--user::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  background-image: url("../img/icon-user.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
 }

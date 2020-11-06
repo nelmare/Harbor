@@ -8,14 +8,61 @@
     <script src="js/picturefill.js"></script>
     <script src="js/svg4everybody.js"></script>
 </head>
-<body>
+<body class="body">
 <header class="page-header">
     <div class="page-header__container">
         <nav class="main-nav">
-            <button class="main-nav__toggle main-nav__toggle--nojs" type="button">
-                <span class="visually-hidden">Открыть меню</span>
-            </button>
-            <ul class="main-nav__list main-nav__list--nojs site-list">
+                <button class="main-nav__toggle main-nav__toggle--nojs" type="button">
+                    <span class="visually-hidden">Открыть меню</span>
+                </button>
+            <div class="main-nav__wrapper">
+                <ul class="main-nav__list main-nav__list--nojs site-list menu">
+                    <li>
+                        <ul class="site-list__wrapper">
+                            <li class="site-list__main-item">
+                                <a class="site-list__main-link site-list__main-link--active" href="#">для женщин</a>
+                            </li>
+                            <li class="site-list__main-item ">
+                                <a class="site-list__main-link" href="#">для мужчин</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="right-back menu__wrapper">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Кроссовки</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Туфли</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Обувь для дома</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" class="" href="">Скидки %</a>
+                            </li>
+                            <li class="menu__item menu__item--user">
+                                <a class="menu__user-link" href="">Личный кабинет</a>
+                            </li>
+                        </ul>
+                        <ul class="menu__list menu__list-hide">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Категории</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Цвета</a>
+                            </li>
+                            <li class="submenu__item ">
+                                <a class="submenu__link" href="#">Размеры</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a class="submenu__link" href="#">Коллекции</a>
+                            </li>
+                        </ul>
+                    </li>
+            </ul>
+
+                <ul class="site-list__desktop">
                 <li class="site-list__item site-list__item--active">
                     <a class="site-list__link" href="#">Главная</a>
                 </li>
@@ -35,6 +82,7 @@
                     <a class="site-list__link" href="#">Личный кабинет</a>
                 </li>
             </ul>
+                </div>
         </nav>
         <div class="page-header__logo-wrapper">
             <a class="page-header__logo" href="#">
@@ -64,127 +112,9 @@
         <ul class="nav-mobile__list">
             <li class="nav-mobile__item">
                 <a class="nav-mobile__link" href="#">для мужчин</a>
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Кроссовки</a>
-                        <ul class="submenu__list">
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Категории</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Цвета</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Размеры</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Коллекции</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Туфли</a>
-                        <ul class="submenu__list">
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Категории</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Цвета</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Размеры</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Коллекции</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Обувь для дома</a>
-                        <ul class="submenu__list">
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Категории</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Цвета</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Размеры</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Коллекции</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="">Скидки %</a>
-                    </li>
-                    <li class="menu__item menu__item--user">
-                        <a class="menu__user-link" href="">Личный кабинет</a>
-                    </li>
-                </ul>
             </li>
             <li class="nav-mobile__item">
                 <a class="nav-mobile__link" href="#">для женщин</a>
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Кроссовки</a>
-                        <ul class="submenu__list">
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Категории</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Цвета</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Размеры</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Коллекции</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Туфли</a>
-                        <ul class="submenu__list">
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Категории</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Цвета</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Размеры</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Коллекции</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="#">Обувь для дома</a>
-                        <ul class="submenu__list">
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Категории</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Цвета</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Размеры</a>
-                            </li>
-                            <li class="submenu__item">
-                                <a class="submenu__link" href="#">Коллекции</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" class="" href="">Скидки %</a>
-                    </li>
-                    <li class="menu__item menu__item--user">
-                        <a class="menu__user-link" href="">Личный кабинет</a>
-                    </li>
-                </ul>
             </li>
         </ul>
     </nav>
@@ -319,12 +249,11 @@
             <h3 class="filter-index__title">Поиск по цене</h3>
             <ul class="filter-index__list">
                 <li class="filter-index__item">
-                    <button class="filter-index__button filter-index__button--cost" type="button">до 3000
-                        <span class="filter-index__button--long">рублей
+                    <button class="filter-index__button filter-index__button--cost" type="button">до 3000 рублей
                     </span></button>
                 </li>
                 <li class="filter-index__item">
-                    <button class="filter-index__button filter-index__button--cost" type="button">до 5000 <span class="filter-index__button--long">рублей
+                    <button class="filter-index__button filter-index__button--cost" type="button">до 5000 рублей
                     </span></button>
                 </li>
             </ul>
