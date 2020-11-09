@@ -20,14 +20,14 @@
 .site-list__wrapper {
   display: flex;
   background-color: $mainback-color;
-  padding: 36px 16px 1px 62px;
+  padding: 36px 16px 2px 62px;
   list-style: none;
   justify-content: flex-start;
 
 }
 
 .site-list__main-item {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .site-list__main-link {
@@ -39,6 +39,7 @@
   color: inherit;
   z-index: 29;
   position: relative;
+  padding: 10px 10px 5px 10px;
 }
 
 .site-list__main-link--active::before {

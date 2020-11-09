@@ -1,15 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="Prepare for demo">
+      <change afterPath="$PROJECT_DIR$/sass/blocks/nav-desktop.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/image23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon-user.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image23@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image1-mobile@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image23@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image1-mobile@2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_overall.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_overall.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_subscription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_subscription.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_main-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_main-nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_nav-mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_nav-mobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_page-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_page-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_site-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_site-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +95,9 @@
       <workItem from="1604465584673" duration="224000" />
       <workItem from="1604466049260" duration="1268000" />
       <workItem from="1604478853053" duration="3822000" />
-      <workItem from="1604498007176" duration="75763000" />
+      <workItem from="1604498007176" duration="77225000" />
+      <workItem from="1604804673651" duration="13891000" />
+      <workItem from="1604910156705" duration="13052000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>
@@ -88,6 +119,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prepare for heroku" />
     <MESSAGE value="Prepare for demo" />
@@ -106,6 +149,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="507" y="272" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.877@0.23.1440.877" timestamp="1604509524773" />
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604853425685">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1604853425685" />
     <state x="372" y="247" width="695" height="627" key="EditFileWatcherDialog" timestamp="1604509833537">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -122,9 +169,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1604510228850" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1604684425576">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1604690203467">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604684425576" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604690203467" />
   </component>
 </project>

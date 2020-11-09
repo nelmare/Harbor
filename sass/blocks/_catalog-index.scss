@@ -38,3 +38,22 @@
   color: inherit;
   letter-spacing: 0.1em;
 }
+
+
+
+
+
+@media (min-width: $desktop-width) {
+  .catalog-index {
+    border-top: 1px solid $maintext-color;
+    padding-top: 72px;
+    padding-bottom: 50px;
+  }
+
+  .catalog-index__title {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 33px;
+    text-align: center;
+  }
+}

@@ -44,39 +44,44 @@
   }
 }
 
-//временно
-.main-nav__toggle::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 21px;
-  height: 1px;
-  background-color: $maintext-color;
-  box-shadow: 0 6px 0 0 $maintext-color, 0 12px 0 0 $maintext-color;
-}
+  .main-nav__toggle::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 21px;
+    height: 1px;
+    background-color: $maintext-color;
+    box-shadow: 0 6px 0 0 $maintext-color, 0 12px 0 0 $maintext-color;
+  }
 
-.main-nav--closed {
+  .main-nav--closed {
+    display: none;
+  }
+
+  .main-nav__toggle--open {
+    left: 17px;
+    top: 23px;
+  }
+
+  .main-nav__toggle--closed {
+    right: 17px;
+    top: 25px;
+    z-index: 40;
+    position: fixed;
+  }
+
+  .main-nav__toggle--nojs {
+    display: none;
+  }
+
+  .main-nav__list--nojs {
+    display: block;
+  }
+
+
+@media (min-width: $desktop-width) {
+  .main-nav--mobile {
   display: none;
+  }
 }
-
-.main-nav__toggle--open {
-  left: 17px;
-  top: 23px;
-}
-
-.main-nav__toggle--closed {
-  right: 17px;
-  top: 25px;
-  z-index: 40;
-  position: fixed;
-}
-
-.main-nav__toggle--nojs {
-  display: none;
-}
-
-.main-nav__list--nojs {
-  display: block;
-}
-

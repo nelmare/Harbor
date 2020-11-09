@@ -14,11 +14,21 @@
 
 .menu__item {
   border-bottom: 1px solid $menu-line;
-  padding: 15px 0 12px;
   position: relative;
 }
 
-.menu__item::after {
+.menu__link {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  padding: 15px 0 13px;
+  display: block;
+}
+
+.menu__link::after {
   content: "";
   position: absolute;
   width: 24px;
@@ -30,16 +40,6 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-
-.menu__link {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 19px;
-  text-align: left;
-  text-decoration: none;
-  color: inherit;
-}
-
 .menu__item--user {
   margin-top: 207px;
   padding-left: 30px;
@@ -57,8 +57,8 @@
 .menu__item--user::after {
   content: "";
   position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 18px;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
