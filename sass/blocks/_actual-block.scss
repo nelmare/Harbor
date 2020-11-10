@@ -81,6 +81,7 @@
     min-width: 720px;
     height: auto;
     display: block;
+    font-size: 0;
   }
 
   .actual-block__title {
@@ -95,8 +96,57 @@
     margin-bottom: 21px;
   }
 
-  .actual-block__button {
-
+  .actual-block--padding {
+    padding-top: 60px;
+    border-top: none;
   }
+
+  .actual-block--padding .actual-block__link-wrapper {
+    order: 1;
+    padding-left: 240px;
+  }
+
+  .actual-block--padding .actual-block__image-wrapper {
+    margin-right: 0;
+  }
+
+  .actual-block--padding .actual-block__title {
+    width: 95%;
+  }
+
+  .actual-block--background {
+    position: relative;
+    border: none;
+    height: 540px;
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  .actual-block--background:before {
+    content: "";
+    background-image: url("../img/promoback-desk@1x.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+
+    @media (min-resolution: $retina-dpi),
+    (min-resolution: $retina-dppx) {
+      background-image: url("../img/promoback-desk@2x.jpg");
+      background-size: cover;
+    }
+  }
+
+  .actual-block--background .actual-block__title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 64px;
+    line-height: 60px;
+  }
+
 }
 

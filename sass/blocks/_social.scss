@@ -1,12 +1,28 @@
+.social {
+  margin-bottom: 10px;
+}
+
 .social__list {
   @include margin-reset;
-  padding-top: 15px;
+  padding-top: 11px;
   list-style: none;
   display: flex;
-  margin-bottom: 33px;
+  margin-bottom: 19px;
+  margin-left: -7px;
 }
 
 .social__item {
-  margin-right: 15px;
+  margin-right: 1px;
 }
 
+.social__link {
+  padding: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (min-width: $desktop-width) {
+  .social__list {
+    padding-top: 0;
+  }
+}

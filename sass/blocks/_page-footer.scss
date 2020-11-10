@@ -1,15 +1,11 @@
 .page-footer {
-  padding-top: 44px;
+  padding-top: 37px;
   padding-bottom: 47px;
 }
 
 .page-footer__list {
   @include margin-reset;
   list-style: none;
-}
-
-.page-footer__item {
-  margin-bottom: 10px;
 }
 
 .page-footer__link {
@@ -19,10 +15,13 @@
   text-decoration: none;
   color: inherit;
   letter-spacing: 0.1em;
+  padding: 7px;
+  display: block;
 }
 
-.page-footer__item--menu {
-  margin-bottom: 15px;
+.page-footer__item {
+  margin-left: -7px;
+  margin-right: -7px;
 }
 
 .page-footer__link--menu {
@@ -32,10 +31,48 @@
 
 .page-footer__copyright {
   @include margin-reset;
-  margin-top: 18px;
+  margin-top: 26px;
   font-size: 12px;
   font-weight: 300;
   line-height: 24px;
   letter-spacing: 0em;
   text-transform: none;
+}
+
+.page-footer__item-list {
+  list-style: none;
+  @include margin-reset;
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer {
+    padding: 79px 90px 59px 90px;
+  }
+
+  .page-footer__list {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .page-footer__item-wrapper--company {
+    order: 2;
+  }
+
+  .page-footer__item-wrapper--social {
+    order: 3;
+    margin-left: auto;
+  }
+
+  .page-footer__item-wrapper--business {
+    order: 1;
+    margin-right: 117px;
+  }
+
+  .page-footer__copyright {
+    margin-top: 35px;
+  }
+
+  .page-footer__link {
+    font-weight: 400;
+  }
 }

@@ -1,4 +1,4 @@
-.filter-index {
+.filter-index__block {
   padding-top: 38px;
   padding-bottom: 43px;
   border-top: 1px solid $border-color;
@@ -48,7 +48,7 @@
   width: 31px;
   height: 31px;
   left: 15%;
-  bottom: 15%;
+  bottom: 14%;
   background-color: $image-back1;
 }
 
@@ -56,4 +56,66 @@
   padding: 0 19px;
   text-transform: inherit;
   height: 45px;
+}
+
+.filter-index__main-title {
+  display: none;
+}
+
+
+@media (min-width: $desktop-width) {
+  .filter-index {
+    display: flex;
+    border-top: 1px solid $maintext-color;
+    flex-direction: column;
+    padding-top: 67px;
+  }
+
+  .filter-index__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .filter-index__block {
+    padding-top: 18px;
+    padding-bottom: 40px;
+    border-top: none;
+    margin-right: 30px;
+  }
+
+  .filter-index__main-title {
+    @include margin-reset;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 10px;
+    color: $text-color2;
+    display: block;
+  }
+
+  .filter-index__item-hide,
+  .filter-index__title {
+    display: none;
+  }
+
+  .filter-index__item:nth-child(2) .filter-index__button--color::before {
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    background-color: $border-color;
+  }
+
+  .filter-index__item:nth-child(2) .filter-index__button--color::before {
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    background-color: $text-color2;
+  }
+
+  .filter-index__item--cost {
+    margin-right: -5px;
+  }
 }

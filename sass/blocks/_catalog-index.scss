@@ -39,6 +39,13 @@
   letter-spacing: 0.1em;
 }
 
+.catalog-index__button--mobile {
+  display: block;
+}
+
+.catalog-index__button--desktop {
+  display: none;
+}
 
 
 
@@ -56,4 +63,19 @@
     margin-bottom: 33px;
     text-align: center;
   }
+
+  .catalog-index__button--mobile {
+    display: none;
+  }
+
+  .catalog-index__button--desktop {
+    display: block;
+  }
+
+  .catalog-index__thirdblock {
+    border-top: none;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+
 }
