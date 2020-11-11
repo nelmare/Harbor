@@ -4,13 +4,16 @@
   margin-right: 6px;
   margin-left: 6px;
   position: relative;
-  //min-height: 220px;
 }
 
 .catalog-item__wrapper {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+.catalog-item__image-link {
+  cursor: pointer;
 }
 
 .catalog-item__image-wrapper {
@@ -51,6 +54,7 @@
 .catalog-item__link {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 .catalog-item__title {
@@ -88,17 +92,16 @@
   font-weight: 400;
   line-height: 15px;
   text-align: left;
-  //display: inline-block;
   margin-right: auto;
 }
 
 .catalog-item__label--hit {
-  color: $mainback-color;
+  color: $text-color4;
   background-color: $image-back2;
 }
 
 .catalog-item__label--discount {
-  color: $mainback-color;
+  color: $text-color4;
   background-color: $maintext-color;
 }
 
@@ -121,7 +124,6 @@
 @media (min-width: $desktop-width) {
   .catalog-item {
     max-width: 300px;
-    //min-height: 369px;
   }
 
   .catalog-item__image-wrapper {
@@ -144,7 +146,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
   }
 
   .catalog-item__title {
@@ -153,10 +154,6 @@
     max-width: 170px;
     margin-right: 10px;
   }
-
-  //.catalog-item__cost {
-  //  max-width: 60%;
-  //}
 
   .catalog-item__cost--deleted {
     margin-right: 10px;
@@ -171,6 +168,7 @@
     top: 24px;
     left: 0;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .catalog-item__hide,
@@ -189,7 +187,6 @@
 
   .catalog-item {
     max-width: 400px;
-    //min-height: 369px;
   }
 
   .catalog-item__image-wrapper {
@@ -204,11 +201,11 @@
   }
 
   .catalog-item__image-wrapper--background2 {
-    background-color: $border-color;
+    background-color: $image-back3;
   }
 
   .catalog-item__image-wrapper--background3 {
-    background-color: $link-color2;
+    background-color: $image-back4;
   }
 
   .catalog-item__image {
@@ -230,9 +227,10 @@
     font-weight: 400;
     line-height: 15px;
     letter-spacing: 0em;
-    color: $image-back2;
+    color: $text-color5;
     margin-left: 77px;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .catalog-item__ad {
@@ -244,6 +242,7 @@
     color: $text-color3;
     margin-top: 5px;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .catalog-item__label {

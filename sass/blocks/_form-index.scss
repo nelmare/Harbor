@@ -19,6 +19,7 @@
   @include margin-reset;
   display: flex;
   margin-bottom: 22px;
+  flex-wrap: wrap;
 }
 
 .form-index__item--checkbox {
@@ -43,6 +44,7 @@
   border: 1px solid $border-color;
   left: 0;
   top: -3px;
+  cursor: pointer;
 }
 
 .form-index__checkbox:checked + .form-index__check {
@@ -56,6 +58,7 @@
   border: 1px solid $border-color;
   left: 0;
   top: -3px;
+  cursor: pointer;
 }
 
 .form-index__checkbox:focus ~ .form-index__check {
@@ -70,7 +73,7 @@
   padding: 15px 10px;
   text-align: center;
   background-color: $menu-button-back;
-  color: $mainback-color;
+  color: $text-color4;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
@@ -81,6 +84,7 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 @media (min-width: $desktop-width) {
@@ -113,6 +117,7 @@
 
   .form-index__button {
     display: inline-block;
+    vertical-align: middle;
     width: 20%;
     margin-right: 0;
   }

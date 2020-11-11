@@ -1,6 +1,6 @@
 .filter-index__block {
   padding-top: 38px;
-  padding-bottom: 43px;
+  padding-bottom: 28px;
   border-top: 1px solid $border-color;
 }
 
@@ -9,6 +9,7 @@
   list-style: none;
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .filter-index__title {
@@ -22,6 +23,7 @@
 
 .filter-index__item {
   margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .filter-index__button {
@@ -30,6 +32,7 @@
   font-size: 12px;
   line-height: 15px;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .filter-index__button--size,
@@ -66,7 +69,7 @@
 @media (min-width: $desktop-width) {
   .filter-index {
     display: flex;
-    border-top: 1px solid $maintext-color;
+    border-top: 1px solid $border-color2;
     flex-direction: column;
     padding-top: 67px;
   }
@@ -104,15 +107,15 @@
     position: absolute;
     width: 31px;
     height: 31px;
-    background-color: $border-color;
+    background-color: $image-back3;
   }
 
-  .filter-index__item:nth-child(2) .filter-index__button--color::before {
+  .filter-index__item:nth-child(3) .filter-index__button--color::before {
     content: "";
     position: absolute;
     width: 31px;
     height: 31px;
-    background-color: $text-color2;
+    background-color: $fill-color1;
   }
 
   .filter-index__item--cost {

@@ -6,16 +6,20 @@
 
 .actual-block__image-wrapper {
   display: block;
-  width: 100%;
+  width: 375px;
   min-height: 200px;
   background-color: $image-back1;
   margin: 0 auto;
 }
 
+.actual-block__image {
+  display: block;
+}
+
 .actual-block__image-wrapper--padding {
   @include margin-reset;
   background-color: $image-back2;
-  width: 57%;
+  width: 214px;
   min-height: 275px;
   margin: 0 auto;
 }
@@ -23,9 +27,13 @@
 .actual-block__link {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .actual-block__title {
+  @include margin-reset;
   font-family: "Boita", "Times New Roman", serif;
   font-weight: 500;
   font-size: 30px;
@@ -38,8 +46,9 @@
   display: none;
 }
 
-
-
+.actual-block--background {
+  display: none;
+}
 
 @media (min-width: $desktop-width) {
   .actual-block {
@@ -54,16 +63,17 @@
     display: flex;
     flex-direction: column;
     order: 2;
-    padding-right: 40px;
+    width: 39%;
   }
 
   .actual-block__button {
     display: inline-block;
+    vertical-align: middle;
     font-size: 12px;
     font-weight: 700;
     line-height: 15px;
     letter-spacing: 0.1em;
-    border: 1px solid $maintext-color;
+    border: 1px solid $border-color2;
     text-decoration: none;
     color: inherit;
     padding: 14px 20px;
@@ -72,59 +82,56 @@
 
   .actual-block__image-wrapper {
     order: 1;
-    width: 50%;
+    width: 720px;
     margin: 0;
     margin-right: 60px;
   }
 
   .actual-block__image {
-    min-width: 720px;
-    height: auto;
-    display: block;
+    width: 720px;
     font-size: 0;
   }
 
   .actual-block__title {
-    @include margin-reset;
     font-size: 60px;
     font-weight: 500;
     line-height: 64px;
     letter-spacing: 0em;
     padding: 20px 0;
     text-align: left;
-    width: 70%;
     margin-bottom: 21px;
   }
 
   .actual-block--padding {
     padding-top: 60px;
     border-top: none;
+    justify-content: space-between;
   }
 
   .actual-block--padding .actual-block__link-wrapper {
     order: 1;
     padding-left: 240px;
+    width: 42%;
   }
 
   .actual-block--padding .actual-block__image-wrapper {
     margin-right: 0;
-  }
-
-  .actual-block--padding .actual-block__title {
-    width: 95%;
+    margin-left: 60px;
+    width: 720px;
   }
 
   .actual-block--background {
     position: relative;
     border: none;
-    height: 540px;
+    min-height: 540px;
     padding-bottom: 0;
     justify-content: center;
+    display: flex;
   }
 
   .actual-block--background:before {
     content: "";
-    background-image: url("../img/promoback-desk@1x.jpg");
+    background-image: url("../img/promo-back-desk@1x.jpg");
     background-position: top;
     background-repeat: no-repeat;
     width: 100%;
@@ -133,12 +140,17 @@
     top: 0;
     z-index: -1;
     background-size: cover;
+    background-color: $image-back1;
 
     @media (min-resolution: $retina-dpi),
     (min-resolution: $retina-dppx) {
-      background-image: url("../img/promoback-desk@2x.jpg");
+      background-image: url("../img/promo-back-desk@2x.jpg");
       background-size: cover;
     }
+  }
+
+  .actual-block--background .actual-block__link {
+    padding: 150px 100px;
   }
 
   .actual-block--background .actual-block__title {
@@ -146,27 +158,38 @@
     margin: 0 auto;
     font-size: 64px;
     line-height: 60px;
+    width: 55%;
   }
 }
 
 @media (min-width: $xldesktop-width) {
+  .actual-block {
+    max-width: 1920px;
+  }
+
+  .actual-block__link-wrapper {
+    width: 29%;
+  }
+
   .actual-block__image-wrapper {
     margin-right: 80px;
+    width: 960px;
   }
 
   .actual-block__image {
-    min-width: 960px;
-    height: auto;
+    width: 960px;
   }
 
   .actual-block__title {
-    padding-right: 267px;
-    width: auto;
     margin-bottom: 21px;
   }
 
-  .actual-block--padding .actual-block__title {
-    width: 100%;
+  .actual-block--padding .actual-block__link-wrapper {
+    padding-left: 320px;
+  }
+
+  .actual-block--padding .actual-block__image-wrapper {
+    width: 960px;
   }
 
   .actual-block--background .actual-block__title {
@@ -184,6 +207,7 @@
     top: 0;
     z-index: -1;
     background-size: cover;
+    background-color: $image-back1;
 
     @media (min-resolution: $retina-dpi),
     (min-resolution: $retina-dppx) {

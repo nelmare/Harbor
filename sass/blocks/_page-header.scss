@@ -14,7 +14,9 @@
 
 .page-header__logo {
   display: inline-block;
+  vertical-align: middle;
   padding: 10px;
+  cursor: pointer;
 }
 
 .page-header__logo-image {
@@ -43,6 +45,7 @@
   align-items: center;
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
 .page-header__favorites-link::before {
@@ -58,23 +61,6 @@
       background-position: center center;
 }
 
-//.page-header__cart-link {
-//  font-size: 9px;
-//  font-weight: 700;
-//  line-height: 11px;
-//  text-align: center;
-//  text-decoration: none;
-//  color: $mainback-color;
-//  display: flex;
-//  justify-content: space-around;
-//  align-items: center;
-//  width: 20px;
-//  height: 20px;
-//  border: none;
-//  border-radius: 50%;
-//  padding-top: 1px;
-//}
-
 .page-header__cart-link {
   display: flex;
   justify-content: space-around;
@@ -82,7 +68,7 @@
   width: 30px;
   height: 30px;
   position: relative;
-
+  cursor: pointer;
 }
 
 .page-header__cart-link--empty::before {
@@ -104,7 +90,7 @@
   line-height: 11px;
   text-align: center;
   text-decoration: none;
-  color: $mainback-color;
+  color: $text-color4;
   top: 34%;
   left: 50%;
   transform: translateX(-50%);
@@ -129,19 +115,11 @@
   line-height: 11px;
   text-align: center;
   text-decoration: none;
-  color: $mainback-color;
+  color: $text-color4;
   top: 34%;
   left: 50%;
   transform: translateX(-50%);
 }
-
-//.page-header__cart-link--empty {
-//  background-color: $empty-cart;
-//}
-//
-//.page-header__cart-link--full {
-//  background-color: $full-cart;
-//}
 
 .page-header__promo-wrapper {
   padding: 15px 23px;
@@ -166,6 +144,7 @@
 .page-header__promo-link {
   color: inherit;
   padding: 10px 0;
+  cursor: pointer;
 }
 
 .page-header__contacts,
@@ -173,11 +152,6 @@
 .page-header__cart-bill {
   display: none;
 }
-
-
-
-
-
 
 @media (min-width: $desktop-width) {
   .page-header {
@@ -192,6 +166,7 @@
 
   .page-header__contacts {
     display: inline-block;
+    vertical-align: middle;
   }
 
   .page-header__phone {
@@ -201,7 +176,9 @@
     line-height: 23px;
     letter-spacing: 0.05em;
     display: inline-block;
+    vertical-align: middle;
     padding: 10px;
+    cursor: pointer;
   }
 
   .page-header__logo {
@@ -215,14 +192,12 @@
 
   .page-header__wrapper {
     width: 183px;
-
   }
 
   .page-header__user {
     display: inline-block;
+    vertical-align: middle;
     position: relative;
-    //width: 24px;
-    //height: 24px;
   }
 
   .page-header__user-link,
@@ -232,6 +207,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
   }
 
   .page-header__user::after {

@@ -1,3 +1,9 @@
+//для демонстрации. Скрывает выпадающее меню на десктопе. чтобы показать, нужно убрать класс
+.nav-desktop__hide {
+  display: none;
+}
+//---
+
 .nav-desktop {
   display: none;
 }
@@ -19,12 +25,8 @@
   }
 
   .nav-desktop__item {
-position: relative;
+    position: relative;
   }
-//
-//  .nav-desktop__item:last-child {
-//    margin-right: 0;
-//  }
 
   .nav-desktop__link {
     font-size: 12px;
@@ -32,10 +34,12 @@ position: relative;
     line-height: 14px;
     letter-spacing: 0.1em;
     text-decoration: none;
-    color: $mainback-color;
+    color: $text-color4;
     padding: 20px 15px 19px 15px;
     display: inline-block;
+    vertical-align: middle;
     letter-spacing: 0.1em;
+    cursor: pointer;
   }
 
   .nav-desktop__link--active {
@@ -66,6 +70,7 @@ position: relative;
     color: inherit;
     text-transform: none;
     display: block;
+    cursor: pointer;
   }
 
   .nav-desktop__menu-item {

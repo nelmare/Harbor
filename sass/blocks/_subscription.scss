@@ -23,7 +23,7 @@
 }
 
 .subscription__sup {
-  color: $image-back2;
+  color: $text-color5;
 }
 
 .subscription__note {
@@ -38,10 +38,11 @@
 
 .subscription__link {
   color: inherit;
+  cursor: pointer;
 }
 
 .subscription__wrapper {
-  border-bottom: 1px solid $maintext-color;
+  border-bottom: 1px solid $border-color2;
   padding-bottom: 47px;
 }
 
@@ -79,8 +80,4 @@
   .subscription__note:first-child {
     width: 50%;
   }
-}
-
-@media (min-width: $xldesktop-width) {
-
 }

@@ -7,8 +7,10 @@
 
 .nav-mobile__item {
   display: inline-block;
+  vertical-align: middle;
   width: 50%;
 }
+
 .nav-mobile__item:first-child {
   border-right: 1px solid $mainback-color;
 }
@@ -17,17 +19,18 @@
   padding: 17px 10px;
   text-align: center;
   background-color: $menu-button-back;
-  color: $mainback-color;
+  color: $text-color4;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
   text-decoration: none;
   display: block;
   letter-spacing: 0.1em;
+  cursor: pointer;
 }
 
 @media (min-width: $desktop-width) {
   .nav-mobile {
-  display: none;
+    display: none;
   }
 }

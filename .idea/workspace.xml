@@ -23,18 +23,29 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/image1-xldesk@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image23-xldesk@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/image1-xldesk@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image23-xldesk@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/promo-back-xldesk@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/promoback-desk@1x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-back-desk@1x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/promoback-desk@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-back-desk@2x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-user2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image1-xldesk.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image1-xldesk@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image23-xldesk@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image23-xldesk@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_overall.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_overall.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_filter-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter-index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_form-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_form-index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_main-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_main-nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_nav-mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_nav-mobile.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_page-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_page-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_page-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_page-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_site-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_site-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_social.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_social.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_subscription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_subscription.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/nav-desktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/nav-desktop.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +85,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -101,7 +112,8 @@
       <workItem from="1604804673651" duration="13891000" />
       <workItem from="1604910156705" duration="19433000" />
       <workItem from="1604997129388" duration="367000" />
-      <workItem from="1604997667775" duration="25080000" />
+      <workItem from="1604997667775" duration="27973000" />
+      <workItem from="1605097340361" duration="10570000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>
@@ -139,43 +151,5 @@
     <MESSAGE value="Prepare for heroku" />
     <MESSAGE value="Prepare for demo" />
     <option name="LAST_COMMIT_MESSAGE" value="Prepare for demo" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="593" y="347" width="486" height="228" key="#File_Watchers" timestamp="1604508510678">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="593" y="347" width="486" height="228" key="#File_Watchers/0.23.1440.877@0.23.1440.877" timestamp="1604508510678" />
-    <state x="444" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604647967313">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="444" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1604647967313" />
-    <state x="507" y="272" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604509524773">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="507" y="272" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.877@0.23.1440.877" timestamp="1604509524773" />
-    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604853425685">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1604853425685" />
-    <state x="372" y="247" width="695" height="627" key="EditFileWatcherDialog" timestamp="1604509833537">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="372" y="247" width="695" height="627" key="EditFileWatcherDialog/0.23.1440.877@0.23.1440.877" timestamp="1604509833537" />
-    <state x="593" y="365" key="Github.ShareDialog" timestamp="1604647719808">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="593" y="365" key="Github.ShareDialog/0.23.1440.877@0.23.1440.877" timestamp="1604647719808" />
-    <state x="501" y="173" key="Github.UntrackedFilesDialog" timestamp="1604647731420">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="501" y="173" key="Github.UntrackedFilesDialog/0.23.1440.877@0.23.1440.877" timestamp="1604647731420" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1604510228850">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1604510228850" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1604930874099">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604930874099" />
   </component>
 </project>

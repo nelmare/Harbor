@@ -4,14 +4,6 @@
 
 .site-list {
   @include margin-reset;
-  //margin-right: auto;
-  //display: flex;
-  //position: fixed;
-  //width: 313px;
-  //padding: 41px 36px;
-  //min-height: 582px;
-  //background-color: $mainback-color;
-  //float: left;
   list-style: none;
   top: 0;
   left: 0;
@@ -40,6 +32,7 @@
   z-index: 29;
   position: relative;
   padding: 10px 10px 5px 10px;
+  cursor: pointer;
 }
 
 .site-list__main-link--active::before {
