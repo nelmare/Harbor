@@ -71,9 +71,16 @@
   .subscription__note-wrapper {
     display: flex;
     justify-content: space-between;
+    max-width: 741px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .subscription__note:first-child {
     width: 50%;
   }
+}
+
+@media (min-width: $xldesktop-width) {
+
 }

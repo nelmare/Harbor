@@ -77,8 +77,10 @@
   display: block;
   border: none;
   width: 100%;
+  max-width: 450px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  margin: 0 auto;
 }
 
 @media (min-width: $desktop-width) {
@@ -86,10 +88,14 @@
     display: flex;
     align-items: baseline;
     margin-bottom: 13px;
+    max-width: 741px;
+    background-color: $mainback-color;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .form-index__group {
-    min-width: 61%;
+    min-width: 47%;
   }
 
   .form-index__block--checkbox {
@@ -98,6 +104,7 @@
     padding-left: 11px;
     margin-bottom: 0;
     min-height: 45px;
+    margin-left: auto;
   }
 
   .form-index__list {
@@ -106,7 +113,8 @@
 
   .form-index__button {
     display: inline-block;
-    width: 15%;
+    width: 20%;
+    margin-right: 0;
   }
 
   .form-index__placeholder {
@@ -115,5 +123,15 @@
 
   .form-index__line {
     margin-bottom: 0;
+  }
+}
+
+@media (min-width: $xldesktop-width) {
+  .form-index__group {
+    min-width: 25%;
+  }
+
+  .form-index__block--checkbox {
+    padding-right: 170px;
   }
 }

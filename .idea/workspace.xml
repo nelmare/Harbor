@@ -23,16 +23,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image1-xldesk@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image23-xldesk@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image1-xldesk@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image23-xldesk@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promo-back-xldesk@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promoback-desk@1x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-back-desk@1x.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promoback-desk@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-back-desk@2x.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_filter-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter-index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_form-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_form-index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_page-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_page-footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_page-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_page-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_social.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_social.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_subscription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_subscription.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +101,7 @@
       <workItem from="1604804673651" duration="13891000" />
       <workItem from="1604910156705" duration="19433000" />
       <workItem from="1604997129388" duration="367000" />
-      <workItem from="1604997667775" duration="13315000" />
+      <workItem from="1604997667775" duration="25080000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>

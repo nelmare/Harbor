@@ -76,3 +76,9 @@
     font-weight: 400;
   }
 }
+
+@media (min-width: $xldesktop-width) {
+  .page-footer {
+    padding: 79px 73px 72px 160px;
+  }
+}
