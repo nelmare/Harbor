@@ -61,6 +61,10 @@
   margin-bottom: 20px;
 }
 
+.subscription-alert__hide {
+  display: none;
+}
+
 @media (min-width: $desktop-width) {
   .subscription {
     padding-top: 107px;

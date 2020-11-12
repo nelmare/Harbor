@@ -9,191 +9,195 @@
     <script src="js/svg4everybody.js"></script>
 </head>
 <body class="body">
-<header class="page-header">
-    <div class="page-header__container">
-        <div class="page-header__contacts">
-            <a class="page-header__phone" href="tel:+74959991212">+7 495 999 1212</a>
-        </div>
-        <nav class="main-nav main-nav--mobile">
-            <button class="main-nav__toggle main-nav__toggle--nojs" type="button">
-                <span class="visually-hidden">Открыть меню</span>
-            </button>
-            <div class="main-nav__wrapper">
-                <ul class="main-nav__list main-nav__list--nojs site-list menu">
-                    <li>
-                        <ul class="site-list__wrapper">
-                            <li class="site-list__main-item">
-                                <a class="site-list__main-link site-list__main-link--active" href="#">для женщин</a>
-                            </li>
-                            <li class="site-list__main-item ">
-                                <a class="site-list__main-link" href="#">для мужчин</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu__wrapper">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a class="menu__link" href="#">Кроссовки</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#">Туфли</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#">Обувь для дома</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="">Скидки %</a>
-                            </li>
-                            <li class="menu__item menu__item--user">
-                                <a class="menu__user-link" href="">Личный кабинет</a>
-                            </li>
-                        </ul>
-                        <ul class="menu__list menu__submenu-list menu__list-hide">
-                            <li class="menu__item menu__submenu-item menu__submenu-item--button">
-                                <button class="menu__button menu__submenu-button">назад</button>
-                            </li>
-                            <li class="menu__item menu__submenu-item">
-                                <a class="menu__link menu__submenu-link" href="#">Категории</a>
-                            </li>
-                            <li class="menu__item menu__submenu-item">
-                                <a class="menu__link menu__submenu-link" href="#">Цвета</a>
-                            </li>
-                            <li class="menu__item menu__submenu-item">
-                                <a class="menu__link menu__submenu-link" href="#">Размеры</a>
-                            </li>
-                            <li class="menu__item menu__submenu-item">
-                                <a class="menu__link menu__submenu-link" href="#">Коллекции</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+    <header class="page-header">
+        <div class="page-header__container">
+            <div class="page-header__contacts">
+                <a class="page-header__phone" href="tel:+74959991212">+7 495 999 1212</a>
             </div>
+            <nav class="main-nav main-nav--mobile">
+                <button class="main-nav__toggle main-nav__toggle--nojs" type="button">
+                    <span class="visually-hidden">Открыть меню</span>
+                </button>
+                <div class="main-nav__wrapper">
+                    <ul class="main-nav__list main-nav__list--nojs site-list menu">
+                        <li>
+                            <ul class="site-list__wrapper">
+                                <li class="site-list__main-item">
+                                    <a class="site-list__main-link site-list__main-link--active" href="#">для женщин</a>
+                                </li>
+                                <li class="site-list__main-item ">
+                                    <a class="site-list__main-link" href="#">для мужчин</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__wrapper">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#">Кроссовки</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#">Туфли</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#">Обувь для дома</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="">Скидки %</a>
+                                </li>
+                                <li class="menu__item menu__item--user">
+                                    <a class="menu__user-link" href="">Личный кабинет</a>
+                                </li>
+                            </ul>
+    <!--                        Следующая часть меню на мобильном скрыта классом menu__list-hide  -->
+                            <ul class="menu__list menu__submenu-list menu__list-hide">
+                                <li class="menu__item menu__submenu-item menu__submenu-item--button">
+                                    <button class="menu__button menu__submenu-button">назад</button>
+                                </li>
+                                <li class="menu__item menu__submenu-item">
+                                    <a class="menu__link menu__submenu-link" href="#">Категории</a>
+                                </li>
+                                <li class="menu__item menu__submenu-item">
+                                    <a class="menu__link menu__submenu-link" href="#">Цвета</a>
+                                </li>
+                                <li class="menu__item menu__submenu-item">
+                                    <a class="menu__link menu__submenu-link" href="#">Размеры</a>
+                                </li>
+                                <li class="menu__item menu__submenu-item">
+                                    <a class="menu__link menu__submenu-link" href="#">Коллекции</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="page-header__logo-wrapper">
+                <a class="page-header__logo" href="#">
+                    <picture>
+                        <img class="page-header__logo-image" src="img/logo-big.svg" width="126" height="26" alt="Логотип Harbor">
+                    </picture>
+                </a>
+            </div>
+    <!--        Пункты навигации на десктопе виде иконок-->
+            <ul class="page-header__wrapper">
+                <li class="page-header__user">
+                    <a class="page-header__user-link" href="#" aria-label="Личный кабинет"></a>
+                </li>
+                <li class="page-header__favorites">
+                    <a class="page-header__favorites-link" href="#" aria-label="Избранное"></a>
+                </li>
+                <li class="page-header__cart">
+                    <a class="page-header__cart-link page-header__cart-link--full page-header__cart-link--empty" href="#"
+                       aria-label="Корзина покупок"></a>
+                </li>
+                <li class="page-header__cart-bill"><span class="page-header__bill">29991 руб.</span></li>
+            </ul>
+        </div>
+        <section class="page-header__promo-wrapper">
+            <p class="page-header__promo">
+                <b class="page-header__promo-bold">Скидки 50%</b> на всю <a class="page-header__promo-link" href="#">
+                женскую коллекцию.</a> <b>Акция заканчивается
+                через 03:39:03</b>
+            </p>
+        </section>
+    <!--    Синие кнопки под блоком с акциями в мобильной версии-->
+        <nav class="nav-mobile">
+            <ul class="nav-mobile__list">
+                <li class="nav-mobile__item">
+                    <a class="nav-mobile__link" href="#">для мужчин</a>
+                </li>
+                <li class="nav-mobile__item">
+                    <a class="nav-mobile__link" href="#">для женщин</a>
+                </li>
+            </ul>
         </nav>
-        <div class="page-header__logo-wrapper">
-            <a class="page-header__logo" href="#">
+    <!--    Выпадающее меню на десктопе скрыто классом nav-desktop__hide-->
+        <nav class="nav-desktop">
+            <ul class="nav-desktop__list">
+                <li class="nav-desktop__item">
+                    <a class="nav-desktop__link" href="#">Новинки</a>
+                    <ul class="nav-desktop__menu-list nav-desktop__hide">
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Кроссовки</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Туфли</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Обувь для дома</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-desktop__item">
+                    <a class="nav-desktop__link nav-desktop__link--active" href="#">Обувь для женщин</a>
+                    <ul class="nav-desktop__menu-list nav-desktop__hide">
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Кроссовки</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Туфли</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Если длинное название подраздела</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#"><b>Вся обувь</b></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-desktop__item">
+                    <a class="nav-desktop__link" href="#">Обувь для мужчин</a>
+                    <ul class="nav-desktop__menu-list nav-desktop__hide">
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Кроссовки</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Туфли</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Если длинное название подраздела</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#"><b>Вся обувь</b></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-desktop__item">
+                    <a class="nav-desktop__link nav-desktop__link--discount" href="#">Скидки</a>
+                    <ul class="nav-desktop__menu-list nav-desktop__hide">
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Кроссовки</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Туфли</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Если длинное название подраздела</a>
+                        </li>
+                        <li class="nav-desktop__menu-item">
+                            <a class="nav-desktop__menu-link" href="#">Обувь для дома</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="visually-hidden">Интернет-магазин обуви Harbor</h1>
+        <section class="actual-block">
+            <div class="actual-block__link-wrapper">
+                <a class="actual-block__link" href="#" >
+                    <h2 class="actual-block__title">5 лучших образов этой осени</h2>
+                </a>
+                <a class="actual-block__button button" href="#">Смотреть</a>
+            </div>
+            <div class="actual-block__image-wrapper">
                 <picture>
-                    <img class="page-header__logo-image" src="img/logo-big.svg" width="126" height="26" alt="Логотип Harbor">
+                    <source media="(min-width: 1920px)" srcset="img/promo-image1-xldesk@1x.jpg 1x, img/promo-image1-xldesk@2x.jpg 2x">
+                    <source media="(min-width: 1440px)" srcset="img/promo-image1-desk@1x.jpg 1x, img/promo-image1-desk@2x.jpg 2x">
+                    <img class="actual-block__image" src="" width="375" height="200" alt="Изображение обуви Harbor">
                 </picture>
-            </a>
-        </div>
-        <ul class="page-header__wrapper">
-            <li class="page-header__user">
-                <a class="page-header__user-link" href="#" aria-label="Личный кабинет"></a>
-            </li>
-            <li class="page-header__favorites">
-                <a class="page-header__favorites-link" href="#" aria-label="Избранное"></a>
-            </li>
-            <li class="page-header__cart">
-                <a class="page-header__cart-link page-header__cart-link--full page-header__cart-link--empty" href="#"
-                   aria-label="Корзина покупок"></a>
-            </li>
-            <li class="page-header__cart-bill"><span class="page-header__bill">29991 руб.</span></li>
-        </ul>
-    </div>
-    <section class="page-header__promo-wrapper">
-        <p class="page-header__promo">
-            <b class="page-header__promo-bold">Скидки 50%</b> на всю <a class="page-header__promo-link" href="#">
-            женскую коллекцию.</a> <b>Акция заканчивается
-            через 03:39:03</b>
-        </p>
-    </section>
-    <nav class="nav-mobile">
-        <ul class="nav-mobile__list">
-            <li class="nav-mobile__item">
-                <a class="nav-mobile__link" href="#">для мужчин</a>
-            </li>
-            <li class="nav-mobile__item">
-                <a class="nav-mobile__link" href="#">для женщин</a>
-            </li>
-        </ul>
-    </nav>
-    <nav class="nav-desktop">
-        <ul class="nav-desktop__list">
-            <li class="nav-desktop__item">
-                <a class="nav-desktop__link" href="#">Новинки</a>
-                <ul class="nav-desktop__menu-list nav-desktop__hide">
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Кроссовки</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Туфли</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Обувь для дома</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-desktop__item">
-                <a class="nav-desktop__link nav-desktop__link--active" href="#">Обувь для женщин</a>
-                <ul class="nav-desktop__menu-list nav-desktop__hide">
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Кроссовки</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Туфли</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Если длинное название подраздела</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#"><b>Вся обувь</b></a>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-desktop__item">
-                <a class="nav-desktop__link" href="#">Обувь для мужчин</a>
-                <ul class="nav-desktop__menu-list nav-desktop__hide">
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Кроссовки</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Туфли</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Если длинное название подраздела</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#"><b>Вся обувь</b></a>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-desktop__item">
-                <a class="nav-desktop__link nav-desktop__link--discount" href="#">Скидки</a>
-                <ul class="nav-desktop__menu-list nav-desktop__hide">
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Кроссовки</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Туфли</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Если длинное название подраздела</a>
-                    </li>
-                    <li class="nav-desktop__menu-item">
-                        <a class="nav-desktop__menu-link" href="#">Обувь для дома</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <h1 class="visually-hidden">Интернет-магазин обуви Harbor</h1>
-    <section class="actual-block">
-        <div class="actual-block__link-wrapper">
-            <a class="actual-block__link" href="#" >
-                <h2 class="actual-block__title">5 лучших образов этой осени</h2>
-            </a>
-            <a class="actual-block__button button" href="#">Смотреть</a>
-        </div>
-        <div class="actual-block__image-wrapper">
-            <picture>
-                <source media="(min-width: 1920px)" srcset="img/promo-image1-xldesk@1x.jpg 1x, img/promo-image1-xldesk@2x.jpg 2x">
-                <source media="(min-width: 1440px)" srcset="img/promo-image1-desk@1x.jpg 1x, img/promo-image1-desk@2x.jpg 2x">
-                <img class="actual-block__image" src="" width="375" height="200" alt="Изображение обуви Harbor">
-            </picture>
-        </div>
-    </section>
+            </div>
+        </section>
         <section class="container">
             <div class="catalog-index">
                 <h2 class="catalog-index__title">Новые поступления</h2>
@@ -329,6 +333,7 @@
                         </li>
                     </ul>
                 </div>
+    <!--            класс filter-index__item-hide прячет две последние плашки с цветом на десктопе -->
                 <div class="filter-index__block">
                     <h3 class="filter-index__title">Поиск по цветам</h3>
                     <ul class="filter-index__list">
@@ -666,7 +671,8 @@
                 </div>
             </div>
         </section>
-        <section class="subscription subscription-alert container">
+<!--        Алерт подписки скрыт классом subscription-alert__hide -->
+        <section class="subscription subscription-alert container subscription-alert__hide">
             <h2 class="subscription__title subscription-alert__title">Вы в списке</h2>
             <p class="subscription__text">Спасибо за то, что подписались на рассылку. Удачного шопинга!</p>
         </section>
@@ -730,8 +736,9 @@
         </ul>
         <p class="page-footer__copyright">© Copyright 2020 Harbor. Все права защищены.</p>
     </footer>
+<!--    Попап скрыт классом popup-hide-->
     <div class="popup popup-index popup-hide">
-        <button class="popup-index__close-button"><span class="visually-hidden">Зкарыть</span></button>
+        <button class="popup-index__close-button"><span class="visually-hidden">Закрыть</span></button>
         <h2 class="popup-index__title">10% после регистрации</h2>
         <p class="popup-index__text">Скидка распространяется на всю продукцию коллекции.</p>
         <a class="popup-index__button button" href="#">Получить скидку</a>
