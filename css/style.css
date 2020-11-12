@@ -1498,6 +1498,19 @@ input[type="radio"].visually-hidden {
   border-bottom: 1px solid #263141;
   padding-bottom: 47px; }
 
+.subscription-alarm {
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 47px; }
+
+.subscription-alarm__title {
+  line-height: 20px;
+  margin-bottom: 20px; }
+
 @media (min-width: 1440px) {
   .subscription {
     padding-top: 107px; }
