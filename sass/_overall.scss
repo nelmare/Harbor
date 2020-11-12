@@ -52,6 +52,16 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+.button {
+  border: 1px solid $border-color2;
+  color: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
 @media (min-width: $desktop-width) {
   .container {
     padding: 0 240px;
