@@ -1,10 +1,10 @@
-.filter-index__block {
+.filter-fast__block {
   padding-top: 38px;
   padding-bottom: 28px;
   border-top: 1px solid $border-color;
 }
 
-.filter-index__list {
+.filter-fast__list {
   @include margin-reset;
   list-style: none;
   display: flex;
@@ -12,7 +12,7 @@
   flex-wrap: wrap;
 }
 
-.filter-index__title {
+.filter-fast__title {
   @include margin-reset;
   font-size: 15px;
   font-weight: 700;
@@ -21,31 +21,68 @@
   color: $text-color2;
 }
 
-.filter-index__item {
+.filter-fast__item {
   margin-right: 15px;
   margin-bottom: 15px;
 }
 
-.filter-index__button {
+.filter-fast__button {
   border: 1px solid $border-color;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
   background-color: transparent;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.filter-index__button--size,
-.filter-index__button--color {
+.filter-fast__check {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.filter-fast__checkbox:checked + .filter-fast__check {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/icon-check.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.filter-fast__checkbox:focus ~ .filter-fast__check {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.filter-fast__checkbox:-moz-focusring ~ .filter-fast__check {
+  outline: 2px dotted;
+}
+
+.filter-fast__button--size,
+.filter-fast__button--color {
   width: 45px;
   height: 45px;
 }
 
-.filter-index__button--color {
+.filter-fast__button--color {
   position: relative;
 }
 
-.filter-index__button--color::before {
+.filter-fast__button--color::before {
   content: "";
   position: absolute;
   width: 31px;
@@ -55,39 +92,39 @@
   background-color: $image-back1;
 }
 
-.filter-index__button--cost {
+.filter-fast__button--cost {
   padding: 0 19px;
   text-transform: inherit;
   height: 45px;
 }
 
-.filter-index__main-title {
+.filter-fast__main-title {
   display: none;
 }
 
 
 @media (min-width: $desktop-width) {
-  .filter-index {
+  .filter-fast {
     display: flex;
     border-top: 1px solid $border-color2;
     flex-direction: column;
     padding-top: 67px;
   }
 
-  .filter-index__wrapper {
+  .filter-fast__wrapper {
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
 
-  .filter-index__block {
+  .filter-fast__block {
     padding-top: 18px;
     padding-bottom: 40px;
     border-top: none;
     margin-right: 30px;
   }
 
-  .filter-index__main-title {
+  .filter-fast__main-title {
     @include margin-reset;
     font-size: 15px;
     font-weight: 700;
@@ -97,12 +134,12 @@
     display: block;
   }
 
-  .filter-index__item-hide,
-  .filter-index__title {
+  .filter-fast__item-hide,
+  .filter-fast__title {
     display: none;
   }
 
-  .filter-index__item:nth-child(2) .filter-index__button--color::before {
+  .filter-fast__item:nth-child(2) .filter-fast__button--color::before {
     content: "";
     position: absolute;
     width: 31px;
@@ -110,7 +147,7 @@
     background-color: $image-back3;
   }
 
-  .filter-index__item:nth-child(3) .filter-index__button--color::before {
+  .filter-fast__item:nth-child(3) .filter-fast__button--color::before {
     content: "";
     position: absolute;
     width: 31px;
@@ -118,7 +155,7 @@
     background-color: $fill-color1;
   }
 
-  .filter-index__item--cost {
+  .filter-fast__item--cost {
     margin-right: -5px;
   }
 }

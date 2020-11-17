@@ -23,7 +23,7 @@
                         <li>
                             <ul class="site-list__wrapper">
                                 <li class="site-list__main-item">
-                                    <a class="site-list__main-link site-list__main-link--active" href="#">для женщин</a>
+                                    <a class="site-list__main-link site-list__main-link--active" href="catalog-women.html">для женщин</a>
                                 </li>
                                 <li class="site-list__main-item ">
                                     <a class="site-list__main-link" href="#">для мужчин</a>
@@ -71,7 +71,7 @@
                 </div>
             </nav>
             <div class="page-header__logo-wrapper">
-                <a class="page-header__logo" href="#">
+                <a class="page-header__logo" href="index.html">
                     <picture>
                         <img class="page-header__logo-image" src="img/logo-big.svg" width="126" height="26" alt="Логотип Harbor">
                     </picture>
@@ -106,7 +106,7 @@
                     <a class="nav-mobile__link" href="#">для мужчин</a>
                 </li>
                 <li class="nav-mobile__item">
-                    <a class="nav-mobile__link" href="#">для женщин</a>
+                    <a class="nav-mobile__link" href="catalog-women.html">для женщин</a>
                 </li>
             </ul>
         </nav>
@@ -128,7 +128,7 @@
                     </ul>
                 </li>
                 <li class="nav-desktop__item">
-                    <a class="nav-desktop__link nav-desktop__link--active" href="#">Обувь для женщин</a>
+                    <a class="nav-desktop__link nav-desktop__link--active" href="catalog-women.html">Обувь для женщин</a>
                     <ul class="nav-desktop__menu-list nav-desktop__hide">
                         <li class="nav-desktop__menu-item">
                             <a class="nav-desktop__menu-link" href="#">Кроссовки</a>
@@ -199,9 +199,9 @@
             </div>
         </section>
         <section class="container">
-            <div class="catalog-index">
-                <h2 class="catalog-index__title">Новые поступления</h2>
-                <div class="catalog-index__wrapper">
+            <div class="catalog">
+                <h2 class="catalog__title">Новые поступления</h2>
+                <div class="catalog__wrapper">
                     <section class="catalog-item">
                         <div class="catalog-item__wrapper">
                             <a class="catalog-item__image-link" href="#">
@@ -304,64 +304,100 @@
                         <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
                     </section>
                 </div>
-                <div class="catalog-index__button-wrapper">
-                    <a class="catalog-index__button catalog-index__button--mobile button" href="#">Показать все</a>
-                    <a class="catalog-index__button catalog-index__button--desktop button" href="#">Все новые поступления</a>
+                <div class="catalog__button-wrapper">
+                    <a class="catalog__button catalog__button--mobile button" href="#">Показать все</a>
+                    <a class="catalog__button catalog__button--desktop button" href="#">Все новые поступления</a>
                 </div>
             </div>
         </section>
-        <section class="filter-index container">
-            <h2 class="filter-index__main-title">Быстрый поиск</h2>
-            <div class="filter-index__wrapper">
-                <div class="filter-index__block">
-                    <h3 class="filter-index__title">Быстрый поиск по размеру</h3>
-                    <ul class="filter-index__list">
-                        <li class="filter-index__item">
-                            <button class="filter-index__button filter-index__button--size" type="button">36</button>
+        <section class="filter-fast container">
+            <h2 class="filter-fast__main-title">Быстрый поиск</h2>
+            <div class="filter-fast__wrapper">
+                <div class="filter-fast__block">
+                    <h3 class="filter-fast__title">Быстрый поиск по размеру</h3>
+                    <ul class="filter-fast__list">
+                        <li class="filter-fast__item">
+                            <label class="filter-fast__button filter-fast__button--size" for="size-fast36">36
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="size-fast36">
+                                <span class="filter-fast__check"></span>
+                            </label>
                         </li>
-                        <li class="filter-index__item">
-                            <button class="filter-index__button filter-index__button--size" type="button">37</button>
+                        <li class="filter-fast__item">
+                            <label class="filter-fast__button filter-fast__button--size" for="size-fast37">37
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="size-fast37">
+                                <span class="filter-fast__check"></span>
+                            </label>
                         </li>
-                        <li class="filter-index__item">
-                            <button class="filter-index__button filter-index__button--size" type="button">38</button>
+                        <li class="filter-fast__item">
+                            <label class="filter-fast__button filter-fast__button--size" for="size-fast38">38
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="size-fast38">
+                                <span class="filter-fast__check"></span>
+                            </label>
                         </li>
-                        <li class="filter-index__item">
-                            <button class="filter-index__button filter-index__button--size" type="button">39</button>
+                        <li class="filter-fast__item">
+                            <label class="filter-fast__button filter-fast__button--size" for="size-fast39">39
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="size-fast39">
+                                <span class="filter-fast__check"></span>
+                            </label>
                         </li>
-                        <li class="filter-index__item">
-                            <button class="filter-index__button filter-index__button--size" type="button">40</button>
-                        </li>
-                    </ul>
-                </div>
-    <!--            класс filter-index__item-hide прячет две последние плашки с цветом на десктопе -->
-                <div class="filter-index__block">
-                    <h3 class="filter-index__title">Поиск по цветам</h3>
-                    <ul class="filter-index__list">
-                        <li class="filter-index__item">
-                            <button class="filter-index__button filter-index__button--color" type="button"></button>
-                        </li>
-                        <li class="filter-index__item">
-                            <button class="filter-index__button filter-index__button--color" type="button"></button>
-                        </li>
-                        <li class="filter-index__item">
-                            <button class="filter-index__button filter-index__button--color" type="button"></button>
-                        </li>
-                        <li class="filter-index__item filter-index__item-hide">
-                            <button class="filter-index__button filter-index__button--color" type="button"></button>
-                        </li>
-                        <li class="filter-index__item filter-index__item-hide">
-                            <button class="filter-index__button filter-index__button--color" type="button"></button>
+                        <li class="filter-fast__item">
+                            <label class="filter-fast__button filter-fast__button--size" for="size-fast40">40
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="size-fast40">
+                                <span class="filter-fast__check"></span>
+                            </label>
                         </li>
                     </ul>
                 </div>
-                <div class="filter-index__block">
-                    <h3 class="filter-index__title">Поиск по цене</h3>
-                    <ul class="filter-index__list">
-                        <li class="filter-index__item filter-index__item--cost">
-                            <button class="filter-index__button filter-index__button--cost" type="button">до 3000 рублей</button>
+    <!--            класс filter-fast__item-hide прячет две последние плашки с цветом на десктопе -->
+                <div class="filter-fast__block">
+                    <h3 class="filter-fast__title">Поиск по цветам</h3>
+                    <ul class="filter-fast__list">
+                        <li class="filter-fast__item">
+                            <label class="filter-fast__button filter-fast__button--color" for="color-fast1">
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="color-fast1">
+                                <span class="filter-fast__check"></span>
+                            </label>
                         </li>
-                        <li class="filter-index__item filter-index__item--cost">
-                            <button class="filter-index__button filter-index__button--cost" type="button">до 5000 рублей</button>
+                        <li class="filter-fast__item">
+                            <label class="filter-fast__button filter-fast__button--color" for="color-fast2">
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="color-fast2">
+                                <span class="filter-fast__check"></span>
+                            </label>
+                        </li>
+                        <li class="filter-fast__item">
+                            <label class="filter-fast__button filter-fast__button--color" for="color-fast3">
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="color-fast3">
+                                <span class="filter-fast__check"></span>
+                            </label>
+                        </li>
+                        <li class="filter-fast__item filter-fast__item-hide">
+                            <label class="filter-fast__button filter-fast__button--color" for="color-fast4">
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="color-fast4">
+                                <span class="filter-fast__check"></span>
+                            </label>
+                        </li>
+                        <li class="filter-fast__item filter-fast__item-hide">
+                            <label class="filter-fast__button filter-fast__button--color" for="color-fast5">
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="color-fast5">
+                                <span class="filter-fast__check"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter-fast__block">
+                    <h3 class="filter-fast__title">Поиск по цене</h3>
+                    <ul class="filter-fast__list">
+                        <li class="filter-fast__item filter-fast__item--cost">
+                            <label class="filter-fast__button filter-fast__button--cost" for="cost-fast1">до 3000 рублей
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="cost-fast1">
+                                <span class="filter-fast__check"></span>
+                            </label>
+                        </li>
+                        <li class="filter-fast__item filter-fast__item--cost">
+                            <label class="filter-fast__button filter-fast__button--cost" for="cost-fast2">до 5000 рублей
+                                <input class="filter-fast__checkbox visually-hidden" type="checkbox" id="cost-fast2">
+                                <span class="filter-fast__check"></span>
+                            </label>
                         </li>
                     </ul>
                 </div>
@@ -383,9 +419,9 @@
             </div>
         </section>
         <section class="container">
-            <div class="catalog-index">
-                <h2 class="catalog-index__title">Название любой подборки</h2>
-                <div class="catalog-index__wrapper">
+            <div class="catalog">
+                <h2 class="catalog__title">Название любой подборки</h2>
+                <div class="catalog__wrapper">
                     <section class="catalog-item">
                         <div class="catalog-item__wrapper">
                             <a class="catalog-item__image-link" href="#">
@@ -529,10 +565,10 @@
                         <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
                     </section>
                 </div>
-                <div class="catalog-index__button-wrapper">
-                    <a class="catalog-index__button catalog-index__button--mobile button" href="#">Показать все</a>
-                    <a class="catalog-index__button catalog-index__button--desktop button" href="#">Смотреть все</a>
-                    <a class="catalog-index__button catalog-index__button--xldesktop button" href="#">Все новые поступления</a>
+                <div class="catalog__button-wrapper">
+                    <a class="catalog__button catalog__button--mobile button" href="#">Показать все</a>
+                    <a class="catalog__button catalog__button--desktop button" href="#">Смотреть все</a>
+                    <a class="catalog__button catalog__button--xldesktop button" href="#">Все новые поступления</a>
                 </div>
             </div>
         </section>
@@ -542,9 +578,9 @@
             </a>
         </section>
         <section class="container">
-            <div class="catalog-index catalog-index__thirdblock">
-                <h2 class="catalog-index__title visually-hidden">Название любой подборки</h2>
-                <div class="catalog-index__wrapper">
+            <div class="catalog catalog__thirdblock">
+                <h2 class="visually-hidden">Название любой подборки</h2>
+                <div class="catalog__wrapper">
                     <section class="catalog-item">
                         <div class="catalog-item__wrapper">
                             <a class="catalog-item__image-link" href="#">
@@ -627,10 +663,10 @@
                         <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
                     </section>
                 </div>
-                <div class="catalog-index__button-wrapper">
-                    <a class="catalog-index__button catalog-index__button--mobile button" href="#">Показать все</a>
-                    <a class="catalog-index__button catalog-index__button--desktop button" href="#">Смотреть все</a>
-                    <a class="catalog-index__button catalog-index__button--xldesktop button" href="#">Все новые поступления</a>
+                <div class="catalog__button-wrapper">
+                    <a class="catalog__button catalog__button--mobile button" href="#">Показать все</a>
+                    <a class="catalog__button catalog__button--desktop button" href="#">Смотреть все</a>
+                    <a class="catalog__button catalog__button--xldesktop button" href="#">Все новые поступления</a>
                 </div>
             </div>
         </section>
