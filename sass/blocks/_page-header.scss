@@ -129,6 +129,10 @@
   justify-content: center;
 }
 
+.page-header__promo-wrapper--catalog {
+border-bottom: 1px solid $border-color;
+}
+
 .page-header__promo {
   @include margin-reset;
   font-size: 13px;

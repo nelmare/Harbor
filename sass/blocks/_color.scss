@@ -1,0 +1,80 @@
+//Для скрывания списка цветов в фильтре при нажатии на выпадающее меню
+.color__list--hide {
+display: none;
+}
+//---
+
+.color__list {
+  @include margin-reset;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.color__item {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.color__label {
+  border: 1px solid $border-color;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.color__label--inner {
+  width: 45px;
+  height: 45px;
+  position: relative;
+}
+
+.color__label--inner::before {
+  content: "";
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 15%;
+  bottom: 14%;
+  background-color: $image-back1;
+}
+
+.color__check {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.color__checkbox:checked + .color__check {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/icon-check.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  background-color: $check-back;
+}
+
+.color__checkbox:focus ~ .color__check {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.color__checkbox:-moz-focusring ~ .color__check {
+  outline: 2px dotted;
+}

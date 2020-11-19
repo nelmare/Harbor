@@ -61,7 +61,7 @@
   top: 50%;
   cursor: pointer;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: $check-back;
 }
 
 .filter-fast__checkbox:focus ~ .filter-fast__check {

@@ -1,0 +1,118 @@
+//Для скрывания списка цветов в фильтре при нажатии на выпадающее меню
+.size__list--hide {
+  display: none;
+}
+//---
+
+.size__table-item {
+  margin-bottom: 17px;
+}
+
+.size__table-link {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+  text-transform: none;
+  color: inherit;
+}
+
+.size__comment {
+  position: relative;
+  padding-left: 45px;
+}
+
+.size__comment:before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/icon-warning.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+  background-color: $check-back;
+}
+
+.size__comment-text {
+  @include margin-reset;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  text-transform: none;
+}
+
+.size__comment-link {
+  color: inherit;
+}
+
+.size__info-list {
+  @include margin-reset;
+  list-style: none;
+}
+
+.size__list {
+  @include margin-reset;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.size__item {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  //width: 45px;
+  //height: 45px;
+}
+
+.size__label {
+  border: 1px solid $border-color;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 45px;
+  height: 45px;
+}
+
+.size__check {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.size__checkbox:checked + .size__check {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/icon-check.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  background-color: $check-back;
+}
+
+.size__checkbox:focus ~ .size__check {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.size__checkbox:-moz-focusring ~ .size__check {
+  outline: 2px dotted;
+}
