@@ -5,8 +5,14 @@
   background-color: $mainback-color;
 }
 
-.sorting__item {
+//.sorting__item {
+//
+//}
 
+
+
+.sorting__link {
+  display: none;
 }
 
 .sorting__label {
@@ -19,7 +25,7 @@
   position: relative;
   width: 313px;
   display: block;
-  padding: 15px 0;
+  padding: 20px 0;
   border-bottom: 1px solid $border-color;
 }
 
@@ -56,7 +62,7 @@
   height: 1px;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -19px;
   background-color: $border-color2;
 }
 
@@ -87,6 +93,14 @@
     position: relative;
     padding-top: 0;
     padding-bottom: 10px;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
   }
 
   .sorting__link--open::before {
@@ -94,7 +108,7 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    top: 30%;
+    top: 25%;
     transform: translateY(-50%);
     right: 0;
     background-image: url(../img/icon-down.svg);
@@ -111,7 +125,7 @@
       position: absolute;
       width: 24px;
       height: 24px;
-      top: 35%;
+      top: 30%;
       transform: translateY(-50%);
       right: 0;
       background-image: url(../img/icon-up.svg);

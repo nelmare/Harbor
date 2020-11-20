@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
+  width: 375px;
 }
 
 .actual-block__image-wrapper {
@@ -9,7 +10,8 @@
   width: 375px;
   min-height: 200px;
   background-color: $image-back1;
-  margin: 0 auto;
+  //margin: 0 auto;
+  margin-right: auto;
 }
 
 .actual-block__image {
@@ -22,6 +24,7 @@
   width: 214px;
   min-height: 275px;
   margin: 0 auto;
+
 }
 
 .actual-block__link {
@@ -50,6 +53,17 @@
   display: none;
 }
 
+.actual-block--selection {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.actual-block--selection .actual-block__title {
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: $desktop-width) {
   .actual-block {
     flex-direction: row;
@@ -57,6 +71,7 @@
     border-top: 1px solid $border-color;
     align-items: center;
     padding-bottom: 100px;
+    width: 1440px;
   }
 
   .actual-block__link-wrapper {
@@ -65,6 +80,7 @@
     order: 2;
     width: 39%;
   }
+
 
   .actual-block__button {
     display: inline-block;
@@ -80,6 +96,8 @@
     margin: 0;
     margin-right: 60px;
   }
+
+
 
   .actual-block__image {
     width: 720px;
@@ -100,6 +118,7 @@
     padding-top: 60px;
     border-top: none;
     justify-content: space-between;
+    margin-left: auto;
   }
 
   .actual-block--padding .actual-block__link-wrapper {
@@ -121,6 +140,7 @@
     padding-bottom: 0;
     justify-content: center;
     display: flex;
+    margin: 0 auto;
   }
 
   .actual-block--background:before {
@@ -154,11 +174,23 @@
     line-height: 60px;
     width: 55%;
   }
+
+  .actual-block--selection {
+    padding-top: 0;
+  }
+
+  .actual-block--selection .actual-block__link-wrapper {
+    order: 2;
+  }
+
+  .actual-block--selection .actual-block__image-wrapper {
+    order: 1;
+  }
 }
 
 @media (min-width: $xldesktop-width) {
   .actual-block {
-    max-width: 1920px;
+    width: 1920px;
   }
 
   .actual-block__link-wrapper {
@@ -178,6 +210,9 @@
     margin-bottom: 21px;
   }
 
+  .actual-block--padding {
+    margin-left: 0;
+  }
   .actual-block--padding .actual-block__link-wrapper {
     padding-left: 320px;
   }

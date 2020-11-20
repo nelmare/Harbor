@@ -92,7 +92,7 @@
             <li class="page-header__cart-bill"><span class="page-header__bill">29991 руб.</span></li>
         </ul>
     </div>
-    <section class="page-header__promo-wrapper page-header__promo-wrapper--catalog">
+    <section class="page-header__promo-wrapper page-header__promo-wrapper--border">
         <p class="page-header__promo">
             <b class="page-header__promo-bold">Скидки 50%</b> на всю <a class="page-header__promo-link" href="#">
             женскую коллекцию.</a> <b>Акция заканчивается
@@ -295,12 +295,11 @@
                                     <span class="size__check"></span>
                                 </label>
                             </li>
-                            <li class="size__item">
+                            <li class="size__item size__item--lack">
                                 <label class="size__label" for="size2">36
                                     <input class="size__checkbox visually-hidden" type="checkbox" id="size2">
                                     <span class="size__check"></span>
                                 </label>
-                                <span>Нет в наличии</span>
                             </li>
                             <li class="size__item">
                                 <label class="size__label" for="size3">37
@@ -344,22 +343,10 @@
                                     <span class="size__check"></span>
                                 </label>
                             </li>
-                            <li class="size__info-wrapper">
-                                <ul class="size__info-list">
-                                    <li class="size__table-item">
-                                        <a href="#" class="size__table-link">Таблица размеров</a>
-                                    </li>
-                                    <li class="size__comment">
-                                        <p class="size__comment-text">Выберите несколько размеров, примерьте и верните то, что не
-                                            подошло. <a href="#" class="size__comment-link">Подробнее</a>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </li>
                         </ul>
                     </li>
                     <li class="filter__item filter__item--collection category">
-                        <a class="filter__link category__link filter__link--open ">Коллекции</a>
+                        <a class="filter__link category__link filter__link--open">Коллекции</a>
                         <ul class="filter__list category__list">
                             <li class="category__item">
                                 <label class="category__label" for="collection1">
@@ -406,13 +393,13 @@
             </div>
     <!--        На десктопе нужно убирать класс popup и popup-hide у блока сортировки -->
             <div class="catalog-main__sorting sorting catalog-main__popup popup popup-hide">
-                <div class="catalog-main__popup-title-wrapper">
+                <div class="catalog-main__popup-title-wrapper catalog-main__popup-title-wrapper--sorting">
                     <h2 class="catalog-main__popup-title">Сортировка</h2>
                     <button class="catalog-main__popup-close"><span class="visually-hidden">Закрыть</span></button>
                 </div>
-                <ul class="sorting__list filter__main-list">
+                <ul class="sorting__list">
                     <li class="sorting__item">
-                        <a class="sorting__link sorting__link--closed filter__link">По возрастанию цены</a>
+                        <a class="sorting__link sorting__link--closed">По возрастанию цены</a>
                     </li>
                     <li class="sorting__item">
                         <label class="sorting__label" for="lowcost">По убыванию цены
@@ -518,7 +505,7 @@
                             </div>
                             <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
                         </section>
-                        <section class="catalog-item">
+                        <section class="catalog-item catalog-item__hide">
                             <div class="catalog-item__wrapper">
                                 <a class="catalog-item__image-link" href="#">
                                     <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background1">
@@ -849,6 +836,54 @@
     </ul>
     <p class="page-footer__copyright">© Copyright 2020 Harbor. Все права защищены.</p>
 </footer>
+<div class="catalog-main__filter catalog-main__popup popup-sizes size popup popup-hide">
+    <div class="catalog-main__popup-title-wrapper popup-sizes__title-wrapper">
+        <h2 class="catalog-main__popup-title">Размеры</h2>
+        <button class="catalog-main__popup-close"><span class="visually-hidden">Закрыть</span></button>
+    </div>
+    <ul class="popup-sizes__list popup-sizes__list-hide">
+        <li class="popup-sizes__item">
+            <label class="popup-sizes__label" for="size1-popup">
+                <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size1-popup" checked>
+                <span class="popup-sizes__check"></span>
+                <span class="popup-sizes__check-text">32</span>
+                <span class="popup-sizes__no visually-hidden">Нет в наличии</span>
+            </label>
+        </li>
+        <li class="popup-sizes__item popup-sizes__item--lack">
+            <label class="popup-sizes__label" for="size2-popup">
+                <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size2-popup" checked>
+                <span class="popup-sizes__check"></span>
+                <span class="popup-sizes__check-text">33</span>
+                <span class="popup-sizes__lack-text">Нет в наличии</span>
+            </label>
+        </li>
+        <li class="popup-sizes__item">
+            <label class="popup-sizes__label" for="size3-popup">
+                <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size3-popup" checked>
+                <span class="popup-sizes__check"></span>
+                <span class="popup-sizes__check-text">33</span>
+                <span class="popup-sizes__no visually-hidden">Нет в наличии</span>
+            </label>
+        </li>
+        <li class="popup-sizes__item">
+            <label class="popup-sizes__label" for="size4-popup">
+                <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size4-popup" checked>
+                <span class="popup-sizes__check"></span>
+                <span class="popup-sizes__check-text">34</span>
+                <span class="popup-sizes__no visually-hidden">Нет в наличии</span>
+            </label>
+        </li>
+        <li class="size__table-item">
+            <a href="#" class="size__table-link">Таблица размеров</a>
+        </li>
+        <li class="size__comment">
+            <p class="size__comment-text">Выберите несколько размеров, примерьте и верните то, что не
+                подошло. <a href="#" class="size__comment-link">Подробнее</a>
+            </p>
+        </li>
+    </ul>
+</div>
 <script src="js/burger.js"></script>
 <script>svg4everybody();</script>
 </body>

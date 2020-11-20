@@ -5,7 +5,7 @@ display: none;
 //---
 
 .color__list {
-  @include margin-reset;
+  margin: 0;
   list-style: none;
   display: flex;
   justify-content: flex-start;

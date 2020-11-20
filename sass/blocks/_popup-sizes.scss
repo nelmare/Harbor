@@ -1,0 +1,40 @@
+.popup-sizes__title-wrapper {
+  min-height: 308px;
+}
+
+.popup-sizes__list {
+  margin: 0;
+  list-style: none;
+  padding: 15px 30px;
+  background-color: $mainback-color;
+}
+
+.popup-sizes__item {
+  border-bottom: 1px solid $border-color;
+  padding: 15px 0;
+}
+
+.popup-sizes__label {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: left;
+}
+
+.popup-sizes .size__table-item {
+  margin-top: 15px;
+}
+
+.popup-sizes__item--lack .popup-sizes__label {
+   font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  color: $text-color6;
+}
+
+.popup-sizes__lack-text {
+  margin-left: auto;
+  display: inline-block;
+  color: $maintext-color;
+}
+

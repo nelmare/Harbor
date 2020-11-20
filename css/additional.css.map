@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "additional.css",
+	"sources": [
+		"../sass/blocks/additional.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,aAAa,CAAC;EACZ,cAAc,EAAE,IAAI;EACpB,aAAa,EAAE,IAAI;EACnB,YAAY,EAAE,GAAG;EACjB,WAAW,EAAE,GAAG;EAChB,QAAQ,EAAE,QAAQ,GACnB"
+}

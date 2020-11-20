@@ -1,5 +1,7 @@
 .catalog-main__container {
   padding: 0 30px;
+  width: 375px;
+  margin: 0 auto;
 }
 
 .catalog-main__settings--mobile {
@@ -68,6 +70,10 @@
   backdrop-filter: blur(15px);
 }
 
+.catalog-main__popup-title-wrapper--sorting {
+  min-height: 410px;
+}
+
 .catalog-main__popup-title {
   @include margin-reset;
   font-size: 20px;
@@ -106,9 +112,11 @@
 
 
 
+
 @media (min-width: $desktop-width) {
   .catalog-main__container {
     padding: 0 90px;
+    width: 1440px;
   }
 
   .catalog-main__block {
@@ -137,9 +145,9 @@
   .catalog-main__sorting {
     width: 233px;
     position: fixed;
-    right: 200px;
+    left: 1145px;
     z-index: 7;
-    top: 362px;
+    top: 320px;
     min-height: auto;
   }
 
@@ -150,5 +158,12 @@
   }
 }
 
+@media (min-width: $xldesktop-width) {
+  .catalog-main__container {
+    padding: 0 90px;
+    width: 1920px;
+    margin: 0 auto;
+  }
+}
 
 

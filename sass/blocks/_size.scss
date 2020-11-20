@@ -55,7 +55,7 @@
 }
 
 .size__list {
-  @include margin-reset;
+  margin: 0;
   list-style: none;
   display: flex;
   justify-content: flex-start;
@@ -116,3 +116,8 @@
 .size__checkbox:-moz-focusring ~ .size__check {
   outline: 2px dotted;
 }
+
+.size__item--lack .size__label {
+  color: $text-color6;
+}
+
