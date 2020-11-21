@@ -171,23 +171,96 @@
     </nav>
 </header>
 <main>
-    <h1 class="visually-hidden">Интернет-магазин обуви Harbor</h1>
-    <section class="actual-block actual-block--selection">
-        <div class="actual-block__link-wrapper">
-            <a href="#" class="actual-block__link">
-                <h2 class="actual-block__title">Модель Harbor&nbsp;Lights</h2>
-            </a>
-            <a class="actual-block__button button" href="#">Смотреть</a>
+    <div>
+        <div>
+            <ul class="breadcrumbs">
+                <li>
+                    <a class="home-breadcrumbs" href="catalog-women.html">
+                        <span class="visually-hidden">Обувь для женщин</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="catalog-breadcrumbs" href="item.html">Кроссовки</a>
+                </li>
+            </ul>
         </div>
-        <div class="actual-block__image-wrapper actual-block__image-wrapper--padding">
-            <picture>
-                <source media="(min-width: 1920px)" srcset="img/promo-image1-xldesk@1x.jpg 1x, img/promo-image1-xldesk@2x.jpg 2x">
-                <source media="(min-width: 1440px)" srcset="img/promo-image1-desk@1x.jpg 1x, img/promo-image1-desk@2x.jpg 2x">
-                <img class="actual-block__image" src="img/promo-image1-mobile@1x.jpg" srcset="img/promo-image1-mobile@2x.jpg 2x"
-                     width="214" height="275" alt="Изображение моделей обуви Harbor Lights">
-            </picture>
+
+        <div>
+            <h1 class="visually-hidden">Кроссовки Harbor Lights</h1>
+            <span>heart</span>
         </div>
-    </section>
+        <p class="catalog-item__cost">
+            <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+            <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+            <span class="catalog-item__cost catalog-item__cost--discount">Cкидка 50%</span>
+        </p>
+        <div>
+            <p>Скидка 50%. Акция заканчивается через 03:04:32 </p>
+            <p>Нет в наличии</p>
+        </div>
+    </div>
+
+
+    <div class="slider">
+        <div class="slider__wrapper">
+<!--            <div class="slider__content">-->
+                <input class="slider__input  visually-hidden" type="radio" name="slider-radio" id="slider-radio1" checked>
+                <input class="slider__input visually-hidden" type="radio" name="slider-radio" id="slider-radio2">
+                <input class="slider__input visually-hidden" type="radio" name="slider-radio" id="slider-radio3">
+                <input class="slider__input visually-hidden" type="radio" name="slider-radio" id="slider-radio4">
+                <input class="slider__input visually-hidden" type="radio" name="slider-radio" id="slider-radio5">
+                <div class="slider__item s1">
+                    <img class="slider__image" src="img/item-image-mobile@1x.jpg" alt="" width="282" height="325">
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="img/item-image-desk2@1x.jpg" width="282" height="325" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="img/item-image-desk3@1x.jpg" width="282" height="325" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="img/item-image-desk4@1x.jpg" width="282" height="325" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="img/item-image-desk5@1x.jpg" width="282" height="325" alt="">
+                </div>
+<!--            </div>-->
+        </div>
+        <div class="slider__nav">
+            <label class="slider__bar" for="slider-radio1"></label>
+            <label class="slider__bar" for="slider-radio2"></label>
+            <label class="slider__bar" for="slider-radio3"></label>
+            <label class="slider__bar" for="slider-radio4"></label>
+            <label class="slider__bar" for="slider-radio5"></label>
+        </div>
+    </div>
+
+
+
+    <li class="slider">
+        <ul class="slider-list">
+            <li class="slider-item drill">
+                <h3>Дрели</h3>
+                <p>Соседям на радость!</p>
+                <a class="button button-slider" href="catalog.html">Открыть каталог</a>
+            </li>
+            <li class="slider-item perforator">
+                <h3>Перфораторы</h3>
+                <p>Настоящие мужские игрушки</p>
+                <a class="button button-slider" href="#">Открыть каталог</a>
+            </li>
+        </ul>
+        <button class="slider-arrows button-right" type="button" aria-label="Вперед"></button>
+        <button class="slider-arrows button-left" type="button" aria-label="Назад"></button>
+        <div class="slider-controls">
+            <i></i>
+            <i class="active"></i>
+        </div>
+    </li>
+
+
+
+
     <section class="container">
         <div class="catalog catalog--selection">
             <h2 class="catalog__title">Название подборки</h2>

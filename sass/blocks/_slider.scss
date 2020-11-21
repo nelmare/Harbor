@@ -1,0 +1,72 @@
+.slider {
+  position: relative;
+  padding-bottom: 60px;
+  width: 375px;
+  overflow: hidden;
+}
+
+.slider__wrapper {
+  //width: 375px;
+  //height: 325px;
+  display: flex;
+  width: 380%;
+  height: 100%;
+  font-size: 0;
+
+}
+
+.slider__nav {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.slider__bar {
+  width: 10px;
+  height: 10px;
+  background-color: $image-back3;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider__bar:hover,
+.slider__bar:focus {
+  width: 10px;
+  height: 10px;
+  background-color: $menu-button-back;
+}
+
+.slider__input:checked ~ .slider-bar {
+  width: 10px;
+  height: 10px;
+  background-color: $menu-button-back;
+}
+
+.slider__item {
+  width: 282px;
+  transition: all .6s ease;
+  display: flex;
+}
+
+.slider__input:first-child:checked ~ .s1 {
+  margin-left: 0;
+}
+
+.slider__input:nth-child(2):checked ~ .s1 {
+  margin-left: -25%;
+}
+
+.slider__input:nth-child(3):checked ~ .s1 {
+  margin-left: -50%;
+}
+
+.slider__input:nth-child(4):checked ~ .s1 {
+  margin-left: -75%;
+}
+
+.slider__input:nth-child(5):checked ~ .s1 {
+  margin-left: 0;
+}
