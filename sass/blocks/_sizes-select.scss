@@ -1,0 +1,224 @@
+.sizes-select {
+  min-width: 375px;
+  max-width: 450px;
+  height: 86px;
+  position: sticky;
+  z-index: 10;
+  padding: 20px 30px;
+  //margin: 0 -30px;
+  background-color: $mainback-color;
+  bottom: 50%;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sizes-select__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.sizes-select__button {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 16px;
+  border: 1px solid $border-color;
+  padding: 12px 10px;
+  width: 180px;
+  text-align: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: $mainback-color;
+  cursor: pointer;
+}
+
+.sizes-select__button:before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 3%;
+  background-image: url(../img/icon-down.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sizes-select__textbutton--desktop {
+  display: none;
+}
+
+.sizes-select__list {
+  @include margin-reset;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
+}
+
+.sizes-select__option {
+  border-bottom: 1px solid $border-color;
+}
+
+.sizes-select__option-button {
+  padding: 12px 10px;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 16px;
+  border: none;
+  background-color: $mainback-color;
+  width: 100%;
+  display: flex;
+  //justify-content: flex-start;
+  align-items: center;
+text-align: left;
+}
+
+.sizes-select__table-item {
+  display: none;
+}
+
+.sizes-select__text {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.sizes-select__text--instoke {
+  color: #9c5759;
+}
+
+.sizes-select__text--lack {
+  color: inherit;
+}
+
+.sizes-select__basket-button-text--loading {
+  height: 38px;
+  display: block;
+}
+
+.sizes-select__basket-button-text--loading::before {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 50%;
+  right: 42%;
+  transform: translate(-50%, -50%);
+  background-image: url(../img/icon-loader.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sizes-select__basket-button {
+  padding: 11px 20px;
+  background-color: $menu-button-back;
+  color: $text-color4;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+}
+
+.sizes-select__basket-button-text--desktop {
+  display: none;
+}
+
+.sizes-select__order-button {
+  padding: 11px 10px;
+  background-color: $mainback-color;
+  font-size: 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (min-width: $desktop-width) {
+  .sizes-select {
+    position: static;
+    max-width: none;
+    height: auto;
+    margin-bottom: 730px;
+  }
+
+  .sizes-select__wrapper {
+    width: 450px;
+    margin-bottom: 15px;
+  }
+
+  .sizes-select__button {
+    padding: 15px 10px;
+    width: 305px;
+  }
+
+  .sizes-select__basket-button,
+  .sizes-select__order-button {
+    width: 100%;
+    display: block;
+  }
+
+  .sizes-select__order-button {
+    font-size: inherit;
+    padding: 20px;
+  }
+
+  .sizes-select__basket-button {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 20px;
+  }
+
+  .sizes-select__textbutton--desktop,
+  .sizes-select__table-item,
+  .sizes-select__basket-button-text--desktop {
+    display: block;
+  }
+
+  .sizes-select__textbutton--mobile,
+  .sizes-select__basket-button-text--mobile {
+    display: none;
+  }
+
+  .sizes-select__table-link {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: 18px;
+    text-transform: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .sizes-select__list {
+    width: 305px;
+    top: 0;
+    height: 215px;
+    overflow: hidden;
+  }
+
+  .sizes-select__option-button {
+justify-content: space-between;
+  }
+
+  .sizes-select__text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+}

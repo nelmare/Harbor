@@ -51,6 +51,20 @@
   background-position: center center;
 }
 
+.catalog-item__favorite:hover::after,
+.catalog-item__favorite:focus::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 0;
+  right: 0;
+  background-image: url("../img/icon-heart-check.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 5;
+}
+
 .catalog-item__link {
   text-decoration: none;
   color: inherit;

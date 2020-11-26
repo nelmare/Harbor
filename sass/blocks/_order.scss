@@ -1,0 +1,470 @@
+.order__tabs {
+  border-bottom: 1px solid $menu-line;
+  font-size: 0;
+}
+
+.order__tablink {
+  padding: 15px;
+  border: 1px solid $menu-line;
+  background-color: $mainback-color;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-bottom: -1px;
+  text-transform: uppercase;
+}
+
+.order__tablink:nth-child(odd) {
+  border-right: none;
+}
+
+.order__title {
+  @include margin-reset;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.03em;
+}
+
+.order__tablink--active {
+  border-bottom: 1px solid $mainback-color;
+}
+
+.order__tablink--active .order__title {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  border-bottom: 1px solid $mainback-color;
+}
+
+.order__tabcontent {
+  padding: 20px 0 10px 0;
+  border-bottom: 1px solid $menu-mobile-back;
+}
+
+.order__tabcontent--fast {
+  padding: 45px 0 75px 0;
+}
+
+.order__intro {
+  @include margin-reset;
+  text-transform: none;
+  margin-bottom: 35px;
+}
+
+.order__tabcontent--fast .order__intro {
+  display: none;
+}
+
+.order__form {
+  width: 315px;
+}
+
+.order__form-wrapper {
+  @include margin-reset;
+  border: none;
+  padding-bottom: 10px;
+}
+
+.order__form-title {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.order__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  align-items: center;
+}
+
+.order__block--email {
+  padding-bottom: 20px ;
+}
+
+.order__label {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.order__line {
+  border: none;
+  border-bottom: 1px solid $menu-line;
+  padding: 10px 10px 10px 0;
+  font-weight: 700;
+  line-height: 18px;
+  color: $maintext-color;
+  width: 100%;
+}
+
+.order__tabcontent--fast .order__block--name {
+padding-bottom: 30px;
+}
+
+.order__checkbox-name {
+  padding-left: 28px;
+  position: relative;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: none;
+}
+
+.order__check {
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  border: 1px solid $border-color;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.order__checkbox:checked + .order__check {
+  content: "";
+  width: 21px;
+  height: 20px;
+  background-image: url("../img/icon-check-square.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  border: none;
+  left: 0;
+  top: -3%;
+  cursor: pointer;
+}
+
+.order__checkbox:focus ~ .order__check {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.order__checkbox:-moz-focusring ~ .order__check {
+  outline: 2px dotted;
+}
+
+.order__block--city {
+  position: relative;
+}
+
+.order__select {
+  border: none;
+  border-bottom: 1px solid $menu-line;
+  padding: 10px 10px 10px 0;
+  font-weight: 700;
+  line-height: 18px;
+  color: $maintext-color;
+  width: 100%;
+  position: relative;
+  background-color: $mainback-color;
+  text-align: left;
+  cursor: pointer;
+}
+
+.order__select:before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 3%;
+  background-image: url(../img/icon-down.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 10;
+}
+
+.order__select-list {
+  @include margin-reset;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+}
+
+.order__select-option {
+  border-bottom: 1px solid $border-color;
+}
+
+.order__option-button {
+  padding: 12px 10px;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 16px;
+  border: none;
+  background-color: $mainback-color;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.order__subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-bottom: 15px;
+}
+
+.order__list {
+  @include margin-reset;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.order__list-label {
+position: relative;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: none;
+  cursor: pointer;
+}
+
+.order__list-label--checkbox {
+padding-left: 28px;
+}
+
+.order__company-link {
+  color: inherit;
+}
+
+.order__item {
+  margin-bottom: 15px;
+}
+
+.order__radio + label::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: 6px solid $mainback-color;
+  box-shadow: 0 0 0 1px $border-color4;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 8px 8px;
+  background-color: $mainback-color;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 8px;
+  box-sizing: content-box;
+}
+
+.order__radio:checked + label::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: 6px solid $mainback-color;
+  box-shadow: 0 0 0 1px $border-color4;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 8px 8px;
+  background-color: $menu-button-back;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.order__form-wrapper--pickup {
+  display: none;
+}
+
+.order__delivery-link,
+.order__checkbox-link {
+  color: inherit;
+  line-height: 18px;
+  text-transform: none;
+  cursor: pointer;
+}
+
+.order__block--subscribe .order__checkbox-name {
+  font-size: 11px;
+  line-height: 18px;
+  padding-bottom: 5px;
+}
+
+.order__block--address-desktop {
+  display: none;
+}
+
+.order__tabcontent--fast .order__block--personality {
+  display: none;
+}
+
+
+@media (min-width: $desktop-width) {
+  .order__tabs,
+  .order__tabcontent {
+    width: 810px;
+  }
+
+  .order__tabcontent {
+    padding-bottom: 110px;
+  }
+
+  .order__tabcontent--fast {
+    padding: 35px 0 220px 0;
+  }
+
+  .order__intro {
+    margin-bottom: 65px;
+  }
+
+  .order__form-title {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 35px;
+    order: 1;
+    width: 100%;
+  }
+
+  .order__form {
+    width: 810px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .order__form-wrapper--contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    order: 1;
+  }
+
+  .order__block--name {
+    order: 2;
+    width: 100%;
+  }
+
+  .order__block--email {
+    order: 3;
+    width: 48%;
+  }
+
+  .order__block--phone {
+    order: 4;
+    width: 48%;
+  }
+
+  .order__block--subscribe {
+    order: 5;
+    width: 48%;
+  }
+
+  .order__form-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .order__form-wrapper--deliverytype {
+    order: 2;
+    padding-bottom: 60px;
+  }
+
+  .order__form-wrapper--pickup {
+    display: block;
+    order: 3;
+    padding-bottom: 70px;
+  }
+
+  .order__form-wrapper--delivery {
+    order: 4;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-bottom: 65px;
+  }
+
+  .order__form-wrapper--deliverytime {
+    order: 5;
+    padding-bottom: 60px;
+  }
+
+  .order__form-wrapper--payment {
+    order: 6;
+    padding-bottom: 65px;
+  }
+
+  .order__block--subscribe {
+    order: 7;
+    padding-bottom: 30px;
+  }
+
+  .order__subtitle {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .order__block--city,
+  .order__block--address {
+    width: 48%;
+  }
+
+  .order__block--comment {
+    width: 100%;
+  }
+
+  .order__block--address-desktop {
+    display: flex;
+  }
+
+  .order__block--address-mobile {
+    display: none;
+  }
+
+  .order__subtitle--deliverytime {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    margin-bottom: 15px;
+  }
+
+  .order__list--checkbox {
+    flex-direction: row;
+  }
+
+  .order__item--checkbox {
+    margin-right: 20px;
+  }
+
+  .order__block--personality {
+    width: 100%;
+  }
+
+  .order__tabcontent--fast .order__intro {
+    @include margin-reset;
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  .order__tabcontent--fast .order__block--subscribe {
+    display: none;
+  }
+
+  .order__tabcontent--fast .order__block--personality {
+    display: flex;
+    padding-top: 30px;
+  }
+
+  .order__tabcontent--fast .order__form-wrapper {
+    padding-bottom: 0;
+  }
+
+}

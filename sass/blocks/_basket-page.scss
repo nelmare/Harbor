@@ -1,0 +1,130 @@
+.basket-page__main {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.basket-page__main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.basket-page__fast {
+  order: 1;
+}
+
+.basket-page__title {
+  @include margin-reset;
+  order: 2;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 17px;
+}
+
+.basket-page__title--desktop {
+  display: none;
+}
+
+.basket-page__item-wrapper {
+  order: 3;
+}
+
+.basket-page__login {
+  padding: 20px;
+  background-color: $image-back1;
+}
+
+.basket-page__login-text {
+  @include margin-reset;
+  text-transform: none;
+}
+
+.basket-page__login-link {
+  color: $maintext-color;
+  cursor: pointer;
+}
+
+.basket-page__button--mobile,
+.basket-page__button--desktop {
+  padding: 20px 10px;
+  border: none;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  background-color: $menu-button-back;
+  color: $text-color4;
+  width: 315px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  text-underline: none;
+  cursor: pointer;
+}
+
+.basket-page__button,
+.basket-page__button:hover,
+.basket-page__button:focus,
+.basket-page__button:active,
+.basket-page__buttton:visited {
+text-decoration: none;
+}
+
+.basket-page__button--mobile {
+  display: block;
+}
+
+.basket-page__button--desktop {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .basket-page__main {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .basket-page__main-wrapper {
+  flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .basket-page__fast {
+    order: 3;
+  }
+
+  .basket-page__item-wrapper {
+    order: 2;
+  }
+
+  .basket-page__title {
+    order: 1;
+    width: 100%;
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 40px;
+  }
+
+  .basket-page__title--mobile {
+    display: none;
+  }
+
+  .basket-page__title--desktop {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .basket-page__button {
+    order: 8;
+    width: 100%;
+  }
+
+  .basket-page__button--mobile {
+    display: none;
+  }
+
+  .basket-page__button--desktop {
+    display: block;
+  }
+
+}

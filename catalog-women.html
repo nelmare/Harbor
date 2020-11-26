@@ -51,7 +51,7 @@
                         <!--                        Следующая часть меню на мобильном скрыта классом menu__list-hide  -->
                         <ul class="menu__list menu__submenu-list menu__list-hide">
                             <li class="menu__item menu__submenu-item menu__submenu-item--button">
-                                <button class="menu__button menu__submenu-button">назад</button>
+                                <button class="menu__button menu__submenu-button" type="button">назад</button>
                             </li>
                             <li class="menu__item menu__submenu-item">
                                 <a class="menu__link menu__submenu-link" href="#">Категории</a>
@@ -86,7 +86,7 @@
                 <a class="page-header__favorites-link" href="#" aria-label="Избранное"></a>
             </li>
             <li class="page-header__cart">
-                <a class="page-header__cart-link page-header__cart-link--full page-header__cart-link--empty" href="#"
+                <a class="page-header__cart-link page-header__cart-link--full page-header__cart-link--empty" href="basket.html"
                    aria-label="Корзина покупок"></a>
             </li>
             <li class="page-header__cart-bill"><span class="page-header__bill">29991 руб.</span></li>
@@ -175,16 +175,16 @@
         <h1 class="catalog-main__title">Обувь для женщин</h1>
         <div class="catalog-main__wrapper">
             <div class="catalog-main__settings catalog-main__settings--mobile">
-                <button class="catalog-main__settings-button catalog-main__settings-button--filter">Фильтр
+                <button class="catalog-main__settings-button catalog-main__settings-button--filter" type="button">Фильтр
                     <span class="catalog-main__filter-count">2</span>
                 </button>
-                <button class="catalog-main__settings-button">Сортировка</button>
+                <button class="catalog-main__settings-button" type="button">Сортировка</button>
             </div>
 <!--            На десктопе нужно убирать класс popup и popup-hide у блока с фильтром-->
             <div class="catalog-main__filter filter catalog-main__popup popup popup-hide">
                 <div class="catalog-main__popup-title-wrapper">
                     <h2 class="catalog-main__popup-title">Фильтр</h2>
-                    <button class="catalog-main__popup-close"><span class="visually-hidden">Закрыть</span></button>
+                    <button class="catalog-main__popup-close" type="button"><span class="visually-hidden">Закрыть</span></button>
                 </div>
                 <ul class="filter__main-list">
                     <li class="filter__item category">
@@ -387,15 +387,15 @@
                     </li>
                 </ul>
                 <div class="filter__button-wrapper">
-                    <button class="filter__button">Применить</button>
-                    <button class="filter__clear">Сбросить фильтр</button>
+                    <button class="filter__button" type="submit">Применить</button>
+                    <button class="filter__clear" type="button">Сбросить фильтр</button>
                 </div>
             </div>
     <!--        На десктопе нужно убирать класс popup и popup-hide у блока сортировки -->
             <div class="catalog-main__sorting sorting catalog-main__popup popup popup-hide">
                 <div class="catalog-main__popup-title-wrapper catalog-main__popup-title-wrapper--sorting">
                     <h2 class="catalog-main__popup-title">Сортировка</h2>
-                    <button class="catalog-main__popup-close"><span class="visually-hidden">Закрыть</span></button>
+                    <button class="catalog-main__popup-close"><span class="visually-hidden" type="button">Закрыть</span></button>
                 </div>
                 <ul class="sorting__list">
                     <li class="sorting__item">
@@ -839,7 +839,7 @@
 <div class="catalog-main__filter catalog-main__popup popup-sizes size popup popup-hide">
     <div class="catalog-main__popup-title-wrapper popup-sizes__title-wrapper">
         <h2 class="catalog-main__popup-title">Размеры</h2>
-        <button class="catalog-main__popup-close"><span class="visually-hidden">Закрыть</span></button>
+        <button class="catalog-main__popup-close"><span class="visually-hidden" type="button">Закрыть</span></button>
     </div>
     <ul class="popup-sizes__list popup-sizes__list-hide">
         <li class="popup-sizes__item">

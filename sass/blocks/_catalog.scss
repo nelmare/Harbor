@@ -9,6 +9,10 @@
   padding-top: 25px;
 }
 
+.catalog--items {
+  border-bottom: 1px solid $border-color2;
+}
+
 .catalog__title {
   @include margin-reset;
   font-weight: 300;
@@ -120,7 +124,8 @@
     padding-bottom: 215px;
   }
 
-  .catalog--selection .catalog__wrapper {
+  .catalog--selection .catalog__wrapper,
+  .catalog--items .catalog__wrapper {
     justify-content: flex-start;
   }
 }

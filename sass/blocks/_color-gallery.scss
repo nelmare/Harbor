@@ -1,0 +1,62 @@
+.color-gallery {
+  display: flex;
+  margin-right: auto;
+  padding: 20px 30px;
+}
+
+.color-gallery__item {
+  width: 90px;
+  height: 90px;
+  border: none;
+  padding: 0;
+  background-color: $mainback-color;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.color-gallery__item--color1 {
+  background-image: url("../img/color-image1@1x.jpg");
+  background-size: 90px 90px;
+
+  @media (min-resolution: $retina-dpi),
+  (min-resolution: $retina-dppx) {
+    background-image: url("../img/color-image1@2x.jpg");
+    background-size: cover;
+  }
+}
+
+.color-gallery__item--color2 {
+  background-image: url("../img/color-image2@1x.jpg");
+  background-size: 90px 90px;
+
+  @media (min-resolution: $retina-dpi),
+  (min-resolution: $retina-dppx) {
+    background-image: url("../img/color-image2@2x.jpg");
+    background-size: cover;
+  }
+}
+
+.color-gallery__item--color3 {
+  background-image: url("../img/color-image3@1x.jpg");
+  background-size: 90px 90px;
+
+  @media (min-resolution: $retina-dpi),
+  (min-resolution: $retina-dppx) {
+    background-image: url("../img/color-image3@2x.jpg");
+    background-size: cover;
+  }
+}
+
+.color-gallery__item:hover,
+.color-gallery__item:focus {
+  border: 2px solid $border-color2;
+  background-size: 81px 81px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (min-width: $desktop-width) {
+  .color-gallery {
+    padding: 0 30px 20px 30px;
+  }
+}

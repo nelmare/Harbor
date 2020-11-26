@@ -1,0 +1,101 @@
+.basket-fast {
+  padding-bottom: 25px;
+}
+
+.basket-fast__title {
+  @include margin-reset;
+  font-size: 12px;
+  font-weight: inherit;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.basket-fast__cost-wrapper {
+  @include margin-reset;
+  font-family: "Boita", "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.basket-fast__cost--deleted {
+  color: $text-color6;
+  text-decoration: line-through;
+}
+
+.basket-fast__discount {
+  @include margin-reset;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 20px;
+  color: $text-color5;
+}
+
+.basket-fast__button {
+  padding: 20px 13px;
+  border: none;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  background-color: $menu-button-back;
+  color: $text-color4;
+  margin-bottom: 35px;
+  width: 315px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.basket-fast__promo-title {
+  @include margin-reset;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+}
+
+.basket-fast__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.basket-fast__label {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.03em;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.basket-fast__line {
+  border: none;
+  border-bottom: 1px solid $menu-line;
+  padding: 10px 10px 10px 0;
+  font-weight: 700;
+  line-height: 18px;
+  color: $maintext-color;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.basket-fast__promo-button {
+  padding: 15px;
+  background-color: $mainback-color;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: $desktop-width) {
+  .basket-fast {
+    width: 360px;
+  }
+
+  .basket-page__line {
+    margin-right: 20px;
+  }
+}

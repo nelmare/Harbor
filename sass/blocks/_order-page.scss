@@ -1,0 +1,45 @@
+.order-page {
+  min-height: 237px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid $border-color2;
+}
+
+
+.order-page__title {
+  @include margin-reset;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.order-page__text {
+  @include margin-reset;
+  text-transform: none;
+}
+
+@media (min-width: $desktop-width) {
+  .order-page {
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .order-page__title {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .order-page__text {
+    text-align: center;
+  }
+
+  .order-page__wrapper {
+    width: 800px;
+  }
+}
