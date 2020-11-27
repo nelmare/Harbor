@@ -1,0 +1,116 @@
+.favourites {
+  padding: 35px 0;
+}
+
+.favourites__title {
+  @include margin-reset;
+  font-size: 20px;
+  font-weight: inherit;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.favourites__login {
+  border: 2px solid $menu-decoration;
+  padding: 25px 20px 25px 20px;
+  text-transform: none;
+  width: 375px;
+}
+
+.favourites__login-text {
+  @include margin-reset;
+  text-align: center;
+}
+
+.favourites__login-link {
+  color: inherit;
+}
+
+.favourites__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-right: -6px;
+  margin-left: -6px;
+}
+
+.favourites__catalog {
+  border-top: none;
+  padding-top: 30px;
+}
+
+
+
+.favourites__wrapper .catalog-item__wrapper {
+margin-bottom: 40px;
+}
+
+.favourites__wrapper .catalog-item__image-wrapper {
+  width: 315px;
+  height: 330px;
+  margin-bottom: 0;
+  padding-bottom: 65px;
+}
+
+.favourites__wrapper .catalog-item {
+  margin-bottom: 40px;
+}
+
+.favourites__wrapper .catalog-item__image {
+  width: 243px;
+  height: 130px;
+}
+
+.favourites__wrapper .catalog-item__info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: -20px;
+}
+
+.favourites__wrapper .catalog-item__label {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.favourites__select.sizes-select {
+  position: static;
+  min-width: 315px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.favourites__select.sizes-select .sizes-select__block {
+  min-width: 315px;
+  position: relative;
+}
+
+.favourites__select.sizes-select .sizes-select__button {
+  width: 100%;
+}
+
+.favourites__select.sizes-select .sizes-select__list {
+  z-index: 10;
+}
+
+.favourites__button {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  background-color: $menu-button-back;
+  color: $text-color4;
+  text-transform: uppercase;
+  padding: 20px 10px;
+  width: 315px;
+  border: none;
+  //margin-bottom: 20px;
+}

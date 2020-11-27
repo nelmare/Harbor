@@ -12,22 +12,19 @@
   cursor: pointer;
   margin-bottom: -1px;
   text-transform: uppercase;
-}
-
-.order__tablink:nth-child(odd) {
-  border-right: none;
-}
-
-.order__title {
-  @include margin-reset;
   font-size: 10px;
   font-weight: 400;
   line-height: 12px;
   letter-spacing: 0.03em;
 }
 
+.order__tablink:nth-child(odd) {
+  border-right: none;
+}
+
 .order__tablink--active {
   border-bottom: 1px solid $mainback-color;
+  font-weight: 700;
 }
 
 .order__tablink--active .order__title {
