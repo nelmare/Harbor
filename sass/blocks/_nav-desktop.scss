@@ -55,8 +55,10 @@
     list-style: none;
     background-color: $image-back1;
     padding: 10px 15px;
-    width: 17%;
-    position: fixed;
+    width: 235px;
+    position: absolute;
+    top: 53px;
+    left: 0;
   }
 
   .nav-desktop__menu-link {

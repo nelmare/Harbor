@@ -1,5 +1,10 @@
 .favourites {
+  padding: 0 30px;
+}
+
+.favourites__container {
   padding: 35px 0;
+  border-bottom: 1px solid $border-color2;
 }
 
 .favourites__title {
@@ -14,7 +19,6 @@
   border: 2px solid $menu-decoration;
   padding: 25px 20px 25px 20px;
   text-transform: none;
-  width: 375px;
 }
 
 .favourites__login-text {
@@ -24,6 +28,7 @@
 
 .favourites__login-link {
   color: inherit;
+  cursor: pointer;
 }
 
 .favourites__wrapper {
@@ -38,8 +43,6 @@
   border-top: none;
   padding-top: 30px;
 }
-
-
 
 .favourites__wrapper .catalog-item__wrapper {
 margin-bottom: 40px;
@@ -86,6 +89,7 @@ margin-bottom: 40px;
   padding: 0;
   height: auto;
   padding-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .favourites__select.sizes-select .sizes-select__block {
@@ -112,5 +116,39 @@ margin-bottom: 40px;
   padding: 20px 10px;
   width: 315px;
   border: none;
-  //margin-bottom: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: $desktop-width) {
+  .favourites {
+    padding: 0 210px;
+  }
+
+  .favourites__catalog {
+    padding-bottom: 0;
+  }
+
+  .favourites__container {
+    padding: 68px 0 80px 0;
+  }
+
+  .favourites__title {
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .favourites__login {
+    padding: 30px 20px;
+    margin-bottom: 70px;
+  }
+
+  .favourites__wrapper .catalog-item__info-wrapper {
+    margin-top: 10px;
+  }
+
+  .favourites__wrapper .catalog-item {
+    margin-bottom: 60px;
+  }
 }
