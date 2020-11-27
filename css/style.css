@@ -4184,6 +4184,9 @@ input[type="radio"].visually-hidden {
   align-items: center;
   border-bottom: 1px solid #263141; }
 
+.order-page--empty {
+  min-height: 255px; }
+
 .order-page__title {
   margin: 0;
   padding: 0;
@@ -4198,6 +4201,13 @@ input[type="radio"].visually-hidden {
   padding: 0;
   text-transform: none; }
 
+.order-page__link {
+  color: inherit;
+  cursor: pointer; }
+
+.order-page__login {
+  display: none; }
+
 @media (min-width: 1440px) {
   .order-page {
     height: 40vh;
@@ -4211,7 +4221,25 @@ input[type="radio"].visually-hidden {
   .order-page__text {
     text-align: center; }
   .order-page__wrapper {
-    width: 800px; } }
+    width: 800px; }
+  .order-page__login {
+    display: block;
+    width: 235px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 25px 20px;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px; }
+  .order-page__login:hover,
+  .order-page__login:focus,
+  .order-page__login:active {
+    text-decoration: none; } }
 
 .favourites {
   padding: 0 30px; }

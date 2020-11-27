@@ -6,6 +6,9 @@
   border-bottom: 1px solid $border-color2;
 }
 
+.order-page--empty {
+  min-height: 255px;
+}
 
 .order-page__title {
   @include margin-reset;
@@ -19,6 +22,15 @@
 .order-page__text {
   @include margin-reset;
   text-transform: none;
+}
+
+.order-page__link {
+  color: inherit;
+  cursor: pointer;
+}
+
+.order-page__login {
+  display: none;
 }
 
 @media (min-width: $desktop-width) {
@@ -42,4 +54,28 @@
   .order-page__wrapper {
     width: 800px;
   }
+
+  .order-page__login {
+    display: block;
+    width: 235px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 25px 20px;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+  }
+
+  .order-page__login:hover,
+  .order-page__login:focus,
+  .order-page__login:active {
+    text-decoration: none;
+  }
+
+
 }
