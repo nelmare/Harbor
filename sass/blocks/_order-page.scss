@@ -53,12 +53,15 @@
 
   .order-page__wrapper {
     width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .order-page__login {
-    display: block;
-    width: 235px;
-    margin: 0 auto;
+  .order-page__button {
+    display: inline-block;
+    vertical-align: middle;
     margin-top: 15px;
     padding: 25px 20px;
     color: inherit;
@@ -71,9 +74,9 @@
     line-height: 15px;
   }
 
-  .order-page__login:hover,
-  .order-page__login:focus,
-  .order-page__login:active {
+  .order-page__button:hover,
+  .order-page__button:focus,
+  .order-page__button:active {
     text-decoration: none;
   }
 
