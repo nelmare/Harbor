@@ -165,23 +165,23 @@
 </header>
 <main class="profile">
     <div class="container">
-        <div class="profile__wrapper profile__wrapper--archive">
-            <h1 class="profile__title">Архив заказов</h1>
+        <div class="profile__wrapper profile__wrapper--subscribtion">
+            <h1 class="profile__title">Избранное</h1>
             <div class="profile__block">
                 <ul class="profile__mobile-list">
                     <li class="profile__mobile-item">
                         <!--                    Классом profile__mobile-link&#45;&#45;closed нужно заменять класс profile__mobile-link&#45;&#45;open, когда меню на мобильном закрывается  -->
-                        <a class="profile__mobile-link profile__mobile-link--active profile__mobile-link--open" href="#">Архив заказов</a>
+                        <a class="profile__mobile-link profile__mobile-link--active profile__mobile-link--open" href="#">Подписки</a>
                         <!--                    Класс visually-hidden скрывает profile__nav-list-->
                         <ul class="profile__nav-list profile__nav-list--hide">
                             <li class="profile__nav-item">
                                 <a class="profile__nav-link" href="profile-account.html">Личный профиль</a>
                             </li>
                             <li class="profile__nav-item">
-                                <a class="profile__nav-link profile__nav-link--active" href="archive.html">Архив заказов</a>
+                                <a class="profile__nav-link" href="archive.html">Архив заказов</a>
                             </li>
                             <li class="profile__nav-item">
-                                <a class="profile__nav-link" href="subscribtion.html">Подписки</a>
+                                <a class="profile__nav-link  profile__nav-link--active" href="subscribtion.html">Подписки</a>
                             </li>
                             <li class="profile__nav-item">
                                 <a class="profile__nav-link" href="profile-favourites.html">Избранное</a>
@@ -189,66 +189,116 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="profile__card-wrapper archive">
-                    <div class="archive__card">
-                        <div class="archive__title-wrapper">
-                            <h2 class="archive__title">Заказ №38298</h2>
-                            <p class="archive__date">10 января, 2020</p>
+                <div class="profile__favourites-wrapper profile__form-wrapper profile__subscribtion-wrapper subscribtion favourites order">
+                    <form class="order__form" action="#" method="post">
+                        <fieldset class="order__form-wrapper order__form-wrapper--category">
+                            <legend class="order__form-title">Мне интересна продукция</legend>
+                            <ul class="order__list order__list--checkbox">
+                                <li class="order__item order__item--checkbox">
+                                    <label class="order__list-label order__list-label--checkbox" for="men3">
+                                        <input class="order__checkbox visually-hidden" type="checkbox" name="men" id="men3" checked>
+                                        <span class="order__check"></span>
+                                        для мужчин
+                                    </label>
+                                </li>
+                                <li class="order__item order__item--checkbox">
+                                    <label class="order__list-label order__list-label--checkbox" for="women3">
+                                        <input class="order__checkbox visually-hidden" type="checkbox" name="women" id="women3" checked>
+                                        <span class="order__check"></span>
+                                        для женщин
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                    <section class="catalog favourites__catalog">
+                        <h2 class="catalog__title">Сообщить о поступлении</h2>
+                        <div class="favourites__wrapper">
+                            <section class="catalog-item catalog-item--subscription">
+                                <div class="catalog-item__wrapper">
+                                    <a class="catalog-item__image-link" href="#">
+                                        <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background1">
+                                            <picture>
+                                                <source media="(min-width: 1440px)" srcset="img/image1-desk@1x.png 1x, img/image1-desk@2x.png 2x">
+                                                <img class="catalog-item__image" src="img/image1-mobile@1x.png" srcset="img/image1-mobile@2x.png 2x" width="243" height="130"
+                                                     alt="Фото обуви Harbor">
+                                            </picture>
+                                        </div>
+                                    </a>
+                                    <p class="catalog-item__label catalog-item__label--discount">Скидка</p>
+                                    <div class="catalog-item__info-wrapper">
+                                        <a class="catalog-item__link" href="#">
+                                            <h3 class="catalog-item__title">Классные кроссовки Harbor Lights для бега</h3>
+                                        </a>
+                                        <p class="catalog-item__cost">
+                                            <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+                                            <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="catalog-item catalog-item--subscription">
+                                <div class="catalog-item__wrapper">
+                                    <a class="catalog-item__image-link" href="#">
+                                        <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background2">
+                                            <picture>
+                                                <source media="(min-width: 1440px)" srcset="img/image1-desk@1x.png 1x, img/image1-desk@2x.png 2x">
+                                                <img class="catalog-item__image" src="img/image1-mobile@1x.png" srcset="img/image1-mobile@2x.png 2x" width="243" height="130"
+                                                     alt="Фото обуви Harbor">
+                                            </picture>
+                                        </div>
+                                    </a>
+                                    <p class="catalog-item__label catalog-item__label--discount">Скидка</p>
+                                    <div class="catalog-item__info-wrapper">
+                                        <a class="catalog-item__link" href="#">
+                                            <h3 class="catalog-item__title">Классные кроссовки Harbor Lights для бега</h3>
+                                        </a>
+                                        <p class="catalog-item__cost">
+                                            <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+                                            <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
-                        <ul class="archive__list">
-                            <li class="archive__item">
-                                <h3 class="archive__product-title">
-                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
-                                             100 мл, 1 шт.</h3>
-
-                                <span class="archive__cost">6831 руб.</span>
-                            </li>
-                            <li class="archive__item">
-                                <h3 class="archive__product-title">
-                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
-                                    100 мл, 1 шт.</h3>
-                                <span class="archive__cost">6831 руб.</span>
-                            </li>
-                            <li class="archive__item">
-                                <h3 class="archive__product-title">
-                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
-                                    100 мл, 1 шт.</h3>
-                                <span class="archive__cost">6831 руб.</span>
-                            </li>
-                            <li class="archive__item">
-                                <p class="archive__cost">23221 руб.</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="archive__card">
-                        <div class="archive__title-wrapper">
-                            <h2 class="archive__title">Заказ №38298</h2>
-                            <p class="archive__date">10 января, 2020</p>
-                        </div>
-                        <ul class="archive__list">
-                            <li class="archive__item">
-                                <h3 class="archive__product-title">
-                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
-                                    100 мл, 1 шт.</h3>
-                                <span class="archive__cost">6831 руб.</span>
-                            </li>
-                            <li class="archive__item">
-                                <h3 class="archive__product-title">
-                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
-                                    100 мл, 1 шт.</h3>
-                                <span class="archive__cost">6831 руб.</span>
-                            </li>
-                            <li class="archive__item">
-                                <h3 class="archive__product-title">
-                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
-                                    100 мл, 1 шт.</h3>
-                                <span class="archive__cost">6831 руб.</span>
-                            </li>
-                            <li class="archive__item">
-                                <p class="archive__cost">23221 руб.</p>
-                            </li>
-                        </ul>
-                    </div>
+                    </section>
+                    <form class="order__form" action="#" method="post">
+                        <fieldset class="order__form-wrapper order__form-wrapper--notification">
+                            <legend class="order__form-title">Уведомления</legend>
+                            <ul class="order__list order__list--checkbox">
+                                <li class="order__item order__item--checkbox">
+                                    <label class="order__list-label order__list-label--checkbox" for="notification1">
+                                        <input class="order__checkbox visually-hidden" type="checkbox" name="notification1"
+                                               id="notification1" checked>
+                                        <span class="order__check"></span>
+                                        о новых коллекциях
+                                    </label>
+                                </li>
+                                <li class="order__item order__item--checkbox">
+                                    <label class="order__list-label order__list-label--checkbox" for="notification2">
+                                        <input class="order__checkbox visually-hidden" type="checkbox" name="notification2" id="notification2" checked>
+                                        <span class="order__check"></span>
+                                        поступлении нового товара
+                                    </label>
+                                </li>
+                                <li class="order__item order__item--checkbox">
+                                    <label class="order__list-label order__list-label--checkbox" for="notification3">
+                                        <input class="order__checkbox visually-hidden" type="checkbox" name="notification3" id="notification3" checked>
+                                        <span class="order__check"></span>
+                                        распродажах
+                                    </label>
+                                </li>
+                                <li class="order__item order__item--checkbox">
+                                    <label class="order__list-label order__list-label--checkbox" for="notification4">
+                                        <input class="order__checkbox visually-hidden" type="checkbox" name="notification4" id="notification4" checked>
+                                        <span class="order__check"></span>
+                                        еще о чем-нибудь
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                    <button class="profile__button">Сохранить</button>
                 </div>
             </div>
         </div>
@@ -317,4 +367,3 @@
 <script>svg4everybody();</script>
 </body>
 </html>
-

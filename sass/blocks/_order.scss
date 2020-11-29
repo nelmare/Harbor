@@ -463,4 +463,8 @@ padding-left: 28px;
     padding-bottom: 0;
   }
 
+  .order__form-wrapper--notification .order__list--checkbox {
+    flex-direction: column;
+  }
+
 }

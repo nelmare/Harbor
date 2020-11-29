@@ -130,6 +130,54 @@
   line-height: 18px;
 }
 
+.profile__wrapper--favourites {
+  padding-bottom: 0;
+}
+
+.profile__wrapper--favourites .favourites__catalog {
+  padding-bottom: 10px;
+}
+
+.profile__favourites-wrapper {
+  padding: 0;
+}
+
+.profile__subscribtion-wrapper .order__form-title,
+.profile__subscribtion-wrapper .catalog__title {
+  @include margin-reset;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.profile__subscribtion-wrapper .favourites__catalog {
+  padding-top: 15px;
+}
+
+.profile__subscribtion-wrapper .catalog-item__title {
+  margin-bottom: 0;
+}
+
+.profile__subscribtion-wrapper .catalog-item {
+  padding-bottom: 0;
+  margin-bottom: 30px;
+}
+
+.profile__subscribtion-wrapper .catalog-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.profile__subscribtion-wrapper .catalog {
+  padding-bottom: 25px;
+}
+
+.profile__subscribtion-wrapper .profile__button {
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
 @media (min-width: $desktop-width) {
   .profile__wrapper {
     padding: 90px 0 130px 0;
@@ -197,7 +245,7 @@
 
   .profile__form-wrapper .order__form {
     width: 815px;
-    padding-top: 15px;
+    padding-top: 10px;
   }
 
   .profile__form-wrapper .order__block--name {
@@ -229,7 +277,58 @@
     padding-bottom: 100px;
   }
 
-  .profile__wrapper--archive .profile__nav-list {
+  .profile__wrapper--archive .profile__nav-list,
+  .profile__wrapper--favourites .profile__nav-list {
     margin-right: 55px;
+  }
+
+  .profile__wrapper--favourites .favourites__catalog {
+    padding-top: 0;
+  }
+
+  .profile__favourites-wrapper {
+    padding: 0;
+  }
+
+  .profile__favourites-wrapper .catalog-item {
+    margin-right: 30px;
+    margin-bottom: 40px;
+  }
+
+  .profile__wrapper--favourites {
+    padding-bottom: 80px;
+  }
+
+  .profile__subscribtion-wrapper .order__form-title,
+  .profile__subscribtion-wrapper .catalog__title {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .profile__subscribtion-wrapper .catalog__title {
+    margin-bottom: 20px;
+  }
+
+  .profile__subscribtion-wrapper .order__form-wrapper--category {
+    flex-direction: row;
+  }
+
+  .profile__subscribtion-wrapper .favourites__catalog {
+    padding-top: 40px;
+  }
+
+  .profile__subscribtion-wrapper .catalog {
+    padding-bottom: 0;
+  }
+
+  .profile__subscribtion-wrapper .order__form:last-of-type {
+    padding-top: 0;
+  }
+
+  .profile__subscribtion-wrapper .profile__button {
+    margin-top: 25px;
+    margin-bottom: 35px;
   }
 }
