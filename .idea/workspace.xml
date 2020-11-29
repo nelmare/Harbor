@@ -20,12 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="Prepare for demo">
-      <change afterPath="$PROJECT_DIR$/nopage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile-account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/blocks/_archive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/blocks/_login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/blocks/_profile.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/basket.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basketempty.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketempty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-women.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_order-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_order-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notfoundpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/notfound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordered.html" beforeDir="false" afterPath="$PROJECT_DIR$/ordered.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_order.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +90,7 @@
       <recent name="$PROJECT_DIR$/sass" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sass/blocks" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
@@ -101,7 +116,7 @@
       <workItem from="1605704082538" duration="84880000" />
       <workItem from="1606135143021" duration="39212000" />
       <workItem from="1606254146364" duration="77175000" />
-      <workItem from="1606482049495" duration="5224000" />
+      <workItem from="1606482049495" duration="38715000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>

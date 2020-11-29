@@ -45,7 +45,7 @@
                                 <a class="menu__link" href="">Скидки %</a>
                             </li>
                             <li class="menu__item menu__item--user">
-                                <a class="menu__user-link" href="">Личный кабинет</a>
+                                <a class="menu__user-link" href="profile-account.html">Личный кабинет</a>
                             </li>
                         </ul>
                         <!--                        Следующая часть меню на мобильном скрыта классом menu__list-hide  -->
@@ -80,7 +80,7 @@
         <!--        Пункты навигации на десктопе виде иконок-->
         <ul class="page-header__wrapper">
             <li class="page-header__user">
-                <a class="page-header__user-link" href="#" aria-label="Личный кабинет"></a>
+                <a class="page-header__user-link" href="profile-account.html" aria-label="Личный кабинет"></a>
             </li>
             <li class="page-header__favorites">
                 <a class="page-header__favorites-link" href="favourites.html" aria-label="Избранное"></a>
@@ -163,14 +163,94 @@
         </ul>
     </nav>
 </header>
-<main>
+<main class="profile">
     <div class="container">
-        <div class="order-page order-page--empty">
-            <div class="order-page__wrapper">
-                <h1 class="order-page__title">Cтраница не найдена</h1>
-                <p class="order-page__text">Пока наша техническая команда работает над исправлеением данной ошибки,
-                    воспользуйтесь меню или вернитесь на&nbsp;главную страницу.</p>
-                <a class="order-page__button button" href="#">На главную</a>
+        <div class="profile__wrapper profile__wrapper--archive">
+            <h1 class="profile__title">Архив заказов</h1>
+            <div class="profile__block">
+                <ul class="profile__mobile-list">
+                    <li class="profile__mobile-item">
+                        <!--                    Классом profile__mobile-link&#45;&#45;closed нужно заменять класс profile__mobile-link&#45;&#45;open, когда меню на мобильном закрывается  -->
+                        <a class="profile__mobile-link profile__mobile-link--active profile__mobile-link--open" href="#">Архив заказов</a>
+                        <!--                    Класс visually-hidden скрывает profile__nav-list-->
+                        <ul class="profile__nav-list profile__nav-list--hide">
+                            <li class="profile__nav-item">
+                                <a class="profile__nav-link" href="profile-account.html">Личный профиль</a>
+                            </li>
+                            <li class="profile__nav-item">
+                                <a class="profile__nav-link profile__nav-link--active" href="archive.html">Архив заказов</a>
+                            </li>
+                            <li class="profile__nav-item">
+                                <a class="profile__nav-link" href="#">Подписки</a>
+                            </li>
+                            <li class="profile__nav-item">
+                                <a class="profile__nav-link" href="#">Избранное</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="profile__card-wrapper archive">
+                    <div class="archive__card">
+                        <div class="archive__title-wrapper">
+                            <h2 class="archive__title">Заказ №38298</h2>
+                            <p class="archive__date">10 января, 2020</p>
+                        </div>
+                        <ul class="archive__list">
+                            <li class="archive__item">
+                                <h3 class="archive__product-title">
+                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
+                                             100 мл, 1 шт.</h3>
+
+                                <span class="archive__cost">6831 руб.</span>
+                            </li>
+                            <li class="archive__item">
+                                <h3 class="archive__product-title">
+                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
+                                    100 мл, 1 шт.</h3>
+                                <span class="archive__cost">6831 руб.</span>
+                            </li>
+                            <li class="archive__item">
+                                <h3 class="archive__product-title">
+                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
+                                    100 мл, 1 шт.</h3>
+                                <span class="archive__cost">6831 руб.</span>
+                            </li>
+                            <li class="archive__item">
+                                <p class="archive__cost">23221 руб.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="archive__card">
+                        <div class="archive__title-wrapper">
+                            <h2 class="archive__title">Заказ №38298</h2>
+                            <p class="archive__date">10 января, 2020</p>
+                        </div>
+                        <ul class="archive__list">
+                            <li class="archive__item">
+                                <h3 class="archive__product-title">
+                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
+                                    100 мл, 1 шт.</h3>
+                                <span class="archive__cost">6831 руб.</span>
+                            </li>
+                            <li class="archive__item">
+                                <h3 class="archive__product-title">
+                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
+                                    100 мл, 1 шт.</h3>
+                                <span class="archive__cost">6831 руб.</span>
+                            </li>
+                            <li class="archive__item">
+                                <h3 class="archive__product-title">
+                                    <a class="archive__product-link" href="#">Retises. Гель-эсксфолиант с гликолевой кислотой,</a>
+                                    100 мл, 1 шт.</h3>
+                                <span class="archive__cost">6831 руб.</span>
+                            </li>
+                            <li class="archive__item">
+                                <p class="archive__cost">23221 руб.</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -1,0 +1,221 @@
+.login {
+  width: 375px;
+  min-height: 636px;
+  background-color: transparent;
+}
+
+.login__title-wrapper {
+  min-height: 110px;
+  display: flex;
+  align-items: flex-end;
+  padding: 25px 30px;
+  justify-content: space-between;
+  background-color: $menu-mobile-back;
+  backdrop-filter: blur(15px);
+}
+
+.login__wrapper--account .login__title-wrapper {
+  min-height: 257px;
+}
+
+.login__wrapper--password .login__title-wrapper {
+  min-height: 400px;
+}
+
+.login__popup-title {
+  @include margin-reset;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  color: $text-color4;
+}
+
+.login__popup-close {
+  width: 24px;
+  height: 24px;
+  background-color: $mainback-color;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.login__popup-close::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/close.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.login__form-wrapper {
+  padding: 35px 30px 30px 30px;
+  background-color: $mainback-color;
+}
+
+.login__password-button {
+  width: 24px;
+  height: 24px;
+  background-color: $mainback-color;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  border: none;
+  bottom: 45%;
+  right: 0;
+  background-image: url("../img/icon-eye.svg");
+  background-repeat: no-repeat;
+  background-size: 22px 16px;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.login__button {
+  padding: 20px 10px;
+  border: none;
+  text-align: center;
+  background-color: $menu-button-back;
+  color: $text-color4;
+  width: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-underline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.login__text {
+  @include margin-reset;
+  text-transform: none;
+  margin-top: 25px;
+}
+
+.login__link {
+  color: inherit;
+  cursor: pointer;
+}
+
+.login__form-wrapper .order__block--password {
+  position: relative;
+}
+
+.login__wrapper--account .order__block--email {
+  padding-bottom: 25px;
+}
+
+.login__wrapper--account .order__form-wrapper {
+  padding-bottom: 0;
+}
+
+.login__wrapper--password .order__form-wrapper {
+  padding-bottom: 5px;
+}
+
+@media (min-width: $desktop-width) {
+  .login {
+    width: 1440px;
+    min-height: 885px;
+    background-color: $menu-mobile-back;
+    backdrop-filter: blur(15px);
+  }
+
+  .login__wrapper {
+    width: 570px;
+    background-color: $mainback-color;
+    margin-left: auto;
+  }
+
+  .login__title-wrapper {
+    background-color: $mainback-color;
+    backdrop-filter: blur(0);
+    padding: 70px 60px 5px 60px;
+    min-height: auto;
+    position: relative;
+  }
+
+  .login__wrapper--account .login__title-wrapper,
+  .login__wrapper--password .login__title-wrapper {
+    min-height: auto;
+  }
+
+  .login__popup-title {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 45px;
+    color: $maintext-color;
+  }
+
+  .login__popup-close {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 30px;
+    right: 30px;
+  }
+
+  .login__popup-close::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+  }
+
+  .login__form-wrapper {
+    padding: 35px 60px 160px 60px;
+    min-height: 885px;
+  }
+
+  .login__form-wrapper .order__form-wrapper {
+    padding-bottom: 0;
+  }
+
+  .login__form-wrapper .order__form {
+    width: 450px;
+  }
+
+  .login__form-wrapper .order__block--name {
+    order: 1;
+  }
+
+  .login__form-wrapper .order__block--email {
+    order: 2;
+    width: 100%;
+  }
+
+  .login__form-wrapper .order__block--phone {
+    order: 4;
+    width: 100%;
+  }
+
+  .login__form-wrapper .order__block--subscribe {
+    order: 3;
+    width: 100%;
+  }
+
+  .login__form-wrapper .order__block--password {
+    order: 5;
+    width: 100%;
+  }
+
+  .login__form-wrapper .order__block--personality {
+    order: 6;
+    width: 72%;
+    padding-bottom: 35px;
+  }
+
+  .login__button {
+    order: 7;
+  }
+
+  .login__wrapper--password .order__form-wrapper {
+    padding-bottom: 15px;
+  }
+}

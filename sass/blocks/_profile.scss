@@ -1,0 +1,235 @@
+.profile__wrapper {
+  padding: 35px 0 45px 0;
+  border-bottom: 1px solid $border-color2;
+}
+
+.profile__title {
+  display: none;
+}
+
+.profile__mobile-list {
+  @include margin-reset;
+  list-style: none;
+}
+
+.profile__mobile-item {
+  position: relative;
+}
+
+.profile__mobile-link {
+  display: inline-block;
+  vertical-align: middle;
+  width: 315px;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  padding: 15px 0 13px;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.profile__mobile-item::before {
+  content: "";
+  position: absolute;
+  width: 315px;
+  height: 9px;
+  bottom: -9px;
+  left: 0;
+  background-color: $back-color;
+}
+
+.profile__mobile-link--open::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-image: url(../img/icon-down.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.profile__mobile-link--closed::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-image: url(../img/icon-up.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.profile__nav-list {
+  @include margin-reset;
+  list-style: none;
+  padding: 10px 20px;
+  background-color: $back-color;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 315px;
+}
+
+.profile__nav-list--hide {
+  display: none;
+}
+
+.profile__nav-item:last-child {
+  border-bottom: none;
+}
+
+.profile__nav-link {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  color: $text-color4;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 0;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid $border-color;
+  cursor: pointer;
+}
+
+.profile__form-wrapper .order__form {
+  padding-top: 30px;
+}
+
+.profile__form-wrapper .order__block {
+  padding-bottom: 25px;
+}
+
+.profile__form-wrapper .order__form-wrapper {
+  padding-bottom: 0;
+}
+
+.profile__form-wrapper .order__form-wrapper--delivery {
+  padding-bottom: 5px;
+}
+
+.profile__button {
+  width: 100%;
+  display: block;
+  padding: 20px 10px;
+  border: none;
+  text-align: center;
+  background-color: $menu-button-back;
+  color: $text-color4;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+@media (min-width: $desktop-width) {
+  .profile__wrapper {
+    padding: 90px 0 130px 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .profile__title {
+    @include margin-reset;
+    display: block;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 45px;
+    margin-bottom: 30px;
+  }
+
+  .profile__block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .profile__mobile-link,
+  .profile__mobile-item::before {
+    display: none;
+  }
+
+  .profile__nav-list--hide {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .profile__nav-list {
+    position: static;
+    width: 240px;
+    margin-right: 90px;
+    background-color: $mainback-color;
+    padding: 0;
+  }
+
+  .profile__nav-item:last-child {
+    border-bottom: 1px solid $border-color;
+  }
+
+  .profile__nav-link {
+    color: $maintext-color;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    padding: 15px 0;
+  }
+
+  .profile__nav-link--active {
+    border-bottom: 1px solid $border-color2;
+  }
+
+  .profile__form-wrapper .order__block--email,
+  .profile__form-wrapper .order__block--phone,
+  .profile__form-wrapper .order__block--city,
+  .profile__form-wrapper .order__block--address {
+    width: 48%;
+  }
+
+  .profile__form-wrapper .order__form {
+    width: 815px;
+    padding-top: 15px;
+  }
+
+  .profile__form-wrapper .order__block--name {
+    order: 3;
+  }
+
+  .profile__form-wrapper .order__block--email {
+    order: 1;
+  }
+
+  .profile__form-wrapper .order__block--phone {
+    order: 2;
+  }
+
+  .profile__form-wrapper .order__block--city {
+    order: 4;
+  }
+
+  .profile__form-wrapper .order__block--address {
+    order: 5;
+  }
+
+  .profile__button {
+    order: 6;
+    width: 175px;
+  }
+
+  .profile__wrapper--archive {
+    padding-bottom: 100px;
+  }
+
+  .profile__wrapper--archive .profile__nav-list {
+    margin-right: 55px;
+  }
+}
