@@ -22,6 +22,10 @@
     <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="Prepare for demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email.html" beforeDir="false" afterPath="$PROJECT_DIR$/email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fb.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/inst.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/inst.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vk.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +102,7 @@
       <workItem from="1605704082538" duration="84880000" />
       <workItem from="1606135143021" duration="39212000" />
       <workItem from="1606254146364" duration="77175000" />
-      <workItem from="1606482049495" duration="71756000" />
+      <workItem from="1606482049495" duration="73285000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>
