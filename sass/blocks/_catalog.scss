@@ -1,12 +1,17 @@
 .catalog {
   border-top: 1px solid $border-color;
   padding-top: 37px;
-  padding-bottom: 50px;
+  padding-bottom: 45px;
 }
 
 .catalog--page {
   border: none;
   padding-top: 25px;
+}
+
+.catalog--padding {
+  padding-top: 42px;
+  padding-bottom: 50px;
 }
 
 .catalog--items {
@@ -18,7 +23,11 @@
   font-weight: 300;
   font-size: 20px;
   line-height: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
+}
+
+.catalog--padding .catalog__title {
+  margin-bottom: 20px;
 }
 
 .catalog__wrapper {
@@ -38,7 +47,7 @@
 .catalog__button {
   margin: 0 auto;
   margin-top: 5px;
-  padding: 15px;
+  padding: 15px 20px;
   text-align: center;
   text-decoration: none;
 }

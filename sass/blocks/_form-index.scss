@@ -1,5 +1,5 @@
 .form-index__line {
-  padding: 14px 10px;
+  padding: 10px;
   min-height: 45px;
   width: 100%;
   border: none;
@@ -18,7 +18,7 @@
   list-style: none;
   @include margin-reset;
   display: flex;
-  margin-bottom: 22px;
+  margin-bottom: 15px;
   flex-wrap: wrap;
 }
 
