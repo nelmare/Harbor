@@ -1,5 +1,5 @@
 .page-footer {
-  padding-top: 37px;
+  padding-top: 40px;
   padding-bottom: 47px;
 }
 
@@ -15,7 +15,7 @@
   text-decoration: none;
   color: inherit;
   letter-spacing: 0.1em;
-  padding: 7px;
+  padding: 5px;
   display: block;
   cursor: pointer;
 }
@@ -23,6 +23,10 @@
 .page-footer__item {
   margin-left: -7px;
   margin-right: -7px;
+}
+
+.page-footer__item--menu {
+  margin-bottom: 5px;
 }
 
 .page-footer__link--menu {
@@ -47,7 +51,7 @@
 
 @media (min-width: $desktop-width) {
   .page-footer {
-    padding: 79px 90px 59px 90px;
+    padding: 80px 80px 59px 90px;
   }
 
   .page-footer__list {
@@ -71,6 +75,10 @@
 
   .page-footer__copyright {
     margin-top: 35px;
+  }
+
+  .page-footer__item {
+    margin-bottom: 5px;
   }
 
   .page-footer__link {
