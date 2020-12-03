@@ -1041,7 +1041,11 @@ input[type="radio"].visually-hidden {
 
 .catalog--page {
   border: none;
-  padding-top: 25px; }
+  padding: 25px 0 50px 0; }
+
+.catalog--nopadding {
+  border: none;
+  padding: 0 0 50px 0; }
 
 .catalog--padding {
   padding-top: 42px;
@@ -1099,6 +1103,9 @@ input[type="radio"].visually-hidden {
     border-top: 1px solid #263141;
     padding-top: 75px;
     padding-bottom: 100px; }
+  .catalog--nopadding {
+    border: none;
+    padding: 0 0 50px 0; }
   .catalog--page {
     border: none;
     padding-top: 0;
@@ -1113,8 +1120,8 @@ input[type="radio"].visually-hidden {
   .catalog__button {
     margin-top: 40px; }
   .catalog__button--catalog {
-    margin-top: 100px;
-    margin-bottom: 105px; }
+    margin-top: 60px;
+    margin-bottom: 50px; }
   .catalog__button--mobile {
     display: none; }
   .catalog__button--desktop {
@@ -1473,6 +1480,8 @@ input[type="radio"].visually-hidden {
     display: flex;
     justify-content: flex-start;
     align-items: center; }
+  .filter-fast--catalog {
+    display: none; }
   .filter-fast__block {
     padding-top: 18px;
     padding-bottom: 25px;
@@ -2074,7 +2083,7 @@ input[type="radio"].visually-hidden {
   text-align: left; }
 
 .catalog-main__settings-button {
-  padding: 14px 10px 13px 10px;
+  padding: 14px 10px 10px 10px;
   text-transform: none;
   font-size: 14px;
   font-weight: 300;
@@ -2158,6 +2167,8 @@ input[type="radio"].visually-hidden {
   flex-direction: column; }
 
 @media (min-width: 1440px) {
+  .catalog-main .catalog-item {
+    margin-bottom: 50px; }
   .catalog-main__container {
     padding: 0 90px;
     width: 1440px; }
@@ -2169,7 +2180,8 @@ input[type="radio"].visually-hidden {
   .catalog-main__title {
     font-size: 36px;
     line-height: 45px;
-    margin-bottom: 33px; }
+    margin-bottom: 33px;
+    padding-top: 70px; }
   .catalog-main__settings--mobile {
     display: none; }
   .catalog-main__popup-title-wrapper {
@@ -2285,7 +2297,7 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 1440px) {
   .filter__main-list {
-    padding: 5px 0 34px 0; }
+    padding: 0 0 34px 0; }
   .filter__button-wrapper {
     display: none; }
   .filter__link {
@@ -2298,10 +2310,8 @@ input[type="radio"].visually-hidden {
     padding: 15px 0 13px;
     cursor: pointer;
     position: relative; }
-  .filter-list {
+  .filter__list {
     padding-top: 10px; }
-  .filter-fast--catalog {
-    display: none; }
   .filter__item--collection {
     display: block; } }
 

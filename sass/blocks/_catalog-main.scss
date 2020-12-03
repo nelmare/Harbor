@@ -19,7 +19,7 @@
 }
 
 .catalog-main__settings-button {
-  padding: 14px 10px 13px 10px;
+  padding: 14px 10px 10px 10px;
   text-transform: none;
   font-size: 14px;
   font-weight: 300;
@@ -115,6 +115,10 @@
 
 
 @media (min-width: $desktop-width) {
+  .catalog-main .catalog-item {
+    margin-bottom: 50px;
+  }
+
   .catalog-main__container {
     padding: 0 90px;
     width: 1440px;
@@ -133,6 +137,7 @@
     font-size: 36px;
     line-height: 45px;
     margin-bottom: 33px;
+    padding-top: 70px;
   }
 
   .catalog-main__settings--mobile {

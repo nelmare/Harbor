@@ -100,7 +100,7 @@ width: 45px;
 
 @media (min-width: $desktop-width) {
   .filter__main-list {
-    padding: 5px 0 34px 0;
+    padding: 0 0 34px 0;
   }
 
   .filter__button-wrapper {
@@ -119,12 +119,8 @@ width: 45px;
     position: relative;
   }
 
-  .filter-list {
+  .filter__list {
     padding-top: 10px;
-  }
-
-  .filter-fast--catalog {
-    display: none;
   }
 
   .filter__item--collection {
