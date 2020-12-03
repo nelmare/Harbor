@@ -28,7 +28,9 @@
       <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_filter-fast.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter-fast.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_form-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_form-index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_page-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_page-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_popup-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_popup-index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_site-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_site-list.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_subscription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_subscription.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +108,7 @@
       <workItem from="1605704082538" duration="84880000" />
       <workItem from="1606135143021" duration="39212000" />
       <workItem from="1606254146364" duration="77175000" />
-      <workItem from="1606482049495" duration="100462000" />
+      <workItem from="1606482049495" duration="106003000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>

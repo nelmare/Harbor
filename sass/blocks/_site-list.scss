@@ -12,10 +12,9 @@
 .site-list__wrapper {
   display: flex;
   background-color: $mainback-color;
-  padding: 36px 16px 2px 62px;
+  padding: 37px 16px 2px 40px;
   list-style: none;
   justify-content: flex-start;
-
 }
 
 .site-list__main-item {
@@ -33,13 +32,14 @@
   position: relative;
   padding: 10px 10px 5px 10px;
   cursor: pointer;
+  letter-spacing: 0.1em;
 }
 
 .site-list__main-link--active::before {
   content: "";
   position: absolute;
   top: 72%;
-  left: -30%;
+  left: -4%;
   width: 95px;
   height: 10px;
   background-color: $menu-decoration;

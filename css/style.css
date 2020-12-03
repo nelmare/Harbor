@@ -758,7 +758,7 @@ input[type="radio"].visually-hidden {
   width: 313px;
   min-height: 582px;
   border-top: 1px solid #e0e0e0;
-  padding: 68px 36px 40px 36px; }
+  padding: 60px 35px 40px 35px; }
 
 .menu__item {
   border-bottom: 1px solid #9799a7;
@@ -798,16 +798,17 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
   color: black;
   cursor: pointer;
-  padding: 15px 30px; }
+  padding: 15px 30px;
+  text-transform: none; }
 
 .menu__item--user::after {
   content: "";
   position: absolute;
   width: 16px;
   height: 18px;
-  top: 50%;
+  top: 35%;
   transform: translateY(-50%);
-  left: 0;
+  left: 5px;
   background-image: url("../img/icon-user.svg");
   background-repeat: no-repeat;
   background-position: center center; }
@@ -997,7 +998,8 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 1920px) {
   .actual-block {
-    width: 1920px; }
+    width: 1920px;
+    padding-bottom: 97px; }
   .actual-block__link-wrapper {
     width: 29%; }
   .actual-block__image-wrapper {
@@ -1005,14 +1007,14 @@ input[type="radio"].visually-hidden {
     width: 960px; }
   .actual-block__image {
     width: 960px; }
-  .actual-block__title {
-    margin-bottom: 21px; }
   .actual-block--padding {
     margin-left: 0; }
   .actual-block--padding .actual-block__link-wrapper {
     padding-left: 320px; }
   .actual-block--padding .actual-block__image-wrapper {
     width: 960px; }
+  .actual-block--background {
+    padding-bottom: 0; }
   .actual-block--background .actual-block__title {
     padding-right: 0; }
   .actual-block--background:before {
@@ -1134,14 +1136,17 @@ input[type="radio"].visually-hidden {
     justify-content: flex-start; } }
 
 @media (min-width: 1920px) {
-  .catalog__button {
-    margin-top: 38px; }
-  .catalog__button--desktop {
+  .catalog--padding .catalog__button--desktop,
+  .catalog__thirdblock .catalog__button--desktop {
     display: none; }
-  .catalog__button--xldesktop {
-    display: block; }
+  .catalog--padding .catalog__button--xldesktop,
+  .catalog__thirdblock .catalog__button--xldesktop {
+    display: block;
+    margin-top: 5px; }
+  .catalog__button {
+    margin-top: 20px; }
   .catalog__thirdblock {
-    padding-bottom: 121px; }
+    padding-bottom: 115px; }
   .catalog__wrapper {
     width: 1280px; } }
 
@@ -1321,7 +1326,8 @@ input[type="radio"].visually-hidden {
     margin-bottom: 20px; }
   .catalog-item {
     max-width: 400px;
-    margin-right: 40px; }
+    margin-right: 40px;
+    padding-bottom: 45px; }
   .catalog-item__image-wrapper {
     width: 400px;
     height: 400px;
@@ -1449,7 +1455,7 @@ input[type="radio"].visually-hidden {
   background-color: #dce9e1; }
 
 .filter-fast__button--cost {
-  padding: 0 20px;
+  padding: 0 10px;
   text-transform: inherit;
   height: 45px;
   letter-spacing: 0.1em; }
@@ -1499,7 +1505,13 @@ input[type="radio"].visually-hidden {
     height: 31px;
     background-color: black; }
   .filter-fast__item--cost {
-    margin-right: -5px; } }
+    margin-right: -5px; }
+  .filter-fast__button--cost {
+    padding: 0 20px; } }
+
+@media (min-width: 1920px) {
+  .filter-fast {
+    padding-left: 8px; } }
 
 .site-list__desktop {
   display: none; }
@@ -1514,7 +1526,7 @@ input[type="radio"].visually-hidden {
 .site-list__wrapper {
   display: flex;
   background-color: white;
-  padding: 36px 16px 2px 62px;
+  padding: 37px 16px 2px 40px;
   list-style: none;
   justify-content: flex-start; }
 
@@ -1531,13 +1543,14 @@ input[type="radio"].visually-hidden {
   z-index: 29;
   position: relative;
   padding: 10px 10px 5px 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  letter-spacing: 0.1em; }
 
 .site-list__main-link--active::before {
   content: "";
   position: absolute;
   top: 72%;
-  left: -30%;
+  left: -4%;
   width: 95px;
   height: 10px;
   background-color: #c0d6c9; }
@@ -1648,7 +1661,7 @@ input[type="radio"].visually-hidden {
   padding-bottom: 45px; }
 
 .subscription-alert {
-  min-height: 500px;
+  min-height: 515px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1659,6 +1672,10 @@ input[type="radio"].visually-hidden {
 .subscription-alert__title {
   line-height: 20px;
   margin-bottom: 20px; }
+
+.subscription-alert .subscription__text {
+  padding: 0 40px;
+  text-align: center; }
 
 .subscription-alert__hide {
   display: none; }
@@ -1675,7 +1692,8 @@ input[type="radio"].visually-hidden {
     letter-spacing: 0em;
     text-align: center;
     margin-bottom: 20px;
-    display: flex; }
+    display: flex;
+    justify-content: center; }
   .subscription__text {
     text-align: center;
     margin-bottom: 57px;
@@ -1686,7 +1704,7 @@ input[type="radio"].visually-hidden {
     justify-content: flex-start;
     max-width: 755px;
     margin-right: auto;
-    margin-left: 115px; }
+    margin-left: auto; }
   .subscription__note {
     padding-right: 0; }
   .subscription__note:first-child {
@@ -1694,6 +1712,10 @@ input[type="radio"].visually-hidden {
   .subscription__note:last-child {
     width: 30%;
     margin-left: 10px; } }
+
+@media (min-width: 1920px) {
+  .subscription__title {
+    padding-right: 30px; } }
 
 .form-index__line {
   padding: 10px;
@@ -1782,7 +1804,7 @@ input[type="radio"].visually-hidden {
     margin-bottom: 13px;
     max-width: 755px;
     background-color: white;
-    margin-left: 115px;
+    margin-left: auto;
     margin-right: auto; }
   .form-index__group {
     min-width: 47%; }
@@ -1809,7 +1831,8 @@ input[type="radio"].visually-hidden {
   .form-index__group {
     min-width: 25%; }
   .form-index__block--checkbox {
-    padding-right: 170px; } }
+    padding-right: 170px;
+    margin-left: -45px; } }
 
 .page-footer {
   padding-top: 40px;
@@ -1994,8 +2017,8 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
-  right: 10px;
-  top: 10px;
+  right: 15px;
+  top: 15px;
   background-color: transparent;
   z-index: 8; }
 
@@ -2013,14 +2036,13 @@ input[type="radio"].visually-hidden {
 .popup-index__text {
   margin: 0;
   padding: 0;
-  font-size: 14px;
   font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-transform: none;
+  padding: 0 10px; }
 
 .popup-index__button {
-  padding: 14px 10px;
+  padding: 14px 20px;
   display: block;
   text-decoration: none; }
 

@@ -195,6 +195,7 @@
 @media (min-width: $xldesktop-width) {
   .actual-block {
     width: 1920px;
+    padding-bottom: 97px;
   }
 
   .actual-block__link-wrapper {
@@ -210,19 +211,20 @@
     width: 960px;
   }
 
-  .actual-block__title {
-    margin-bottom: 21px;
-  }
-
   .actual-block--padding {
     margin-left: 0;
   }
+
   .actual-block--padding .actual-block__link-wrapper {
     padding-left: 320px;
   }
 
   .actual-block--padding .actual-block__image-wrapper {
     width: 960px;
+  }
+
+  .actual-block--background {
+    padding-bottom: 0;
   }
 
   .actual-block--background .actual-block__title {
