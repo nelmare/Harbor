@@ -81,7 +81,7 @@
 @media (min-width: $desktop-width) {
   .catalog {
     border-top: 1px solid $border-color2;
-    padding-top: 70px;
+    padding-top: 75px;
     padding-bottom: 100px;
   }
 
@@ -94,12 +94,16 @@
   .catalog__title {
     font-size: 36px;
     line-height: 45px;
-    margin-bottom: 33px;
+    margin-bottom: 30px;
     text-align: center;
   }
 
+  .catalog--padding .catalog__title {
+    margin-bottom: 30px;
+  }
+
   .catalog__button {
-    margin-top: 45px;
+    margin-top: 40px;
   }
 
   .catalog__button--catalog {

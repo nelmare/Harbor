@@ -259,14 +259,14 @@ border-bottom: 1px solid $border-color;
     width: 16px;
     height: 16px;
     border: 8px solid $empty-cart;
-    top: 0%;
+    top: 0;
     left: 60%;
   }
 
   .page-header__cart-link--empty::after {
     content: "0";
-    top: 11%;
-    left: 88%;
+    top: 10%;
+    left: 85%;
   }
 
   .page-header__cart-link--full::before {
@@ -279,8 +279,8 @@ border-bottom: 1px solid $border-color;
 
   .page-header__cart-link--full::after {
     content: "2";
-    top: 11%;
-    left: 88%;
+    top: 10%;
+    left: 85%;
   }
 
   .page-header__cart-bill {

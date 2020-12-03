@@ -82,7 +82,6 @@
     width: 39%;
   }
 
-
   .actual-block__button {
     display: inline-block;
     vertical-align: middle;
@@ -111,9 +110,8 @@
     font-weight: 500;
     line-height: 64px;
     letter-spacing: 0em;
-    padding: 20px 0;
+    padding: 20px 0 25px 0;
     text-align: left;
-    margin-bottom: 21px;
   }
 
   .actual-block--padding {
@@ -123,10 +121,14 @@
     margin-left: auto;
   }
 
+  .actual-block--padding .actual-block__title {
+    padding: 0 0 20px 0;
+  }
+
   .actual-block--padding .actual-block__link-wrapper {
     order: 1;
     padding-left: 240px;
-    width: 42%;
+    width: 46%;
   }
 
   .actual-block--padding .actual-block__image-wrapper {

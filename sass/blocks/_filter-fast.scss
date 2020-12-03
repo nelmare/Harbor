@@ -93,15 +93,15 @@
 }
 
 .filter-fast__button--cost {
-  padding: 0 19px;
+  padding: 0 20px;
   text-transform: inherit;
   height: 45px;
+  letter-spacing: 0.1em;
 }
 
 .filter-fast__main-title {
   display: none;
 }
-
 
 @media (min-width: $desktop-width) {
   .filter-fast {
@@ -119,9 +119,9 @@
 
   .filter-fast__block {
     padding-top: 18px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     border-top: none;
-    margin-right: 30px;
+    margin-right: 35px;
   }
 
   .filter-fast__main-title {
@@ -132,6 +132,10 @@
     margin-bottom: 10px;
     color: $text-color2;
     display: block;
+  }
+
+  .filter-fast__item {
+    margin-right: 8px;
   }
 
   .filter-fast__item-hide,
