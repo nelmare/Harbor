@@ -24,11 +24,11 @@
       <change beforePath="$PROJECT_DIR$/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-women.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_filter-fast.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter-fast.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_favourites.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_favourites.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_page-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_page-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/selection.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,9 @@
       <workItem from="1606135143021" duration="39212000" />
       <workItem from="1606254146364" duration="77175000" />
       <workItem from="1606482049495" duration="106601000" />
-      <workItem from="1607021488893" duration="2327000" />
+      <workItem from="1607021488893" duration="6714000" />
+      <workItem from="1607077549649" duration="105000" />
+      <workItem from="1607077726664" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>
