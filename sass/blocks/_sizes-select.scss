@@ -5,7 +5,6 @@
   position: sticky;
   z-index: 10;
   padding: 20px 30px;
-  //margin: 0 -30px;
   background-color: $mainback-color;
   bottom: 50%;
   left: 0;
@@ -78,9 +77,8 @@
   background-color: $mainback-color;
   width: 100%;
   display: flex;
-  //justify-content: flex-start;
   align-items: center;
-text-align: left;
+  text-align: left;
 }
 
 .sizes-select__table-item {
@@ -213,7 +211,7 @@ text-align: left;
   }
 
   .sizes-select__option-button {
-justify-content: space-between;
+    justify-content: space-between;
   }
 
   .sizes-select__text {

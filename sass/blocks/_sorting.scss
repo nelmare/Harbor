@@ -5,12 +5,6 @@
   background-color: $mainback-color;
 }
 
-//.sorting__item {
-//
-//}
-
-
-
 .sorting__link {
   display: none;
 }
@@ -28,18 +22,6 @@
   padding: 20px 0;
   border-bottom: 1px solid $border-color;
 }
-
-//.sorting__check {
-//  width: 20px;
-//  height: 20px;
-//  position: absolute;
-//  left: 0;
-//  top: 50%;
-//  cursor: pointer;
-//  transform: translateY(-50%);
-//  border: 1px solid $border-color;
-//  border-radius: 2px;
-//}
 
 .sorting__checkbox:checked + .sorting__check {
   content: "";
@@ -73,10 +55,6 @@
 .sorting__checkbox:-moz-focusring ~ .sorting__check {
   outline: 2px dotted;
 }
-
-//.sorting__checkbox:checked .sorting__label {
-//border-bottom: 1px solid $border-color2;
-//}
 
 @media (min-width: $desktop-width) {
   .sorting__list {

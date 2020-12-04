@@ -2553,9 +2553,6 @@ input[type="radio"].visually-hidden {
 .color__checkbox:-moz-focusring ~ .color__check {
   outline: 2px dotted; }
 
-.collection {
-  display: none; }
-
 .sorting__list {
   margin: 0;
   padding: 0;
