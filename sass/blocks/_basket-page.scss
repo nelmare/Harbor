@@ -79,7 +79,7 @@ text-decoration: none;
 
 @media (min-width: $desktop-width) {
   .basket-page__main {
-    padding-top: 70px;
+    padding-top: 65px;
     padding-bottom: 50px;
   }
 
@@ -117,6 +117,8 @@ text-decoration: none;
   .basket-page__button {
     order: 8;
     width: 100%;
+    font-size: 18px;
+    line-height: 23px;
   }
 
   .basket-page__button--mobile {

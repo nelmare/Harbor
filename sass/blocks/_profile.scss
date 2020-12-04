@@ -1,5 +1,5 @@
 .profile__wrapper {
-  padding: 35px 0 45px 0;
+  padding: 25px 0 45px 0;
   border-bottom: 1px solid $border-color2;
 }
 
@@ -103,6 +103,10 @@
   padding-top: 30px;
 }
 
+.profile__subscribtion-wrapper .order__form--subscription {
+  padding-top: 45px;
+}
+
 .profile__form-wrapper .order__block {
   padding-bottom: 25px;
 }
@@ -180,7 +184,7 @@
 
 @media (min-width: $desktop-width) {
   .profile__wrapper {
-    padding: 90px 0 130px 0;
+    padding: 95px 0 130px 0;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -215,7 +219,7 @@
   .profile__nav-list {
     position: static;
     width: 240px;
-    margin-right: 90px;
+    margin-right: 115px;
     background-color: $mainback-color;
     padding: 0;
   }
@@ -271,6 +275,9 @@
   .profile__button {
     order: 6;
     width: 175px;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 35px;
   }
 
   .profile__wrapper--archive {
@@ -305,6 +312,10 @@
     font-weight: 300;
     line-height: 20px;
     text-align: left;
+  }
+
+  .profile__wrapper--subscribtion .profile__nav-list {
+    margin-right: 90px;
   }
 
   .profile__subscribtion-wrapper .catalog__title {
