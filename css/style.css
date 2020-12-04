@@ -1110,6 +1110,8 @@ input[type="radio"].visually-hidden {
     border: none;
     padding-top: 0;
     padding-bottom: 0; }
+  .catalog--items .catalog-item {
+    margin-right: 60px; }
   .catalog__title {
     font-size: 36px;
     line-height: 45px;
@@ -1136,6 +1138,8 @@ input[type="radio"].visually-hidden {
     justify-content: center;
     margin-left: auto;
     margin-right: auto; }
+  .catalog__wrapper--items {
+    width: 1020px; }
   .catalog--selection {
     padding-bottom: 215px; }
   .catalog--selection .catalog__wrapper,
@@ -1309,6 +1313,8 @@ input[type="radio"].visually-hidden {
     width: auto;
     max-width: 170px;
     margin-right: 10px; }
+  .catalog-item__cost {
+    margin-bottom: 5px; }
   .catalog-item__cost--deleted {
     margin-right: 10px; }
   .catalog-item__label--desktop {
@@ -2881,12 +2887,12 @@ input[type="radio"].visually-hidden {
 @media (min-width: 1440px) {
   .item-page {
     display: flex;
-    padding: 85px 90px 80px 90px; }
+    padding: 85px 90px 65px 90px; }
   .item-page__wrapper {
     display: flex;
     flex-direction: column; }
   .item-page__container {
-    padding-top: 95px;
+    padding-top: 90px;
     padding-left: 30px;
     display: flex;
     flex-direction: column; }
@@ -2939,8 +2945,8 @@ input[type="radio"].visually-hidden {
     position: absolute;
     width: 27px;
     height: 26px;
-    top: 0;
-    right: 10%;
+    top: 10%;
+    right: 1%;
     z-index: 2;
     border: none;
     background: transparent;
@@ -3127,10 +3133,12 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 1440px) {
   .product {
-    padding: 20px 30px; }
+    padding: 15px 30px 0 30px; }
   .product__tabcontent {
     padding: 15px 0 15px 0;
-    border-bottom: none; } }
+    border-bottom: none; }
+  .product__tablink--composition {
+    padding-right: 15px; } }
 
 .sizes-select {
   min-width: 375px;
@@ -4459,7 +4467,9 @@ input[type="radio"].visually-hidden {
   .favourites__select.sizes-select .sizes-select__block {
     min-width: 300px; }
   .favourites__button {
-    width: 300px; } }
+    width: 300px;
+    font-size: 18px;
+    line-height: 23px; } }
 
 .login {
   width: 375px;
