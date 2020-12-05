@@ -45,6 +45,7 @@ input[type="radio"].visually-hidden {
 
 .container {
   min-width: 375px;
+  max-width: 768px;
   padding: 0 30px;
   margin: 0 auto;
 }
@@ -82,6 +83,7 @@ input[type="radio"].visually-hidden {
 @media (min-width: $desktop-width) {
   .container {
     padding: 0 90px;
+    max-width: none;
   }
 
   .container--wide {
@@ -90,7 +92,8 @@ input[type="radio"].visually-hidden {
 }
 
 @media (min-width: $xldesktop-width) {
-  .container--wide {
+  .container--wide,
+  .container {
     padding: 0 320px;
     max-width: 1920px;
   }

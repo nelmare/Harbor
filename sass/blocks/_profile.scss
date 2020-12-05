@@ -1,6 +1,6 @@
 .profile__wrapper {
   padding: 25px 0 45px 0;
-  border-bottom: 1px solid $border-color2;
+  max-width: 768px;
 }
 
 .profile__title {
@@ -19,7 +19,7 @@
 .profile__mobile-link {
   display: inline-block;
   vertical-align: middle;
-  width: 315px;
+  width: 100%;
   text-align: left;
   text-decoration: none;
   color: inherit;
@@ -33,7 +33,7 @@
 .profile__mobile-item::before {
   content: "";
   position: absolute;
-  width: 315px;
+  width: 100%;
   height: 9px;
   bottom: -9px;
   left: 0;
@@ -101,6 +101,7 @@
 
 .profile__form-wrapper .order__form {
   padding-top: 30px;
+  width: 100%;
 }
 
 .profile__subscribtion-wrapper .order__form--subscription {
@@ -188,6 +189,10 @@
   margin-bottom: 15px;
 }
 
+.profile__subscribtion-wrapper .favourites__wrapper {
+  justify-content: flex-start;
+}
+
 @media (min-width: $desktop-width) {
   .profile__wrapper {
     padding: 95px 0 130px 0;
@@ -195,6 +200,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
+    max-width: none;
   }
 
   .profile__title {
@@ -347,5 +353,9 @@
   .profile__subscribtion-wrapper .profile__button {
     margin-top: 25px;
     margin-bottom: 35px;
+  }
+
+  .profile__favourites-wrapper .favourites__wrapper {
+    max-width: 960px;
   }
 }

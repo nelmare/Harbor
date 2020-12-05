@@ -82,6 +82,7 @@
 
 .basket-page__button--mobile {
   display: block;
+  margin-bottom: 65px;
 }
 
 .basket-page__button--desktop {
@@ -95,7 +96,7 @@
   }
 
   .basket-page__main-wrapper {
-  flex-direction: row;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }

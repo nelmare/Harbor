@@ -20,7 +20,7 @@
 }
 
 .catalog--items {
-  border-bottom: 1px solid $border-color2;
+  max-width: 768px;
 }
 
 .catalog__title {
@@ -92,6 +92,10 @@
     border: none;
     padding-top: 0;
     padding-bottom: 0;
+  }
+
+  .catalog--items {
+    max-width: none;
   }
 
   .catalog--items .catalog-item {
@@ -175,6 +179,14 @@
   }
 
   .catalog__wrapper {
+    width: 1280px;
+  }
+
+  .catalog--items .catalog-item {
+    margin-right: 40px;
+  }
+
+  .catalog__wrapper--items {
     width: 1280px;
   }
 }

@@ -1,6 +1,7 @@
 .subscription {
   background-color: $image-back1;
   padding-top: 40px;
+  max-width: none;
 }
 
 .subscription--catalog {
@@ -51,7 +52,6 @@
 }
 
 .subscription__wrapper {
-  border-bottom: 1px solid $border-color2;
   padding-bottom: 45px;
 }
 
