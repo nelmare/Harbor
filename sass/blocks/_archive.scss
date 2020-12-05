@@ -66,6 +66,11 @@
   cursor: pointer;
 }
 
+.archive__product-link:hover,
+.archive__product-link:focus {
+  color: $menulink-border;
+}
+
 .archive__cost {
   @include margin-reset;
   font-weight: 500;

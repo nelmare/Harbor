@@ -71,6 +71,11 @@
   cursor: pointer;
 }
 
+.catalog-item__link:hover,
+.catalog-item__focus:focus {
+  font-weight: 400;
+}
+
 .catalog-item__title {
   @include margin-reset;
   font-size: inherit;

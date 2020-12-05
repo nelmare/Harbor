@@ -34,6 +34,16 @@
   letter-spacing: 0.05em;
 }
 
+.page-footer__link:hover,
+.page-footer__link:focus {
+  color: $menulink-border;
+}
+
+.page-footer__link--menu:hover,
+.page-footer__link--menu:focus {
+  color: $menulink-border;
+}
+
 .page-footer__copyright {
   @include margin-reset;
   margin-top: 26px;
@@ -84,6 +94,11 @@
   .page-footer__link {
     font-weight: 400;
   }
+
+  //.page-footer__link:hover,
+  //.page-footer__link:focus {
+  //  font-weight: 700;
+  //}
 }
 
 @media (min-width: $xldesktop-width) {

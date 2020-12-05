@@ -135,6 +135,12 @@
   cursor: pointer;
 }
 
+.sizes-select__basket-button:hover,
+.sizes-select__basket-button:focus {
+  background-color: $image-back1;
+  color: inherit;
+}
+
 .sizes-select__basket-button-text--desktop {
   display: none;
 }
@@ -201,6 +207,11 @@
     text-transform: none;
     color: inherit;
     cursor: pointer;
+  }
+
+  .sizes-select__table-link:hover,
+  .sizes-select__table-link:focus {
+    color: $menulink-border;
   }
 
   .sizes-select__list {

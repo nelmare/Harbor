@@ -156,6 +156,11 @@ border-bottom: 1px solid $border-color;
   cursor: pointer;
 }
 
+.page-header__promo-link:hover,
+.page-header__promo-link:focus {
+  font-weight: 400;
+}
+
 .page-header__contacts,
 .page-header__user,
 .page-header__cart-bill {
@@ -223,7 +228,7 @@ border-bottom: 1px solid $border-color;
     cursor: pointer;
   }
 
-  .page-header__user::after {
+  .page-header__user-link::after {
     content: "";
     position: absolute;
     width: 16px;
@@ -234,6 +239,7 @@ border-bottom: 1px solid $border-color;
     background-image: url("../img/icon-user.svg");
     background-repeat: no-repeat;
     background-position: center center;
+    cursor: pointer;
   }
 
   .page-header__cart {

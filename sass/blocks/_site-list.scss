@@ -35,6 +35,11 @@
   letter-spacing: 0.1em;
 }
 
+.site-list__main-link:hover,
+.site-list__main-link:focus {
+  font-weight: 700;
+}
+
 .site-list__main-link--active::before {
   content: "";
   position: absolute;

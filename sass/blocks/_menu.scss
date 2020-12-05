@@ -64,6 +64,13 @@
   text-transform: none;
 }
 
+.menu__link:hover,
+.menu__link:focus,
+.menu__user-link:hover,
+.menu__user-link:focus {
+  font-weight: 400;
+}
+
 .menu__item--user::after {
   content: "";
   position: absolute;

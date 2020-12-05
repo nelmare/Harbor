@@ -45,6 +45,11 @@
   cursor: pointer;
 }
 
+.subscription__link:hover,
+.subscription__link:focus {
+  color: $menulink-border;
+}
+
 .subscription__wrapper {
   border-bottom: 1px solid $border-color2;
   padding-bottom: 45px;

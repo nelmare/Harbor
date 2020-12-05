@@ -18,6 +18,11 @@
   letter-spacing: 0.03em;
 }
 
+.order__tablink:hover,
+.order__tablink:focus {
+ font-weight: 700;
+}
+
 .order__tablink:nth-child(odd) {
   border-right: none;
 }
@@ -285,6 +290,13 @@ padding-left: 28px;
   line-height: 18px;
   text-transform: none;
   cursor: pointer;
+}
+
+.order__delivery-link:hover,
+.order__delivery-link:focus,
+.order__checkbox-link:hover,
+.order__checkbox-link:focus {
+  color: $menulink-border;
 }
 
 .order__block--subscribe .order__checkbox-name {

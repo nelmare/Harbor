@@ -41,7 +41,9 @@
     cursor: pointer;
   }
 
-  .nav-desktop__link--active {
+  .nav-desktop__link--active,
+  .nav-desktop__link:hover,
+  .nav-desktop__link:focus {
     background-color: $image-back1;
     color: inherit;
   }
@@ -72,6 +74,11 @@
     text-transform: none;
     display: block;
     cursor: pointer;
+  }
+
+  .nav-desktop__menu-link:hover,
+  .nav-desktop__menu-link:focus {
+    font-weight: 700;
   }
 
   .nav-desktop__menu-item {

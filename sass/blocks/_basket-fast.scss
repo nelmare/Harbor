@@ -47,6 +47,13 @@
   cursor: pointer;
 }
 
+.basket-fast__button:hover,
+.basket-fast__button:focus {
+  background-color: $image-back1;
+  color: inherit;
+  box-shadow: none;
+}
+
 .basket-fast__promo-title {
   @include margin-reset;
   font-size: 12px;

@@ -44,6 +44,11 @@
   cursor: pointer;
 }
 
+.basket-page__login-link:hover,
+.basket-page__login-link:focus {
+  color: $menulink-border;
+}
+
 .basket-page__button--mobile,
 .basket-page__button--desktop {
   padding: 20px 10px;
@@ -66,7 +71,13 @@
 .basket-page__button:focus,
 .basket-page__button:active,
 .basket-page__buttton:visited {
-text-decoration: none;
+ text-decoration: none;
+}
+
+.basket-page__button:hover,
+.basket-page__button:focus {
+  background-color: $image-back1;
+  color: inherit;
 }
 
 .basket-page__button--mobile {

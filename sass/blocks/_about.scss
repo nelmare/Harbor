@@ -46,6 +46,11 @@
   cursor: pointer;
 }
 
+.about__contacts-link:hover,
+.about__contacts-link:focus {
+  color: $menulink-border;
+}
+
 .about__info-wrapper {
   padding: 40px 0 20px 0;
   border-bottom: 1px solid $border-color;

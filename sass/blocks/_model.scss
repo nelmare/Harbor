@@ -118,6 +118,13 @@
   cursor: pointer;
 }
 
+.model__reduce:hover,
+.model__reduce:focus,
+.model__enlarge:hover,
+.model__enlarge:focus {
+  border: 1px solid $border-color3;
+}
+
 .model__reduce:before,
 .model__enlarge:before {
   content: "";

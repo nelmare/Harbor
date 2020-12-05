@@ -29,6 +29,13 @@
   cursor: pointer;
 }
 
+.nav-mobile__link:hover,
+.nav-mobile__link:focus {
+  background-color: $image-back1;
+  color: inherit;
+}
+
+
 @media (min-width: $desktop-width) {
   .nav-mobile {
     display: none;

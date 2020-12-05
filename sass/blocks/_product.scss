@@ -22,6 +22,11 @@
   text-transform: uppercase;
 }
 
+.product__tablink:hover,
+.product__tablink:focus {
+  font-weight: 700;
+}
+
 .product__tablink:nth-child(odd) {
   border-right: none;
 }

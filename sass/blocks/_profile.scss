@@ -134,6 +134,12 @@
   line-height: 18px;
 }
 
+.profile__button:hover,
+.profile__button:focus {
+  background-color: $image-back1;
+  color: inherit;
+}
+
 .profile__wrapper--favourites {
   padding-bottom: 0;
 }

@@ -88,6 +88,13 @@
   cursor: pointer;
 }
 
+.form-index__button:hover,
+.form-index__button:focus {
+    background-color: $mainback-color;
+    color: inherit;
+    box-shadow: 0 0 0 1px $border-color2;
+}
+
 @media (min-width: $desktop-width) {
   .form-index {
     display: flex;
