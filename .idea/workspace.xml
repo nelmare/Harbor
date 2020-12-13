@@ -19,21 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="Prepare for demo">
-      <change afterPath="$PROJECT_DIR$/img/promo-image1-tablet@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/promo-image2-tablet@2x.jpg" afterDir="false" />
+    <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="Adjust styles of index page, add tablet-width for index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-women.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_overall.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_overall.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_category.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_filter-fast.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter-fast.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_page-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_page-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_subscription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_subscription.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_nav-mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_nav-mobile.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +112,7 @@
       <workItem from="1607077726664" duration="33348000" />
       <workItem from="1607402912467" duration="432000" />
       <workItem from="1607839983796" duration="7241000" />
-      <workItem from="1607863218646" duration="6114000" />
+      <workItem from="1607863218646" duration="12367000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>
@@ -140,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606414763132</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adjust styles of index page, add tablet-width for index">
+      <created>1607870668055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607870668055</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +163,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prepare for heroku" />
     <MESSAGE value="Prepare for demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare for demo" />
+    <MESSAGE value="Adjust styles of index page, add tablet-width for index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjust styles of index page, add tablet-width for index" />
   </component>
 </project>

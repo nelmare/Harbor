@@ -31,8 +31,10 @@
 
 .nav-mobile__link:hover,
 .nav-mobile__link:focus {
-  background-color: $image-back1;
+  background-color: $mainback-color;
   color: inherit;
+  padding: 16px 10px;
+  border: 1px solid $menu-button-back;
 }
 
 

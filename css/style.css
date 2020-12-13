@@ -764,8 +764,10 @@ input[type="radio"].visually-hidden {
 
 .nav-mobile__link:hover,
 .nav-mobile__link:focus {
-  background-color: #dce9e1;
-  color: inherit; }
+  background-color: white;
+  color: inherit;
+  padding: 16px 10px;
+  border: 1px solid #263141; }
 
 @media (min-width: 1440px) {
   .nav-mobile {
@@ -1560,6 +1562,9 @@ input[type="radio"].visually-hidden {
 .filter-fast__main-title {
   display: none; }
 
+.filter-fast--catalog {
+  margin: 0; }
+
 @media (min-width: 768px) {
   .filter-fast {
     max-width: 510px; } }
@@ -2207,8 +2212,7 @@ input[type="radio"].visually-hidden {
     padding: 0 20px; } }
 
 .catalog-main__container {
-  padding: 0 30px;
-  width: 375px;
+  max-width: 315px;
   margin: 0 auto; }
 
 .catalog-main__settings--mobile {
@@ -2241,7 +2245,7 @@ input[type="radio"].visually-hidden {
   box-shadow: 0 0 0 1px #263141; }
 
 .catalog-main__settings-button--filter {
-  margin-right: 13px;
+  margin-right: 15px;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -2312,12 +2316,19 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column; }
 
+@media (min-width: 768px) {
+  .catalog-main__container {
+    max-width: 600px; }
+  .catalog-main__settings--mobile {
+    justify-content: space-between; }
+  .catalog-main__settings-button {
+    width: 240px; } }
+
 @media (min-width: 1440px) {
   .catalog-main .catalog-item {
     margin-bottom: 50px; }
   .catalog-main__container {
-    padding: 0 90px;
-    width: 1440px; }
+    max-width: 1440px; }
   .catalog-main__block {
     margin-left: 60px; }
   .catalog-main__wrapper {
@@ -2341,14 +2352,12 @@ input[type="radio"].visually-hidden {
     min-height: auto; }
   .catalog-main__filter {
     width: 240px;
-    border-top: 1px solid #9799a7;
     min-height: auto; } }
 
 @media (min-width: 1920px) {
   .catalog-main__container {
-    padding: 0 90px;
-    width: 1920px;
-    margin: 0 auto; } }
+    max-width: 1760px;
+    padding: 0 90px; } }
 
 .filter__main-list {
   margin: 0;
@@ -2468,6 +2477,11 @@ input[type="radio"].visually-hidden {
     position: relative; }
   .filter__list {
     padding-top: 10px; }
+  .filter__item {
+    border-top: 1px solid #9799a7;
+    border-bottom: none; }
+  .filter__item:last-child {
+    border-bottom: 1px solid #9799a7; }
   .filter__item--collection {
     display: block; } }
 

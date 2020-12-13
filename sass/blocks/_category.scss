@@ -55,12 +55,12 @@ margin-bottom: 15px;
     border-bottom: 1px solid $border-color;
   }
 
-.category__label {
-  padding-left: 0;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: none;
-}
+  .category__label {
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: none;
+  }
 
   .category__checkbox:checked ~ .category__check-text {
     font-weight: 700;

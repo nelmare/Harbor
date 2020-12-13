@@ -18,7 +18,7 @@
 
 .filter__item--color .filter-fast__button,
 .size .filter-fast__button {
-width: 45px;
+  width: 45px;
   height: 45px;
 }
 
@@ -133,6 +133,15 @@ width: 45px;
 
   .filter__list {
     padding-top: 10px;
+  }
+
+  .filter__item {
+    border-top: 1px solid $menu-line;
+    border-bottom: none;
+  }
+
+  .filter__item:last-child {
+    border-bottom: 1px solid $menu-line;
   }
 
   .filter__item--collection {
