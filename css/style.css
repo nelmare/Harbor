@@ -1636,7 +1636,7 @@ input[type="radio"].visually-hidden {
 .site-list__wrapper {
   display: flex;
   background-color: white;
-  padding: 37px 16px 2px 40px;
+  padding: 22px 16px 18px 25px;
   list-style: none;
   justify-content: flex-start; }
 
@@ -1663,8 +1663,8 @@ input[type="radio"].visually-hidden {
 .site-list__main-link--active::before {
   content: "";
   position: absolute;
-  top: 72%;
-  left: -4%;
+  top: 35px;
+  left: 9px;
   width: 95px;
   height: 10px;
   background-color: #c0d6c9; }

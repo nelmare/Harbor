@@ -24,11 +24,7 @@
       <change beforePath="$PROJECT_DIR$/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-women.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_category.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_filter-fast.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter-fast.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_nav-mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_nav-mobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_site-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_site-list.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +108,7 @@
       <workItem from="1607077726664" duration="33348000" />
       <workItem from="1607402912467" duration="432000" />
       <workItem from="1607839983796" duration="7241000" />
-      <workItem from="1607863218646" duration="12367000" />
+      <workItem from="1607863218646" duration="13098000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>
