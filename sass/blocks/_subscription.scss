@@ -79,6 +79,13 @@
   display: none;
 }
 
+@media (min-width: $tablet-width) {
+  .subscription__title,
+  .subscription__text {
+    text-align: center;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .subscription {
     padding-top: 105px;

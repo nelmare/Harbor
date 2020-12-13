@@ -176,6 +176,7 @@ border-bottom: 1px solid $border-color;
   .page-header__container {
     padding: 15px 60px 13px 80px;
     order: 1;
+    border-bottom: none;
   }
 
   .page-header__contacts {
@@ -302,6 +303,7 @@ border-bottom: 1px solid $border-color;
   .page-header__promo-wrapper {
     order: 3;
     padding: 20px 40px;
+    border-bottom: 1px solid $border-color;
   }
 
   .page-header__promo-wrapper--items {

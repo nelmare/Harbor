@@ -20,38 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="Prepare for demo">
+      <change afterPath="$PROJECT_DIR$/img/promo-image1-tablet@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/promo-image2-tablet@2x.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basketempty.html" beforeDir="false" afterPath="$PROJECT_DIR$/basketempty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-women.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/favourites.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notfound.html" beforeDir="false" afterPath="$PROJECT_DIR$/notfound.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordered.html" beforeDir="false" afterPath="$PROJECT_DIR$/ordered.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile-account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile-favourites.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_overall.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_overall.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_basket-fast.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_basket-fast.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_basket-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_basket-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_favourites.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_favourites.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_item-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_item-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_order-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_order-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_order.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_page-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_page-footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_sizes-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_sizes-select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_filter-fast.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_filter-fast.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_page-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_page-header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_subscription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_subscription.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/selection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscribtion.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscribtion.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +67,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -98,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/sass" />
     </key>
@@ -131,7 +114,10 @@
       <workItem from="1606482049495" duration="106601000" />
       <workItem from="1607021488893" duration="6714000" />
       <workItem from="1607077549649" duration="105000" />
-      <workItem from="1607077726664" duration="32911000" />
+      <workItem from="1607077726664" duration="33348000" />
+      <workItem from="1607402912467" duration="432000" />
+      <workItem from="1607839983796" duration="7241000" />
+      <workItem from="1607863218646" duration="6114000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>

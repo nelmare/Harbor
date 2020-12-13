@@ -2,6 +2,8 @@
   border-top: 1px solid $border-color;
   padding-top: 37px;
   padding-bottom: 45px;
+  max-width: 315px;
+  margin: 0 auto;
 }
 
 .catalog--page {
@@ -39,8 +41,8 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-right: -6px;
-  margin-left: -6px;
+  //margin-right: -6px;
+  //margin-left: -6px;
 }
 
 .catalog__button-wrapper {
@@ -76,11 +78,22 @@
   display: none;
 }
 
+@media (min-width: $tablet-width) {
+  .catalog {
+    max-width: 510px;
+  }
+
+  .catalog__title {
+    text-align: center;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .catalog {
     border-top: 1px solid $border-color2;
     padding-top: 75px;
     padding-bottom: 100px;
+    max-width: 960px;
   }
 
   .catalog--nopadding {
@@ -159,6 +172,10 @@
 }
 
 @media (min-width: $xldesktop-width) {
+  .catalog {
+    max-width: 1280px;
+  }
+
   .catalog--padding .catalog__button--desktop,
   .catalog__thirdblock .catalog__button--desktop {
     display: none;
