@@ -77,7 +77,18 @@
 
 .slider__item {
   width: 282px;
+  height: 325px;
   transition: all .6s ease;
+}
+
+.slider__image {
+  border: none;
+  display: block;
+  vertical-align: bottom;
+  width: 282px;
+  height: 325px;
+  background-color: rgb(240,240,240);
+  font: inherit;
 }
 
 @media (min-width: $desktop-width) {
