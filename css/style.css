@@ -1136,9 +1136,6 @@ input[type="radio"].visually-hidden {
   padding-top: 42px;
   padding-bottom: 50px; }
 
-.catalog--items {
-  max-width: 768px; }
-
 .catalog__title {
   margin: 0;
   padding: 0;
@@ -1200,8 +1197,6 @@ input[type="radio"].visually-hidden {
     border: none;
     padding-top: 0;
     padding-bottom: 0; }
-  .catalog--items {
-    max-width: none; }
   .catalog--items .catalog-item {
     margin-right: 60px; }
   .catalog__title {
@@ -2900,8 +2895,8 @@ input[type="radio"].visually-hidden {
 .slider {
   position: relative;
   padding-bottom: 30px;
-  width: 375px;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%; }
 
 .slider__favorite {
   position: absolute;
@@ -2980,14 +2975,24 @@ input[type="radio"].visually-hidden {
   background-color: #f0f0f0;
   font: inherit; }
 
+@media (min-width: 768px) {
+  .slider {
+    margin: 0 auto; } }
+
 @media (min-width: 1440px) {
   .slider {
     display: none; } }
 
 .item-page {
   padding: 30px 0 10px 0;
-  max-width: 768px;
-  margin: 0 auto; }
+  display: flex;
+  justify-content: center; }
+
+.item-page__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 425px; }
 
 .item-page__wrapper {
   padding: 0 30px; }
@@ -3002,8 +3007,7 @@ input[type="radio"].visually-hidden {
   font-size: 24px;
   font-weight: 500;
   line-height: 24px;
-  color: #9799a7;
-  padding-right: 50px; }
+  color: #9799a7; }
 
 .item-page__favorite {
   display: none; }
@@ -3093,6 +3097,10 @@ input[type="radio"].visually-hidden {
 .item-page__email-button:hover,
 .item-page__email-button:focus {
   opacity: 70%; }
+
+@media (min-width: 768px) {
+  .item-page__container {
+    max-width: 510px; } }
 
 @media (min-width: 1440px) {
   .item-page {
@@ -3214,7 +3222,6 @@ input[type="radio"].visually-hidden {
 
 .color-gallery {
   display: flex;
-  margin-right: auto;
   padding: 20px 30px; }
 
 .color-gallery__item {
@@ -3358,13 +3365,13 @@ input[type="radio"].visually-hidden {
 
 .sizes-select {
   min-width: 375px;
-  max-width: 768px;
+  max-width: 450px;
   height: 86px;
   position: sticky;
   z-index: 10;
   padding: 20px 30px;
   background-color: white;
-  bottom: 50%;
+  bottom: 0;
   left: 0;
   display: flex;
   justify-content: space-between;

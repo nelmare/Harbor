@@ -1,12 +1,12 @@
 .sizes-select {
   min-width: 375px;
-  max-width: 768px;
+  max-width: 450px;
   height: 86px;
   position: sticky;
   z-index: 10;
   padding: 20px 30px;
   background-color: $mainback-color;
-  bottom: 50%;
+  bottom: 0;
   left: 0;
   display: flex;
   justify-content: space-between;

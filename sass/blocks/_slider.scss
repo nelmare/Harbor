@@ -1,8 +1,10 @@
 .slider {
   position: relative;
   padding-bottom: 30px;
-  width: 375px;
+  //width: 375px;
   overflow: hidden;
+  //margin: 0 auto;
+  width: 100%;
 }
 
 .slider__favorite {
@@ -89,6 +91,13 @@
   height: 325px;
   background-color: rgb(240,240,240);
   font: inherit;
+}
+
+
+@media (min-width: $tablet-width) {
+  .slider {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: $desktop-width) {

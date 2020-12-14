@@ -21,10 +21,6 @@
   padding-bottom: 50px;
 }
 
-.catalog--items {
-  max-width: 768px;
-}
-
 .catalog__title {
   @include margin-reset;
   font-weight: 300;
@@ -105,10 +101,6 @@
     border: none;
     padding-top: 0;
     padding-bottom: 0;
-  }
-
-  .catalog--items {
-    max-width: none;
   }
 
   .catalog--items .catalog-item {
