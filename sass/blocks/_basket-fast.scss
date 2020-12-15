@@ -42,7 +42,7 @@
   background-color: $menu-button-back;
   color: $text-color4;
   margin-bottom: 37px;
-  width: 315px;
+  width: 100%;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -62,11 +62,19 @@
   letter-spacing: 0.03em;
 }
 
-.basket-fast__block {
+.basket-fast__form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
+  width: 100%;
+}
+
+.basket-fast__block {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .basket-fast__label {
@@ -84,8 +92,7 @@
   font-weight: 700;
   line-height: 18px;
   color: $maintext-color;
-  width: 60%;
-  margin-right: 10px;
+  width: 100%;
 }
 
 .basket-fast__promo-button {
@@ -95,6 +102,7 @@
   letter-spacing: 0.1em;
   text-align: center;
   text-transform: uppercase;
+  width: 35%;
 }
 
 @media (min-width: $desktop-width) {

@@ -63,7 +63,7 @@
     display: block;
   }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $laptop-width) {
   .main-nav--mobile {
   display: none;
   }

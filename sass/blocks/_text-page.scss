@@ -1,0 +1,139 @@
+.text-page__column {
+  padding: 30px 30px 35px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-page__column div {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-page__column div:first-child {
+  padding: 40px 0 0 0;
+  order: 2;
+}
+
+.text-page__column div:nth-child(2) {
+  padding: 0 0 25px 0;
+  border-bottom: 1px solid $border-color;
+  order: 1;
+}
+
+.text-page h1 {
+  @include margin-reset;
+  font-family: "Boita", "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  color: $text-color3;
+  margin-bottom: 25px;
+}
+
+.text-page h2 {
+  @include margin-reset;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+
+.text-page p {
+  @include margin-reset;
+  text-transform: none;
+  margin-bottom: 15px;
+}
+
+.text-page a {
+  color: $maintext-color;
+  cursor: pointer;
+}
+
+.text-page img {
+  width: 100%;
+  max-width: 100%;
+  min-height: 200px;
+}
+
+@media (min-width: $tablet-width) {
+  .text-page__column {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 580px;
+    margin: 0 auto;
+  }
+
+  .text-page--policy h1{
+    text-align: center;
+  }
+}
+
+@media(min-width: $laptop-width) {
+  .text-page__column {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    padding: 80px 0 45px 0;
+    width: 993px;
+  }
+
+  .text-page__column div:nth-child(2) {
+    padding: 120px 0 25px 0;
+    border-bottom: none;
+    width: 180px;
+    margin-right: 90px;
+    margin-left: 80px;
+    order: 2;
+  }
+
+  .text-page__column div:first-child p {
+    padding: 0;
+    width: 540px;
+    order: 1;
+  }
+
+  .text-page h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 35px;
+    padding-right: 5px;
+  }
+
+  .text-page--policy h1 {
+    width: 780px;
+  }
+
+  .text-page--policy div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+  @media(min-width: $xlaptop-width) {
+    .text-page__column {
+      width: 1200px;
+    }
+
+    .text-page__column div:first-child {
+      width: 540px;
+    }
+
+    .text-page__column div:nth-child(2) {
+      margin-right: 50px;
+      margin-left: 100px;
+    }
+  }
+
+  @media(min-width: $desktop-width) {
+    .text-page__column {
+      width: 1440px;
+    }
+
+    .text-page__column div:nth-child(2) {
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+  }

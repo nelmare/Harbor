@@ -8,7 +8,7 @@
   display: none;
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $laptop-width) {
   .nav-desktop {
     display: block;
     order: 2;

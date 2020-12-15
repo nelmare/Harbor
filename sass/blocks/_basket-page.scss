@@ -58,7 +58,7 @@
   text-align: center;
   background-color: $menu-button-back;
   color: $text-color4;
-  width: 315px;
+  width: 100%;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
@@ -87,6 +87,24 @@
 
 .basket-page__button--desktop {
   display: none;
+}
+
+@media (min-width: $landscape-width) {
+  .basket-page__main,
+  .basket__page__order-block {
+    max-width: 485px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .basket__page__order-block {
+    max-width: 698px;
+  }
+
+  .basket-page__button--mobile {
+    width: 425px;
+    margin: 0 auto 65px auto;
+  }
 }
 
 @media (min-width: $desktop-width) {
