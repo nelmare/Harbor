@@ -101,6 +101,21 @@
   }
 }
 
+@media (min-width: $laptop-width) {
+  .slider {
+    position: absolute;
+    top: 95px;
+    left: 0;
+    max-width: 375px;
+  }
+}
+
+@media (min-width: $laptop-width) {
+  .slider {
+    top: 110px;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .slider {
     display: none;

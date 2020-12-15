@@ -124,6 +124,12 @@
     font-size: 31px;
     line-height: 40px;
   }
+
+  .catalog--page {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -145,7 +151,16 @@
     padding-bottom: 0;
   }
 
+  .catalog--items {
+    max-width: 1020px;
+    border-top: none;
+  }
+
   .catalog--items .catalog-item {
+    margin-right: 60px;
+  }
+
+  .catalog--items .catalog-item:nth-child(2) {
     margin-right: 60px;
   }
 
@@ -234,6 +249,10 @@
   }
 
   .catalog--items .catalog-item {
+    margin-right: 40px;
+  }
+
+  .catalog--items .catalog-item:nth-child(2) {
     margin-right: 40px;
   }
 

@@ -55,8 +55,14 @@
   background-position: center center;
 }
 
+@media (min-width: $laptop-width) {
+  .color-gallery {
+    padding: 20px 0 20px 0;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .color-gallery {
-    padding: 0 30px 20px 30px;
+    padding: 0 0 20px 0;
   }
 }

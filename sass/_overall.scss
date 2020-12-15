@@ -120,13 +120,6 @@ input[type="radio"].visually-hidden {
   opacity: 0;
 }
 
-@media (min-width: $landscape-width) {
-  .container {
-    padding: 0 40px;
-    max-width: none;
-  }
-}
-
 @media (min-width: $tablet-width) {
   .container {
     padding: 0 45px;
@@ -168,6 +161,10 @@ input[type="radio"].visually-hidden {
 
   .container--wide {
     padding: 0 240px;
+  }
+
+  .container--border {
+    //border-bottom: 1px solid $border-color2;
   }
 }
 
