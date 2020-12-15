@@ -9,9 +9,9 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  //width: 375px;
+  min-width: 375px;
   //margin: 0 auto;
-  max-width: 425px;
+  //max-width: 540px;
 }
 
 .item-page__wrapper {
@@ -135,7 +135,13 @@
 
 @media (min-width: $tablet-width) {
   .item-page__container {
-    max-width: 510px;
+    width: 540px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .item-page__container {
+    max-width: 960px;
   }
 }
 

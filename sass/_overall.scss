@@ -120,6 +120,13 @@ input[type="radio"].visually-hidden {
   opacity: 0;
 }
 
+@media (min-width: $landscape-width) {
+  .container {
+    padding: 0 40px;
+    max-width: none;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .container {
     padding: 0 45px;
@@ -127,7 +134,29 @@ input[type="radio"].visually-hidden {
   }
 
   .container--wide {
+    padding: 0 80px;
+  }
+}
+
+@media (min-width: $laptop-width) {
+  .container {
+    padding: 0 45px;
+    max-width: none;
+  }
+
+  .container--wide {
     padding: 0 120px;
+  }
+}
+
+@media (min-width: $xlaptop-width) {
+  .container {
+     padding: 0 45px;
+     max-width: none;
+   }
+
+  .container--wide {
+    padding: 0 180px;
   }
 }
 

@@ -1,6 +1,6 @@
 .sizes-select {
   min-width: 375px;
-  max-width: 450px;
+  max-width: 425px;
   height: 86px;
   position: sticky;
   z-index: 10;
@@ -152,6 +152,12 @@
   line-height: 18px;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+@media (min-width: $tablet-width) {
+.sizes-select {
+  max-width: 960px;
+}
 }
 
 @media (min-width: $desktop-width) {

@@ -73,7 +73,7 @@
 
 @media (min-width: $tablet-width) {
   .actual-block {
-    max-width: 510px;
+    max-width: 608px;
   }
 
   .actual-block__image-wrapper {
@@ -85,6 +85,18 @@
     width: 100%;
   }
 }
+
+//@media (min-width: $laptop-width) {
+//  .actual-block {
+//    max-width: 753px;
+//  }
+//}
+
+//@media (min-width: $xlaptop-width) {
+//  .actual-block {
+//    max-width: 840px;
+//  }
+//}
 
 @media (min-width: $desktop-width) {
   .actual-block {
