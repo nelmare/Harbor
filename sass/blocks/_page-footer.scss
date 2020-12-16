@@ -7,8 +7,6 @@
   padding: 40px 0 45px 0;
 }
 
-
-
 .page-footer__list {
   @include margin-reset;
   list-style: none;
@@ -63,6 +61,10 @@
 .page-footer__item-list {
   list-style: none;
   @include margin-reset;
+}
+
+.page-footer__wrapper--bordered {
+  border-top: 1px solid $border-color2;
 }
 
 @media (min-width: $laptop-width) {
