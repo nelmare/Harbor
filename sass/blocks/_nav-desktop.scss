@@ -26,6 +26,7 @@
 
   .nav-desktop__item {
     position: relative;
+    z-index: 10;
   }
 
   .nav-desktop__link {
@@ -52,15 +53,20 @@
     color: $link-color2;
   }
 
-  .nav-desktop__menu-list {
+  .nav-desktop__item .nav-desktop__menu-list {
+    display: none;
     @include margin-reset;
     list-style: none;
     background-color: $image-back1;
     padding: 10px 15px;
-    width: 235px;
+    width: 245px;
     position: absolute;
-    top: 53px;
+    top: 52px;
     left: 0;
+  }
+
+  .nav-desktop__item:hover .nav-desktop__menu-list {
+    display: block;
   }
 
   .nav-desktop__menu-link {
@@ -74,6 +80,7 @@
     text-transform: none;
     display: block;
     cursor: pointer;
+    white-space: nowrap;
   }
 
   .nav-desktop__menu-link:hover,

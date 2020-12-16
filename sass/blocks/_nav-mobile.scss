@@ -37,8 +37,7 @@
   border: 1px solid $menu-button-back;
 }
 
-
-@media (min-width: $desktop-width) {
+@media (min-width: $laptop-width) {
   .nav-mobile {
     display: none;
   }

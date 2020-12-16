@@ -7,15 +7,22 @@
 .menu__wrapper {
   background-color: $menu-mobile-back;
   backdrop-filter: blur(15px);
+
+
 }
 
 .menu__list {
   list-style: none;
   background-color: $mainback-color;
   width: 313px;
-  min-height: 582px;
+  //min-height: 96vh;
   border-top: 1px solid $border-color;
   padding: 60px 35px 40px 35px;
+  height: 96vh;
+    overflow-y: scroll;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
 }
 
 .menu__item {
@@ -50,6 +57,7 @@
 
 .menu__item--user {
   margin-top: 207px;
+  margin-bottom: 35px;
   position: relative;
 }
 
