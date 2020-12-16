@@ -8,7 +8,7 @@
     <script src="js/picturefill.js"></script>
     <script src="js/svg4everybody.js"></script>
 </head>
-<body class="body">
+<body class="body popup-show">
 <header class="page-header">
     <div class="page-header__container">
         <div class="page-header__contacts">
@@ -498,7 +498,9 @@
     <p class="page-footer__copyright">© Copyright 2020 Harbor. Все права защищены.</p>
     </div>
 </footer>
-<div class="login popup popup-hide">
+<!--Чтобы показать попап нужно добавить класс popup-show модальному окну и body с помощью js. body.popup-show -
+убирает скролл у боди-->
+<div class="login popup popup-hide popup-show">
     <div class="login__wrapper">
         <div class="login__title-wrapper">
             <h2 class="login__popup-title">Регистрация</h2>
@@ -551,7 +553,8 @@
         </div>
     </div>
 </div>
-<div class="login popup popup-hide">
+<!--Класс popup-show нужно добавлять, чтобы показать модальные окна-->
+<div class="login popup popup--show">
     <div class="login__wrapper login__wrapper--account">
         <div class="login__title-wrapper login__title-wrapper--account">
             <h2 class="login__popup-title">Личный кабинет</h2>

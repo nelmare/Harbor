@@ -8,7 +8,7 @@
     <script src="js/picturefill.js"></script>
     <script src="js/svg4everybody.js"></script>
 </head>
-<body class="body">
+<body class="body popup-show">
 <header class="page-header">
     <div class="page-header__container">
         <div class="page-header__contacts">
@@ -173,7 +173,7 @@
     </nav>
 </header>
 <main class="catalog-main">
-    <div class="catalog-main__container container">
+    <div class="catalog-main__container catalog-main__container--page container">
         <h1 class="catalog-main__title">Обувь для женщин</h1>
         <div class="catalog-main__wrapper">
             <div class="catalog-main__settings catalog-main__settings--mobile">
@@ -182,7 +182,8 @@
                 </button>
                 <button class="catalog-main__settings-button" type="button">Сортировка</button>
             </div>
-<!--            На десктопе нужно убирать класс popup и popup-hide у блока с фильтром-->
+<!--            До ширины 1199px фильтр и сортировка - модальные окна. Нужно добавить класс popup-show модальному окну и -->
+<!--            body с помощью js. body.popup-show - убирает скролл у боди -->
             <div class="catalog-main__filter filter catalog-main__popup">
                 <div class="catalog-main__popup-title-wrapper">
                     <h2 class="catalog-main__popup-title">Фильтр</h2>
@@ -393,8 +394,7 @@
                     <button class="filter__clear" type="button">Сбросить фильтр</button>
                 </div>
             </div>
-    <!--        На десктопе нужно убирать класс popup и popup-hide у блока сортировки -->
-            <div class="catalog-main__sorting sorting catalog-main__popup">
+            <div class="catalog-main__sorting sorting catalog-main__popup popup-show">
                 <div class="catalog-main__popup-title-wrapper catalog-main__popup-title-wrapper--sorting">
                     <h2 class="catalog-main__popup-title">Сортировка</h2>
                     <button class="catalog-main__popup-close"><span class="visually-hidden" type="button">Закрыть</span></button>
@@ -840,7 +840,9 @@
         <p class="page-footer__copyright">© Copyright 2020 Harbor. Все права защищены.</p>
     </div>
 </footer>
-<div class="catalog-main__filter catalog-main__popup popup-sizes size popup popup-hide">
+<!--Чтобы показать попап нужно добавить класс popup-show модальному окну и body с помощью js. body.popup-show -
+убирает скролл у боди-->
+<div class="catalog-main__filter catalog-main__popup popup-sizes size popup">
     <div class="catalog-main__popup-title-wrapper popup-sizes__title-wrapper">
         <h2 class="catalog-main__popup-title">Размеры</h2>
         <button class="catalog-main__popup-close"><span class="visually-hidden" type="button">Закрыть</span></button>

@@ -1,17 +1,18 @@
 .popup-index {
   width: 375px;
-  min-height: 500px;
-  padding: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  position: relative;
+  height: 500px;
+  padding: 155px 30px 30px 30px;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  //text-align: center;
+  //flex-direction: column;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.popup-hide {
-  display: none;
+.popup-index__wrapper {
+  position: relative;
 }
 
 .popup-index__close-button {
@@ -24,8 +25,8 @@
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
-  right: 15px;
-  top: 15px;
+  right: -15px;
+  top: -150px;
   background-color: transparent;
   z-index: 8;
 }
@@ -39,6 +40,7 @@
   letter-spacing: 0em;
   margin-bottom: 20px;
   color: $text-color3;
+  text-align: center;
 }
 
 .popup-index__text {
@@ -47,23 +49,31 @@
   margin-bottom: 20px;
   text-transform: none;
   padding: 0 10px;
+  text-align: center;
 }
 
 .popup-index__button {
   padding: 14px 20px;
   display: block;
   text-decoration: none;
+  width: 180px;
+  margin: 0 auto;
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $tablet-width) {
   .popup-index {
     width: 590px;
-    min-height: 380px;
+    height: 380px;
+    padding-top: 100px;
   }
 
   .popup-index__title {
     font-size: 40px;
     line-height: 40px;
     padding: 0 20px;
+  }
+
+  .popup-index__close-button {
+    top: -90px;
   }
 }

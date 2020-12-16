@@ -1,7 +1,7 @@
 .sorting__list {
   @include margin-reset;
   list-style: none;
-  padding: 5px 30px 20px 30px;
+  padding: 5px 30px 60px 30px;
   background-color: $mainback-color;
 }
 
@@ -17,7 +17,7 @@
   text-decoration: none;
   color: inherit;
   position: relative;
-  width: 313px;
+  width: 100%;
   display: block;
   padding: 20px 0;
   border-bottom: 1px solid $border-color;
@@ -38,14 +38,9 @@
   border: none;
 }
 
-.sorting__checkbox:checked + .sorting__check::before {
-  content: "";
-  width: 313px;
-  height: 1px;
-  position: absolute;
-  right: 0;
-  bottom: -19px;
-  background-color: $border-color2;
+.sorting__label:hover,
+.sorting__label:focus {
+  border-bottom: 1px solid $border-color2;
 }
 
 .sorting__checkbox:focus ~ .sorting__check {
@@ -56,7 +51,7 @@
   outline: 2px dotted;
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $xlaptop-width) {
   .sorting__list {
     padding: 23px 25px 5px 25px;
     background-color: $mainback-color;

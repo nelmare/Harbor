@@ -25,6 +25,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+body.popup-show  {
+  overflow: hidden;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -73,14 +77,18 @@ input[type="radio"].visually-hidden {
 
 .popup {
   position: fixed;
+  display: none;
   top: 0;
   left: 0;
   bottom: 0;
   background: #ffffff;
   z-index: 26;
   overflow: auto;
-  height: 100%;
-  max-height: 100vh;
+}
+
+//Класс popup-show нужно добавлять, чтобы показать popup
+.popup-show {
+  display: block;
 }
 
 ::-webkit-input-placeholder {

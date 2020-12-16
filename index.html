@@ -784,12 +784,15 @@
             <p class="page-footer__copyright">© Copyright 2020 Harbor. Все права защищены.</p>
         </div>
     </footer>
-<!--    Попап скрыт классом popup-hide-->
-    <div class="popup popup-index popup-hide">
+    <!--Чтобы показать попап нужно добавить класс popup-show модальному окну и body с помощью js. body.popup-show -
+    убирает скролл у боди-->
+    <div class="popup popup-index">
+        <div class="popup-index__wrapper">
         <button class="popup-index__close-button" type="button"><span class="visually-hidden">Закрыть</span></button>
         <h2 class="popup-index__title">10% после регистрации</h2>
         <p class="popup-index__text">Скидка распространяется на всю продукцию коллекции.</p>
         <a class="popup-index__button button" href="#">Получить скидку</a>
+        </div>
     </div>
     <script src="js/burger.js"></script>
     <script>svg4everybody();</script>

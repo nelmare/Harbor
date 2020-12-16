@@ -1,3 +1,8 @@
+.popup-sizes {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .popup-sizes__title-wrapper {
   min-height: 308px;
 }
@@ -5,7 +10,7 @@
 .popup-sizes__list {
   margin: 0;
   list-style: none;
-  padding: 15px 30px;
+  padding: 15px 30px 30px 30px;
   background-color: $mainback-color;
 }
 
@@ -39,3 +44,25 @@
   color: $maintext-color;
 }
 
+@media (min-width: $xlaptop-width) {
+  .popup-sizes {
+    position: fixed;
+    display: none;
+    top: 50%;
+    background-color: transparent;
+    z-index: 26;
+    overflow: auto;
+    width: 425px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .popup-sizes__title-wrapper {
+    display: flex;
+    align-items: flex-end;
+    padding: 25px 30px;
+    justify-content: space-between;
+    background-color: $menu-mobile-back;
+    backdrop-filter: blur(15px);
+  }
+}
