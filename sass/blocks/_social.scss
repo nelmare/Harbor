@@ -24,13 +24,10 @@
 
 .social__link:hover .social__icon,
 .social__link:focus .social__icon {
-  //border: 1px solid $border-color5;
-  //border-radius: 3px;
-  //fill: red;
   transform: scale(1.1);
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $laptop-width) {
   .social__list {
     padding-top: 0;
   }

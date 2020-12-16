@@ -65,7 +65,7 @@
   @include margin-reset;
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $laptop-width) {
   .page-footer {
     padding: 0 80px 0 90px;
   }
