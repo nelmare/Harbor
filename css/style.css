@@ -463,7 +463,8 @@ input[type="radio"].visually-hidden {
   overflow: auto; }
 
 .popup-show {
-  display: block; }
+  display: block;
+  position: fixed; }
 
 ::-webkit-input-placeholder {
   color: inherit;
