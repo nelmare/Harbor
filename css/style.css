@@ -410,7 +410,8 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 body.popup-show {
-  overflow: hidden; }
+  overflow: hidden;
+  position: fixed; }
 
 img {
   max-width: 100%;
@@ -463,8 +464,7 @@ input[type="radio"].visually-hidden {
   overflow: auto; }
 
 .popup-show {
-  display: block;
-  position: fixed; }
+  display: block; }
 
 ::-webkit-input-placeholder {
   color: inherit;

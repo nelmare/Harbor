@@ -27,6 +27,7 @@ body {
 
 body.popup-show  {
   overflow: hidden;
+  position: fixed;
 }
 
 img {
@@ -89,7 +90,6 @@ input[type="radio"].visually-hidden {
 //Класс popup-show нужно добавлять, чтобы показать popup
 .popup-show {
   display: block;
-  position: fixed;
 }
 
 ::-webkit-input-placeholder {
