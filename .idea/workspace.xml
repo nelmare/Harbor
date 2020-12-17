@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="Adjust styles of index page, add tablet-width for index">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_overall.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_overall.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-women.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <workItem from="1607077726664" duration="33348000" />
       <workItem from="1607402912467" duration="432000" />
       <workItem from="1607839983796" duration="7241000" />
-      <workItem from="1607863218646" duration="119592000" />
+      <workItem from="1607863218646" duration="119899000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>
