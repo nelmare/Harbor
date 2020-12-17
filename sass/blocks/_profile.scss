@@ -193,7 +193,7 @@
   justify-content: flex-start;
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $tablet-width) {
   .profile__wrapper {
     padding: 95px 0 130px 0;
     display: flex;
@@ -230,15 +230,15 @@
 
   .profile__nav-list {
     position: static;
-    width: 240px;
-    margin-right: 115px;
+    width: 200px;
+    margin-right: 30px;
     background-color: $mainback-color;
     padding: 0;
   }
 
-  .profile__nav-item:last-child {
-    border-bottom: 1px solid $border-color;
-  }
+  //.profile__nav-item:last-child {
+  //  border-bottom: 1px solid $border-color;
+  //}
 
   .profile__nav-link {
     color: $maintext-color;
@@ -252,15 +252,20 @@
     border-bottom: 1px solid $border-color2;
   }
 
+  .profile__form-wrapper {
+    width: 100%;
+    max-width: 810px;
+  }
+
   .profile__form-wrapper .order__block--email,
   .profile__form-wrapper .order__block--phone,
   .profile__form-wrapper .order__block--city,
   .profile__form-wrapper .order__block--address {
-    width: 48%;
+    width: 100%;
   }
 
   .profile__form-wrapper .order__form {
-    width: 815px;
+    width: 100%;
     padding-top: 10px;
   }
 
@@ -357,5 +362,25 @@
 
   .profile__favourites-wrapper .favourites__wrapper {
     max-width: 960px;
+  }
+}
+
+@media (min-width: $laptop-width) {
+  .profile__nav-list {
+    position: static;
+    width: 240px;
+    margin-right: 60px;
+    background-color: $mainback-color;
+    padding: 0;
+  }
+}
+
+@media (min-width: $xlaptop-width) {
+  .profile__nav-list {
+    position: static;
+    width: 240px;
+    margin-right: 115px;
+    background-color: $mainback-color;
+    padding: 0;
   }
 }
