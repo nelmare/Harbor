@@ -1,3 +1,8 @@
+.sorting__wrapper {
+  height: 90vh;
+  background-color: $mainback-color;
+}
+
 .sorting__list {
   @include margin-reset;
   list-style: none;
@@ -51,7 +56,22 @@
   outline: 2px dotted;
 }
 
+@media (min-width: $tablet-width) {
+  .sorting__wrapper {
+    width: 50%;
+    background-color: $mainback-color;
+    margin-left: auto;
+  }
+}
+
 @media (min-width: $xlaptop-width) {
+  .sorting__wrapper {
+    width: 235px;
+    margin-left: 0;
+    height: auto;
+    max-height: none;
+  }
+
   .sorting__list {
     padding: 23px 25px 5px 25px;
     background-color: $mainback-color;

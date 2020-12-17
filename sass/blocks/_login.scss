@@ -5,9 +5,6 @@
   max-height: 100vh;
   background: transparent;
   width: 100%;
-  background-color: $menu-mobile-back;
-  backdrop-filter: blur(15px);
-
 }
 
 .login .order__line {
@@ -156,7 +153,34 @@
   padding-bottom: 2px;
 }
 
-@media (min-width: $desktop-width) {
+//@media (min-width: $tablet-width) {
+//  .login {
+//    width: 1440px;
+//    min-height: 885px;
+//    background-color: $menu-mobile-back;
+//    backdrop-filter: blur(15px);
+//  }
+//
+//  .login__wrapper {
+//    width: 570px;
+//    background-color: $mainback-color;
+//    margin-left: auto;
+//  }
+//
+//  .login__title-wrapper {
+//    background-color: $mainback-color;
+//    backdrop-filter: blur(0);
+//    padding: 70px 60px 5px 60px;
+//    min-height: auto;
+//    position: relative;
+//  }
+//}
+
+
+
+
+
+@media (min-width: $laptop-width) {
   .login {
     width: 1440px;
     min-height: 885px;

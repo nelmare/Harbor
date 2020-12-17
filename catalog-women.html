@@ -8,7 +8,7 @@
     <script src="js/picturefill.js"></script>
     <script src="js/svg4everybody.js"></script>
 </head>
-<body class="body">
+<body class="body popup-show">
 <header class="page-header">
     <div class="page-header__container">
         <div class="page-header__contacts">
@@ -182,252 +182,258 @@
                 </button>
                 <button class="catalog-main__settings-button" type="button">Сортировка</button>
             </div>
-<!--            До ширины 1199px фильтр и сортировка - модальные окна. Нужно добавить класс popup-show модальному окну и -->
-<!--            body с помощью js. body.popup-show - убирает скролл у боди -->
-            <div class="catalog-main__filter filter catalog-main__popup">
+    <!--            До ширины 1199px фильтр и сортировка - модальные окна. Нужно добавить класс catalog-main__popup-show
+модальному окну. body добавить класс popup-show. -->
+            <div class="catalog-main__filter filter ">
                 <div class="catalog-main__popup-title-wrapper">
                     <h2 class="catalog-main__popup-title">Фильтр</h2>
                     <button class="catalog-main__popup-close" type="button"><span class="visually-hidden">Закрыть</span></button>
                 </div>
-                <ul class="filter__main-list">
-                    <li class="filter__item category">
-                        <a class="filter__link filter__link--closed">Категория</a>
-                        <ul class="filter__list category__list category__list-hide">
-                            <li class="category__item">
-                                <label class="category__label" for="category1">
-                                    <input class="category__checkbox visually-hidden" type="checkbox" id="category1" checked>
-                                    <span class="category__check"></span>
-                                    <span class="category__check-text">Вся обувь</span>
-                                </label>
-                            </li>
-                            <li class="category__item">
-                                <label class="category__label" for="category2">
-                                    <input class="category__checkbox visually-hidden" type="checkbox" id="category2">
-                                    <span class="category__check"></span>
-                                    <span class="category__check-text">Кроссовки</span>
-                                </label>
-                            </li>
-                            <li class="category__item">
-                                <label class="category__label" for="category3">
-                                    <input class="category__checkbox visually-hidden" type="checkbox" id="category3">
-                                    <span class="category__check"></span>
-                                    <span class="category__check-text">Ботинки</span>
-                                </label>
-                            </li>
-                            <li class="category__item">
-                                <label class="category__label" for="category4">
-                                    <input class="category__checkbox visually-hidden" type="checkbox" id="category4">
-                                    <span class="category__check"></span>
-                                    <span class="category__check-text">Туфли</span>
-                                </label>
-                            </li>
-                            <li class="category__item">
-                                <label class="category__label" for="category5">
-                                    <input class="category__checkbox visually-hidden" type="checkbox" id="category5">
-                                    <span class="category__check"></span>
-                                    <span class="category__check-text">Категория товара</span>
-                                </label>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="filter__item filter__item--color color">
-                        <a class="filter__link color__link filter__link--open">Цвет</a>
-                        <ul class="filter__list color__list color__list--hide">
-                            <li class="color__item">
-                                <label class="color__label color__label--inner" for="color1">
-                                    <input class="color__checkbox visually-hidden" type="checkbox" id="color1">
-                                    <span class="color__check"></span>
-                                </label>
-                            </li>
-                            <li class="color__item">
-                                <label class="color__label color__label--inner" for="color2">
-                                    <input class="color__checkbox visually-hidden" type="checkbox" id="color2">
-                                    <span class="color__check"></span>
-                                </label>
-                            </li>
-                            <li class="color__item">
-                                <label class="color__label color__label--inner" for="color3">
-                                    <input class="color__checkbox visually-hidden" type="checkbox" id="color3">
-                                    <span class="color__check"></span>
-                                </label>
-                            </li>
-                            <li class="color__item">
-                                <label class="color__label color__label--inner" for="color4">
-                                    <input class="color__checkbox visually-hidden" type="checkbox" id="color4">
-                                    <span class="color__check"></span>
-                                </label>
-                            </li>
-                            <li class="color__item">
-                                <label class="color__label color__label--inner" for="color5">
-                                    <input class="color__checkbox visually-hidden" type="checkbox" id="color5">
-                                    <span class="color__check"></span>
-                                </label>
-                            </li>
-                            <li class="color__item">
-                                <label class="color__label color__label--inner" for="color6">
-                                    <input class="color__checkbox visually-hidden" type="checkbox" id="color6">
-                                    <span class="color__check"></span>
-                                </label>
-                            </li>
-                            <li class="color__item">
-                                <label class="color__label color__label--inner" for="color7">
-                                    <input class="color__checkbox visually-hidden" type="checkbox" id="color7">
-                                    <span class="color__check"></span>
-                                </label>
-                            </li>
-                            <li class="color__item">
-                                <label class="color__label color__label--inner" for="color8">
-                                    <input class="color__checkbox visually-hidden" type="checkbox" id="color8">
-                                    <span class="color__check"></span>
-                                </label>
-                            </li>
-                            <li class="color__item">
-                                <label class="color__label color__label--inner" for="color9">
-                                    <input class="color__checkbox visually-hidden" type="checkbox" id="color9">
-                                    <span class="color__check"></span>
-                                </label>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="filter__item size">
-                        <a class="filter__link size__link filter__link--open">Размер</a>
-                        <ul class="filter__list size__list">
-                            <li class="size__item">
-                                <label class="size__label" for="size1">35
-                                    <input class="size__checkbox visually-hidden" type="checkbox" id="size1">
-                                    <span class="size__check"></span>
-                                </label>
-                            </li>
-                            <li class="size__item size__item--lack">
-                                <label class="size__label" for="size2">36
-                                    <input class="size__checkbox visually-hidden" type="checkbox" id="size2">
-                                    <span class="size__check"></span>
-                                </label>
-                            </li>
-                            <li class="size__item">
-                                <label class="size__label" for="size3">37
-                                    <input class="size__checkbox visually-hidden" type="checkbox" id="size3">
-                                    <span class="size__check"></span>
-                                </label>
-                            </li>
-                            <li class="size__item">
-                                <label class="size__label" for="size4">38
-                                    <input class="size__checkbox visually-hidden" type="checkbox" id="size4">
-                                    <span class="size__check"></span>
-                                </label>
-                            </li>
-                            <li class="size__item">
-                                <label class="size__label" for="size5">39
-                                    <input class="size__checkbox visually-hidden" type="checkbox" id="size5">
-                                    <span class="size__check"></span>
-                                </label>
-                            </li>
-                            <li class="size__item">
-                                <label class="size__label" for="size6">40
-                                    <input class="size__checkbox visually-hidden" type="checkbox" id="size6">
-                                    <span class="size__check"></span>
-                                </label>
-                            </li>
-                            <li class="size__item">
-                                <label class="size__label" for="size7">41
-                                    <input class="size__checkbox visually-hidden" type="checkbox" id="size7">
-                                    <span class="size__check"></span>
-                                </label>
-                            </li>
-                            <li class="size__item">
-                                <label class="size__label" for="size8">42
-                                    <input class="size__checkbox visually-hidden" type="checkbox" id="size8">
-                                    <span class="size__check"></span>
-                                </label>
-                            </li>
-                            <li class="size__item">
-                                <label class="size__label" for="size9">43
-                                    <input class="size__checkbox visually-hidden" type="checkbox" id="size9">
-                                    <span class="size__check"></span>
-                                </label>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="filter__item filter__item--collection category">
-                        <a class="filter__link category__link filter__link--open">Коллекции</a>
-                        <ul class="filter__list category__list">
-                            <li class="category__item">
-                                <label class="category__label" for="collection1">
-                                    <input class="category__checkbox visually-hidden" type="checkbox" id="collection1">
-                                    <span class="category__check"></span>
-                                    <span class="category__check-text">Коллекция 1</span>
-                                </label>
-                            </li>
-                            <li class="category__item">
-                                <label class="category__label" for="collection2">
-                                    <input class="category__checkbox visually-hidden" type="checkbox" id="collection2">
-                                    <span class="category__check"></span>
-                                    <span class="category__check-text">Коллекция 2</span>
-                                </label>
-                            </li>
-                            <li class="category__item">
-                                <label class="category__label" for="collection3">
-                                    <input class="category__checkbox visually-hidden" type="checkbox" id="collection3">
-                                    <span class="category__check"></span>
-                                    <span class="category__check-text">Коллекция 3</span>
-                                </label>
-                            </li>
-                            <li class="category__item">
-                                <label class="category__label" for="collection4">
-                                    <input class="category__checkbox visually-hidden" type="checkbox" id="collection4">
-                                    <span class="category__check"></span>
-                                    <span class="category__check-text">Коллекция 4</span>
-                                </label>
-                            </li>
-                            <li class="category__item">
-                                <label class="category__label" for="collection5">
-                                    <input class="category__checkbox visually-hidden" type="checkbox" id="collection5">
-                                    <span class="category__check"></span>
-                                    <span class="category__check-text">Коллекция 5</span>
-                                </label>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="filter__button-wrapper">
-                    <button class="filter__button" type="submit">Применить</button>
-                    <button class="filter__clear" type="button">Сбросить фильтр</button>
+                <div class="filter__wrapper">
+                    <ul class="filter__main-list">
+                        <li class="filter__item category">
+                            <a class="filter__link filter__link--closed">Категория</a>
+                            <ul class="filter__list category__list category__list-hide">
+                                <li class="category__item">
+                                    <label class="category__label" for="category1">
+                                        <input class="category__checkbox visually-hidden" type="checkbox" id="category1" checked>
+                                        <span class="category__check"></span>
+                                        <span class="category__check-text">Вся обувь</span>
+                                    </label>
+                                </li>
+                                <li class="category__item">
+                                    <label class="category__label" for="category2">
+                                        <input class="category__checkbox visually-hidden" type="checkbox" id="category2">
+                                        <span class="category__check"></span>
+                                        <span class="category__check-text">Кроссовки</span>
+                                    </label>
+                                </li>
+                                <li class="category__item">
+                                    <label class="category__label" for="category3">
+                                        <input class="category__checkbox visually-hidden" type="checkbox" id="category3">
+                                        <span class="category__check"></span>
+                                        <span class="category__check-text">Ботинки</span>
+                                    </label>
+                                </li>
+                                <li class="category__item">
+                                    <label class="category__label" for="category4">
+                                        <input class="category__checkbox visually-hidden" type="checkbox" id="category4">
+                                        <span class="category__check"></span>
+                                        <span class="category__check-text">Туфли</span>
+                                    </label>
+                                </li>
+                                <li class="category__item">
+                                    <label class="category__label" for="category5">
+                                        <input class="category__checkbox visually-hidden" type="checkbox" id="category5">
+                                        <span class="category__check"></span>
+                                        <span class="category__check-text">Категория товара</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="filter__item filter__item--color color">
+                            <a class="filter__link color__link filter__link--open">Цвет</a>
+                            <ul class="filter__list color__list color__list--hide">
+                                <li class="color__item">
+                                    <label class="color__label color__label--inner" for="color1">
+                                        <input class="color__checkbox visually-hidden" type="checkbox" id="color1">
+                                        <span class="color__check"></span>
+                                    </label>
+                                </li>
+                                <li class="color__item">
+                                    <label class="color__label color__label--inner" for="color2">
+                                        <input class="color__checkbox visually-hidden" type="checkbox" id="color2">
+                                        <span class="color__check"></span>
+                                    </label>
+                                </li>
+                                <li class="color__item">
+                                    <label class="color__label color__label--inner" for="color3">
+                                        <input class="color__checkbox visually-hidden" type="checkbox" id="color3">
+                                        <span class="color__check"></span>
+                                    </label>
+                                </li>
+                                <li class="color__item">
+                                    <label class="color__label color__label--inner" for="color4">
+                                        <input class="color__checkbox visually-hidden" type="checkbox" id="color4">
+                                        <span class="color__check"></span>
+                                    </label>
+                                </li>
+                                <li class="color__item">
+                                    <label class="color__label color__label--inner" for="color5">
+                                        <input class="color__checkbox visually-hidden" type="checkbox" id="color5">
+                                        <span class="color__check"></span>
+                                    </label>
+                                </li>
+                                <li class="color__item">
+                                    <label class="color__label color__label--inner" for="color6">
+                                        <input class="color__checkbox visually-hidden" type="checkbox" id="color6">
+                                        <span class="color__check"></span>
+                                    </label>
+                                </li>
+                                <li class="color__item">
+                                    <label class="color__label color__label--inner" for="color7">
+                                        <input class="color__checkbox visually-hidden" type="checkbox" id="color7">
+                                        <span class="color__check"></span>
+                                    </label>
+                                </li>
+                                <li class="color__item">
+                                    <label class="color__label color__label--inner" for="color8">
+                                        <input class="color__checkbox visually-hidden" type="checkbox" id="color8">
+                                        <span class="color__check"></span>
+                                    </label>
+                                </li>
+                                <li class="color__item">
+                                    <label class="color__label color__label--inner" for="color9">
+                                        <input class="color__checkbox visually-hidden" type="checkbox" id="color9">
+                                        <span class="color__check"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="filter__item size">
+                            <a class="filter__link size__link filter__link--open">Размер</a>
+                            <ul class="filter__list size__list">
+                                <li class="size__item">
+                                    <label class="size__label" for="size1">35
+                                        <input class="size__checkbox visually-hidden" type="checkbox" id="size1">
+                                        <span class="size__check"></span>
+                                    </label>
+                                </li>
+                                <li class="size__item size__item--lack">
+                                    <label class="size__label" for="size2">36
+                                        <input class="size__checkbox visually-hidden" type="checkbox" id="size2">
+                                        <span class="size__check"></span>
+                                    </label>
+                                </li>
+                                <li class="size__item">
+                                    <label class="size__label" for="size3">37
+                                        <input class="size__checkbox visually-hidden" type="checkbox" id="size3">
+                                        <span class="size__check"></span>
+                                    </label>
+                                </li>
+                                <li class="size__item">
+                                    <label class="size__label" for="size4">38
+                                        <input class="size__checkbox visually-hidden" type="checkbox" id="size4">
+                                        <span class="size__check"></span>
+                                    </label>
+                                </li>
+                                <li class="size__item">
+                                    <label class="size__label" for="size5">39
+                                        <input class="size__checkbox visually-hidden" type="checkbox" id="size5">
+                                        <span class="size__check"></span>
+                                    </label>
+                                </li>
+                                <li class="size__item">
+                                    <label class="size__label" for="size6">40
+                                        <input class="size__checkbox visually-hidden" type="checkbox" id="size6">
+                                        <span class="size__check"></span>
+                                    </label>
+                                </li>
+                                <li class="size__item">
+                                    <label class="size__label" for="size7">41
+                                        <input class="size__checkbox visually-hidden" type="checkbox" id="size7">
+                                        <span class="size__check"></span>
+                                    </label>
+                                </li>
+                                <li class="size__item">
+                                    <label class="size__label" for="size8">42
+                                        <input class="size__checkbox visually-hidden" type="checkbox" id="size8">
+                                        <span class="size__check"></span>
+                                    </label>
+                                </li>
+                                <li class="size__item">
+                                    <label class="size__label" for="size9">43
+                                        <input class="size__checkbox visually-hidden" type="checkbox" id="size9">
+                                        <span class="size__check"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="filter__item filter__item--collection category">
+                            <a class="filter__link category__link filter__link--open">Коллекции</a>
+                            <ul class="filter__list category__list">
+                                <li class="category__item">
+                                    <label class="category__label" for="collection1">
+                                        <input class="category__checkbox visually-hidden" type="checkbox" id="collection1">
+                                        <span class="category__check"></span>
+                                        <span class="category__check-text">Коллекция 1</span>
+                                    </label>
+                                </li>
+                                <li class="category__item">
+                                    <label class="category__label" for="collection2">
+                                        <input class="category__checkbox visually-hidden" type="checkbox" id="collection2">
+                                        <span class="category__check"></span>
+                                        <span class="category__check-text">Коллекция 2</span>
+                                    </label>
+                                </li>
+                                <li class="category__item">
+                                    <label class="category__label" for="collection3">
+                                        <input class="category__checkbox visually-hidden" type="checkbox" id="collection3">
+                                        <span class="category__check"></span>
+                                        <span class="category__check-text">Коллекция 3</span>
+                                    </label>
+                                </li>
+                                <li class="category__item">
+                                    <label class="category__label" for="collection4">
+                                        <input class="category__checkbox visually-hidden" type="checkbox" id="collection4">
+                                        <span class="category__check"></span>
+                                        <span class="category__check-text">Коллекция 4</span>
+                                    </label>
+                                </li>
+                                <li class="category__item">
+                                    <label class="category__label" for="collection5">
+                                        <input class="category__checkbox visually-hidden" type="checkbox" id="collection5">
+                                        <span class="category__check"></span>
+                                        <span class="category__check-text">Коллекция 5</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="filter__button-wrapper">
+                        <button class="filter__button" type="submit">Применить</button>
+                        <button class="filter__clear" type="button">Сбросить фильтр</button>
+                    </div>
                 </div>
             </div>
-            <div class="catalog-main__sorting sorting catalog-main__popup">
+            <!--            До ширины 1199px фильтр и сортировка - модальные окна. Нужно добавить класс
+            catalog-main__popup-show модальному окну. body добавить класс popup-show. -->
+            <div class="catalog-main__sorting sorting">
                 <div class="catalog-main__popup-title-wrapper catalog-main__popup-title-wrapper--sorting">
                     <h2 class="catalog-main__popup-title">Сортировка</h2>
                     <button class="catalog-main__popup-close"><span class="visually-hidden" type="button">Закрыть</span></button>
                 </div>
-                <ul class="sorting__list">
-                    <li class="sorting__item">
-                        <a class="sorting__link sorting__link--closed">По возрастанию цены</a>
-                    </li>
-                    <li class="sorting__item">
-                        <label class="sorting__label" for="lowcost">По убыванию цены
-                            <input class="sorting__checkbox visually-hidden" type="checkbox" id="lowcost">
-                            <span class="sorting__check"></span>
-                        </label>
-                    </li>
-                    <li class="sorting__item">
-                        <label class="sorting__label" for="highcost">По возрастанию цены
-                            <input class="sorting__checkbox visually-hidden" type="checkbox" id="highcost" checked>
-                            <span class="sorting__check"></span>
-                        </label>
-                    </li>
-                    <li class="sorting__item">
-                        <label class="sorting__label" for="new">Новизне
-                            <input class="sorting__checkbox visually-hidden" type="checkbox" id="new">
-                            <span class="sorting__check"></span>
-                        </label>
-                    </li>
-                    <li class="sorting__item">
-                        <label class="sorting__label" for="discount">Величине скидки
-                            <input class="sorting__checkbox visually-hidden" type="checkbox" id="discount">
-                            <span class="sorting__check"></span>
-                        </label>
-                    </li>
-                </ul>
+                <div class="sorting__wrapper">
+                    <ul class="sorting__list">
+                        <li class="sorting__item">
+                            <a class="sorting__link sorting__link--closed">По возрастанию цены</a>
+                        </li>
+                        <li class="sorting__item">
+                            <label class="sorting__label" for="lowcost">По убыванию цены
+                                <input class="sorting__checkbox visually-hidden" type="checkbox" id="lowcost">
+                                <span class="sorting__check"></span>
+                            </label>
+                        </li>
+                        <li class="sorting__item">
+                            <label class="sorting__label" for="highcost">По возрастанию цены
+                                <input class="sorting__checkbox visually-hidden" type="checkbox" id="highcost" checked>
+                                <span class="sorting__check"></span>
+                            </label>
+                        </li>
+                        <li class="sorting__item">
+                            <label class="sorting__label" for="new">Новизне
+                                <input class="sorting__checkbox visually-hidden" type="checkbox" id="new">
+                                <span class="sorting__check"></span>
+                            </label>
+                        </li>
+                        <li class="sorting__item">
+                            <label class="sorting__label" for="discount">Величине скидки
+                                <input class="sorting__checkbox visually-hidden" type="checkbox" id="discount">
+                                <span class="sorting__check"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="catalog-main__block">
                 <section class="catalog catalog--page">
@@ -840,55 +846,57 @@
         <p class="page-footer__copyright">© Copyright 2020 Harbor. Все права защищены.</p>
     </div>
 </footer>
-<!--Чтобы показать попап нужно добавить класс popup-show модальному окну и body с помощью js. body.popup-show -
+<!--Чтобы показать попап нужно добавить класс popup-show модальному окну и body. body.popup-show -
 убирает скролл у боди-->
-<div class="catalog-main__filter catalog-main__popup popup-sizes size popup">
-    <div class="catalog-main__popup-title-wrapper popup-sizes__title-wrapper">
-        <h2 class="catalog-main__popup-title">Размеры</h2>
-        <button class="catalog-main__popup-close"><span class="visually-hidden" type="button">Закрыть</span></button>
+<div class="popup-sizes size popup">
+    <div class="popup-sizes__title-wrapper">
+        <h2 class="popup-sizes__title">Размеры</h2>
+        <button class="popup-sizes__close"><span class="visually-hidden" type="button">Закрыть</span></button>
     </div>
-    <ul class="popup-sizes__list popup-sizes__list-hide">
-        <li class="popup-sizes__item">
-            <label class="popup-sizes__label" for="size1-popup">
-                <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size1-popup" checked>
-                <span class="popup-sizes__check"></span>
-                <span class="popup-sizes__check-text">32</span>
-                <span class="popup-sizes__no visually-hidden">Нет в наличии</span>
-            </label>
-        </li>
-        <li class="popup-sizes__item popup-sizes__item--lack">
-            <label class="popup-sizes__label" for="size2-popup">
-                <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size2-popup" checked>
-                <span class="popup-sizes__check"></span>
-                <span class="popup-sizes__check-text">33</span>
-                <span class="popup-sizes__lack-text">Нет в наличии</span>
-            </label>
-        </li>
-        <li class="popup-sizes__item">
-            <label class="popup-sizes__label" for="size3-popup">
-                <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size3-popup" checked>
-                <span class="popup-sizes__check"></span>
-                <span class="popup-sizes__check-text">33</span>
-                <span class="popup-sizes__no visually-hidden">Нет в наличии</span>
-            </label>
-        </li>
-        <li class="popup-sizes__item">
-            <label class="popup-sizes__label" for="size4-popup">
-                <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size4-popup" checked>
-                <span class="popup-sizes__check"></span>
-                <span class="popup-sizes__check-text">34</span>
-                <span class="popup-sizes__no visually-hidden">Нет в наличии</span>
-            </label>
-        </li>
-        <li class="size__table-item">
-            <a href="#" class="size__table-link">Таблица размеров</a>
-        </li>
-        <li class="size__comment">
-            <p class="size__comment-text">Выберите несколько размеров, примерьте и верните то, что не
-                подошло. <a href="#" class="size__comment-link">Подробнее</a>
-            </p>
-        </li>
-    </ul>
+    <div class="popup-sizes__wrapper">
+        <ul class="popup-sizes__list popup-sizes__list-hide">
+            <li class="popup-sizes__item">
+                <label class="popup-sizes__label" for="size1-popup">
+                    <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size1-popup" checked>
+                    <span class="popup-sizes__check"></span>
+                    <span class="popup-sizes__check-text">32</span>
+                    <span class="popup-sizes__no visually-hidden">Нет в наличии</span>
+                </label>
+            </li>
+            <li class="popup-sizes__item popup-sizes__item--lack">
+                <label class="popup-sizes__label" for="size2-popup">
+                    <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size2-popup" checked>
+                    <span class="popup-sizes__check"></span>
+                    <span class="popup-sizes__check-text">33</span>
+                    <span class="popup-sizes__lack-text">Нет в наличии</span>
+                </label>
+            </li>
+            <li class="popup-sizes__item">
+                <label class="popup-sizes__label" for="size3-popup">
+                    <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size3-popup" checked>
+                    <span class="popup-sizes__check"></span>
+                    <span class="popup-sizes__check-text">33</span>
+                    <span class="popup-sizes__no visually-hidden">Нет в наличии</span>
+                </label>
+            </li>
+            <li class="popup-sizes__item">
+                <label class="popup-sizes__label" for="size4-popup">
+                    <input class="popup-sizes__checkbox visually-hidden" type="checkbox" id="size4-popup" checked>
+                    <span class="popup-sizes__check"></span>
+                    <span class="popup-sizes__check-text">34</span>
+                    <span class="popup-sizes__no visually-hidden">Нет в наличии</span>
+                </label>
+            </li>
+            <li class="size__table-item">
+                <a href="#" class="size__table-link">Таблица размеров</a>
+            </li>
+            <li class="size__comment">
+                <p class="size__comment-text">Выберите несколько размеров, примерьте и верните то, что не
+                    подошло. <a href="#" class="size__comment-link">Подробнее</a>
+                </p>
+            </li>
+        </ul>
+    </div>
 </div>
 <script src="js/burger.js"></script>
 <script>svg4everybody();</script>

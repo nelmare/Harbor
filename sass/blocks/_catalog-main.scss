@@ -73,6 +73,10 @@
   max-height: 100vh;
 }
 
+.catalog-main__popup-show {
+  display: block;
+}
+
 .catalog-main__popup-title-wrapper {
   min-height: 183px;
   display: flex;
@@ -133,17 +137,55 @@
     max-width: 460px;
   }
 
-  .catalog-main__filter,
-  .catalog-main__sorting {
-    width: 425px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+  //.catalog-main__filter,
+  //.catalog-main__sorting {
+  //  width: 425px;
+  //  left: 50%;
+  //  transform: translateX(-50%);
+  //}
 }
 
 @media (min-width: $tablet-width) {
   .catalog-main__container {
     max-width: 698px;
+  }
+
+  .catalog-main__filter,
+  .catalog-main__sorting {
+    //min-height: 885px;
+    background-color: $menu-mobile-back;
+    backdrop-filter: blur(15px);
+  }
+
+  .catalog-main__popup-title-wrapper {
+    background-color: $mainback-color;
+    backdrop-filter: blur(0);
+    padding: 70px 30px 5px 30px;
+    min-height: auto;
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+  }
+
+  .catalog-main__popup-title {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    color: $maintext-color;
+  }
+
+  .catalog-main__popup-close {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 30px;
+    right: 30px;
+  }
+
+  .catalog-main__popup-close::before {
+    content: "";
+    width: 12px;
+    height: 12px;
   }
 }
 
@@ -165,6 +207,12 @@
 
   .catalog-main__popup-title-wrapper {
     display: none;
+  }
+
+  .catalog-main__filter,
+  .catalog-main__sorting {
+    background-color: $mainback-color;
+    backdrop-filter: blur(0);
   }
 
   .catalog-main__filter {
@@ -194,10 +242,12 @@
   .catalog-main__sorting {
     width: 235px;
     position: absolute;
-    left: 90%;
+    left: 81%;
     z-index: 7;
     top: -83px;
     min-height: auto;
+    max-height: none;
+    height: 198px;
     display: block;
   }
 }
@@ -223,7 +273,7 @@
   }
 
   .catalog-main__sorting {
-    left: 93%;
+    left: 83%;
   }
 
   .catalog-main__filter {
@@ -240,8 +290,7 @@
   }
 
   .catalog-main__sorting {
-    left: 92%;
-    transform: translateX(-92%);
+    left: 87%;
   }
 }
 

@@ -1,3 +1,8 @@
+.filter__wrapper {
+  height: 90vh;
+  background-color: $mainback-color;
+}
+
 .filter__main-list {
   @include margin-reset;
   list-style: none;
@@ -110,7 +115,28 @@
   display: none;
 }
 
+@media (min-width: $tablet-width) {
+  .filter__wrapper {
+    width: 50%;
+    background-color: $mainback-color;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: $laptop-width) {
+  .filter__link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 @media (min-width: $xlaptop-width) {
+  .filter__wrapper {
+    width: 240px;
+    margin-left: 0;
+    height: auto;
+  }
+
   .filter__main-list {
     padding: 0 0 34px 0;
   }
