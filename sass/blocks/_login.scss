@@ -1,5 +1,4 @@
 .login {
-  //min-height: 636px;
   height: 100%;
   max-height: 100vh;
   background: transparent;
@@ -20,9 +19,9 @@
   backdrop-filter: blur(15px);
 }
 
-.login__wrapper {
-  overflow: hidden;
-}
+//.login__wrapper {
+//  overflow: hidden;
+//}
 
 .login__wrapper--account .login__title-wrapper {
   min-height: 257px;
@@ -69,6 +68,7 @@
 .login__form-wrapper {
   padding: 35px 30px 30px 30px;
   background-color: $mainback-color;
+  height: 90vh;
 }
 
 .login__password-button {
@@ -191,6 +191,11 @@
     content: "";
     width: 12px;
     height: 12px;
+  }
+
+  .login__wrapper--account .login__title-wrapper,
+  .login__wrapper--password .login__title-wrapper {
+    min-height: auto;
   }
 }
 

@@ -5158,9 +5158,6 @@ input[type="radio"].visually-hidden {
   background-color: rgba(38, 49, 65, 0.8);
   backdrop-filter: blur(15px); }
 
-.login__wrapper {
-  overflow: hidden; }
-
 .login__wrapper--account .login__title-wrapper {
   min-height: 257px; }
 
@@ -5201,7 +5198,8 @@ input[type="radio"].visually-hidden {
 
 .login__form-wrapper {
   padding: 35px 30px 30px 30px;
-  background-color: white; }
+  background-color: white;
+  height: 90vh; }
 
 .login__password-button {
   width: 24px;
@@ -5301,7 +5299,10 @@ input[type="radio"].visually-hidden {
   .login__popup-close::before {
     content: "";
     width: 12px;
-    height: 12px; } }
+    height: 12px; }
+  .login__wrapper--account .login__title-wrapper,
+  .login__wrapper--password .login__title-wrapper {
+    min-height: auto; } }
 
 @media (min-width: 1200px) {
   .login__wrapper {
