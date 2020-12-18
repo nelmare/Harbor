@@ -143,6 +143,8 @@
 
 .profile__wrapper--favourites {
   padding-bottom: 0;
+  width: 315px;
+  margin: 0 auto;
 }
 
 .profile__wrapper--favourites .favourites__catalog {
@@ -195,7 +197,7 @@
 
 @media (min-width: $tablet-width) {
   .profile__wrapper {
-    padding: 95px 0 130px 0;
+    padding: 95px 35px 130px 45px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -235,10 +237,6 @@
     background-color: $mainback-color;
     padding: 0;
   }
-
-  //.profile__nav-item:last-child {
-  //  border-bottom: 1px solid $border-color;
-  //}
 
   .profile__nav-link {
     color: $maintext-color;
@@ -315,12 +313,13 @@
   }
 
   .profile__favourites-wrapper .catalog-item {
-    margin-right: 30px;
     margin-bottom: 40px;
   }
 
   .profile__wrapper--favourites {
     padding-bottom: 80px;
+    margin: 0;
+    width: 570px;
   }
 
   .profile__subscribtion-wrapper .order__form-title,
@@ -366,21 +365,58 @@
 }
 
 @media (min-width: $laptop-width) {
-  .profile__nav-list {
-    position: static;
+  .profile__nav-list,
+  .profile__wrapper--archive .profile__nav-list,
+  .profile__wrapper--favourites .profile__nav-list {
     width: 240px;
     margin-right: 60px;
-    background-color: $mainback-color;
-    padding: 0;
+  }
+
+  .profile__wrapper--favourites {
+    width: 903px;
+  }
+
+  .profile__wrapper--favourites .favourites__wrapper {
+    justify-content: start;
   }
 }
 
 @media (min-width: $xlaptop-width) {
-  .profile__nav-list {
-    position: static;
-    width: 240px;
-    margin-right: 115px;
-    background-color: $mainback-color;
-    padding: 0;
+  .profile__wrapper--favourites {
+    width: 1100px;
+  }
+
+  .profile__favourites-wrapper .catalog-item__image-wrapper {
+    width: 300px;
+    height: 300px;
+  }
+
+  .profile__favourites-wrapper .catalog-item__image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .profile__favourites-wrapper .favourites__select.sizes-select {
+    min-width: 300px;
+  }
+
+  .profile__favourites-wrapper .sizes-select__block {
+    min-width: 300px;
+  }
+
+  .profile__favourites-wrapper .favourites__button {
+    width: 300px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .profile__wrapper--favourites {
+    width: 1300px;
+  }
+
+  .profile__wrapper {
+    padding: 95px 0 130px 0;
   }
 }

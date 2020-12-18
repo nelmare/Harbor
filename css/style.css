@@ -4998,8 +4998,7 @@ input[type="radio"].visually-hidden {
 
 .favourites__wrapper .catalog-item__image-wrapper {
   width: 315px;
-  height: 330px;
-  margin-bottom: 0; }
+  height: 330px; }
 
 .favourites__wrapper .catalog-item {
   margin-bottom: 40px;
@@ -5012,8 +5011,7 @@ input[type="radio"].visually-hidden {
 .favourites__wrapper .catalog-item__info-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-top: -20px; }
+  align-items: flex-start; }
 
 .favourites__wrapper .catalog-item__label {
   position: absolute;
@@ -5034,7 +5032,7 @@ input[type="radio"].visually-hidden {
   padding-bottom: 20px;
   margin-bottom: 0; }
 
-.favourites__select.sizes-select .sizes-select__block {
+.favourites__select .sizes-select__block {
   min-width: 315px;
   position: relative; }
 
@@ -5112,12 +5110,19 @@ input[type="radio"].visually-hidden {
     height: 300px; }
   .favourites__select.sizes-select {
     min-width: 300px; }
-  .favourites__select.sizes-select .sizes-select__block {
+  .favourites__select .sizes-select__block {
     min-width: 300px; }
   .favourites__button {
     width: 300px;
     font-size: 18px;
-    line-height: 23px; } }
+    line-height: 23px; }
+  .favourites__wrapper .catalog-item--profile,
+  .favourites__wrapper .catalog-item--profile:nth-child(3n+3) {
+    margin-bottom: 60px;
+    margin-right: 30px;
+    width: 300px; }
+  .favourites__wrapper .catalog-item--profile:nth-child(2n+2) {
+    margin-right: 0; } }
 
 @media (min-width: 1440px) {
   .favourites {
@@ -5138,7 +5143,11 @@ input[type="radio"].visually-hidden {
     padding: 30px 20px;
     margin-bottom: 70px; }
   .favourites__wrapper .catalog-item__info-wrapper {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .favourites__wrapper .catalog-item--profile:nth-child(3n+3) {
+    margin-right: 0; }
+  .favourites__wrapper .catalog-item--profile:nth-child(2n+2) {
+    margin-right: 30px; } }
 
 .login {
   height: 100%;
@@ -5476,7 +5485,9 @@ input[type="radio"].visually-hidden {
   color: inherit; }
 
 .profile__wrapper--favourites {
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  width: 315px;
+  margin: 0 auto; }
 
 .profile__wrapper--favourites .favourites__catalog {
   padding-bottom: 10px; }
@@ -5519,7 +5530,7 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 768px) {
   .profile__wrapper {
-    padding: 95px 0 130px 0;
+    padding: 95px 35px 130px 45px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -5594,10 +5605,11 @@ input[type="radio"].visually-hidden {
   .profile__favourites-wrapper {
     padding: 0; }
   .profile__favourites-wrapper .catalog-item {
-    margin-right: 30px;
     margin-bottom: 40px; }
   .profile__wrapper--favourites {
-    padding-bottom: 80px; }
+    padding-bottom: 80px;
+    margin: 0;
+    width: 570px; }
   .profile__subscribtion-wrapper .order__form-title,
   .profile__subscribtion-wrapper .catalog__title {
     font-size: 20px;
@@ -5623,20 +5635,39 @@ input[type="radio"].visually-hidden {
     max-width: 960px; } }
 
 @media (min-width: 993px) {
-  .profile__nav-list {
-    position: static;
+  .profile__nav-list,
+  .profile__wrapper--archive .profile__nav-list,
+  .profile__wrapper--favourites .profile__nav-list {
     width: 240px;
-    margin-right: 60px;
-    background-color: white;
-    padding: 0; } }
+    margin-right: 60px; }
+  .profile__wrapper--favourites {
+    width: 903px; }
+  .profile__wrapper--favourites .favourites__wrapper {
+    justify-content: start; } }
 
 @media (min-width: 1200px) {
-  .profile__nav-list {
-    position: static;
-    width: 240px;
-    margin-right: 115px;
-    background-color: white;
-    padding: 0; } }
+  .profile__wrapper--favourites {
+    width: 1100px; }
+  .profile__favourites-wrapper .catalog-item__image-wrapper {
+    width: 300px;
+    height: 300px; }
+  .profile__favourites-wrapper .catalog-item__image {
+    width: 300px;
+    height: 300px; }
+  .profile__favourites-wrapper .favourites__select.sizes-select {
+    min-width: 300px; }
+  .profile__favourites-wrapper .sizes-select__block {
+    min-width: 300px; }
+  .profile__favourites-wrapper .favourites__button {
+    width: 300px;
+    font-size: 18px;
+    line-height: 23px; } }
+
+@media (min-width: 1440px) {
+  .profile__wrapper--favourites {
+    width: 1300px; }
+  .profile__wrapper {
+    padding: 95px 0 130px 0; } }
 
 .archive__card {
   padding: 40px 0  15px 0;
