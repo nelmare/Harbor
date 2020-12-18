@@ -1,5 +1,4 @@
 .login {
-  //width: 375px;
   //min-height: 636px;
   height: 100%;
   max-height: 100vh;
@@ -23,8 +22,6 @@
 
 .login__wrapper {
   overflow: hidden;
-  width: 375px;
-  margin-left: auto;
 }
 
 .login__wrapper--account .login__title-wrapper {
@@ -98,13 +95,15 @@
   background-color: $menu-button-back;
   color: $text-color4;
   width: 100%;
+  max-width: 450px;
   text-transform: uppercase;
   text-decoration: none;
-  text-underline: none;
   cursor: pointer;
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
+  margin: 0 auto;
+  display: block;
 }
 
 .login__button:hover,
@@ -153,43 +152,14 @@
   padding-bottom: 2px;
 }
 
-//@media (min-width: $tablet-width) {
-//  .login {
-//    width: 1440px;
-//    min-height: 885px;
-//    background-color: $menu-mobile-back;
-//    backdrop-filter: blur(15px);
-//  }
-//
-//  .login__wrapper {
-//    width: 570px;
-//    background-color: $mainback-color;
-//    margin-left: auto;
-//  }
-//
-//  .login__title-wrapper {
-//    background-color: $mainback-color;
-//    backdrop-filter: blur(0);
-//    padding: 70px 60px 5px 60px;
-//    min-height: auto;
-//    position: relative;
-//  }
-//}
-
-
-
-
-
-@media (min-width: $laptop-width) {
+@media (min-width: $tablet-width) {
   .login {
-    width: 1440px;
-    min-height: 885px;
     background-color: $menu-mobile-back;
     backdrop-filter: blur(15px);
   }
 
   .login__wrapper {
-    width: 570px;
+    width: 50%;
     background-color: $mainback-color;
     margin-left: auto;
   }
@@ -197,20 +167,15 @@
   .login__title-wrapper {
     background-color: $mainback-color;
     backdrop-filter: blur(0);
-    padding: 70px 60px 5px 60px;
+    padding: 70px 30px 5px 30px;
     min-height: auto;
     position: relative;
   }
 
-  .login__wrapper--account .login__title-wrapper,
-  .login__wrapper--password .login__title-wrapper {
-    min-height: auto;
-  }
-
   .login__popup-title {
-    font-size: 36px;
+    font-size: 25px;
     font-weight: 300;
-    line-height: 45px;
+    line-height: 35px;
     color: $maintext-color;
   }
 
@@ -227,18 +192,37 @@
     width: 12px;
     height: 12px;
   }
+}
+
+@media (min-width: $xlaptop-width) {
+  .login__wrapper {
+    width: 570px;
+  }
+
+  .login__title-wrapper {
+    padding: 70px 60px 5px 60px;
+  }
+
+  .login__wrapper--account .login__title-wrapper,
+  .login__wrapper--password .login__title-wrapper {
+    min-height: auto;
+  }
+
+  .login__popup-title {
+    font-size: 36px;
+    line-height: 45px;
+  }
 
   .login__form-wrapper {
     padding: 35px 60px 160px 60px;
-    min-height: 885px;
+  }
+
+  .login__form-wrapper .order__form {
+    width: 100%;
   }
 
   .login__form-wrapper .order__form-wrapper {
     padding-bottom: 0;
-  }
-
-  .login__form-wrapper .order__form {
-    width: 450px;
   }
 
   .login__form-wrapper .order__block--name {
@@ -277,5 +261,12 @@
 
   .login__wrapper--password .order__form-wrapper {
     padding-bottom: 15px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .login__wrapper {
+    height: 100%;
+    max-height: 100vh;
   }
 }

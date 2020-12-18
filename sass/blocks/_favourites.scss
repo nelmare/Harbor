@@ -134,54 +134,61 @@
 
 @media (min-width: $tablet-width) {
   .favourites__container {
-    max-width: 768px;
+    max-width: 670px;
+    padding-top: 40px;
   }
 
   .favourites__wrapper {
     display: flex;
     justify-content: space-between;
-    max-width: 768px;
   }
 
   .favourites__catalog {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .favourites {
-    padding: 0 90px;
-  }
-
-  .favourites__catalog {
-    padding-bottom: 0;
-    padding-top: 0;
-  }
-
-  .favourites__container {
-    padding: 68px 120px 80px 120px;
-    max-width: 1260px;
+    max-width: 670px;
   }
 
   .favourites__title {
-    font-size: 36px;
-    line-height: 45px;
     text-align: center;
-    margin-bottom: 55px;
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: $laptop-width) {
+  .favourites__container {
+    max-width: 680px;
+    padding-top: 45px;
   }
 
-  .favourites__login {
-    padding: 30px 20px;
-    margin-bottom: 70px;
+  .favourites__catalog {
+    max-width: 680px;
+  }
+
+  .favourites__title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 36px;
+  }
+}
+
+@media (min-width: $xlaptop-width) {
+  .favourites__container {
+    max-width: 1020px;
+  }
+
+  .favourites__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 46px;
+  }
+
+  .favourites__catalog {
+    max-width: 1020px;
   }
 
   .favourites__wrapper {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .favourites__wrapper .catalog-item__info-wrapper {
-    margin-top: 10px;
+    justify-content: start;
   }
 
   .favourites__wrapper .catalog-item {
@@ -213,7 +220,41 @@
 
   .favourites__button {
     width: 300px;
-      font-size: 18px;
-      line-height: 23px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .favourites {
+    padding: 0 90px;
+  }
+
+  .favourites__catalog {
+    padding-bottom: 0;
+    padding-top: 0;
+    max-width: 1260px;
+  }
+
+  .favourites__container {
+    padding: 68px 120px 80px 120px;
+    max-width: 1260px;
+  }
+
+  .favourites__title {
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .favourites__login {
+    padding: 30px 20px;
+    margin-bottom: 70px;
+  }
+
+  .favourites__wrapper .catalog-item__info-wrapper {
+    margin-top: 10px;
   }
 }
