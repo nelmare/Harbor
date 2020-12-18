@@ -4999,16 +4999,15 @@ input[type="radio"].visually-hidden {
 .favourites__wrapper .catalog-item__image-wrapper {
   width: 315px;
   height: 330px;
-  margin-bottom: 0;
-  padding-bottom: 65px; }
+  margin-bottom: 0; }
 
 .favourites__wrapper .catalog-item {
   margin-bottom: 40px;
   margin-right: 0; }
 
 .favourites__wrapper .catalog-item__image {
-  width: 243px;
-  height: 130px; }
+  width: 315px;
+  height: 330px; }
 
 .favourites__wrapper .catalog-item__info-wrapper {
   display: flex;
@@ -5109,8 +5108,8 @@ input[type="radio"].visually-hidden {
     width: 300px;
     height: 300px; }
   .favourites__wrapper .catalog-item__image {
-    width: 234px;
-    height: 119px; }
+    width: 300px;
+    height: 300px; }
   .favourites__select.sizes-select {
     min-width: 300px; }
   .favourites__select.sizes-select .sizes-select__block {
