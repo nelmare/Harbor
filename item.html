@@ -275,15 +275,17 @@
 <!--            Блок  информации о материалах, из которых изготовлена обувь, временно скрыт классом visually-hidden-->
             <div class="item-page__tabs-wrapper product">
                 <div class="product__tabs">
-                    <button class="product__tablink product__tablink--description product__tablink--active" type="button">О продукте</button>
-                    <button class="product__tablink product__tablink--composition" type="button">Состав</button>
+                    <button class="product__tablink product__tablink--description product__tablink--active"
+                            onclick="openTab(event, 'product')" id="defaultOpen" type="button">О продукте</button>
+                    <button class="product__tablink product__tablink--composition" onclick="openTab(event, 'composition')"
+                            type="button">Состав</button>
                 </div>
-                <div class="product__tabcontent">
+                <div class="product__tabcontent" id="product">
                     <p class="product__description">Blank Staples is a streetwear collection of minimalistic pieces that are the perfect canvas for your
                         personal style and creativity.</p>
                     <p class="product__description product__description--lack visually-hidden">Нет в наличии</p>
                 </div>
-                <div class="product__tabcontent visually-hidden">
+                <div class="product__tabcontent" id="composition">
                     <table class="product__composition">
                         <tbody>
                         <tr class="product__stroke">

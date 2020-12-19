@@ -3612,7 +3612,7 @@ input[type="radio"].visually-hidden {
 .product__tablink:nth-child(odd) {
   border-right: none; }
 
-.product__tablink--active {
+.product__tabs button.active {
   font-size: 10px;
   font-weight: 700;
   line-height: 12px;
