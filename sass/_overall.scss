@@ -136,6 +136,63 @@ input[type="radio"].visually-hidden {
   outline: none;
 }
 
+//.tabs {
+//  position: relative; /* Относительное позиционирование */
+//}
+//
+//.tab,
+//.tab-title {
+//  display: inline-block;
+//}
+//
+//.tab:first-of-type {
+//  padding-bottom: 1560px;
+//}
+//
+//.tab:nth-of-type(2) {
+//  padding-bottom: 560px;
+//}
+//
+//.tab input[type="radio"] {
+//  display: none;
+//}
+//
+////.tab-title {
+////  background: #ccc; /* Цвет фона */
+////  padding: 5px 10px; /* Поля вокруг текста */
+////  border: 1px solid #666; /* Параметры рамки */
+////  border-bottom: none; /* Снизу линию убираем */
+////}
+//
+//.tab-content {
+//  position: absolute; /* Абсолютное позиционирование */
+//  //border: 1px solid #666; /* Параметры рамки */
+//  //padding: 20px 0 10px 0; /* Поля вокруг текста */
+//  left: 0; /* Размещаем у левого края */
+//  //width: calc(100% - 20px); /* Ширина содержимого */
+//  display: none; /* Прячем вкладку */
+//}
+//
+//
+////.tab :checked + .tab-title {
+////  position: relative; /* Относительное позиционирование */
+////  background: #fff; /* Цвет фона */
+////  top: 1px; /* Сдвигаем вниз */
+////  z-index: 1; /* Отображаем поверх содержимого */
+////}
+//
+////.tab-content {
+////  padding: 10px; /* Поля вокруг текста */
+////  width: 100%; /* Ширина */
+////  box-sizing: border-box; /* Ширина не включает padding */
+////}
+//
+//.tab :checked ~ .tab-content {
+//  display: block;
+//
+//}
+
+
 @media (min-width: $tablet-width) {
   .container {
     padding: 0 45px;

@@ -4174,20 +4174,21 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 576px) {
   .basket-page__main,
-  .basket__page__order-block {
+  .basket-page__order-block {
     max-width: 485px; } }
 
 @media (min-width: 768px) {
-  .basket__page__order-block {
+  .basket-page__main,
+  .basket-page__order-block {
     max-width: 698px; }
   .basket-page__button--mobile {
-    width: 425px;
     margin: 0 auto 65px auto; } }
 
-@media (min-width: 1440px) {
+@media (min-width: 993px) {
   .basket-page__main {
     padding-top: 65px;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    max-width: 905px; }
   .basket-page__main-wrapper {
     flex-direction: row;
     flex-wrap: wrap;
@@ -4215,7 +4216,29 @@ input[type="radio"].visually-hidden {
   .basket-page__button--mobile {
     display: none; }
   .basket-page__button--desktop {
-    display: block; } }
+    display: block;
+    margin-bottom: 60px; }
+  .basket-page__order-block {
+    max-width: 905px; }
+  .basket-page__order {
+    width: 470px;
+    margin-right: auto; } }
+
+@media (min-width: 1200px) {
+  .basket-page__main,
+  .basket-page__order-block {
+    max-width: 1110px; }
+  .basket-page__order {
+    width: 675px; } }
+
+@media (min-width: 1440px) {
+  .basket-page__main,
+  .basket-page__order-block {
+    max-width: 1440px; }
+  .basket-page__order {
+    width: 810px; }
+  .basket-page__button {
+    margin-bottom: 0; } }
 
 .basket-fast {
   padding-bottom: 25px; }
@@ -4315,13 +4338,17 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
   width: 35%; }
 
-@media (min-width: 1440px) {
+@media (min-width: 993px) {
   .basket-fast {
-    width: 360px; }
+    width: 315px; }
   .basket-page__line {
     margin-right: 20px; }
   .basket-fast__button {
     width: 100%; } }
+
+@media (min-width: 1440px) {
+  .basket-fast {
+    width: 360px; } }
 
 .model {
   border-top: 1px solid #e0e0e0;
@@ -4345,7 +4372,7 @@ input[type="radio"].visually-hidden {
 .model__delete {
   position: absolute;
   width: 24px;
-  height: 24px;
+  height: 25px;
   border-radius: 50%;
   top: 5px;
   left: 5px;
@@ -4467,14 +4494,20 @@ input[type="radio"].visually-hidden {
   line-height: 11px;
   margin-top: 13px; }
 
-@media (min-width: 1440px) {
+@media (min-width: 993px) {
   .model {
     border-top: none;
     padding: 35px 30px;
     background-color: rgba(224, 224, 224, 0.23);
-    width: 810px;
+    width: 470px;
     margin-bottom: 20px;
-    margin-right: 90px; }
+    margin-right: 30px; }
+  .model__count {
+    background-color: transparent; } }
+
+@media (min-width: 1200px) {
+  .model {
+    width: 675px; }
   .model__image-wrapper {
     width: 150px;
     height: 150px; }
@@ -4484,7 +4517,11 @@ input[type="radio"].visually-hidden {
     width: 150px;
     height: 150px; }
   .model__block {
-    width: 575px; }
+    width: 575px;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; }
   .model__text {
     font-size: 12px; }
   .model__info-wrapper {
@@ -4493,7 +4530,8 @@ input[type="radio"].visually-hidden {
     flex-wrap: wrap;
     align-items: flex-start; }
   .model__info {
-    margin-bottom: 30px; }
+    margin-bottom: 0;
+    width: 50%; }
   .model__cost-info {
     margin-left: auto;
     justify-content: flex-end; }
@@ -4506,8 +4544,17 @@ input[type="radio"].visually-hidden {
     order: 1; }
   .model__discount {
     margin-left: 10px; }
-  .model__count {
-    background-color: transparent; } }
+  .model__count-wrapper {
+    margin-bottom: 0; }
+  .model__count-block {
+    display: flex;
+    width: 50%;
+    justify-content: space-between; } }
+
+@media (min-width: 1440px) {
+  .model {
+    width: 810px;
+    margin-right: 90px; } }
 
 .order__tabs {
   border-bottom: 1px solid #9799a7;
@@ -4520,7 +4567,7 @@ input[type="radio"].visually-hidden {
   display: inline-block;
   vertical-align: middle;
   cursor: pointer;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 400;
@@ -4534,18 +4581,15 @@ input[type="radio"].visually-hidden {
 .order__tablink:nth-child(odd) {
   border-right: none; }
 
-.order__tablink--active {
-  border-bottom: 1px solid white;
-  font-weight: 700; }
-
-.order__tablink--active .order__title {
+.order__tabs button.active {
   font-size: 10px;
   font-weight: 700;
   line-height: 12px;
   border-bottom: 1px solid white; }
 
 .order__tabcontent {
-  padding: 20px 0 10px 0; }
+  padding: 20px 0 10px 0;
+  display: none; }
 
 .order__tabcontent--fast {
   padding: 45px 0 75px 0; }

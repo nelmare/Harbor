@@ -91,26 +91,27 @@
 
 @media (min-width: $landscape-width) {
   .basket-page__main,
-  .basket__page__order-block {
+  .basket-page__order-block {
     max-width: 485px;
   }
 }
 
 @media (min-width: $tablet-width) {
-  .basket__page__order-block {
+  .basket-page__main,
+  .basket-page__order-block {
     max-width: 698px;
   }
 
   .basket-page__button--mobile {
-    width: 425px;
     margin: 0 auto 65px auto;
   }
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $laptop-width) {
   .basket-page__main {
     padding-top: 65px;
     padding-bottom: 50px;
+    max-width: 905px;
   }
 
   .basket-page__main-wrapper {
@@ -157,6 +158,49 @@
 
   .basket-page__button--desktop {
     display: block;
+    margin-bottom: 60px;
   }
 
+  .basket-page__order-block {
+    max-width: 905px;
+  }
+
+  .basket-page__order {
+    width: 470px;
+    margin-right: auto;
+  }
 }
+
+@media (min-width: $xlaptop-width) {
+  .basket-page__main,
+  .basket-page__order-block {
+    max-width: 1110px;
+  }
+
+  .basket-page__order {
+    width: 675px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .basket-page__main,
+  .basket-page__order-block {
+    max-width: 1440px;
+  }
+
+  .basket-page__order {
+    width: 810px;
+  }
+
+  .basket-page__button {
+    margin-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+

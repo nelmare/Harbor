@@ -224,10 +224,12 @@
                                 <p class="model__discount">Скидка 50%</p>
                             </div>
                         </div>
-                        <div class="model__count-wrapper">
-                            <button class="model__reduce"></button>
-                            <input class="model__count" type="text" value="2">
-                            <button class="model__enlarge"></button>
+                        <div class="model__count-block">
+                            <div class="model__count-wrapper">
+                                <button class="model__reduce"></button>
+                                <input class="model__count" type="text" value="2">
+                                <button class="model__enlarge"></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -256,24 +258,26 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="model__count-wrapper">
-                            <button class="model__reduce"></button>
-                            <input class="model__count" type="text" value="2">
-                            <button class="model__enlarge"></button>
+                        <div class="model__count-block">
+                            <div class="model__count-wrapper">
+                                <button class="model__reduce"></button>
+                                <input class="model__count" type="text" value="2">
+                                <button class="model__enlarge"></button>
+                            </div>
+                            <p class="model__instoke">Осталось 2 шт.</p>
                         </div>
-                        <p class="model__instoke">Осталось 2 шт.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="basket__page__order-block container">
+    <div class="basket-page__order-block container">
     <div class="basket-page__order order">
         <div class="order__tabs">
-            <button class="order__tablink order__tablink--active">Оформление заказа</button>
-            <button class="order__tablink">Быстрый заказ</button>
+            <button class="order__tablink order__tablink--active" onclick="openTab(event, 'ordering')" id="defaultOpen">Оформление заказа</button>
+            <button class="order__tablink" onclick="openTab(event, 'fast order')">Быстрый заказ</button>
         </div>
-        <div class="order__tabcontent order__tabcontent--ordering">
+        <div class="order__tabcontent order__tabcontent--ordering"  id="ordering">
             <p class="order__intro">После оформления заказа вам на почту будет отправлен доступ в личный кабинет, в
                 котором будет храниться информация о всех ваших заказах, скидках и, конечно же, список избранных товаров.</p>
             <form class="order__form" action="#" method="post">
@@ -429,7 +433,7 @@
             </form>
         </div>
 <!--            Блок содержимого вкладки "Быстрый заказ" временно скрыт классом visually-hidden-->
-        <div class="order__tabcontent order__tabcontent--fast visually-hidden">
+        <div class="order__tabcontent order__tabcontent--fast" id="fast order">
             <p class="order__intro">Наш менеджер свяжется с вами в течении 30 минут.</p>
             <form class="order__form" action="#" method="post">
                 <fieldset class="order__form-wrapper order__form-wrapper--contacts">
@@ -536,6 +540,7 @@
     </div>
 </footer>
 <script src="js/burger.js"></script>
+<script src="js/tabs.js"></script>
 <script>svg4everybody();</script>
 </body>
 </html>
