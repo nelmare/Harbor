@@ -3641,7 +3641,7 @@ input[type="radio"].visually-hidden {
   border-bottom: none; }
 
 .product__composition {
-  width: 315px;
+  width: 100%;
   border-collapse: collapse; }
 
 .product__stroke {
@@ -4546,11 +4546,11 @@ input[type="radio"].visually-hidden {
   .model__discount {
     margin-left: 10px; }
   .model__count-wrapper {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-right: 10px; }
   .model__count-block {
     display: flex;
-    width: 50%;
-    justify-content: space-between; } }
+    justify-content: start; } }
 
 @media (min-width: 1440px) {
   .model {

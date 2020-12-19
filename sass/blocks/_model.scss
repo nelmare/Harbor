@@ -238,12 +238,12 @@
 
   .model__count-wrapper {
     margin-bottom: 0;
+    margin-right: 10px;
   }
 
   .model__count-block {
     display: flex;
-    width: 50%;
-    justify-content: space-between;
+    justify-content: start;
   }
 }
 
