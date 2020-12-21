@@ -56,10 +56,6 @@
   display: none;
 }
 
-.actual-block--background {
-  display: none;
-}
-
 .actual-block--selection {
   margin: 0 auto;
   padding-top: 20px;
@@ -69,6 +65,67 @@
   padding-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.actual-block--background {
+  position: relative;
+  border: none;
+  min-height: 220px;
+  padding-bottom: 0;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  //width: 100%;
+}
+
+.actual-block--background:before {
+  content: "";
+  background-image: url("../img/promo-back-desk@1x.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-color: $image-back1;
+
+  @media (min-resolution: $retina-dpi),
+  (min-resolution: $retina-dppx) {
+    background-image: url("../img/promo-back-desk@2x.jpg");
+    background-size: cover;
+  }
+}
+
+.actual-block--background .actual-block__link {
+  padding: 15px 10px;
+}
+
+.actual-block--background .actual-block__title {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 31px;
+  line-height: 35px;
+  width: 365px;
+}
+
+@media (min-width: $landscape-width) {
+  .actual-block--background {
+    min-height: 270px;
+  }
+
+  .actual-block--background:before {
+    height: 270px;
+  }
+
+  .actual-block--background .actual-block__title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 40px;
+    width: 465px;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -88,22 +145,52 @@
   .actual-block__image {
     width: 100%;
   }
+
+    .actual-block--background {
+      min-height: 340px;
+      width: 100%;
+      max-width: none;
+    }
+
+    .actual-block--background:before {
+      height: 340px;
+    }
+
+    .actual-block--background .actual-block__title {
+      text-align: center;
+      margin: 0 auto;
+      font-size: 39px;
+      line-height: 43px;
+      width: 560px;
+    }
 }
 
-@media (min-width: $xlaptop-width) {
-  .actual-block--selection .actual-block__image-wrapper {
-    width: 60%;
+@media (min-width: $laptop-width) {
+  .actual-block--background {
+    min-height: 420px;
+  }
+
+  .actual-block--background:before {
+    height: 420px;
+  }
+
+  .actual-block--background .actual-block__title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 52px;
+    line-height: 56px;
+    width: 660px;
   }
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: 1024px) {
   .actual-block {
     flex-direction: row;
     justify-content: flex-start;
     //border-top: 1px solid $border-color;
     align-items: center;
     padding-bottom: 100px;
-    width: 1440px;
+    width: 100%;
     max-width: none;
     margin: 0;
   }
@@ -112,7 +199,8 @@
     display: flex;
     flex-direction: column;
     order: 2;
-    width: 39%;
+    width: 317px;
+    margin: 0;
   }
 
   .actual-block__button {
@@ -125,12 +213,12 @@
 
   .actual-block__image-wrapper {
     order: 1;
-    width: 720px;
-    height: 540px;
+    width: 50%;
+    height: auto;
     margin: 0;
     margin-right: 60px;
     font-size: 0;
-    line-height: 540px;
+    //line-height: 540px;
   }
 
   .actual-block--selection .actual-block__image-wrapper {
@@ -138,16 +226,16 @@
   }
 
   .actual-block__image {
-    width: 720px;
-    height: 540px;
+    //width: 600px;
+    //height: 540px;
     vertical-align: middle;
     display: block;
   }
 
   .actual-block__title {
-    font-size: 60px;
+    font-size: 46px;
     font-weight: 500;
-    line-height: 64px;
+    line-height: 58px;
     letter-spacing: 0em;
     padding: 20px 0 25px 0;
     text-align: left;
@@ -166,14 +254,15 @@
 
   .actual-block--padding .actual-block__link-wrapper {
     order: 1;
-    padding-left: 240px;
-    width: 46%;
+    //padding-left: 135px;
+    width: 317px;
+    margin-left: auto;
   }
 
   .actual-block--padding .actual-block__image-wrapper {
     margin-right: 0;
     margin-left: 60px;
-    width: 720px;
+    width: 50%;
   }
 
   .actual-block--background {
@@ -214,6 +303,165 @@
   .actual-block--background .actual-block__title {
     text-align: center;
     margin: 0 auto;
+    font-size: 48px;
+    line-height: 60px;
+    width: 55%;
+  }
+
+  .actual-block--selection {
+    padding-top: 0;
+  }
+
+  .actual-block--selection .actual-block__link-wrapper {
+    order: 2;
+  }
+
+  .actual-block--selection .actual-block__image-wrapper {
+    order: 1;
+  }
+
+  .actual-block--background {
+    min-height: 440px;
+  }
+
+  .actual-block--background:before {
+    height: 440px;
+  }
+
+  .actual-block--background .actual-block__title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 60px;
+    line-height: 64px;
+    width: 700px;
+  }
+}
+
+@media (min-width: $xlaptop-width) {
+  //.actual-block--selection .actual-block__image-wrapper {
+  //  width: 60%;
+  //}
+
+  .actual-block__link-wrapper {
+    width: 360px;
+  }
+
+  .actual-block--padding .actual-block__link-wrapper {
+    width: 360px;
+  }
+
+  .actual-block__title {
+    font-size: 52px;
+  }
+
+  .actual-block--background {
+    min-height: 470px;
+  }
+
+  .actual-block--background:before {
+    height: 470px;
+  }
+
+  .actual-block--background .actual-block__title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 60px;
+    line-height: 64px;
+    width: 740px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  //.actual-block {
+  //  flex-direction: row;
+  //  justify-content: flex-start;
+  //  //border-top: 1px solid $border-color;
+  //  align-items: center;
+  //  padding-bottom: 100px;
+  //  //width: 1440px;
+  //  max-width: none;
+  //  margin: 0;
+  //}
+
+  .actual-block__link-wrapper {
+    //display: flex;
+    //flex-direction: column;
+    //order: 2;
+    width: 460px;
+  }
+
+  //.actual-block__button {
+  //  display: inline-block;
+  //  vertical-align: middle;
+  //  text-decoration: none;
+  //  padding: 14px 20px;
+  //  margin-right: auto;
+  //}
+
+  //.actual-block__image-wrapper {
+  //  order: 1;
+  //  width: 720px;
+  //  height: 540px;
+  //  margin: 0;
+  //  margin-right: 60px;
+  //  font-size: 0;
+  //  line-height: 540px;
+  //}
+
+  .actual-block--selection .actual-block__image-wrapper {
+    width: 720px;
+  }
+
+  //.actual-block__image {
+  //  width: 720px;
+  //  height: 540px;
+  //  vertical-align: middle;
+  //  display: block;
+  //}
+
+  .actual-block__title {
+    font-size: 60px;
+    //font-weight: 500;
+    line-height: 64px;
+    //letter-spacing: 0em;
+    //padding: 20px 0 25px 0;
+    //text-align: left;
+  }
+
+  //.actual-block--padding {
+  //  padding-top: 60px;
+  //  border-top: none;
+  //  justify-content: space-between;
+  //  margin-left: auto;
+  //}
+
+  //.actual-block--padding .actual-block__title {
+  //  padding: 0 0 20px 0;
+  //}
+
+  .actual-block--padding .actual-block__link-wrapper {
+    //order: 1;
+    //padding-left: 240px;
+    width: 460px;
+  }
+
+  .actual-block--padding .actual-block__image-wrapper {
+    margin-left: 20px;
+  }
+
+  .actual-block--background {
+    min-height: 540px;
+  }
+
+  .actual-block--background:before {
+    height: 540px;
+  }
+
+  .actual-block--background .actual-block__link {
+    padding: 150px 100px;
+  }
+
+  .actual-block--background .actual-block__title {
     font-size: 64px;
     line-height: 60px;
     width: 55%;
@@ -234,37 +482,37 @@
 
 @media (min-width: $xldesktop-width) {
   .actual-block {
-    width: 1920px;
+    //width: 1920px;
     padding-bottom: 97px;
   }
 
   .actual-block__link-wrapper {
-    width: 29%;
+    width: 560px;
   }
 
   .actual-block__image-wrapper {
     margin-right: 80px;
-    width: 960px;
+    //width: 960px;
   }
 
-  .actual-block--selection .actual-block__image-wrapper {
-    width: 960px;
-  }
+  //.actual-block--selection .actual-block__image-wrapper {
+  //  //width: 960px;
+  //}
 
-  .actual-block__image {
-    width: 960px;
-  }
+  //.actual-block__image {
+  //  width: 960px;
+  //}
 
-  .actual-block--padding {
-    margin-left: 0;
-  }
+  //.actual-block--padding {
+  //  margin-left: 0;
+  //}
 
   .actual-block--padding .actual-block__link-wrapper {
-    padding-left: 320px;
+    width: 560px;
   }
 
   .actual-block--padding .actual-block__image-wrapper {
-    width: 960px;
+    margin-left: 80px;
   }
 
   .actual-block--background {

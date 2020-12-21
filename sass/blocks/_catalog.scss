@@ -76,7 +76,7 @@
 }
 
 .catalog__thirdblock {
-  display: none;
+  border-top: none;
 }
 
 @media (min-width: $landscape-width) {
@@ -101,6 +101,11 @@
 
   .catalog__wrapper {
     justify-content: flex-start;
+  }
+
+  .catalog__thirdblock {
+    border-top: none;
+    padding-top: 50px;
   }
 }
 

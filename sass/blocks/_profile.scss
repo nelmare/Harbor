@@ -14,6 +14,7 @@
 
 .profile__mobile-item {
   position: relative;
+  z-index: 20;
 }
 
 .profile__mobile-link {
@@ -67,6 +68,7 @@
 }
 
 .profile__nav-list {
+  display: none;
   @include margin-reset;
   list-style: none;
   padding: 10px 20px;
@@ -74,11 +76,11 @@
   position: absolute;
   top: 48px;
   left: 0;
-  width: 315px;
+  width: 100%;
 }
 
-.profile__nav-list--hide {
-  display: none;
+.profile__mobile-item:hover .profile__nav-list {
+   display: block;
 }
 
 .profile__nav-item:last-child {
@@ -97,6 +99,16 @@
   display: block;
   border-bottom: 1px solid $border-color;
   cursor: pointer;
+}
+
+.profile__nav-item:last-child .profile__nav-link {
+  border-bottom: none;
+}
+
+.profile__nav-link:hover,
+.profile__nav-link:focus,
+.profile__nav-link:active {
+  opacity: 70%;
 }
 
 .profile__form-wrapper .order__form {
@@ -198,7 +210,7 @@
 
 @media (min-width: $tablet-width) {
   .profile__wrapper {
-    padding: 95px 35px 130px 45px;
+    padding: 95px 0 130px 0;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -368,6 +380,10 @@
 }
 
 @media (min-width: $laptop-width) {
+  .profile__wrapper {
+    padding: 95px 35px 130px 45px;
+  }
+
   .profile__nav-list,
   .profile__wrapper--archive .profile__nav-list,
   .profile__wrapper--favourites .profile__nav-list {
