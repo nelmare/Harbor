@@ -42,40 +42,48 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  color: inherit;
+  text-decoration: none;
 }
 
-.filter-fast__check {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  cursor: pointer;
-  transform: translate(-50%, -50%);
+.filter-fast__button:hover,
+.filter-fast__button:focus {
+  opacity: 70%;
 }
 
-.filter-fast__checkbox:checked + .filter-fast__check {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-image: url("../img/icon-check.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  cursor: pointer;
-  transform: translate(-50%, -50%);
-  background-color: $check-back;
-}
-
-.filter-fast__checkbox:focus ~ .filter-fast__check {
-  outline: -webkit-focus-ring-color auto 5px;
-}
-
-.filter-fast__checkbox:-moz-focusring ~ .filter-fast__check {
-  outline: 2px dotted;
-}
+//.filter-fast__check {
+//  width: 100%;
+//  height: 100%;
+//  position: absolute;
+//  left: 50%;
+//  top: 50%;
+//  cursor: pointer;
+//  transform: translate(-50%, -50%);
+//}
+//
+//
+//.filter-fast__checkbox:checked + .filter-fast__check {
+//  content: "";
+//  width: 100%;
+//  height: 100%;
+//  background-image: url("../img/icon-check.svg");
+//  background-repeat: no-repeat;
+//  background-position: center center;
+//  position: absolute;
+//  left: 50%;
+//  top: 50%;
+//  cursor: pointer;
+//  transform: translate(-50%, -50%);
+//  background-color: $check-back;
+//}
+//
+//.filter-fast__checkbox:focus ~ .filter-fast__check {
+//  outline: -webkit-focus-ring-color auto 5px;
+//}
+//
+//.filter-fast__checkbox:-moz-focusring ~ .filter-fast__check {
+//  outline: 2px dotted;
+//}
 
 .filter-fast__button--size,
 .filter-fast__button--color {
