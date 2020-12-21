@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="Adjust styles of index page, add tablet-width for index">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-women.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popups/gallery-popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/popups/gallery-popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_category.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_popup-gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_popup-gallery.scss" afterDir="false" />
-    </list>
+    <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="Adjust styles of index page, add tablet-width for index" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +109,7 @@
       <workItem from="1607863218646" duration="126089000" />
       <workItem from="1608285726667" duration="17362000" />
       <workItem from="1608318297309" duration="28677000" />
-      <workItem from="1608541961212" duration="6774000" />
+      <workItem from="1608541961212" duration="7025000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>
