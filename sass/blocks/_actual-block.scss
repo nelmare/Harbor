@@ -222,7 +222,11 @@
   }
 
   .actual-block--selection .actual-block__image-wrapper {
-    width: 720px;
+    width: 50%;
+  }
+
+  .actual-block--selection .actual-block__title {
+    font-size: 44px;
   }
 
   .actual-block__image {
@@ -369,6 +373,10 @@
     line-height: 64px;
     width: 740px;
   }
+
+  .actual-block--selection .actual-block__title {
+    font-size: 49px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -408,9 +416,7 @@
   //  line-height: 540px;
   //}
 
-  .actual-block--selection .actual-block__image-wrapper {
-    width: 720px;
-  }
+
 
   //.actual-block__image {
   //  width: 720px;
@@ -477,6 +483,11 @@
 
   .actual-block--selection .actual-block__image-wrapper {
     order: 1;
+  }
+
+  .actual-block--selection .actual-block__title {
+    font-size: 58px;
+    line-height: 62px;
   }
 }
 

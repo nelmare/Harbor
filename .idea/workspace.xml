@@ -23,10 +23,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_actual-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/selection.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <workItem from="1607863218646" duration="126089000" />
       <workItem from="1608285726667" duration="17362000" />
       <workItem from="1608318297309" duration="28677000" />
-      <workItem from="1608541961212" duration="16955000" />
+      <workItem from="1608541961212" duration="17622000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>
