@@ -406,24 +406,16 @@
   //  margin-right: auto;
   //}
 
-  //.actual-block__image-wrapper {
-  //  order: 1;
-  //  width: 720px;
-  //  height: 540px;
-  //  margin: 0;
-  //  margin-right: 60px;
-  //  font-size: 0;
-  //  line-height: 540px;
-  //}
+  .actual-block__image-wrapper {
+    height: 540px;
+  }
 
 
 
-  //.actual-block__image {
-  //  width: 720px;
-  //  height: 540px;
-  //  vertical-align: middle;
-  //  display: block;
-  //}
+  .actual-block__image {
+    width: 100%;
+    height: 540px;
+  }
 
   .actual-block__title {
     font-size: 60px;
