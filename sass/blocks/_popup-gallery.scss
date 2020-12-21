@@ -1,14 +1,19 @@
-.popup-gallery {
-  width: 1440px;
-  height: 750px;
-  background-color: $mainback-color;
-  position: relative;
+.popup-gallery--show {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $menu-mobile-back;
+  backdrop-filter: blur(15px);
 }
 
 .popup-gallery__container {
   display: flex;
   position: relative;
   justify-content: space-between;
+  width: 1440px;
+  height: 750px;
+  background-color: $mainback-color;
 }
 
 .popup-gallery__sidebar {
@@ -164,12 +169,4 @@
   background-position: center center;
   background-size: 64px 37px;
   transform: rotateX(180deg);
-}
-
-.popup-gallery__show {
-  display: block;
-}
-
-.popup-gallery__hide {
-  display: none;
 }

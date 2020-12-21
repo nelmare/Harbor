@@ -38,6 +38,15 @@ margin-bottom: 15px;
   border: none;
 }
 
+.category__check-text {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+
 .category__checkbox:focus ~ .category__check {
   outline: -webkit-focus-ring-color auto 5px;
 }
