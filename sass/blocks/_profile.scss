@@ -10,6 +10,7 @@
 .profile__mobile-list {
   @include margin-reset;
   list-style: none;
+  border-bottom: 9px solid $menu-line;
 }
 
 .profile__mobile-item {
@@ -31,15 +32,15 @@
   line-height: 20px;
 }
 
-.profile__mobile-item::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 9px;
-  bottom: -9px;
-  left: 0;
-  background-color: $back-color;
-}
+//.profile__mobile-item::before {
+//  content: "";
+//  position: absolute;
+//  width: 100%;
+//  height: 9px;
+//  bottom: -9px;
+//  left: 0;
+//  background-color: $back-color;
+//}
 
 .profile__mobile-link--open::before {
   content: "";
@@ -231,6 +232,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+  }
+
+  .profile__mobile-list {
+    border-bottom: none;
   }
 
   .profile__mobile-link,

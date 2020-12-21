@@ -1,7 +1,11 @@
 .archive__card {
   padding: 40px 0  15px 0;
-  border-bottom: 9px solid $menu-line;
 }
+
+//.archive__card:first-child {
+//  padding: 40px 0  15px 0;
+//  border-bottom: 9px solid $menu-line;
+//}
 
 .archive__title-wrapper {
   display: flex;
