@@ -272,7 +272,7 @@
   .profile__form-wrapper .order__block--phone,
   .profile__form-wrapper .order__block--city,
   .profile__form-wrapper .order__block--address {
-    width: 100%;
+    width: 48%;
   }
 
   .profile__form-wrapper .order__form {
@@ -280,8 +280,19 @@
     padding-top: 10px;
   }
 
+
+  .profile__form-wrapper .order__form-wrapper--contacts,
+  .profile__form-wrapper .order__form-wrapper--delivery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    order: 1;
+  }
+
   .profile__form-wrapper .order__block--name {
     order: 3;
+    width: 100%;
   }
 
   .profile__form-wrapper .order__block--email {
