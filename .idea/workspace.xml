@@ -23,8 +23,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_archive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_archive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile-favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_catalog-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/_model.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_model.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscribtion.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscribtion.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +122,7 @@
       <workItem from="1608541961212" duration="18302000" />
       <workItem from="1608566944884" duration="1480000" />
       <workItem from="1608577166081" duration="745000" />
-      <workItem from="1608647251441" duration="606000" />
+      <workItem from="1608647251441" duration="3675000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>

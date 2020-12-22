@@ -37,6 +37,12 @@
   cursor: pointer;
 }
 
+.model__delete:hover,
+.model__delete:focus,
+.model__delete:active {
+  opacity: 70%;
+}
+
 .model__info {
   margin-bottom: 10px;
 }

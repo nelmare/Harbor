@@ -280,7 +280,6 @@
     padding-top: 10px;
   }
 
-
   .profile__form-wrapper .order__form-wrapper--contacts,
   .profile__form-wrapper .order__form-wrapper--delivery{
     display: flex;
@@ -377,7 +376,7 @@
   }
 
   .profile__subscribtion-wrapper .order__form:last-of-type {
-    padding-top: 0;
+    padding-top: 40px;
   }
 
   .profile__subscribtion-wrapper .profile__button {
@@ -445,6 +444,10 @@
     width: 300px;
     font-size: 18px;
     line-height: 23px;
+  }
+
+  .profile__subscribtion-wrapper .order__form:last-of-type {
+    padding-top: 0;
   }
 }
 
