@@ -21,11 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="85ce5b80-75bf-4b63-9daa-b3d739624590" name="Default Changelist" comment="Adjust styles of index page, add tablet-width for index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-women.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_popup-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_popup-index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/_text-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/_text-page.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +117,7 @@
       <workItem from="1608566944884" duration="1480000" />
       <workItem from="1608577166081" duration="745000" />
       <workItem from="1608647251441" duration="4439000" />
-      <workItem from="1608720583866" duration="4538000" />
+      <workItem from="1608720583866" duration="6220000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare for heroku">
       <created>1604648250159</created>
