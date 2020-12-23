@@ -2387,15 +2387,22 @@ input[type="radio"].visually-hidden {
     border-bottom: none; } }
 
 .popup-index {
+  background-color: rgba(38, 49, 65, 0.8);
+  backdrop-filter: blur(15px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-height: 100vh; }
+
+.popup-index__wrapper {
+  position: relative;
   width: 375px;
   height: 500px;
   padding: 155px 30px 30px 30px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.popup-index__wrapper {
-  position: relative; }
+  background-color: white;
+  margin: 20px 0; }
 
 .popup-index__close-button {
   position: absolute;
@@ -2407,10 +2414,10 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
-  right: -15px;
-  top: -150px;
+  right: 15px;
+  top: 10px;
   background-color: transparent;
-  z-index: 8; }
+  z-index: 18; }
 
 .popup-index__title {
   margin: 0;
@@ -2441,16 +2448,14 @@ input[type="radio"].visually-hidden {
   margin: 0 auto; }
 
 @media (min-width: 768px) {
-  .popup-index {
+  .popup-index__wrapper {
     width: 590px;
     height: 380px;
     padding-top: 100px; }
   .popup-index__title {
     font-size: 40px;
     line-height: 40px;
-    padding: 0 20px; }
-  .popup-index__close-button {
-    top: -90px; } }
+    padding: 0 20px; } }
 
 .catalog-main__container {
   max-width: 315px;
@@ -6007,7 +6012,7 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
   color: #9799a7;
   margin-bottom: 25px;
-  word-wrap: break-word; }
+  word-break: break-word; }
 
 .text-page h2 {
   margin: 0;
