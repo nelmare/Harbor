@@ -5121,13 +5121,13 @@ input[type="radio"].visually-hidden {
 .order-page__button {
   display: none; }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .order-page {
     height: 40vh;
     justify-content: center;
     align-items: center; }
   .order-page__title {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 300;
     line-height: 45px;
     text-align: center; }
@@ -5156,6 +5156,10 @@ input[type="radio"].visually-hidden {
   .order-page__button:focus,
   .order-page__button:active {
     text-decoration: none; } }
+
+@media (min-width: 993px) {
+  .order-page__title {
+    font-size: 36px; } }
 
 .favourites {
   padding: 0 30px; }

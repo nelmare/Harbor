@@ -33,7 +33,7 @@
   display: none;
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $tablet-width) {
   .order-page {
     height: 40vh;
     justify-content: center;
@@ -41,7 +41,7 @@
   }
 
   .order-page__title {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 300;
     line-height: 45px;
     text-align: center;
@@ -78,5 +78,11 @@
   .order-page__button:focus,
   .order-page__button:active {
     text-decoration: none;
+  }
+}
+
+@media (min-width: $laptop-width) {
+  .order-page__title {
+    font-size: 36px;
   }
 }
