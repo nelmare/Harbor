@@ -28,9 +28,31 @@
   cursor: pointer;
 }
 
-.order-page__login,
 .order-page__button {
-  display: none;
+  display: block;
+  vertical-align: middle;
+  margin: 15px auto 0 auto;
+  padding: 25px 15px;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  width: 125px;
+  text-align: center;
+}
+
+.order-page__button--login {
+  width: 230px;
+}
+
+.order-page__button:hover,
+.order-page__button:focus,
+.order-page__button:active {
+  text-decoration: none;
 }
 
 @media (min-width: $tablet-width) {
@@ -60,24 +82,12 @@
   }
 
   .order-page__button {
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 15px;
     padding: 25px 20px;
-    color: inherit;
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 15px;
+    width: 135px;
   }
 
-  .order-page__button:hover,
-  .order-page__button:focus,
-  .order-page__button:active {
-    text-decoration: none;
+  .order-page__button--login {
+    width: 235px;
   }
 }
 
