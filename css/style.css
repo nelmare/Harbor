@@ -6056,7 +6056,8 @@ input[type="radio"].visually-hidden {
 .text-page img {
   width: 100%;
   max-width: 100%;
-  min-height: 200px; }
+  min-height: 200px;
+  display: block; }
 
 @media (min-width: 768px) {
   .text-page__column {
@@ -6073,15 +6074,17 @@ input[type="radio"].visually-hidden {
     align-items: flex-start;
     flex-direction: row;
     justify-content: center;
-    padding: 80px 0 45px 0;
+    padding: 100px 0 85px 0;
     width: 993px; }
   .text-page__column div:nth-child(2) {
-    padding: 120px 0 25px 0;
+    padding: 80px 0 25px 0;
     border-bottom: none;
     width: 180px;
     margin-right: 90px;
     margin-left: 80px;
     order: 2; }
+  .text-page__column div:first-child {
+    padding: 0; }
   .text-page__column div:first-child p {
     padding: 0;
     width: 540px;
