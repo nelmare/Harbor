@@ -219,7 +219,10 @@
                 <div class="item-page__breadcrumbs breadcrumbs">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__item">
-                            <a class="breadcrumbs__link" href="catalog-women.html">Обувь для женщин /</a>
+                            <a class="breadcrumbs__link" href="catalog-women.html">Обувь для женщин</a>
+                        </li>
+                        <li class="breadcrumbs__item breadcrumbs__item--slash">
+                            <span class="breadcrumbs__slash">/</span>
                         </li>
                         <li class="breadcrumbs__item">
                             <a class="breadcrumbs__link" href="item.html">Кроссовки</a>
@@ -230,10 +233,10 @@
                     <h1 class="item-page__title">Кроссовки<br> Harbor&nbsp;Lights</h1>
                     <button class="item-page__favorite item-page__favorite--active" aria-label="Добавить в избранное"></button>
                 </div>
-                <p class="item-page__cost-wrapper">
+                <div class="item-page__cost-wrapper">
                     <span class="item-page__cost item-page__cost--deleted">10000 руб.</span>
                     <span class="item-page__cost item-page__cost--bold">5000 руб.</span>
-                </p>
+                </div>
                 <div class="item-page__info">
                     <p class="item-page__discount">Скидка 50%. Акция заканчивается через 03:04:32</p>
         <!--            В случае отсутствия модели вместо item-page__discount нужна запись item-page__lack. Убрать класс visually-hidden-->
@@ -409,8 +412,12 @@
                                 </picture>
                             </div>
                         </a>
-                        <p class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</p>
-                        <p class="catalog-item__label catalog-item__label--novelty catalog-item__label--desktop">Новинка</p>
+<!--                        .catalog-item__label--hide прячет ненужные стикеры-->
+                        <ul class="catalog-item__label-wrapper">
+                            <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                            <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                            <li class="catalog-item__label catalog-item__label--hit">Хит</li>
+                        </ul>
                         <div class="catalog-item__info-wrapper">
                             <a class="catalog-item__link" href="#">
                                 <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
@@ -433,7 +440,11 @@
                                 </picture>
                             </div>
                         </a>
-                        <p class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</p>
+                        <ul class="catalog-item__label-wrapper">
+                            <li class="catalog-item__label catalog-item__label--novelty">Новинка</li>
+                            <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                            <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                        </ul>
                         <div class="catalog-item__info-wrapper">
                             <a class="catalog-item__link" href="#">
                                 <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
@@ -456,7 +467,11 @@
                                 </picture>
                             </div>
                         </a>
-                        <p class="catalog-item__label catalog-item__label--novelty catalog-item__label--desktop">Новинка</p>
+                        <ul class="catalog-item__label-wrapper">
+                            <li class="catalog-item__label catalog-item__label--novelty">Новинка</li>
+                            <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                            <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                        </ul>
                         <div class="catalog-item__info-wrapper">
                             <a class="catalog-item__link" href="#">
                                 <h3 class="catalog-item__title">Кроссовки Harbor</h3>
@@ -479,7 +494,11 @@
                                 </picture>
                             </div>
                         </a>
-                        <p class="catalog-item__label catalog-item__label--discount catalog-item__label--desktop">Скидка</p>
+                        <ul class="catalog-item__label-wrapper">
+                            <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                            <li class="catalog-item__label catalog-item__label--discount">Скидка</li>
+                            <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                        </ul>
                         <div class="catalog-item__info-wrapper">
                             <a class="catalog-item__link" href="#">
                                 <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>

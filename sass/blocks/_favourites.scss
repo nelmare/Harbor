@@ -75,12 +75,12 @@
   align-items: flex-start;
 }
 
-.favourites__wrapper .catalog-item__label {
+.favourites__wrapper .catalog-item__label-wrapper {
   position: absolute;
   top: 24px;
   left: 0;
-  display: inline-block;
-  vertical-align: middle;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .favourites__select.sizes-select {
