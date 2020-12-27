@@ -110,14 +110,20 @@
   }
 }
 
-@media (min-width: $laptop-width) {
-  .slider {
-    top: 110px;
-  }
-}
-
-@media (min-width: $desktop-width) {
+@media (min-width: 993px) {
   .slider {
     display: none;
   }
 }
+
+//@media (min-width: $xlaptop-width) {
+//  .slider {
+//    top: 110px;
+//  }
+//}
+//
+//@media (min-width: $desktop-width) {
+//  .slider {
+//    display: none;
+//  }
+//}

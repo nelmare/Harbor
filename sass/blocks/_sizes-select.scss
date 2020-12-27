@@ -185,26 +185,49 @@
 @media (min-width: $laptop-width) {
   .sizes-select {
     padding: 20px 0;
-    min-width: 332px;
+    min-width: 310px;
+    position: static;
+    max-width: 310px;
+    height: auto;
+    margin-left: auto;
   }
 
   .sizes-select__button {
-    width: 195px;
+    width: 185px;
   }
+
 }
 
+//@media (min-width: 1024px) {
+//  .sizes-select {
+//    max-width: 378px;
+//    min-width: 378px;
+//
+//    position: static;
+//    //max-width: none;
+//    height: auto;
+//  }
+//}
+
 @media (min-width: $xlaptop-width) {
+  .sizes-select {
+    min-width: 374px;
+    max-width: 374px;
+  }
+
   .sizes-select__button {
-    width: 275px;
+    width: 245px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .sizes-select {
     position: static;
-    max-width: none;
+    //max-width: none;
     height: auto;
-    margin-bottom: 730px;
+    //margin-bottom: 730px;
+    max-width: 450px;
+
   }
 
   .sizes-select__wrapper {

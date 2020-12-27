@@ -2,97 +2,59 @@
   display: none;
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: 993px) {
   .gallery {
     display: block;
+    margin-right: 40px;
   }
 
   .gallery__list {
     @include margin-reset;
     list-style: none;
-    width: 750px;
-    display: grid;
-    grid-auto-rows: auto;
-    grid-template-columns: repeat(6, 125px);
+    display: flex;
+    flex-wrap: wrap;
+    width: 462px;
   }
-
-  .gallery__item:first-child {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-  }
-
-  .gallery__item:nth-child(2) {
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 1;
-  }
-
-  .gallery__item:nth-child(3) {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-  }
-
-  .gallery__item:nth-child(4) {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 2;
-  }
-
-  .gallery__item:nth-child(5) {
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 2;
-  }
-
-  .gallery__item:nth-child(6) {
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 3;
-  }
-
-
-
-
-
 
   .gallery__link {
-    display: inline-block;
-    vertical-align: middle;
     cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+  }
+
+  .gallery__item {
     position: relative;
-    font: inherit;
-    color: inherit;
-    text-decoration: none;
-    text-transform: none;
   }
 
   .gallery__image {
     display: block;
     background-color: rgb(240,240,240);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
-  //.gallery__item--by2,
-  //.gallery__link--by2,
-  //.gallery__image--by2 {
-  //  width: 375px;
-  //  height: 432px;
-  //}
-  //
-  //.gallery__item--by3,
-  //.gallery__link--by3,
-  //.gallery__image--by3 {
-  //  width: 250px;
-  //  height: 288px;
-  //}
-  //
-  //.gallery__item--by1,
-  //.gallery__link--by1,
-  //.gallery__image--by1 {
-  //  width: 750px;
-  //  height: 712px;
-  //}
+  .gallery__item--by2 {
+    width: 231px;
+    height: 266px;
+  }
+
+  .gallery__item--by3 {
+    width: 154px;
+    height: 177px;
+  }
+
+  .gallery__item--by1 {
+    width: 462px;
+    height: 438px;
+  }
 
   .gallery__link:hover::before,
   .gallery__link:focus::before {
@@ -107,4 +69,113 @@
     background-position: center center;
     background-size: 24px 24px;
   }
+}
+
+@media (min-width: $xlaptop-width) {
+  .gallery {
+    margin-right: 40px;
+  }
+
+  .gallery__list {
+    //width: 426px;
+    width: 606px;
+  }
+
+  //.gallery__item--by2 {
+  //  width: 201px;
+  //  height: 231px;
+  //}
+  //
+  //.gallery__item--by3 {
+  //  width: 134px;
+  //  height: 154px;
+  //}
+  //
+  //.gallery__item--by1 {
+  //  width: 426px;
+  //  height: 404px;
+  //}
+  .gallery__item--by2 {
+    width: 303px;
+    height: 286px;
+  }
+
+  .gallery__item--by3 {
+    width: 202px;
+    height: 191px;
+  }
+
+  .gallery__item--by1 {
+    width: 606px;
+    height: 472px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .gallery {
+    //display: block;
+    margin-right: 60px;
+  }
+
+  .gallery__list {
+    //@include margin-reset;
+    //list-style: none;
+    //display: flex;
+    //flex-wrap: wrap;
+    width: 750px;
+  }
+
+  //.gallery__link {
+  //  cursor: pointer;
+  //  position: absolute;
+  //  top: 0;
+  //  right: 0;
+  //  bottom: 0;
+  //  left: 0;
+  //  z-index: 1;
+  //  pointer-events: auto;
+  //  content: "";
+  //  background-color: rgba(0,0,0,0);
+  //}
+  //
+  //.gallery__item {
+  //  position: relative;
+  //}
+  //
+  //.gallery__image {
+  //  display: block;
+  //  background-color: rgb(240,240,240);
+  //  width: 100%;
+  //  height: 100%;
+  //  object-fit: cover;
+  //}
+
+  .gallery__item--by2 {
+    width: 375px;
+    height: 432px;
+  }
+
+  .gallery__item--by3 {
+    width: 250px;
+    height: 288px;
+  }
+
+  .gallery__item--by1 {
+    width: 750px;
+    height: 712px;
+  }
+
+  //.gallery__link:hover::before,
+  //.gallery__link:focus::before {
+  //  content: "";
+  //  position: absolute;
+  //  width: 24px;
+  //  height: 24px;
+  //  bottom: 10%;
+  //  right: 10%;
+  //  background-image: url("../img/icon-zoom-in.svg");
+  //  background-repeat: no-repeat;
+  //  background-position: center center;
+  //  background-size: 24px 24px;
+  //}
 }

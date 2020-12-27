@@ -1,12 +1,13 @@
 .order-page {
-  min-height: 237px;
+  //min-height: 237px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding: 40px 0 80px 0;
 }
 
 .order-page--empty {
-  min-height: 255px;
+  //min-height: 255px;
 }
 
 .order-page__title {
@@ -41,13 +42,14 @@
   font-size: 12px;
   font-weight: 700;
   line-height: 15px;
-  width: 125px;
+  width: 100%;
+  max-width: 425px;
   text-align: center;
 }
 
-.order-page__button--login {
-  width: 230px;
-}
+//.order-page__button--login {
+//  width: 230px;
+//}
 
 .order-page__button:hover,
 .order-page__button:focus,
@@ -57,7 +59,7 @@
 
 @media (min-width: $tablet-width) {
   .order-page {
-    height: 40vh;
+    //height: 40vh;
     justify-content: center;
     align-items: center;
   }
