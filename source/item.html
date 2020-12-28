@@ -8,7 +8,7 @@
     <script src="js/picturefill.js"></script>
     <script src="js/svg4everybody.js"></script>
 </head>
-<body class="body popup-show">
+<body class="body">
 <header class="page-header">
     <div class="page-header__container">
         <div class="page-header__contacts">
@@ -402,8 +402,8 @@
                         <a class="catalog-item__image-link" href="#">
                             <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background1">
                                 <picture>
-                                    <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-green@1x.jsource/img1x, img/image1-xldesk-green@2x.jpg 2x">
-                                    <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                    <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-green@1x.jpg 1x, img/image1-xldesk-green@2x.jpg 2x">
+                                    <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jpg 1x, img/image1-desk@2x.jpg 2x">
                                     <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
                                          alt="Фото обуви Harbor">
                                 </picture>
@@ -419,19 +419,26 @@
                             <a class="catalog-item__link" href="#">
                                 <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
                             </a>
-                            <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                            <p class="catalog-item__cost">
+                                <span class="catalog-item__cost catalog-item__cost--deleted visually-hidden">10000 ₽</span>
+                                <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                <span class="catalog-item__cost catalog-item__cost--discount visually-hidden">Cкидка 50%</span>
+                            </p>
                         </div>
                         <p class="catalog-item__ad">Новая коллекция</p>
                     </div>
                     <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    <button class="catalog-item__delete " type="button">
+                        <span class="visually-hidden">Удалить выбранную модель</span>
+                    </button>
                 </section>
                 <section class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <a class="catalog-item__image-link" href="#">
                             <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background3">
                                 <picture>
-                                    <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-grey@1x.jsource/img1x, img/image1-xldesk-grey@2x.jpg 2x">
-                                    <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                    <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-grey@1x.jpg 1x, img/image1-xldesk-grey@2x.jpg 2x">
+                                    <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jpg 1x, img/image1-desk@2x.jpg 2x">
                                     <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
                                          alt="Фото обуви Harbor">
                                 </picture>
@@ -446,19 +453,26 @@
                             <a class="catalog-item__link" href="#">
                                 <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
                             </a>
-                            <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                            <p class="catalog-item__cost">
+                                <span class="catalog-item__cost catalog-item__cost--deleted visually-hidden">10000 ₽</span>
+                                <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                <span class="catalog-item__cost catalog-item__cost--discount visually-hidden">Cкидка 50%</span>
+                            </p>
                         </div>
                         <p class="catalog-item__ad">Новая коллекция</p>
                     </div>
                     <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    <button class="catalog-item__delete visually-hidden" type="button">
+                        <span class="visually-hidden">Удалить выбранную модель</span>
+                    </button>
                 </section>
                 <section class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <a class="catalog-item__image-link" href="#">
                             <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background1">
                                 <picture>
-                                    <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-brown@1x.jsource/img1x, img/image1-xldesk-brown@2x.jpg 2x">
-                                    <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                    <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-brown@1x.jpg 1x, img/image1-xldesk-brown@2x.jpg 2x">
+                                    <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jpg 1x, img/image1-desk@2x.jpg 2x">
                                     <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
                                          alt="Фото обуви Harbor">
                                 </picture>
@@ -473,19 +487,26 @@
                             <a class="catalog-item__link" href="#">
                                 <h3 class="catalog-item__title">Кроссовки Harbor</h3>
                             </a>
-                            <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                            <p class="catalog-item__cost">
+                                <span class="catalog-item__cost catalog-item__cost--deleted visually-hidden">10000 ₽</span>
+                                <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                <span class="catalog-item__cost catalog-item__cost--discount visually-hidden">Cкидка 50%</span>
+                            </p>
                         </div>
                         <p class="catalog-item__ad">Новая коллекция</p>
                     </div>
                     <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    <button class="catalog-item__delete visually-hidden" type="button">
+                        <span class="visually-hidden">Удалить выбранную модель</span>
+                    </button>
                 </section>
                 <section class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <a class="catalog-item__image-link" href="#">
                             <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background2">
                                 <picture>
-                                    <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-green@1x.jsource/img1x, img/image1-xldesk-green@2x.jpg 2x">
-                                    <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                    <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-green@1x.jpg 1x, img/image1-xldesk-green@2x.jpg 2x">
+                                    <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jpg 1x, img/image1-desk@2x.jpg 2x">
                                     <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
                                          alt="Фото обуви Harbor">
                                 </picture>
@@ -500,11 +521,18 @@
                             <a class="catalog-item__link" href="#">
                                 <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
                             </a>
-                            <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                            <p class="catalog-item__cost">
+                                <span class="catalog-item__cost catalog-item__cost--deleted visually-hidden">10000 ₽</span>
+                                <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                <span class="catalog-item__cost catalog-item__cost--discount visually-hidden">Cкидка 50%</span>
+                            </p>
                         </div>
                         <p class="catalog-item__ad">Новая коллекция</p>
                     </div>
                     <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    <button class="catalog-item__delete visually-hidden" type="button">
+                        <span class="visually-hidden">Удалить выбранную модель</span>
+                    </button>
                 </section>
             </div>
         </div>
@@ -572,7 +600,7 @@
     </div>
 </footer>
 <!--Чтобы показать галерею нужно добавить класс popup-gallery--show галерее и класс popup-show body -->
-<div class="popup-gallery popup popup-gallery--show">
+<div class="popup-gallery popup">
     <div class="popup-gallery__container">
         <button class="popup-gallery__close-button" type="button"><span class="visually-hidden">Закрыть</span></button>
         <div class="popup-gallery__sidebar">
