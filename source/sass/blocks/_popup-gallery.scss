@@ -1,0 +1,182 @@
+.popup-gallery--show {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $menu-mobile-back;
+  backdrop-filter: blur(15px);
+  height: 100%;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.popup-gallery__container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 1440px;
+  height: 750px;
+  background-color: $mainback-color;
+}
+
+.popup-gallery__sidebar {
+  padding: 35px 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.popup-gallery__sidebar-button {
+  padding: 0;
+  border: 0;
+  background-color: $mainback-color;
+  width: 77px;
+  height: 110px;
+  cursor: pointer;
+  position: relative;
+}
+
+.popup-gallery__sidebar-button--image1 {
+  background-image: url("../img/gallery-small1@1x.jpg");
+  background-size: 77px 101px;
+  background-position: center center;
+
+  @media (min-resolution: $retina-dpi),
+  (min-resolution: $retina-dppx) {
+    background-image: url("../img/gallery-small1@2x.jpg");
+    background-size: cover;
+  }
+}
+
+.popup-gallery__sidebar-button--image2 {
+  background-image: url("../img/gallery-small2@1x.jpg");
+  background-size: 77px 101px;
+  background-position: center center;
+
+  @media (min-resolution: $retina-dpi),
+  (min-resolution: $retina-dppx) {
+    background-image: url("../img/gallery-small2@2x.jpg");
+    background-size: cover;
+  }
+}
+
+.popup-gallery__sidebar-button--image3 {
+  background-image: url("../img/gallery-small3@1x.jpg");
+  background-size: 77px 101px;
+  background-position: center center;
+
+  @media (min-resolution: $retina-dpi),
+  (min-resolution: $retina-dppx) {
+    background-image: url("../img/gallery-small3@2x.jpg");
+    background-size: cover;
+  }
+}
+
+.popup-gallery__sidebar-button--image4 {
+  background-image: url("../img/gallery-small4@1x.jpg");
+  background-size: 77px 101px;
+  background-position: center center;
+
+  @media (min-resolution: $retina-dpi),
+  (min-resolution: $retina-dppx) {
+    background-image: url("../img/gallery-small4@2x.jpg");
+    background-size: cover;
+  }
+}
+
+.popup-gallery__sidebar-button:hover,
+.popup-gallery__sidebar-button:focus {
+  border: 2px solid $border-color2;
+  background-size: 69px 93px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.popup-gallery__sidebar-button:hover::before,
+.popup-gallery__sidebar-button:focus::before {
+  content: "";
+  position: absolute;
+  background-color: $back-opacity;
+  width: 69px;
+  height: 93px;
+  background-position: center center;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup-gallery__close-button {
+  position: absolute;
+  border: none;
+  padding: 20px;
+  background-position: 50% 50%;
+  cursor: pointer;
+  background-image: url(../img/close.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  right: 10px;
+  top: 10px;
+  background-color: transparent;
+  z-index: 8;
+}
+
+.popup-gallery__main-block {
+  position: relative;
+}
+
+.popup-gallery__main-block-wrapper {
+  background-color: $image-back3;
+}
+
+.popup-gallery__arrows {
+  position: absolute;
+  width: 64px;
+  height: 37px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  border: none;
+  background: transparent;
+  display: block;
+}
+
+.popup-gallery__arrows--left {
+  left: -15%;
+}
+
+.popup-gallery__arrows--right {
+  right: -15%;
+}
+
+.popup-gallery__arrows--left:before {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 37px;
+  top: 0;
+  right: 0;
+  background-image: url("../img/icon-gallery-left.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 64px 37px;
+}
+
+.popup-gallery__arrows--right:before {
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 37px;
+  top: 0;
+  right: 0;
+  background-image: url("../img/icon-gallery-right.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 64px 37px;
+  transform: rotateX(180deg);
+}

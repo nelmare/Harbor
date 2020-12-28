@@ -1,0 +1,200 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  @include margin-reset;
+  min-width: 375px;
+  font-family: "CeraPro", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  text-align: left;
+  color: $maintext-color;
+  text-transform: $uppercase;
+  background-color: $mainback-color;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+body.popup-show  {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  min-width: 375px;
+  max-width: 768px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.menu__open {
+  overflow: hidden;
+}
+
+.button {
+  border: 1px solid $border-color2;
+  color: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0 0 0 1px $border-color2;
+}
+
+.popup {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #ffffff;
+  z-index: 26;
+  overflow: auto;
+}
+
+//Класс popup-show нужно добавлять, чтобы показать popup
+.popup-show {
+  display: block;
+}
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+:-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+:-ms-input-placeholder {
+  color: inherit;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+:focus::-moz-placeholder {
+  opacity: 0;
+}
+
+:focus:-moz-placeholder {
+  opacity: 0;
+}
+
+:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+:focus {
+  outline: none;
+}
+
+//.scrollmenu {
+//  //overflow: auto;
+//  //white-space: nowrap;
+//}
+
+@media (min-width: $tablet-width) {
+  .container {
+    padding: 0 45px;
+    max-width: none;
+  }
+
+  .container--wide {
+    padding: 0 80px;
+  }
+}
+
+@media (min-width: $laptop-width) {
+  .container {
+    padding: 0 45px;
+    max-width: none;
+  }
+
+  .container--wide {
+    padding: 0 120px;
+  }
+}
+
+@media (min-width: $xlaptop-width) {
+  .container {
+     padding: 0 45px;
+     max-width: none;
+   }
+
+  .container--wide {
+    padding: 0 180px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container {
+    padding: 0 90px;
+    max-width: none;
+  }
+
+  .container--wide {
+    padding: 0 240px;
+  }
+}
+
+@media (min-width: $xldesktop-width) {
+  .container--wide,
+  .container {
+    padding: 0 320px;
+    max-width: 1920px;
+  }
+
+  body {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}

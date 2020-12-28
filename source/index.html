@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Harbor</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/picturefill.js"></script>
+    <script src="js/svg4everybody.js"></script>
+</head>
+<body class="body">
+    <header class="page-header">
+        <div class="page-header__container">
+            <div class="page-header__contacts">
+                <a class="page-header__phone" href="tel:+74959991212">+7 495 999 1212</a>
+            </div>
+            <nav class="main-nav main-nav--mobile">
+                <button class="main-nav__toggle main-nav__toggle--nojs" type="button">
+                    <span class="visually-hidden">Открыть меню</span>
+                </button>
+                <div class="main-nav__wrapper">
+                    <ul class="main-nav__list main-nav__list--nojs site-list menu">
+                        <li>
+                            <ul class="site-list__wrapper">
+                                <li class="site-list__main-item">
+                                    <a class="site-list__main-link site-list__main-link--active" href="#">для женщин</a>
+                                </li>
+                                <li class="site-list__main-item ">
+                                    <a class="site-list__main-link" href="#">для мужчин</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__wrapper">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a class="menu__link" href="catalog-women.html">Кроссовки</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#">Туфли</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#">Обувь для дома</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="">Скидки %</a>
+                                </li>
+                                <li class="menu__item menu__item--user">
+                                    <a class="menu__user-link" href="profile-account.html">Личный кабинет</a>
+                                </li>
+                            </ul>
+    <!--                        Следующая часть меню на мобильном скрыта классом menu__list-hide  -->
+                            <ul class="menu__list menu__submenu-list menu__list-hide">
+                                <li class="menu__item menu__submenu-item menu__submenu-item--button">
+                                    <button class="menu__button menu__submenu-button" type="button">назад</button>
+                                </li>
+                                <li class="menu__item menu__submenu-item">
+                                    <a class="menu__link menu__submenu-link" href="#">Категории</a>
+                                </li>
+                                <li class="menu__item menu__submenu-item">
+                                    <a class="menu__link menu__submenu-link" href="#">Цвета</a>
+                                </li>
+                                <li class="menu__item menu__submenu-item">
+                                    <a class="menu__link menu__submenu-link" href="#">Размеры</a>
+                                </li>
+                                <li class="menu__item menu__submenu-item">
+                                    <a class="menu__link menu__submenu-link" href="#">Коллекции</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="page-header__logo-wrapper">
+                <a class="page-header__logo" href="index.html">
+                    <picture>
+                        <img class="page-header__logo-image" src="img/logo-big.svg" width="126" height="26" alt="Логотип Harbor">
+                    </picture>
+                </a>
+            </div>
+    <!--        Пункты навигации на десктопе виде иконок-->
+            <ul class="page-header__wrapper">
+                <li class="page-header__user">
+                    <a class="page-header__user-link" href="profile-account.html" aria-label="Личный кабинет"></a>
+                </li>
+                <li class="page-header__favorites">
+                    <a class="page-header__favorites-link" href="favourites.html" aria-label="Избранное"></a>
+                </li>
+                <li class="page-header__cart">
+                    <a class="page-header__cart-link page-header__cart-link--full page-header__cart-link--empty" href="basket.html"
+                       aria-label="Корзина покупок">
+                        <span class="page-header__cart-info page-header__cart-info--full page-header__cart-info--empty">2</span>
+                    </a>
+                </li>
+                <li class="page-header__cart-bill"><span class="page-header__bill">29991 руб.</span></li>
+            </ul>
+        </div>
+        <section class="page-header__promo-wrapper">
+            <p class="page-header__promo">
+                <b class="page-header__promo-bold">Скидки 50%</b> на всю <a class="page-header__promo-link" href="#">
+                женскую коллекцию.</a> <b>Акция заканчивается
+                через 03:39:03</b>
+            </p>
+        </section>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item nav__item--new">
+                    <a class="nav__link" href="#">Новинки</a>
+                    <ul class="nav__menu-list">
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Кроссовки</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Туфли</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Обувь для дома</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__item nav__item--women">
+                    <a class="nav__link" href="#">Для женщин</a>
+                    <ul class="nav__menu-list">
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="catalog-women.html">Кроссовки</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Туфли</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Если длинное название подраздела</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#"><b>Вся обувь</b></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__item nav__item--men">
+                    <a class="nav__link" href="#">Для мужчин</a>
+                    <ul class="nav__menu-list">
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Кроссовки</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Туфли</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Если длинное название подраздела</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#"><b>Вся обувь</b></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__item nav__item--discount">
+                    <a class="nav__link nav__link--discount" href="#">Скидки</a>
+                    <ul class="nav__menu-list">
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Кроссовки</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Туфли</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Если длинное название подраздела</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav__menu-link" href="#">Обувь для дома</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="visually-hidden">Интернет-магазин обуви Harbor</h1>
+        <section class="actual-block">
+            <div class="actual-block__link-wrapper">
+                <a class="actual-block__link" href="selection.html" >
+                    <h2 class="actual-block__title">5 лучших образов этой осени</h2>
+                </a>
+                <a class="actual-block__button button" href="selection.html">Смотреть</a>
+            </div>
+            <div class="actual-block__image-wrapper">
+                <picture>
+                    <source media="(min-width: 1920px)" srcset="source/img/promo-image1-xldesk@1x.jsource/img1x, img/promo-image1-xldesk@2x.jpg 2x">
+                    <source media="(min-width: 1024px)" srcset="source/img/promo-image1-desk@1x.jsource/img1x, img/promo-image1-desk@2x.jpg 2x">
+                    <img class="actual-block__image" src="img/promo-image1-tablet@1x.jpg" srcset="img/promo-image1-tablet@2x.jpg 2x" width="375" height="200" alt="Изображение обуви Harbor">
+                </picture>
+            </div>
+        </section>
+        <section class="container container--wide">
+            <div class="catalog">
+                <h2 class="catalog__title">Новые поступления</h2>
+                <div class="catalog__wrapper">
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background1">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-green@1x.jsource/img1x, img/image1-xldesk-green@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <!--                        .catalog-item__label--hide прячет ненужные стикеры-->
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Классные кроссовки Harbor Lights для бега</h3>
+                                </a>
+                                <p class="catalog-item__cost">
+                                    <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--discount">Cкидка 50%</span>
+                                </p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background2">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-grey@1x.jsource/img1x, img/image1-xldesk-grey@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                                </a>
+                                <p class="catalog-item__cost">
+                                    <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span></p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background3">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-brown@1x.jsource/img1x, img/image1-xldesk-brown@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                                </a>
+                                <p class="catalog-item__cost">
+                                    <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                </p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                    <section class="catalog-item catalog-item__hide">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-green@1x.jsource/img1x, img/image1-xldesk-green@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                                </a>
+                                <p class="catalog-item__cost">
+                                    <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                </p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                </div>
+                <div class="catalog__button-wrapper">
+                    <a class="catalog__button catalog__button--mobile button" href="#">Показать все</a>
+                    <a class="catalog__button catalog__button--desktop button" href="#">Все новые поступления</a>
+                </div>
+            </div>
+        </section>
+        <section class="container container--wide">
+            <div class="filter-fast">
+            <h2 class="filter-fast__main-title">Быстрый поиск</h2>
+            <div class="filter-fast__wrapper">
+                <div class="filter-fast__block">
+                    <h3 class="filter-fast__title">Быстрый поиск по размеру</h3>
+                    <ul class="filter-fast__list">
+                        <li class="filter-fast__item">
+                            <a class="filter-fast__button filter-fast__button--size" href="#">36</a>
+                        </li>
+                        <li class="filter-fast__item">
+                            <a class="filter-fast__button filter-fast__button--size" href="#">37</a>
+                        </li>
+                        <li class="filter-fast__item">
+                            <a class="filter-fast__button filter-fast__button--size" href="#">38</a>
+                        </li>
+                        <li class="filter-fast__item">
+                            <a class="filter-fast__button filter-fast__button--size" href="#">39</a>
+                        </li>
+                        <li class="filter-fast__item">
+                            <a class="filter-fast__button filter-fast__button--size" href="#">40</a>
+                        </li>
+                    </ul>
+                </div>
+    <!--            класс filter-fast__item-hide прячет две последние плашки с цветом на десктопе -->
+                <div class="filter-fast__block">
+                    <h3 class="filter-fast__title">Поиск по цветам</h3>
+                    <ul class="filter-fast__list">
+                        <li class="filter-fast__item">
+                            <a class="filter-fast__button filter-fast__button--color" href="#" aria-label="Цвет обуви"></a>
+                        </li>
+                        <li class="filter-fast__item">
+                            <a class="filter-fast__button filter-fast__button--color" href="#" aria-label="Цвет обуви"></a>
+                        </li>
+                        <li class="filter-fast__item">
+                            <a class="filter-fast__button filter-fast__button--color" href="#" aria-label="Цвет обуви"></a>
+                        </li>
+                        <li class="filter-fast__item filter-fast__item-hide">
+                            <a class="filter-fast__button filter-fast__button--color" href="#" aria-label="Цвет обуви"></a>
+                        </li>
+                        <li class="filter-fast__item filter-fast__item-hide">
+                            <a class="filter-fast__button filter-fast__button--color" href="#" aria-label="Цвет обуви"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter-fast__block">
+                    <h3 class="filter-fast__title">Поиск по цене</h3>
+                    <ul class="filter-fast__list">
+                        <li class="filter-fast__item filter-fast__item--cost">
+                            <a class="filter-fast__button filter-fast__button--cost" href="#">до 3000 рублей</a>
+                        </li>
+                        <li class="filter-fast__item filter-fast__item--cost">
+                            <a class="filter-fast__button filter-fast__button--cost" href="#">до 5000 рублей</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="actual-block actual-block--padding">
+            <div class="actual-block__link-wrapper">
+                <a href="selection.html" class="actual-block__link">
+                    <h2 class="actual-block__title">5 лучших образов этой осени</h2>
+                </a>
+                <a class="actual-block__button button" href="selection.html">Смотреть</a>
+            </div>
+            <div class="actual-block__image-wrapper actual-block__image-wrapper--padding">
+                <picture>
+                    <source media="(min-width: 1920px)" srcset="source/img/promo-image2-xldesk@1x.jsource/img1x, img/promo-image2-xldesk@2x.jpg 2x">
+                    <source media="(min-width: 1440px)" srcset="source/img/promo-image2-desk@1x.jsource/img1x, img/promo-image2-desk@2x.jpg 2x">
+                    <source media="(min-width: 1024px)" srcset="source/img/promo-image2-desk@1x.jsource/img1x, img/promo-image2-desk@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="source/img/promo-image2-tablet@1x.jsource/img1x, img/promo-image2-tablet@2x.jpg 2x">
+                    <img class="actual-block__image" src="img/promo-image2-tablet@1x.jpg" srcset="img/promo-image2-tablet@2x.jpg 2x" width="214" height="275" alt="">
+                </picture>
+            </div>
+        </section>
+        <section class="container container--wide">
+            <div class="catalog catalog--padding">
+                <h2 class="catalog__title">Название любой подборки</h2>
+                <div class="catalog__wrapper">
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background1">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-green@1x.jsource/img1x, img/image1-xldesk-green@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                                </a>
+                                <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background2">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-grey@1x.jsource/img1x, img/image1-xldesk-grey@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                                </a>
+                                <p class="catalog-item__cost">
+                                    <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--discount">Cкидка 50%</span>
+                                </p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background3">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-brown@1x.jsource/img1x, img/image1-xldesk-brown@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                                </a>
+                                <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background1">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-green@1x.jsource/img1x, img/image1-xldesk-green@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                                </a>
+                                <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background2">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-grey@1x.jsource/img1x, img/image1-xldesk-grey@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                                </a>
+                                <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background3">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-green@1x.jsource/img1x, img/image1-xldesk-brown@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount catalog-item__label--hide">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                                </a>
+                                <p class="catalog-item__cost catalog-item__cost--bold">5000 ₽</p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                </div>
+                <div class="catalog__button-wrapper">
+                    <a class="catalog__button catalog__button--mobile button" href="#">Показать все</a>
+                    <a class="catalog__button catalog__button--desktop button" href="#">Смотреть все</a>
+                    <a class="catalog__button catalog__button--xldesktop button" href="#">Все новые поступления</a>
+                </div>
+            </div>
+        </section>
+        <section class="actual-block actual-block--background">
+            <a class="actual-block__link actual-block__link--background" href="selection.html">
+                <h2 class="actual-block__title">Новая коллекция весна-лето 2021</h2>
+            </a>
+        </section>
+        <section class="container container--wide">
+            <div class="catalog catalog__thirdblock catalog--width">
+                <h2 class="visually-hidden">Название любой подборки</h2>
+                <div class="catalog__wrapper">
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background1">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-green@1x.jsource/img1x, img/image1-xldesk-green@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                                </a>
+                                <p class="catalog-item__cost">
+                                    <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--discount">Cкидка 50%</span>
+                                </p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background2">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-grey@1x.jsource/img1x, img/image1-xldesk-grey@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor</h3>
+                                </a>
+                                <p class="catalog-item__cost">
+                                    <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--discount">Cкидка 50%</span>
+                                </p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                    <section class="catalog-item">
+                        <div class="catalog-item__wrapper">
+                            <a class="catalog-item__image-link" href="item.html">
+                                <div class="catalog-item__image-wrapper catalog-item__image-wrapper--background3">
+                                    <picture>
+                                        <source media="(min-width: 1920px)" srcset="source/img/image1-xldesk-brown@1x.jsource/img1x, img/image1-xldesk-brown@2x.jpg 2x">
+                                        <source media="(min-width: 1440px)" srcset="source/img/image1-desk@1x.jsource/img1x, img/image1-desk@2x.jpg 2x">
+                                        <img class="catalog-item__image" src="img/image1-mobile@1x.jpg" srcset="img/image1-mobile@2x.jpg 2x"
+                                             alt="Фото обуви Harbor">
+                                    </picture>
+                                </div>
+                            </a>
+                            <ul class="catalog-item__label-wrapper">
+                                <li class="catalog-item__label catalog-item__label--novelty catalog-item__label--hide">Новинка</li>
+                                <li class="catalog-item__label catalog-item__label--discount">Скидка</li>
+                                <li class="catalog-item__label catalog-item__label--hit catalog-item__label--hide">Хит</li>
+                            </ul>
+                            <div class="catalog-item__info-wrapper">
+                                <a class="catalog-item__link" href="item.html">
+                                    <h3 class="catalog-item__title">Кроссовки Harbor Lights</h3>
+                                </a>
+                                <p class="catalog-item__cost">
+                                    <span class="catalog-item__cost catalog-item__cost--deleted">10000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--bold">5000 ₽</span>
+                                    <span class="catalog-item__cost catalog-item__cost--discount">Cкидка 50%</span>
+                                </p>
+                            </div>
+                            <p class="catalog-item__ad">Новая коллекция</p>
+                        </div>
+                        <button class="catalog-item__favorite" type="button" aria-label="Добавить в избранное"></button>
+                    </section>
+                </div>
+                <div class="catalog__button-wrapper">
+                    <a class="catalog__button catalog__button--mobile button" href="#">Показать все</a>
+                    <a class="catalog__button catalog__button--desktop button" href="#">Смотреть все</a>
+                    <a class="catalog__button catalog__button--xldesktop button" href="#">Все новые поступления</a>
+                </div>
+            </div>
+        </section>
+        <section class="subscription container container--wide">
+            <div class="subscription__wrapper">
+                <h2 class="subscription__title">Эксклюзивные акции и&nbsp;предложения</h2>
+                <p class="subscription__text">Подпишитесь и узнавайте первыми о&nbsp;скидках и специальных предложениях
+                    <sup class="subscription__sup"> *</sup></p>
+                <form class="form-index" action="#" method="post">
+                    <div class="form-index__group">
+                        <label class="visually-hidden" for="email-index">Ваш email</label>
+                        <input class="form-index__line form-index__placeholder" type="email" name="email-index"
+                               id="email-index" placeholder="Ваш email">
+                    </div>
+                    <div class="form-index__block form-index__block--checkbox">
+                        <ul class="form-index__list form-index__list--category">
+                            <li class="form-index__item form-index__item--checkbox">
+                                <label class="form-index__checkbox-name form-index__label" for="women">
+                                    <input class="form-index__checkbox visually-hidden" type="checkbox" name="women"
+                                           id="women" checked>
+                                    <span class="form-index__check"></span>
+                                    для женщин
+                                </label>
+                            </li>
+                            <li class="form-index__item form-index__item--checkbox">
+                                <label class="form-index__checkbox-name form-index__label" for="men">
+                                    <input class="form-index__checkbox visually-hidden" type="checkbox" name="men"
+                                           id="men" checked>
+                                    <span class="form-index__check"></span>
+                                    для мужчин
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="form-index__button" type="button">Подписаться</button>
+                </form>
+                <div class="subscription__note-wrapper">
+                    <p class="subscription__note">Нажимая на кнопку подписаться, вы соглашаетесь с
+                        <a class="subscription__link" href="policy.html">политикой обработки
+                        персональных данных и&nbsp;политикой конфиденциальности</a></p>
+                    <p class="subscription__note"><sup class="subscription__sup">*</sup> Вы сможете отписаться в любое время</p>
+                </div>
+            </div>
+        </section>
+<!--        Алерт подписки скрыт классом subscription-alert__hide -->
+        <section class="subscription subscription-alert container subscription-alert__hide">
+            <h2 class="subscription__title subscription-alert__title">Вы в списке</h2>
+            <p class="subscription__text">Спасибо за то, что подписались на рассылку. Удачного шопинга!</p>
+        </section>
+    </main>
+    <footer class="page-footer container">
+        <div class="page-footer__wrapper page-footer__wrapper--border">
+            <ul class="page-footer__list">
+                <li class="page-footer__item-wrapper page-footer__item-wrapper--company">
+                    <ul class="page-footer__item-list">
+                        <li class="page-footer__item">
+                            <a class="page-footer__link page-footer__link--company" href="about.html">Контакты</a>
+                        </li>
+                        <li class="page-footer__item">
+                            <a class="page-footer__link page-footer__link--company" href="#">О бренде</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="page-footer__item-wrapper page-footer__item-wrapper--social social">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a class="social__link social__link--vkontakte" href="#">
+                                <span class="visually-hidden">Harbor в Вконтакте</span>
+                                <svg class="social__icon social__icon--vk" width="30" height="30" viewBox="0 0 31 30">
+                                    <use xlink:href="img/sprite.svg#sp-icon-vk"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link social__link--facebook" href="#">
+                                <span class="visually-hidden">Harbor в Фейсбук</span>
+                                <svg class="social__icon social__icon--fb" width="30" height="30" viewBox="0 0 31 30">
+                                    <use xlink:href="img/sprite.svg#sp-icon-fb"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link social__link--instagram" href="#">
+                                <span class="visually-hidden">Harbor в Инстаграмм</span>
+                                <svg class="social__icon social__icon--insta" width="30" height="30" viewBox="0 0 31 30">
+                                    <use xlink:href="img/sprite.svg#sp-icon-insta"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="page-footer__item-wrapper page-footer__item-wrapper--business">
+                    <ul class="page-footer__item-list">
+                        <li class="page-footer__item page-footer__item--menu">
+                            <a class="page-footer__link page-footer__link--menu" href="policy.html">Политика конфиденциальности</a>
+                        </li>
+                        <li class="page-footer__item page-footer__item--menu">
+                            <a class="page-footer__link page-footer__link--menu" href="policy.html">Политика обработки персональных данных</a>
+                        </li>
+                        <li class="page-footer__item page-footer__item--menu">
+                            <a class="page-footer__link page-footer__link--menu" href="#">Оплата </a>
+                        </li>
+                        <li class="page-footer__item page-footer__item--menu">
+                            <a class="page-footer__link page-footer__link--menu" href="#">Доставка и возврат</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="page-footer__copyright">© Copyright 2020 Harbor. Все права защищены.</p>
+        </div>
+    </footer>
+    <!--Чтобы показать попап нужно добавить класс popup-index модальному окну и popup-show к body с помощью js.-->
+    <div class="popup">
+        <div class="popup-index__wrapper">
+        <button class="popup-index__close-button" type="button"><span class="visually-hidden">Закрыть</span></button>
+        <h2 class="popup-index__title">10% после регистрации</h2>
+        <p class="popup-index__text">Скидка распространяется на всю продукцию коллекции.</p>
+        <a class="popup-index__button button" href="#">Получить скидку</a>
+        </div>
+    </div>
+    <script src="js/burger.js"></script>
+    <script>svg4everybody();</script>
+</body>
+</html>
