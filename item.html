@@ -8,7 +8,7 @@
     <script src="js/picturefill.js"></script>
     <script src="js/svg4everybody.js"></script>
 </head>
-<body class="body popup-show">
+<body class="body">
 <header class="page-header">
     <div class="page-header__container">
         <div class="page-header__contacts">
@@ -306,6 +306,61 @@
                             </table>
                         </div>
                     </div>
+                    <div class="item-page__sizes-select sizes-select">
+                        <div class="sizes-select__wrapper">
+                            <!--                    sizes-select__list скрыт классом visually-hidden. Убрать при программировании селекта-->
+                            <div class="sizes-select__block">
+                                <button class="sizes-select__button" type="button">
+                                    <span class="sizes-select__textbutton sizes-select__textbutton--mobile">Размеp</span>
+                                    <span class="sizes-select__textbutton sizes-select__textbutton--desktop">Выберите размер</span>
+                                </button>
+                                <ul class="sizes-select__list">
+                                    <li class="sizes-select__option">
+                                        <button class="sizes-select__option-button">32
+                                            <span class="sizes-select__text sizes-select__text--instoke">в наличии 2 шт.</span>
+                                        </button>
+                                    </li>
+                                    <li class="sizes-select__option">
+                                        <button class="sizes-select__option-button sizes-select__option-button--lack">33
+                                            <span class="sizes-select__text sizes-select__text--lack">нет в наличии</span>
+                                        </button>
+                                    </li>
+                                    <li class="sizes-select__option">
+                                        <button class="sizes-select__option-button sizes-select__option-button--chosen">34
+                                            <span class="sizes-select__text sizes-select__text--instoke">выбрано</span>
+                                        </button>
+                                    </li>
+                                    <li class="sizes-select__option">
+                                        <button class="sizes-select__option-button sizes-select__option-button--lack">35
+                                            <span class="sizes-select__text sizes-select__text--lack">нет в наличии</span>
+                                        </button>
+                                    </li>
+                                    <li class="sizes-select__option">
+                                        <button class="sizes-select__option-button">36
+                                            <span class="sizes-select__text sizes-select__text--instoke">осталось 1 шт.</span>
+                                        </button>
+                                    </li>
+                                    <li class="sizes-select__option">
+                                        <button class="sizes-select__option-button sizes-select__option-button--lack">37
+                                            <span class="sizes-select__text sizes-select__text--lack">нет в наличии</span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sizes-select__table-item">
+                                <a href="#" class="sizes-select__table-link">Таблица размеров</a>
+                            </div>
+                        </div>
+                        <button class="sizes-select__basket-button" type="button">
+                            <span class="sizes-select__basket-button-text sizes-select__basket-button-text--mobile">В корзину</span>
+                            <span class="sizes-select__basket-button-text sizes-select__basket-button-text--desktop">Добавить в корзину</span>
+                            <!--                    вариант кнопки, чтобы показать загрузку. скрыть sizes-select__basket-button-text--mobile и sizes-select__basket-button-text--desktop, -->
+                            <!--                    убрать у sizes-select__basket-button-text--loading класс visually-hidden-->
+                            <span class="sizes-select__basket-button-text sizes-select__basket-button-text--loading visually-hidden"></span>
+                        </button>
+                        <!--                кнопка оформить заказ, если выбран размер обуви, убрать класс visually-hidden-->
+                        <button class="sizes-select__order-button button visually-hidden" type="button">Оформить заказ</button>
+                    </div>
                 </div>
             </div>
             <div class="item-page__delivery">
@@ -314,61 +369,7 @@
                     можете выбрать любой удобный вам вид доставки при оформлении заказа, оплатить курьеру при получении или...</p>
                 <a class="item-page__delivery-link" href="#">Подробнее о доставке</a>
             </div>
-            <div class="item-page__sizes-select sizes-select">
-                <div class="sizes-select__wrapper">
-                    <!--                    sizes-select__list скрыт классом visually-hidden. Убрать при программировании селекта-->
-                    <div class="sizes-select__block">
-                        <button class="sizes-select__button" type="button">
-                            <span class="sizes-select__textbutton sizes-select__textbutton--mobile">Размеp</span>
-                            <span class="sizes-select__textbutton sizes-select__textbutton--desktop">Выберите размер</span>
-                        </button>
-                        <ul class="sizes-select__list">
-                            <li class="sizes-select__option">
-                                <button class="sizes-select__option-button">32
-                                    <span class="sizes-select__text sizes-select__text--instoke">в наличии 2 шт.</span>
-                                </button>
-                            </li>
-                            <li class="sizes-select__option">
-                                <button class="sizes-select__option-button sizes-select__option-button--lack">33
-                                    <span class="sizes-select__text sizes-select__text--lack">нет в наличии</span>
-                                </button>
-                            </li>
-                            <li class="sizes-select__option">
-                                <button class="sizes-select__option-button sizes-select__option-button--chosen">34
-                                    <span class="sizes-select__text sizes-select__text--instoke">выбрано</span>
-                                </button>
-                            </li>
-                            <li class="sizes-select__option">
-                                <button class="sizes-select__option-button sizes-select__option-button--lack">35
-                                    <span class="sizes-select__text sizes-select__text--lack">нет в наличии</span>
-                                </button>
-                            </li>
-                            <li class="sizes-select__option">
-                                <button class="sizes-select__option-button">36
-                                    <span class="sizes-select__text sizes-select__text--instoke">осталось 1 шт.</span>
-                                </button>
-                            </li>
-                            <li class="sizes-select__option">
-                                <button class="sizes-select__option-button sizes-select__option-button--lack">37
-                                    <span class="sizes-select__text sizes-select__text--lack">нет в наличии</span>
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="sizes-select__table-item">
-                        <a href="#" class="sizes-select__table-link">Таблица размеров</a>
-                    </div>
-                </div>
-                <button class="sizes-select__basket-button" type="button">
-                    <span class="sizes-select__basket-button-text sizes-select__basket-button-text--mobile">В корзину</span>
-                    <span class="sizes-select__basket-button-text sizes-select__basket-button-text--desktop">Добавить в корзину</span>
-<!--                    вариант кнопки, чтобы показать загрузку. скрыть sizes-select__basket-button-text--mobile и sizes-select__basket-button-text--desktop, -->
-<!--                    убрать у sizes-select__basket-button-text--loading класс visually-hidden-->
-                    <span class="sizes-select__basket-button-text sizes-select__basket-button-text--loading visually-hidden"></span>
-                </button>
-<!--                кнопка оформить заказ, если выбран размер обуви, убрать класс visually-hidden-->
-                <button class="sizes-select__order-button button visually-hidden" type="button">Оформить заказ</button>
-            </div>
+
 <!--        При отсутствии товара вместо блока с доставкой и sizes-select показывается блок item-page__email, который скрыт классом visually-hidden-->
             <div class="item-page__email visually-hidden">
                 <form class="item-page__email-form" action="#" method="post">
@@ -572,7 +573,7 @@
     </div>
 </footer>
 <!--Чтобы показать галерею нужно добавить класс popup-gallery--show галерее и класс popup-show body -->
-<div class="popup-gallery popup popup-gallery--show">
+<div class="popup-gallery popup">
     <div class="popup-gallery__container">
         <button class="popup-gallery__close-button" type="button"><span class="visually-hidden">Закрыть</span></button>
         <div class="popup-gallery__sidebar">

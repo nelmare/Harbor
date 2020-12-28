@@ -3953,7 +3953,9 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 993px) {
   .product {
-    padding: 20px 0 20px 0; } }
+    padding: 20px 0 0 0; }
+  .product__tabcontent {
+    border-bottom: none; } }
 
 @media (min-width: 1440px) {
   .product {
