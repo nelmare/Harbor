@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b5faba-cb4c-49ac-a765-726c1a1f1a0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/catalog-women.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/profile-favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/profile-favourites.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/subscribtion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/subscribtion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/catalog-women.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/profile-favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/profile-favourites.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/blocks/_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_category.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/subscribtion.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/subscribtion.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609160141597</updated>
-      <workItem from="1609160142945" duration="17238000" />
+      <workItem from="1609160142945" duration="17592000" />
     </task>
     <servers />
   </component>
