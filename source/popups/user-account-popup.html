@@ -174,7 +174,7 @@
 </header>
 <main>
     <!--Чтобы показать попап нужно добавить класс popup-show модальному окну и body с помощью js. body.popup-show -
-убирает скролл у боди-->
+убирает скролл у боди. Красный бордер у инпута при ошибке дает класс order__line--invalid-->
     <div class="login popup popup-show">
         <div class="login__wrapper login__wrapper--account">
             <div class="login__title-wrapper login__title-wrapper--account">
@@ -188,12 +188,14 @@
                             <label class="order__label" for="order-email4">Ваш e-mail</label>
                             <input class="order__line" type="email" name="order-email1"
                                    id="order-email4" placeholder="Введите e-mail">
+                            <p class="login__invalid-feedback">Введите верный адрес e-mail</p>
                         </div>
                         <div class="order__block order__block--password">
                             <label class="order__label" for="password2">Пароль</label>
                             <input class="order__line" type="password" name="password"
                                    id="password2" placeholder="Ваш пароль">
-                            <button class="login__password-button" type="button" aria-label="Показать или скрыть пароль"></button>
+                            <p class="login__invalid-feedback">Введите верный пароль</p>
+                            <button class="login__password-button login__password-button--show" type="button" aria-label="Показать или скрыть пароль"></button>
                         </div>
                     </fieldset>
                     <button class="login__button" type="submit">Войти</button>

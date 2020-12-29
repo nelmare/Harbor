@@ -79,14 +79,22 @@
   vertical-align: middle;
   position: absolute;
   border: none;
-  bottom: 38%;
+  top: 25px;
   right: 0;
-  background-image: url("../img/icon-eye.svg");
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center center;
   cursor: pointer;
 }
+
+.login__password-button--show {
+  background-image: url("../img/icon-eye.svg");
+}
+
+.login__password-button--hide {
+  background-image: url("../img/eyeclosed.svg");
+}
+
 
 .login__button {
   padding: 20px 10px;
@@ -150,6 +158,13 @@
 
 .login__wrapper--account .order__form-wrapper {
   padding-bottom: 2px;
+}
+
+.login__invalid-feedback {
+  @include margin-reset;
+  padding-top: 20px;
+  color: $text-color5;
+  text-transform: none;
 }
 
 @media (min-width: $tablet-width) {

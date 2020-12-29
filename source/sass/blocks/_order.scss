@@ -36,7 +36,6 @@
 
 .order__tabcontent {
   padding: 20px 0 10px 0;
-
   display: none;
 }
 
@@ -99,6 +98,10 @@
   line-height: 18px;
   color: $maintext-color;
   width: 100%;
+}
+
+.order__line--invalid {
+  border-bottom: 1px solid $image-back2;
 }
 
 .order__tabcontent--fast .order__block--name {
