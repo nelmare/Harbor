@@ -3,6 +3,17 @@
   max-width: 768px;
 }
 
+.profile__text-wrapper {
+  background-color: $back-color2;
+  padding: 25px 20px;
+  margin-top: 20px;
+}
+
+.profile__text {
+  text-transform: none;
+  text-align: center;
+}
+
 .profile__title {
   display: none;
 }
@@ -218,6 +229,17 @@
     max-width: none;
   }
 
+  .profile__text-wrapper {
+    padding: 45px 40px;
+    margin-top: 0;
+  }
+
+  .profile__text {
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+  }
+
   .profile__title {
     @include margin-reset;
     display: block;
@@ -392,6 +414,16 @@
 @media (min-width: $laptop-width) {
   .profile__wrapper {
     padding: 95px 35px 130px 45px;
+  }
+
+  .profile__text-wrapper {
+    padding: 65px 60px;
+  }
+
+  .profile__text {
+    font-size: 27px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
   }
 
   .profile__nav-list,
