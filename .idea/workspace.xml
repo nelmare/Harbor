@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b5faba-cb4c-49ac-a765-726c1a1f1a0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/popups/changepassword-popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/sass/blocks/_account.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/favourites.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/favourites.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/popups/login-popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/popups/login-popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/popups/password-popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/popups/password-popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/popups/user-account-popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/popups/user-account-popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/_overall.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/_overall.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/sass/blocks/_login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/blocks/_order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_order.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +38,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/popups" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source" />
       <recent name="$PROJECT_DIR$/source/popups" />
       <recent name="$PROJECT_DIR$/build" />
       <recent name="$PROJECT_DIR$" />
@@ -61,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609160141597</updated>
-      <workItem from="1609160142945" duration="22754000" />
+      <workItem from="1609160142945" duration="27493000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,85 @@
+.account {
+  padding: 35px 0 85px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.account__title {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+}
+
+.account__form-wrapper {
+  padding: 30px 30px 0 30px;
+}
+
+.account__form-wrapper .order__block--password {
+  position: relative;
+}
+
+.account__form-wrapper .login__button {
+  max-width: 100%;
+}
+
+.account__form-wrapper .order__form {
+  width: 100%;
+}
+
+.account__form-wrapper .order__form-wrapper {
+  padding-bottom: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .account {
+    padding: 50px 0 100px;
+  }
+
+  .account__title {
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+  }
+}
+
+@media (min-width: $laptop-width) {
+  .account {
+    padding: 70px 0 150px;
+  }
+
+  .account__title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+
+@media(min-width: $desktop-width) {
+  .account__form-wrapper .order__block--email {
+    order: 2;
+    width: 100%;
+  }
+
+  .account__form-wrapper .order__block--password {
+    order: 5;
+    width: 100%;
+  }
+
+  .account__form-wrapper .order__block--name {
+    order: 1;
+  }
+
+  .account__form-wrapper .order__block--subscribe {
+    order: 3;
+  }
+
+  .account__form-wrapper .order__block--phone {
+    order: 4;
+    width: 100%;
+  }
+
+  .account__form-wrapper .order__block--personality {
+    order: 6;
+  }
+}

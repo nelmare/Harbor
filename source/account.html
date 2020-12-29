@@ -8,7 +8,7 @@
     <script src="../js/picturefill.js"></script>
     <script src="../js/svg4everybody.js"></script>
 </head>
-<body class="body popup-show">
+<body class="body">
 <header class="page-header">
     <div class="page-header__container">
         <div class="page-header__contacts">
@@ -33,7 +33,7 @@
                     <li class="menu__wrapper">
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <a class="menu__link" href="../catalog-women.html">Кроссовки</a>
+                                <a class="menu__link" href="catalog-women.html">Кроссовки</a>
                             </li>
                             <li class="menu__item">
                                 <a class="menu__link" href="#">Туфли</a>
@@ -45,7 +45,7 @@
                                 <a class="menu__link" href="">Скидки %</a>
                             </li>
                             <li class="menu__item menu__item--user">
-                                <a class="menu__user-link" href="../profile-account.html">Личный кабинет</a>
+                                <a class="menu__user-link" href="profile-account.html">Личный кабинет</a>
                             </li>
                         </ul>
                         <!--                        Следующая часть меню на мобильном скрыта классом menu__list-hide  -->
@@ -71,22 +71,22 @@
             </div>
         </nav>
         <div class="page-header__logo-wrapper">
-            <a class="page-header__logo" href="../index.html">
+            <a class="page-header__logo" href="index.html">
                 <picture>
-                    <img class="page-header__logo-image" src="../img/logo-big.svg" width="126" height="26" alt="Логотип Harbor">
+                    <img class="page-header__logo-image" src="img/logo-big.svg" width="126" height="26" alt="Логотип Harbor">
                 </picture>
             </a>
         </div>
         <!--        Пункты навигации на десктопе виде иконок-->
         <ul class="page-header__wrapper">
             <li class="page-header__user">
-                <a class="page-header__user-link" href="../profile-account.html" aria-label="Личный кабинет"></a>
+                <a class="page-header__user-link" href="profile-account.html" aria-label="Личный кабинет"></a>
             </li>
             <li class="page-header__favorites">
-                <a class="page-header__favorites-link" href="../favourites.html" aria-label="Избранное"></a>
+                <a class="page-header__favorites-link" href="favourites.html" aria-label="Избранное"></a>
             </li>
             <li class="page-header__cart">
-                <a class="page-header__cart-link page-header__cart-link--full page-header__cart-link--empty" href="../basket.html"
+                <a class="page-header__cart-link page-header__cart-link--full page-header__cart-link--empty" href="basket.html"
                    aria-label="Корзина покупок">
                     <span class="page-header__cart-info page-header__cart-info--full page-header__cart-info--empty">2</span>
                 </a>
@@ -94,19 +94,11 @@
             <li class="page-header__cart-bill"><span class="page-header__bill">29991 руб.</span></li>
         </ul>
     </div>
-    <section class="page-header__promo-wrapper page-header__promo-wrapper--border page-header__promo-wrapper--items">
-        <p class="page-header__promo">
-            <b class="page-header__promo-bold">Скидки 50%</b> на всю <a class="page-header__promo-link" href="#">
-            женскую коллекцию.</a> <b>Акция заканчивается
-            через 03:39:03</b>
-        </p>
-    </section>
-    <!--    Выпадающее меню на десктопе скрыто классом nav__hide-->
-    <nav class="nav">
+    <nav class="nav nav--hide">
         <ul class="nav__list">
-            <li class="nav__item">
+            <li class="nav__item nav__item--new">
                 <a class="nav__link" href="#">Новинки</a>
-                <ul class="nav__menu-list nav__hide">
+                <ul class="nav__menu-list">
                     <li class="nav__menu-item">
                         <a class="nav__menu-link" href="#">Кроссовки</a>
                     </li>
@@ -118,11 +110,11 @@
                     </li>
                 </ul>
             </li>
-            <li class="nav__item">
-                <a class="nav__link nav__link--active" href="#">Обувь для женщин</a>
-                <ul class="nav__menu-list nav__hide">
+            <li class="nav__item nav__item--women">
+                <a class="nav__link" href="#">Для женщин</a>
+                <ul class="nav__menu-list">
                     <li class="nav__menu-item">
-                        <a class="nav__menu-link" href="../catalog-women.html">Кроссовки</a>
+                        <a class="nav__menu-link" href="catalog-women.html">Кроссовки</a>
                     </li>
                     <li class="nav__menu-item">
                         <a class="nav__menu-link" href="#">Туфли</a>
@@ -135,9 +127,9 @@
                     </li>
                 </ul>
             </li>
-            <li class="nav__item">
-                <a class="nav__link" href="#">Обувь для мужчин</a>
-                <ul class="nav__menu-list nav__hide">
+            <li class="nav__item nav__item--men">
+                <a class="nav__link" href="#">Для мужчин</a>
+                <ul class="nav__menu-list">
                     <li class="nav__menu-item">
                         <a class="nav__menu-link" href="#">Кроссовки</a>
                     </li>
@@ -152,9 +144,9 @@
                     </li>
                 </ul>
             </li>
-            <li class="nav__item">
+            <li class="nav__item nav__item--discount">
                 <a class="nav__link nav__link--discount" href="#">Скидки</a>
-                <ul class="nav__menu-list nav__hide">
+                <ul class="nav__menu-list">
                     <li class="nav__menu-item">
                         <a class="nav__menu-link" href="#">Кроссовки</a>
                     </li>
@@ -173,27 +165,31 @@
     </nav>
 </header>
 <main>
-    <!--Чтобы показать попап нужно добавить класс popup-show модальному окну и body с помощью js. body.popup-show -
-убирает скролл у боди. Красный бордер у инпута при ошибке дает класс order__line--invalid-->
-    <div class="login popup popup-show">
-        <div class="login__wrapper login__wrapper--password">
-            <div class="login__title-wrapper login__title-wrapper--password">
-                <h2 class="login__popup-title">Забыли пароль?</h2>
-                <button class="login__popup-close" type="button"><span class="visually-hidden">Закрыть</span></button>
-            </div>
-            <div class="login__form-wrapper order">
-                <form class="order__form" action="#" method="post">
-                    <fieldset class="order__form-wrapper order__form-wrapper--contacts">
-                        <div class="order__block order__block--email">
-                            <label class="order__label" for="order-email5">Ваш e-mail</label>
-                            <input class="order__line" type="email" name="order-email1"
-                                   id="order-email5" placeholder="Введите e-mail">
-                            <p class="login__invalid-feedback">Введите верный адрес e-mail</p>
-                        </div>
-                    </fieldset>
-                    <button class="login__button" type="submit">Отправить пароль</button>
-                </form>
-            </div>
+    <div class="account">
+        <h1 class="account__title container">Личный кабинет</h1>
+        <div class="account__form-wrapper order">
+            <form class="order__form" action="#" method="post">
+                <fieldset class="order__form-wrapper order__form-wrapper--contacts">
+                    <div class="order__block order__block--email">
+                        <label class="order__label" for="order-email4">Ваш e-mail</label>
+                        <input class="order__line" type="email" name="order-email1"
+                               id="order-email4" placeholder="Введите e-mail">
+                        <p class="login__invalid-feedback">Введите верный адрес e-mail</p>
+                    </div>
+                    <div class="order__block order__block--password">
+                        <label class="order__label" for="password2">Пароль</label>
+                        <input class="order__line" type="password" name="password"
+                               id="password2" placeholder="Ваш пароль">
+                        <p class="login__invalid-feedback">Введите верный пароль</p>
+                        <button class="login__password-button login__password-button--show" type="button" aria-label="Показать или скрыть пароль"></button>
+                    </div>
+                </fieldset>
+                <button class="login__button" type="submit">Войти</button>
+            </form>
+            <p class="login__text">
+                <a class="login__link" href="#">Зарегистрироваться</a>
+            </p>
+            <a class="login__text login__link" href="#">Забыли пароль?</a>
         </div>
     </div>
 </main>
