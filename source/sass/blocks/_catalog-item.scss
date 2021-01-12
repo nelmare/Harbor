@@ -69,6 +69,20 @@
   z-index: 5;
 }
 
+.catalog-item__favorite--active::after,
+.catalog-item__favorite--active::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 0;
+  right: 0;
+  background-image: url("../img/icon-heart-check.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 5;
+}
+
 .catalog-item__link {
   text-decoration: none;
   color: inherit;
@@ -148,10 +162,6 @@
 .catalog-item__label--novelty {
   background-color: $image-back1;
 }
-
-//.catalog-item__label--desktop {
-//  display: none;
-//}
 
 .catalog-item__ad {
   display: none;
@@ -250,8 +260,6 @@
     position: absolute;
     top: 24px;
     left: 1px;
-    //display: inline-block;
-    //vertical-align: middle;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -322,13 +330,6 @@
   .catalog-item__cost--deleted {
     margin-right: 10px;
   }
-
-  //.catalog-item__label--desktop {
-  //  display: block;
-  //}
-
-
-
 
   .catalog-item__label--hide {
     display: none;
