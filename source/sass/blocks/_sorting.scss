@@ -57,14 +57,6 @@
   border-bottom: 1px solid $border-color2;
 }
 
-//.sorting__checkbox:focus ~ .sorting__check {
-//  outline: -webkit-focus-ring-color auto 5px;
-//}
-//
-//.sorting__checkbox:-moz-focusring ~ .sorting__check {
-//  outline: 2px dotted;
-//}
-
 @media (min-width: $tablet-width) {
   .sorting__wrapper {
     width: 50%;
@@ -136,7 +128,7 @@
     top: 45px;
     left: -1px;
     width: 235px;
-    height: 170px;
+    //height: 170px;
     background-color: $mainback-color;
     border: 1px solid $border-color;
     border-top: none;
@@ -155,8 +147,6 @@
     padding: 10px 0;
   }
 
-
-
   //.sorting__checkbox:checked + .sorting__check {
   //  content: "";
   //  background-image: none;
@@ -167,8 +157,6 @@
   //  width: 180px;
   //  bottom: -9px;
   //}
-
-
 
   .sorting__label:hover .sorting__check::before,
   .sorting__label:focus .sorting__check::before,

@@ -142,7 +142,12 @@
   }
 
   .filter__button-wrapper {
-    display: none;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .filter__button {
+    margin-bottom: 15px;
   }
 
   .filter__link {
