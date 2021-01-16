@@ -1,4 +1,6 @@
 .color-gallery {
+  @include margin-reset;
+  list-style: none;
   display: flex;
   //margin: 0 auto;
   padding: 20px 30px;
@@ -12,54 +14,28 @@
   background-color: $mainback-color;
   margin-right: 10px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.color-gallery__item--color1 {
-  background-image: url("../img/color-image1@1x.jpg");
-  background-size: 90px 90px;
-
-  @media (min-resolution: $retina-dpi),
-  (min-resolution: $retina-dppx) {
-    background-image: url("../img/color-image1@2x.jpg");
-    background-size: cover;
-  }
+.color-gallery__image {
+  display: block;
+  width: 90px;
+  height: 90px;
 }
 
-.color-gallery__item--color2 {
-  background-image: url("../img/color-image2@1x.jpg");
-  background-size: 90px 90px;
-
-  @media (min-resolution: $retina-dpi),
-  (min-resolution: $retina-dppx) {
-    background-image: url("../img/color-image2@2x.jpg");
-    background-size: cover;
-  }
-}
-
-.color-gallery__item--color3 {
-  background-image: url("../img/color-image3@1x.jpg");
-  background-size: 90px 90px;
-
-  @media (min-resolution: $retina-dpi),
-  (min-resolution: $retina-dppx) {
-    background-image: url("../img/color-image3@2x.jpg");
-    background-size: cover;
-  }
+.color-gallery__item:hover .color-gallery__image,
+.color-gallery__item:focus .color-gallery__image,
+.color-gallery__item--active .color-gallery__image {
+  width: 80px;
+  height: 80px;
 }
 
 .color-gallery__item:hover,
-.color-gallery__item:focus {
-  border: 2px solid $border-color2;
-  background-size: 81px 81px;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
+.color-gallery__item:focus,
 .color-gallery__item--active {
-  border: 2px solid #263141;
-  background-size: 81px 81px;
-  background-repeat: no-repeat;
-  background-position: center center;
+  border: 2px solid $border-color2;
 }
 
 @media (min-width: $laptop-width) {
