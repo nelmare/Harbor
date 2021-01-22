@@ -4,12 +4,7 @@
     <list default="true" id="e4b5faba-cb4c-49ac-a765-726c1a1f1a0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/catalog-women.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/catalog-women.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/blocks/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/blocks/_sizes-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_sizes-select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/blocks/_sorting.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_sorting.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +29,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tmp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tmp" />
       <recent name="$PROJECT_DIR$/source" />
       <recent name="$PROJECT_DIR$/source/popups" />
       <recent name="$PROJECT_DIR$/build" />
@@ -66,7 +62,7 @@
       <workItem from="1610900606380" duration="1190000" />
       <workItem from="1610906655587" duration="1584000" />
       <workItem from="1610957943546" duration="9000" />
-      <workItem from="1610961580360" duration="9304000" />
+      <workItem from="1610961580360" duration="16478000" />
     </task>
     <servers />
   </component>
