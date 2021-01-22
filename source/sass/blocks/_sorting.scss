@@ -97,15 +97,11 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    top: 25%;
-    transform: translateY(-50%);
-    right: 0;
+    top: 20px;
+    right: 25px;
     background-image: url(../img/icon-down.svg);
     background-repeat: no-repeat;
     background-position: center center;
-  }
-
-  .sorting__link--open::before {
     display: none;
   }
 
@@ -115,7 +111,6 @@
       width: 24px;
       height: 24px;
       top: 20px;
-      //transform: translateY(-50%);
       right: 25px;
       background-image: url(../img/icon-up.svg);
       background-repeat: no-repeat;
@@ -123,7 +118,6 @@
     }
 
   .sorting__wrapper .sorting__list {
-    display: none;
     position: absolute;
     top: 45px;
     left: -1px;
@@ -134,6 +128,7 @@
     border-top: none;
     z-index: 20;
     padding: 0 25px;
+    display: none;
   }
 
   .sorting__wrapper .sorting__list {
