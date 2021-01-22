@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4b5faba-cb4c-49ac-a765-726c1a1f1a0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/item.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +27,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tmp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tmp" />
       <recent name="$PROJECT_DIR$/source" />
       <recent name="$PROJECT_DIR$/source/popups" />
       <recent name="$PROJECT_DIR$/build" />
@@ -58,7 +58,9 @@
       <workItem from="1610823413223" duration="601000" />
       <workItem from="1610870186705" duration="268000" />
       <workItem from="1610900606380" duration="1190000" />
-      <workItem from="1610906655587" duration="1311000" />
+      <workItem from="1610906655587" duration="1584000" />
+      <workItem from="1610957943546" duration="9000" />
+      <workItem from="1610961580360" duration="17080000" />
     </task>
     <servers />
   </component>
