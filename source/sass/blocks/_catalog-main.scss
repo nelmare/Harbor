@@ -4,6 +4,8 @@
 }
 
 .catalog-main__settings--mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -37,15 +39,27 @@
 
 .catalog-main__settings-button--filter {
   margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .catalog-main__filter-count {
   margin-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 20px;
   height: 20px;
@@ -78,11 +92,18 @@
 
 .catalog-main__popup-title-wrapper {
   min-height: 183px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
   padding: 25px 30px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   background-color: $menu-mobile-back;
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
 }
 
@@ -116,6 +137,8 @@
   height: 8px;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background-image: url("../img/close.svg");
   background-repeat: no-repeat;
@@ -123,7 +146,12 @@
 }
 
 .catalog-main__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -135,6 +163,7 @@
   .catalog-main__container--page {
     max-width: 460px;
   }
+
 
   //.catalog-main__filter,
   //.catalog-main__sorting {
@@ -152,11 +181,13 @@
   .catalog-main__filter,
   .catalog-main__sorting {
     background-color: $menu-mobile-back;
+    -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
   }
 
   .catalog-main__popup-title-wrapper {
     background-color: $mainback-color;
+    -webkit-backdrop-filter: blur(0);
     backdrop-filter: blur(0);
     padding: 70px 30px 5px 30px;
     min-height: auto;
@@ -196,6 +227,8 @@
 @media (min-width: $xlaptop-width) {
   .catalog-main__container {
     max-width: 1200px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -210,6 +243,7 @@
   .catalog-main__filter,
   .catalog-main__sorting {
     background-color: $mainback-color;
+    -webkit-backdrop-filter: blur(0);
     backdrop-filter: blur(0);
   }
 
@@ -217,12 +251,16 @@
     width: 240px;
     position: static;
     display: block;
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
     max-height: none;
   }
 
   .catalog-main__wrapper {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
