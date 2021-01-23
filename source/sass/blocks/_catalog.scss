@@ -1,17 +1,14 @@
 .catalog {
-  border-top: 1px solid $border-color;
+  //border-top: 1px solid $border-color;
   padding-top: 37px;
   padding-bottom: 45px;
-
   margin: 0 auto;
-  //временно для теста
-  //max-width: 315px;
   min-width: 315px;
   max-width: 325px;
 }
 
 .catalog--page {
-  border: none;
+  //border: none;
   padding: 25px 0 50px 0;
 }
 
@@ -75,9 +72,9 @@
 //  display: none;
 //}
 
-.catalog__thirdblock {
-  border-top: none;
-}
+//.catalog__thirdblock {
+//  border-top: none;
+//}
 
 @media (min-width: $landscape-width) {
   .catalog {
@@ -104,7 +101,7 @@
   }
 
   .catalog__thirdblock {
-    border-top: none;
+    //border-top: none;
     padding-top: 50px;
   }
 }
@@ -120,20 +117,20 @@
     position: relative;
   }
 
-  .catalog--items {
-    border-top: none;
-  }
+  //.catalog--items {
+  //  border-top: none;
+  //}
 
-  .catalog--items .catalog__title:before {
-    content: "";
-    position: absolute;
-    width: 813px;
-    height: 1px;
-    top: -35px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: $border-color2;
-  }
+  //.catalog--items .catalog__title:before {
+  //  content: "";
+  //  position: absolute;
+  //  width: 813px;
+  //  height: 1px;
+  //  top: -35px;
+  //  left: 50%;
+  //  transform: translateX(-50%);
+  //  background-color: $border-color2;
+  //}
 }
 
 @media (min-width: $xlaptop-width) {
@@ -147,7 +144,7 @@
   }
 
   .catalog--page {
-    border: none;
+    //border: none;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -160,7 +157,7 @@
 
 @media (min-width: $desktop-width) {
   .catalog {
-    border-top: 1px solid $border-color2;
+    //border-top: 1px solid $border-color2;
     padding-top: 75px;
     padding-bottom: 100px;
     max-width: 960px;
@@ -172,14 +169,14 @@
   }
 
   .catalog--page {
-    border: none;
+    //border: none;
     padding-top: 0;
     padding-bottom: 0;
   }
 
   .catalog--items {
     max-width: 1020px;
-    border-top: none;
+    //border-top: none;
   }
 
   .catalog--items .catalog-item {
@@ -225,7 +222,7 @@
   //}
 
   .catalog__thirdblock {
-    border-top: none;
+    //border-top: none;
     padding-top: 100px;
     padding-bottom: 200px;
     display: block;

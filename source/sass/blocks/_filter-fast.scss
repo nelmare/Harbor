@@ -6,7 +6,7 @@
 .filter-fast__block {
   padding-top: 38px;
   padding-bottom: 28px;
-  border-top: 1px solid $border-color;
+  //border-top: 1px solid $border-color;
 }
 
 .filter-fast__list {
@@ -143,6 +143,10 @@
   .filter-fast {
     max-width: 840px;
   }
+
+  .filter-fast--catalog {
+    display: none;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -167,7 +171,7 @@
   .filter-fast__block {
     padding-top: 18px;
     padding-bottom: 25px;
-    border-top: none;
+    //border-top: none;
     margin-right: 35px;
   }
 

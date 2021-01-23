@@ -63,9 +63,9 @@
   @include margin-reset;
 }
 
-.page-footer__wrapper--bordered {
-  border-top: 1px solid $border-color2;
-}
+//.page-footer__wrapper--bordered {
+//  border-top: 1px solid $border-color2;
+//}
 
 @media (min-width: $laptop-width) {
   .page-footer {

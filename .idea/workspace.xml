@@ -2,7 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b5faba-cb4c-49ac-a765-726c1a1f1a0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/sass/blocks/_border.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/archive-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/archive-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/basketempty.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/basketempty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/catalog-women.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favourites-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/favourites-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/login-exit.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/login-exit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/notfound.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/notfound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ordered.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/ordered.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/passwordreset.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/passwordreset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/profile-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/profile-account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/profile-favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/profile-favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/selection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/subscribtion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/subscribtion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/subscription-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/subscription-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/archive-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/archive-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/basketempty.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/basketempty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/catalog-women.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/catalog-women.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/favourites-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/favourites-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/login-exit.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/login-exit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/notfound.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/notfound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ordered.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/ordered.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/passwordreset.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/passwordreset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/profile-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/profile-account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/profile-favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/profile-favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sass/blocks/_catalog-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_catalog-main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sass/blocks/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_catalog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sass/blocks/_filter-fast.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_filter-fast.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sass/blocks/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sass/blocks/_page-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/blocks/_page-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/selection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/subscribtion.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/subscribtion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/subscription-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/subscription-text.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +115,7 @@
       <workItem from="1610900606380" duration="1190000" />
       <workItem from="1610906655587" duration="1584000" />
       <workItem from="1610957943546" duration="9000" />
-      <workItem from="1610961580360" duration="17080000" />
+      <workItem from="1610961580360" duration="34324000" />
     </task>
     <servers />
   </component>
