@@ -30,6 +30,7 @@
   color: inherit;
   background-color: $mainback-color;
   min-width: 150px;
+  -webkit-appearance: button;
 }
 
 .catalog-main__settings-button:hover,
