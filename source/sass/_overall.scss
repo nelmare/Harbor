@@ -153,13 +153,6 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
-input, button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-}
-
 @media (min-width: $tablet-width) {
   .container {
     padding: 0 45px;
