@@ -11,10 +11,34 @@
   margin: 0;
   border: none;
   height: 1px;
+  width: 100%;
 }
 
 .border--footer {
   background-color: $border-color2;
+}
+
+.border--catalog {
+  min-width: 315px;
+  max-width: 325px;
+}
+
+@media (min-width: $landscape-width) {
+  .border--catalog {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .border--catalog {
+    max-width: 608px;
+  }
+}
+
+@media (min-width: $laptop-width) {
+  .border--catalog {
+    max-width: 753px;
+  }
 }
 
 @media (min-width: $xlaptop-width) {
@@ -22,5 +46,25 @@
     background-color: $border-color2;
     margin: 0;
     border: none;
+  }
+
+  .border--catalog {
+    max-width: 840px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .border--catalog {
+    max-width: 960px;
+  }
+
+  .border--filter {
+    display: none;
+  }
+}
+
+@media (min-width: $xldesktop-width) {
+  .border--catalog {
+    max-width: 1280px;
   }
 }
