@@ -282,6 +282,18 @@
             <form class="order__form" action="#" method="post">
                 <fieldset class="order__form-wrapper order__form-wrapper--contacts">
                     <legend class="order__form-title">Контактные данные</legend>
+
+                    <div class="order__block order__block--firstname">
+                        <label class="order__label" for="client-name1">Имя</label>
+                        <input class="order__line" type="text" name="first-name"
+                               id="client-name1" placeholder="Введите имя">
+                    </div>
+
+                    <div class="order__block order__block--lastname">
+                        <label class="order__label" for="client-name2">Фамилия</label>
+                        <input class="order__line" type="text" name="last-name"
+                               id="client-name2" placeholder="Введите фамилию">
+                    </div>
                     <div class="order__block order__block--email">
                         <label class="order__label" for="order-email">Email</label>
                         <input class="order__line" type="email" name="order-email1"
@@ -297,11 +309,6 @@
                         <label class="order__label" for="client-phone1">Ваш телефон</label>
                         <input class="order__line" type="tel" name="client-phone"
                                id="client-phone1" placeholder="+7 (      )">
-                    </div>
-                    <div class="order__block order__block--name">
-                        <label class="order__label" for="client-name1">Имя</label>
-                        <input class="order__line" type="text" name="client-name"
-                               id="client-name1" placeholder="Ваше имя">
                     </div>
                 </fieldset>
                 <fieldset class="order__form-wrapper order__form-wrapper--delivery">
