@@ -348,23 +348,29 @@ padding-left: 28px;
     order: 1;
   }
 
-  .order__block--name {
+  .order__block--firstname {
     order: 2;
-    width: 100%;
+    width: 48%;
   }
 
-  .order__block--email {
+
+  .order__block--lastname {
     order: 3;
     width: 48%;
   }
 
-  .order__block--phone {
+  .order__block--email {
     order: 4;
     width: 48%;
   }
 
-  .order__block--subscribe {
+  .order__block--phone {
     order: 5;
+    width: 48%;
+  }
+
+  .order__block--subscribe {
+    order: 6;
     width: 48%;
   }
 
