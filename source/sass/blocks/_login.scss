@@ -72,7 +72,11 @@
 .login__form-wrapper {
   padding: 35px 30px 30px 30px;
   background-color: $mainback-color;
-  height: 90vh;
+  height: 110vh;
+}
+
+.login__wrapper--register .login__form-wrapper {
+  height: 170vh;
 }
 
 .login__password-button {
