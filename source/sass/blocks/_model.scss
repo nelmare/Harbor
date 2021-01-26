@@ -56,6 +56,12 @@
   text-transform: none;
 }
 
+.model__title a {
+  color: $maintext-color;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .model__text {
   @include margin-reset;
   font-size: 11px;
