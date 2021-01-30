@@ -244,6 +244,7 @@
   .item-page__delivery {
     order: 5;
     padding-bottom: 0;
+    padding-top: 45px;
     max-width: 310px;
     margin-left: auto;
   }
@@ -429,8 +430,13 @@
   .item-page__delivery {
     order: 5;
     padding-bottom: 0;
+    padding-top: 65px;
     max-width: 450px;
     margin-left: auto;
+  }
+
+  .item-page__delivery-info {
+    margin-bottom: 15px;
   }
 
   .item-page__sizes-select {

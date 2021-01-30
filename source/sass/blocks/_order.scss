@@ -35,7 +35,7 @@
 }
 
 .order__tabcontent {
-  padding: 20px 0 10px 0;
+  padding: 25px 0 10px 0;
   display: none;
 }
 
@@ -93,7 +93,7 @@
 .order__line {
   border: none;
   border-bottom: 1px solid $menu-line;
-  padding: 10px 10px 10px 0;
+  padding: 7px 10px 9px 0;
   font-weight: 700;
   line-height: 18px;
   color: $maintext-color;
@@ -112,7 +112,8 @@
 }
 
 .order__tabcontent--fast .order__block--name {
-padding-bottom: 30px;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
 .order__checkbox-name {
@@ -163,7 +164,7 @@ padding-bottom: 30px;
 .order__select {
   border: none;
   border-bottom: 1px solid $menu-line;
-  padding: 10px 10px 10px 0;
+  padding: 7px 10px 9px 0;
   font-weight: 700;
   line-height: 18px;
   color: $maintext-color;
@@ -249,7 +250,7 @@ padding-left: 28px;
 }
 
 .order__item {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .order__radio + label::before {
@@ -382,7 +383,7 @@ padding-left: 28px;
   }
 
   .order__form-wrapper {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
 
   .order__form-wrapper--deliverytype {
@@ -393,7 +394,6 @@ padding-left: 28px;
   .order__form-wrapper--pickup {
     display: block;
     order: 3;
-    padding-bottom: 70px;
   }
 
   .order__form-wrapper--delivery {
@@ -430,6 +430,11 @@ padding-left: 28px;
   .order__block--city,
   .order__block--address {
     width: 48%;
+    padding-bottom: 40px;
+  }
+
+  .order__form-wrapper--pickup .order__block--city {
+    width: 100%;
   }
 
   .order__block--comment {
@@ -454,6 +459,7 @@ padding-left: 28px;
 
   .order__item--checkbox {
     margin-right: 20px;
+    display: flex;
   }
 
   .order__block--personality {

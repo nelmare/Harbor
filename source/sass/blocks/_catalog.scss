@@ -22,6 +22,10 @@
   padding-bottom: 50px;
 }
 
+.catalog--selection {
+  padding-bottom: 120px;
+}
+
 .catalog__title {
   @include margin-reset;
   font-weight: 300;
@@ -176,6 +180,7 @@
 
   .catalog--items {
     max-width: 1020px;
+    padding-bottom: 50px;
     //border-top: none;
   }
 
@@ -205,11 +210,11 @@
   }
 
   .catalog__button {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .catalog__button--catalog {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 50px;
   }
 
@@ -224,7 +229,7 @@
   .catalog__thirdblock {
     //border-top: none;
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 125px;
     display: block;
   }
 
@@ -240,7 +245,7 @@
   }
 
   .catalog--selection {
-    padding-bottom: 215px;
+    padding-bottom: 180px;
   }
 
   .catalog--selection .catalog__wrapper,
@@ -263,10 +268,6 @@
   .catalog__thirdblock .catalog__button--xldesktop {
     display: block;
     margin-top: 5px;
-  }
-
-  .catalog__button {
-    margin-top: 20px;
   }
 
   .catalog__thirdblock {
