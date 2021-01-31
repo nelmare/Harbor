@@ -118,7 +118,6 @@ display: none;
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  padding: 25px 30px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -137,6 +136,7 @@ display: none;
   font-weight: 300;
   line-height: 20px;
   color: $text-color4;
+  padding: 25px 30px;
 }
 
 
@@ -215,7 +215,7 @@ display: none;
     background-color: $mainback-color;
     -webkit-backdrop-filter: blur(0);
     backdrop-filter: blur(0);
-    padding: 70px 30px 5px 30px;
+
     min-height: 110px;
     position: relative;
     width: 50%;
@@ -227,6 +227,8 @@ display: none;
     font-weight: 300;
     line-height: 35px;
     color: $maintext-color;
+    padding: 70px 30px 5px 30px;
+    width: 100%;
   }
 
   .catalog-main__popup-close {
