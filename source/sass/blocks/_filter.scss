@@ -1,7 +1,17 @@
 .filter__wrapper {
-  height: 100vh;
-  background-color: $mainback-color;
+  //height: 100vh;
+  //background-color: $mainback-color;
+
+  position: initial;
+  //bottom: -100%;
+  //left: 0px;
+  //right: 0px;
+  //transition: bottom 200ms ease-out;
 }
+
+//.catalog-main__popup-show .filter__wrapper {
+//  bottom: 0;
+//}
 
 .filter__main-list {
   @include margin-reset;

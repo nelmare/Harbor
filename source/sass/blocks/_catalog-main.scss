@@ -73,22 +73,42 @@
 
 .catalog-main__filter,
 .catalog-main__sorting {
-  width: 100%;
-  background-color: transparent;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
+  //width: 100%;
+  //background-color: transparent;
+  //position: fixed;
+  //top: 0;
+  //left: 0;
+  //bottom: 0;
   z-index: 26;
-  overflow: auto;
-  display: none;
-  height: 100%;
-  max-height: 100vh;
+  //overflow: auto;
+  //display: block;
+  //height: 100%;
+  //max-height: 100vh;
+
+  position: fixed;
+  height: 100vh;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  background: #FFF;
+  //z-index: 2;
+  transition: bottom 200ms ease-out;
+display: none;
+
 }
+
 
 .catalog-main__popup-show {
   display: block;
+  overflow-y: scroll;
+  max-height: 100vh;
+  bottom: 0;
+  //background-color: $menu-mobile-back;
+  //-webkit-backdrop-filter: blur(15px);
+  //backdrop-filter: blur(15px);
 }
+
+
 
 .catalog-main__popup-title-wrapper {
   min-height: 183px;
@@ -118,6 +138,9 @@
   line-height: 20px;
   color: $text-color4;
 }
+
+
+
 
 .catalog-main__popup-close {
   width: 24px;
@@ -182,9 +205,10 @@
 
   .catalog-main__filter,
   .catalog-main__sorting {
-    background-color: $menu-mobile-back;
+    //background-color: $menu-mobile-back;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
+    background: linear-gradient(to left,  $mainback-color 50%, $menu-mobile-back 50%);
   }
 
   .catalog-main__popup-title-wrapper {
@@ -247,6 +271,7 @@
     background-color: $mainback-color;
     -webkit-backdrop-filter: blur(0);
     backdrop-filter: blur(0);
+    background: none;
   }
 
   .catalog-main__filter {
