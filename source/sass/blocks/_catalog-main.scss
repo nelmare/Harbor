@@ -101,6 +101,7 @@ display: none;
 .catalog-main__popup-show {
   display: block;
   overflow-y: scroll;
+  -webkit-overflow-scrolling:touch;
   max-height: 100vh;
   bottom: 0;
   //background-color: $menu-mobile-back;
