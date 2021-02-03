@@ -91,7 +91,7 @@
   left: 0px;
   right: 0px;
   //top: 0;
-  background: #FFF;
+  background: $mainback-color;
   //z-index: 2;
   transition: bottom 200ms ease-out;
   display: none;
@@ -263,6 +263,7 @@
     backdrop-filter: blur(0);
     background: none;
     transform: none;
+    height: auto;
   }
 
   .catalog-main__filter {

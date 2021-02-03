@@ -78,19 +78,27 @@ input[type="radio"].visually-hidden {
 }
 
 .popup {
-  position: fixed;
   display: none;
-  top: 0;
-  left: 0;
+  position: fixed;
+  height: 100vh;
   bottom: 0;
-  background: #ffffff;
-  z-index: 35;
-  overflow: auto;
+  left: 0px;
+  right: 0px;
+  background: $mainback-color;
+  z-index: 26;
+  transition: bottom 200ms ease-out;
+  top: -70px;
+  padding-bottom: 70px;
+  transform: translateY(70px);
 }
 
 //Класс popup-show нужно добавлять, чтобы показать popup
 .popup-show {
   display: block;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling:touch;
+  max-height: 100vh;
+  bottom: 0;
 }
 
 ::-webkit-input-placeholder {
