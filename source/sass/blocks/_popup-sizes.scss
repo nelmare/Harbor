@@ -50,11 +50,13 @@
   width: 24px;
   height: 24px;
   background-color: $mainback-color;
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   position: relative;
   border: none;
   border-radius: 50%;
+  -webkit-appearance: button;
+  padding: 8px;
 }
 
 .popup-sizes__close::before {

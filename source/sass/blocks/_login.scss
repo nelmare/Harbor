@@ -32,13 +32,15 @@
   width: 24px;
   height: 24px;
   background-color: $mainback-color;
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   position: relative;
   border: none;
   border-radius: 50%;
   cursor: pointer;
   margin-bottom: -5px;
+  -webkit-appearance: button;
+  padding: 8px;
 }
 
 .login__popup-close::before {
