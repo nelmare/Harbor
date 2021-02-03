@@ -1,14 +1,3 @@
-.login {
-  height: 100%;
-  max-height: 100vh;
-  background: transparent;
-  width: 100%;
-}
-
-.login--page {
-
-}
-
 .login .order__line {
   padding-bottom: 6px;
 }
@@ -22,10 +11,6 @@
   background-color: $menu-mobile-back;
   backdrop-filter: blur(15px);
 }
-
-//.login__wrapper {
-//  overflow: hidden;
-//}
 
 .login__wrapper--account .login__title-wrapper {
   min-height: 257px;
@@ -71,12 +56,6 @@
 
 .login__form-wrapper {
   padding: 35px 30px 30px 30px;
-  background-color: $mainback-color;
-  height: 110vh;
-}
-
-.login__wrapper--register .login__form-wrapper {
-  height: 170vh;
 }
 
 .login__password-button {
@@ -102,7 +81,6 @@
 .login__password-button--hide {
   background-image: url("../img/eyeclosed.svg");
 }
-
 
 .login__button {
   padding: 20px 10px;
@@ -180,8 +158,9 @@
 
 @media (min-width: $tablet-width) {
   .login {
-    background-color: $menu-mobile-back;
+    -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
+    background: linear-gradient(to left,  $mainback-color 50%, $menu-mobile-back 50%);
   }
 
   .login__wrapper {
@@ -226,10 +205,6 @@
 }
 
 @media (min-width: $xlaptop-width) {
-  .login__wrapper {
-    width: 570px;
-  }
-
   .login__title-wrapper {
     padding: 70px 60px 5px 60px;
   }
@@ -292,12 +267,5 @@
 
   .login__wrapper--password .order__form-wrapper {
     padding-bottom: 15px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .login__wrapper {
-    height: 100%;
-    max-height: 100vh;
   }
 }
