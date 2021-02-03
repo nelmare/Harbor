@@ -24,13 +24,15 @@
 }
 
 @media (min-width: $landscape-width) {
-  .border--catalog {
+  .border--catalog,
+  .border--item {
     max-width: 400px;
   }
 }
 
 @media (min-width: $tablet-width) {
-  .border--catalog {
+  .border--catalog,
+  .border--item {
     max-width: 608px;
   }
 }
@@ -38,6 +40,10 @@
 @media (min-width: $laptop-width) {
   .border--catalog {
     max-width: 753px;
+  }
+
+  .border--item {
+    max-width: 813px;
   }
 }
 
@@ -51,6 +57,10 @@
   .border--catalog {
     max-width: 840px;
   }
+
+  .border--item {
+    max-width: 1020px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -60,6 +70,10 @@
 
   .border--filter {
     display: none;
+  }
+
+  .border--item {
+    max-width: 1260px;
   }
 }
 
