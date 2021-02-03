@@ -262,6 +262,7 @@
     -webkit-backdrop-filter: blur(0);
     backdrop-filter: blur(0);
     background: none;
+    transform: none;
   }
 
   .catalog-main__filter {
@@ -270,7 +271,7 @@
     display: block;
     -webkit-transform: none;
     -ms-transform: none;
-    transform: none;
+
     max-height: none;
   }
 

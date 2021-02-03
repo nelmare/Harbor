@@ -137,7 +137,8 @@
 .login__link {
   color: inherit;
   cursor: pointer;
-  display: block;
+  display: inline-block;
+  vertical-align: baseline;
   margin-top: 10px;
 }
 
