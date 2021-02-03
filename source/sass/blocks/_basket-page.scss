@@ -50,9 +50,10 @@
 }
 
 .basket-page__button {
-  border:none;
+  border: none;
   padding-left: 0;
   padding-right: 0;
+  width: 100%;
 }
 
 .basket-page__button--mobile,
@@ -88,7 +89,6 @@
 
 .basket-page__button--mobile {
   display: block;
-  margin-bottom: 65px;
 }
 
 .basket-page__button--desktop {
@@ -106,10 +106,6 @@
   .basket-page__main,
   .basket-page__order-block {
     max-width: 698px;
-  }
-
-  .basket-page__button--mobile {
-    margin: 0 auto 65px auto;
   }
 }
 
@@ -164,7 +160,6 @@
 
   .basket-page__button--desktop {
     display: block;
-    margin-bottom: 60px;
   }
 
   .basket-page__order-block {
