@@ -162,7 +162,7 @@
   .login {
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    background: linear-gradient(to left,  $mainback-color 50%, $menu-mobile-back 50%);
+    background: linear-gradient(to left,  $mainback-color 40%, $menu-mobile-back 0);
   }
 
   .login__wrapper {
@@ -269,5 +269,15 @@
 
   .login__wrapper--password .order__form-wrapper {
     padding-bottom: 15px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .login {
+    background: linear-gradient(to left, $mainback-color 570px, $menu-mobile-back 0);
+  }
+
+  .login__wrapper {
+    width: 570px;
   }
 }

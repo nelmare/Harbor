@@ -113,11 +113,11 @@
   .popup-sizes {
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    background: linear-gradient(to left,  $mainback-color 40%, $menu-mobile-back 0);
+    background: linear-gradient(to left,  $mainback-color 50%, $menu-mobile-back 50%);
   }
 
   .popup-sizes__wrapper {
-    width: 40%;
+    width: 50%;
     background-color: $mainback-color;
     margin-left: auto;
   }
@@ -128,7 +128,7 @@
     backdrop-filter: blur(0);
     padding: 70px 30px 5px 30px;
     position: relative;
-    width: 40%;
+    width: 50%;
     margin-left: auto;
   }
 
