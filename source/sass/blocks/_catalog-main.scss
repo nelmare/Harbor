@@ -198,7 +198,7 @@
     //background-color: $menu-mobile-back;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    background: linear-gradient(to left,  $mainback-color 50%, $menu-mobile-back 50%);
+    background: linear-gradient(to left,  $mainback-color 40%, $menu-mobile-back 0);
   }
 
   .catalog-main__popup-title-wrapper {
@@ -208,7 +208,7 @@
     padding: 70px 30px 5px 30px;
     min-height: 110px;
     position: relative;
-    width: 50%;
+    width: 40%;
     margin-left: auto;
   }
 
