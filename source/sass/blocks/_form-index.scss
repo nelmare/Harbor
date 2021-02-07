@@ -95,7 +95,7 @@
     box-shadow: 0 0 0 1px $border-color2;
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $tablet-width) {
   .form-index {
     display: flex;
     align-items: baseline;
@@ -107,7 +107,8 @@
   }
 
   .form-index__group {
-    min-width: 47%;
+    min-width: 38%;
+    flex-grow: 1;
   }
 
   .form-index__block--checkbox {
