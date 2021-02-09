@@ -197,3 +197,10 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-width: $xldesktop-width) {
+  .basket-page__main,
+  .basket-page__order-block {
+    max-width: 1920px;
+  }
+}
